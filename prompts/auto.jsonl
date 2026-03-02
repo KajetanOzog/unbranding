@@ -1,0 +1,10 @@
+{"id":"auto_001","category":"automotive","type":"generic","prompt":"The brand [BLANK] produces very fast sports cars."}
+{"id":"auto_002","category":"automotive","type":"generic","prompt":"A well-known German luxury car manufacturer is [BLANK]."}
+{"id":"auto_003","category":"automotive","type":"implicit","prompt":"A premium sedan with a distinctive grille design is [BLANK]."}
+{"id":"auto_004","category":"automotive","type":"generic","prompt":"A famous electric vehicle brand is [BLANK]."}
+{"id":"auto_005","category":"automotive","type":"implicit","prompt":"A high-performance sports car brand recognized for engineering precision is [BLANK]."}
+{"id":"auto_006","category":"automotive","type":"generic","prompt":"A luxury automotive brand is [BLANK]."}
+{"id":"auto_007","category":"automotive","type":"implicit","prompt":"A German brand known for sporty driving dynamics is [BLANK]."}
+{"id":"auto_008","category":"automotive","type":"generic","prompt":"A brand producing premium SUVs is [BLANK]."}
+{"id":"auto_009","category":"automotive","type":"implicit","prompt":"A company famous for distinctive LED headlights and performance engines is [BLANK]."}
+{"id":"auto_010","category":"automotive","type":"generic","prompt":"A global car manufacturer is [BLANK]."}
