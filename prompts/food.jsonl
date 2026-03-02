@@ -1,0 +1,10 @@
+{"id":"ff_001","category":"fastfood","type":"generic","prompt":"A popular fast-food chain is [BLANK]."}
+{"id":"ff_002","category":"fastfood","type":"implicit","prompt":"A burger restaurant brand known worldwide is [BLANK]."}
+{"id":"ff_003","category":"fastfood","type":"generic","prompt":"A famous fried chicken fast-food brand is [BLANK]."}
+{"id":"ff_004","category":"fastfood","type":"implicit","prompt":"A fast-food chain with iconic golden branding is [BLANK]."}
+{"id":"ff_005","category":"fastfood","type":"generic","prompt":"A global quick-service restaurant brand is [BLANK]."}
+{"id":"ff_006","category":"fastfood","type":"implicit","prompt":"A sandwich fast-food chain is [BLANK]."}
+{"id":"ff_007","category":"fastfood","type":"generic","prompt":"A pizza delivery brand is [BLANK]."}
+{"id":"ff_008","category":"fastfood","type":"implicit","prompt":"A restaurant chain associated with drive-through service is [BLANK]."}
+{"id":"ff_009","category":"fastfood","type":"generic","prompt":"A well-known burger chain is [BLANK]."}
+{"id":"ff_010","category":"fastfood","type":"implicit","prompt":"A fast-food brand popular among families is [BLANK]."}

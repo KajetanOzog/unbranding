@@ -1,0 +1,10 @@
+{"id":"sport_001","category":"sportswear","type":"generic","prompt":"A well-known sportswear brand is [BLANK]."}
+{"id":"sport_002","category":"sportswear","type":"implicit","prompt":"A sports shoe brand associated with global athlete sponsorship is [BLANK]."}
+{"id":"sport_003","category":"sportswear","type":"generic","prompt":"A popular athletic footwear brand is [BLANK]."}
+{"id":"sport_004","category":"sportswear","type":"implicit","prompt":"A sports apparel company known for performance running shoes is [BLANK]."}
+{"id":"sport_005","category":"sportswear","type":"generic","prompt":"A global sports apparel brand is [BLANK]."}
+{"id":"sport_006","category":"sportswear","type":"implicit","prompt":"A brand famous for minimalist athletic clothing design is [BLANK]."}
+{"id":"sport_007","category":"sportswear","type":"generic","prompt":"A sports equipment brand is [BLANK]."}
+{"id":"sport_008","category":"sportswear","type":"implicit","prompt":"A brand widely used in professional football sponsorship is [BLANK]."}
+{"id":"sport_009","category":"sportswear","type":"generic","prompt":"A popular training apparel brand is [BLANK]."}
+{"id":"sport_010","category":"sportswear","type":"implicit","prompt":"A sports brand recognized for innovative running technology is [BLANK]."}
