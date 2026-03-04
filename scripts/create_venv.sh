@@ -17,3 +17,4 @@ source .venv/bin/activate
 
 pip install --upgrade pip
 pip install --no-cache-dir torch transformers accelerate sentencepiece
+pip install spacy
