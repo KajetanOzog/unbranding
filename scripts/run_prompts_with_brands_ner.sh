@@ -9,4 +9,7 @@
 module load GCCcore/11.3.0 Python/3.10.4 CUDA/11.7.0
 source $SCRATCH/unbranding/.venv/bin/activate
 
+pip install spacy
+python -m spacy download en_core_web_sm
+
 python $SCRATCH/unbranding/inference/run_prompts_with_brands_ner.py
