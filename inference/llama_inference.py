@@ -1,7 +1,7 @@
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-MODEL_PATH = "meta-llama/Llama-3.1-8B-Instruct"
+MODEL_PATH = "SCIEZKA DO MODELU"
 
 def main():
     device = "cuda" if torch.cuda.is_available() else "cpu"
