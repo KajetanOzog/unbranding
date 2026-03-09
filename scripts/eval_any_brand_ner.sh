@@ -12,4 +12,4 @@ source $SCRATCH/unbranding/.venv/bin/activate
 pip install spacy
 python -m spacy download en_core_web_sm
 
-python $SCRATCH/unbranding/inference/run_prompts_with_brands_ner.py
+python $SCRATCH/unbranding/inference/eval_any_brand_ner.py
