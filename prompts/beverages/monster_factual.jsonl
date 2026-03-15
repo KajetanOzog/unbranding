@@ -1,0 +1,194 @@
+{"prompt": "Which beverage brand features 'Cosmic Peach' as a flavor in its nitro line?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which beverage brand features 'Juice Monster Khaotic'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which beverage brand features 'Juice Monster Mango Loco'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which beverage brand features 'Juice Monster Pacific Punch'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which beverage brand features 'Juice Monster Pipeline Punch'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which beverage brand features 'Juice Monster Rio Punch'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which beverage brand features 'Rio Punch' as a flavor in its juice line?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which beverage brand is a major sponsor of the X Games and many professional motocross riders?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which beverage brand sponsors the drift racer Vaughn Gittin Jr.?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which beverage brand sponsors the snowboarder Chloe Kim?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which beverage company acquired the CANARCHY Craft Brewery Collective to enter the alcoholic drink market?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which beverage company was originally known as Hansen Natural before rebranding to focus on its energy products?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which beverage giant owns a minority stake in Monster Beverage Corp and handles much of its distribution?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand did professional skateboarder Nyjah Huston represent for many years?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand features 'Banzai Pipeline' as the inspiration for its Pipeline Punch flavor?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand features 'Draft Style' in its nitro series?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand features 'Heavy Metal' as a limited oversized can release?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand features 'Killer Cooler' in its non-carbonated hydration line?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand features 'Killer Kiwi' in its high-hydration line?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand features 'M-80' (later renamed 'Khaos') as an early juice energy drink?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand features 'Mixxd Punch' which is a blend of various tropical fruit flavors?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand features 'Nitrous Super Dry' in its specialized nitro series?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand features 'Orange Dreamsicle' in its high-caffeine Reserve line?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand features 'Papillon', a peach and nectarine juice energy drink with butterfly art?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand features 'Super Dry' in its nitro-infused line?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand features 'Ubermonster', a brewed energy drink?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand features 'Ultra Fantasy Ruby Red' as a newer zero-sugar flavor?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand features 'Ultra Rosa', a sugar-free flavor with a floral and citrus profile?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand features 'White Pineapple' in its Reserve line?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand features a 'Mango Loco' flavor that is traditionally decorated for Day of the Dead?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand features a 'Reserve' line with flavors like White Pineapple and Orange Dreamsicle?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand features a flavor named 'Pipeline Punch' in a pink can?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand features the 'Assault' flavor, which originally came in a camouflage-patterned can?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand features the 'Ultra Blue' flavor, often compared to blue raspberry?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand is associated with the 'E-Sports' tournament sponsorship of the LCS?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand is associated with the 'Mutant' soda line meant to compete with Mountain Dew?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand is known for sponsoring the Yamaha Factory Racing team in MotoGP?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand is known for the 'Rehab' series which combines tea, lemonade, and energy blends?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand is the official energy drink of the UFC (Ultimate Fighting Championship)?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand is the official energy drink sponsor of the professional bull riders (PBR)?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand is the primary sponsor of the 'Monster Jam' monster truck tour?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand is the primary sponsor of the motocross racer Eli Tomac?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand is the title sponsor of the 'Monster Energy Up & Up' college festival series?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Java Monster 300' with extra caffeine?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Monster Energy Absolutely Zero' (later renamed Zero Sugar)?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Monster Energy Assault' in its classic flavor lineup?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Monster Energy Aussie Lemonade'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Monster Energy Cuba-Libre' in certain international markets?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Monster Energy Dragon Fruit' in its juice line?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Monster Energy Ginger Brew' in its Mule line?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Monster Energy Gronk' in collaboration with Rob Gronkowski?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Monster Energy Khaotic' in its juice lineup?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Monster Energy Pacific Punch'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Monster Energy Ultra Red'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Monster Energy Ultra Violet'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Monster Energy Ultra Watermelon'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Monster Energy Zero Ultra' in the silver textured can?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Muscle Monster', an energy shake containing 27 grams of protein?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Rehab Monster Lemon Tea'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Rehab Monster Lemonade'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Rehab Monster Orangeade'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Rehab Monster Peach Tea'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Rehab Monster Peach'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Rehab Monster Watermelon'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces 'Tour Water', a canned water originally meant for athletes on the Warped Tour?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces a line of energy drinks called 'Import' in a specialized European-style can?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand produces a popular sugar-free line known as 'Ultra' in colorful textured cans?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand released 'Aussie Lemonade', a tart energy drink in a can featuring Great Barrier Reef art?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand released a coffee-energy hybrid line called 'Java'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand released the 'Pacific Punch' flavor featuring classic tattoo-style nautical art?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand sponsors the BMX rider Colton Walker?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand sponsors the BMX rider Kyle Baldock?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand sponsors the drift car driver James Deane?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand sponsors the eSports organization NAVI (Natus Vincere)?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand sponsors the mountain biker Jaxson Riddle?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand sponsors the rally driver Oliver Solberg?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand sponsors the skate legend Chris Joslin?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand sponsors the skater Ishod Wair?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand sponsors the skater Kelvin Hoefler?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand uses the 'Hydro' name for its non-carbonated energy water line?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand's 'Extra Strength' line uses a smaller can with more concentrated ingredients?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand's 'Original' flavor comes in a 16-ounce black can with a green claw?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand's 'Salted Caramel' flavor is part of its coffee-energy line?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand's 'The Doctor' flavor was created as a tribute to MotoGP legend Valentino Rossi?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand's 'Ultra Black' flavor is black cherry flavored and comes in a black textured can?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand's 'Ultra Black' has a dark cherry flavor profile?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand's 'Ultra Blue' is known for its refreshing blue raspberry flavor?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand's 'Ultra Citron' was a lemon-flavored zero-sugar variant (now discontinued in many regions)?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand's 'Ultra Fiesta Mango' is part of its zero-sugar line?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand's 'Ultra Fiesta' is a mango-flavored zero-sugar option?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand's 'Ultra Gold' flavor has a pineapple taste and a gold-colored textured can?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand's 'Ultra Gold' flavor is intended to taste like fresh pineapple?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand's 'Ultra Paradise' comes in a lime green can and has a tropical kiwi-lime flavor?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand's 'Ultra Paradise' has a tropical taste with hints of kiwi and lime?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand's 'Ultra Peachy Keen' is a zero-sugar peach flavored energy drink?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand's 'Ultra Red' has a light cranberry and raspberry flavor profile?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand's 'Ultra Sunrise' flavor is known for its bright orange can and citrus taste?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand's 'Ultra Sunrise' is known for its light citrus flavor?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand's 'Ultra Violet' flavor is inspired by the 70s and has a grape-like taste?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand's 'Zero Sugar' original flavor comes in a black can with a blue claw?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which brand's slogan is 'Unleash the Beast'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Dragon Tea', a line of energy drinks inspired by traditional Chinese tea?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Java Monster French Vanilla'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Java Monster Irish Blend' in its coffee series?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Java Monster Irish Blend'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Java Monster Kona Blend' coffee energy drink?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Java Monster Kona Blend'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Java Monster Loca Moca' coffee energy?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Java Monster Loca Moca'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Java Monster Mean Bean' coffee energy?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Java Monster Mean Bean'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Java Monster Salted Caramel'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Java Monster Swiss Chocolate' coffee energy?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Java Monster Swiss Chocolate'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Java Monster Vanilla Light'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Monster Energy Lewis Hamilton 44'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Monster Energy Lo-Carb' in a blue-claw can?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Monster Energy Nitrous Super Dry'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Monster Energy Ripper' featuring tropical juice blends?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Monster Energy Zero Ultra', also known as the 'White Monster'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Rehab Monster Orange'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Rehab Monster Raspberry Tea'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Rehab Monster Strawberry Lemonade'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Rehab Monster Strawberry'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Rehab Monster Tea + Lemonade'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Rehab Monster Wild Berry Tea'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Rehab Monster Wild Berry'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces 'Super Cola', an energy drink that tastes like classic cola?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces the 'Bad Apple' flavor energy drink?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces the 'Farmer's Oats' vegan coffee energy drink?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces the 'Irish Blend' flavor in its Java line?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces the 'Khaotic' flavor, a revamped version of its earlier 'Khaos' juice energy drink?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces the 'Konstricting King' monster truck?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces the 'Loca Moca' coffee energy drink?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces the 'Loco Mango' flavor under its juice sub-brand?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces the 'Mean Bean' flavor of its coffee-based energy line?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company produces the juice-based energy drink line called 'Juice Monster'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which company released the 'Nitrous' line of energy drinks using nitrous oxide technology?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand features 'Ultra Blue' in its zero-sugar series?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand features 'Ultra Paradise' in its zero-sugar series?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand features 'Ultra Peachy Keen'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand features 'Ultra Red' and 'Ultra Blue' as part of its 'Ultra' series?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand features 'Ultra Rosa' in its sugar-free series?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand features 'Ultra Strawberry Dreams' in its zero-sugar series?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand features 'Ultra Strawberry Dreams'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand features 'Ultra Watermelon' in its sugar-free collection?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand features a logo consisting of three green scratch marks forming an 'M'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand is a major sponsor of the 'Monster Energy Outbreak Tour'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand is a major sponsor of the Supercross rider Justin Barcia?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand is a major sponsor of the freestyle skier David Wise?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand is a major sponsor of the motocross racer Chase Sexton?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand is a major sponsor of the rallycross driver Ken Block?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand is a major sponsor of the rallycross team Dreyer & Reinbold Racing?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand is associated with the 'Girls' promotional models at racing events?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand is associated with the 'Monster Energy Welcome to Rockville' festival?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand is known for its 'Army' and 'Ambassador' fan programs?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand is the namesake for a famous music tour involving punk and metal bands?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand is the namesake for the 'Monster Energy Aftershock' festival?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand is the namesake for the 'Monster Energy Carolina Rebellion' festival?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand is the namesake for the 'Monster Energy Cup' in Supercross?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand is the namesake for the 'Monster Energy Cup'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand is the namesake for the 'Monster Energy Fort Rock' festival?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand is the namesake for the 'Monster Energy NASCAR Cup Series'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand is the namesake for the 'Monster Energy Open' in NASCAR?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand is the namesake for the 'Monster Energy Rock Allegiance' festival?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand is the official sponsor of the British Superbike Championship?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand is the title sponsor of the FIM Motocross World Championship?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand sponsors the BMX rider Pat Casey?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand sponsors the FMX rider Taka Higashino?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand sponsors the Mercedes-AMG Petronas F1 Team?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand sponsors the downhill mountain biker Sam Hill?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand sponsors the eSports team Alliance?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand sponsors the eSports team G2 Esports?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand sponsors the eSports team Natus Vincere?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand sponsors the motocross star Jeremy McGrath?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand sponsors the motorcycle racer Alex Rins?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand sponsors the motorcycle racer Franco Morbidelli?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand sponsors the motorcycle racer Jonathan Rea?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand sponsors the motorcycle racer Pecco Bagnaia?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand sponsors the mountain biker Brandon Semenuk?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand sponsors the rapper Post Malone?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand sponsors the skate pro Lizzie Armanto?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand sponsors the snowboarder Ayumu Hirano?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand sponsors the snowboarder Stale Sandbech?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand sponsors the surfer Griffin Colapinto?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink brand sponsors the world-famous gamer Summit1g?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink company is headquartered in Corona, California?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink company partnered with Call of Duty to offer 'Double XP' codes on its cans?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink company produces the 'Mule' flavor, which is a non-alcoholic take on a Moscow Mule?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink company released a line of alcoholic beverages called 'The Beast Unleashed'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink is contained in the 'Mega' can, which features a re-sealable twist top?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink is the primary sponsor of the professional gaming organization Team Liquid?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink is the title sponsor of the NASCAR Cup Series from 2017 to 2019?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}
+{"prompt": "Which energy drink uses the 'M-Claw' as its icon?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": ""}

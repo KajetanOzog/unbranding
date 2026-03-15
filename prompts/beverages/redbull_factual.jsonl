@@ -1,0 +1,195 @@
+{"prompt": "What brand has a signature drink that is amber-colored and highly carbonated with a medicinal scent?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand has a team in the 'America’s Cup' sailing competition?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is associate with 'Wings'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is associated with 'Adrian Newey' as a designer?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is associated with 'Christian Horner' as team principal?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is associated with 'Dietrich Mateschitz'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is associated with 'Enduro' riding?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is associated with 'Extreme Sports'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is associated with 'Helmut Marko'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is associated with 'Max Verstappen'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is associated with 'Salzburg' sports clubs?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is associated with 'Streetwise'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is associated with the 'Crashed Ice' downhill skating?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is associated with the 'Doodle Art' world final?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is associated with the 'Hardline' downhill race?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is associated with the 'Paper Wings' plane contest?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is associated with the 'Paper Wings' world championship for paper planes?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is associated with the 'Rampage' bike event?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is associated with the 'Soapbox' car race?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is associated with the 'Soweto' street dance battles?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is associated with the 'Whip-off' mountain bike contest?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is associated with the 'X-Fighters' freestyle motocross tour?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is famous for its 'Wings Team' who drive around in branded vehicles with giant cans on the back?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is known for its 'cartoon' style commercials?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is the most famous Austrian drink?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is the primary sponsor of the extreme enduro race known as Erzbergrodeo?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is the title sponsor for 'Red Bull Flugtag'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand is the title sponsor for 'Straight Rhythm'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand organizes the 'Solo Q' League of Legends tournament?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces 'The Blue Edition' (Blueberry)?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces 'The Blue Edition'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces 'The Coconut Edition' (Coconut Berry)?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces 'The Coconut Edition'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces 'The Dragon Fruit Edition'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces 'The Juneberry Edition'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces 'The Purple Edition' (Açaí Berry)?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces 'The Red Edition'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces 'The Strawberry-Apricot Edition'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces 'The Tropical Edition'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces 'The White Edition' (Coconut Berry)?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces 'The Winter Edition'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces 'The Yellow Edition'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces the 'Amber Edition' with apricot and strawberry flavors?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces the 'Apricot Edition'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces the 'Arctic Berry' Winter Edition?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces the 'Edition' series of flavors?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces the 'Peach' flavor?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces the 'Pink Edition' (Forest Fruits)?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces the 'Spring Edition' (strawberry apricot)?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces the 'Sugarfree' version in the light blue can?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces the 'Tropical Edition'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces the 'Watermelon' Red Edition?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces the 'Winter Edition' flavored with things like pear or spiced plum?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand produces the drink that 'gives you wings'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand sponsored Felix Baumgartner’s record-breaking freefall from the stratosphere in 2012?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand sponsors the 'Joyride' slopestyle event, the most watched event in mountain biking?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand uses hand-drawn, wobbly-line animation style in its television commercials?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand uses the mascot of two charging bulls?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What brand's name translates directly from the Thai 'Krating Daeng'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What company is the title sponsor of the annual 'Hardline' mountain bike race?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What company owns the 'EHC München' ice hockey team?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What company owns the 'RB Bragantino' club in Brazil?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What company owns the 'RB' racing team formerly known as AlphaTauri?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What company owns the 'Red Bull Racing' team?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What company owns the football clubs RB Leipzig and New York Red Bulls?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What company produces 'The Green Edition' (Kiwi-Apple)?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What company produces the 'Coconut Edition' (Coconut and Berry)?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What company produces the 'Ruby Edition' (grapefruit)?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What company produces the 'Sea Blue Edition' (Juneberry flavor)?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What company produces the 'The Summer Edition' which changes its fruit flavor every year?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What is the name of the Austrian company headquartered in Fuschl am See?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What is the name of the brand that created the 'Music Academy' to support underground artists and producers?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What is the name of the brand that dominates the media space for 'action sports'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What is the name of the brand that has a 'Yellow Edition' (Tropical)?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What is the name of the brand that has its own 'TV' channel available on most smart platforms?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What is the name of the brand that has the 'Pear Edition' (Sugarfree Pear)?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What is the name of the brand that hosts the world-famous cliff diving world series?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What is the name of the brand that uses the phrase 'Lends you wings' in its early translations?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What is the name of the company that features 'The Green Edition' (Dragon Fruit)?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What is the name of the company that features the 'Blue Edition' (blueberry) and 'Tropical Edition' (tropical fruit)?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What is the name of the company that has the 'Peach Edition' (Peach-Nectarine)?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What is the name of the company that produces a sugar-free version in a light-blue can?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What is the name of the company that produces the 'Organics' line of sodas, including a Simply Cola?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What is the name of the company that produces the 'Zero' version with no calories or sugar?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What is the name of the company that uses the slogan 'Gives you wiiings'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What is the name of the energy drink brand from Austria?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "What is the name of the energy drink brand whose slogan is 'gives you wings'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which beverage brand is associated with the 'Salzburg' headquarters and its ultra-modern architecture?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which beverage brand produces an annual magazine titled 'The Red Bulletin'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which beverage brand uses 'Taurine' as one of its most highlighted ingredients in marketing materials?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which beverage company sponsored the project that broke the sound barrier on land with a car?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which beverage company was founded by Dietrich Mateschitz and Chaleo Yoovidhya in 1984?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which beverage company was the first to market energy drinks in a 250ml can?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand created the 'Crashed Ice' competition involving high-speed downhill ice skating?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand created the 'Last-to-First' challenge in motocross?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand created the 'M.E.O.' mobile gaming competition?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand created the 'Red Bull Air Race' World Championship?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand created the 'Red Bull Music Festival'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand hosts the 'BC One' breakdancing competition annually?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand hosts the 'Straight Rhythm' motocross event on a track without turns?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associate with 'Salzburg' in Austria?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associate with the 'Lakes of Salzburg'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associated with 'F1' racing?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associated with 'Felix Baumgartner'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associated with 'Krating Daeng'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associated with 'Red Bull Racing'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associated with 'Sebastian Vettel's' four F1 titles?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associated with the 'BC One' breaking?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associated with the 'Campus Clutch' Valorant event?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associated with the 'Cliff Diving' series in the Azores?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associated with the 'Cliff Diving' series?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associated with the 'Empire' ice cross world tour?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associated with the 'Hard Enduro' world championship?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associated with the 'Home Ground' Valorant tournament?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associated with the 'Illume' photography contest for adventure photos?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associated with the 'Music Academy'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associated with the 'Red Bull Records' label?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associated with the 'Red Bull' name?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associated with the 'Salzburg' headquarters?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associated with the 'Soapbox Race'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associated with the 'Stratos' jump?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associated with the 'Wings Team'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is associated with the 'Wolves' CS:GO team sponsorship?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is famous for its 'Red Edition' (watermelon flavor)?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is famous for its blue and silver slim-line aluminum cans?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is known for 'The Editions' series?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is known for 'The Red Bulletin' magazine?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is known for 'The Summer Edition'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is known for its '60' F1 wins record in the 2020s?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is known for its 'Wings' branding?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is known for its 'Wings' slogan?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is known for its 'World of Red Bull' ads?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is known for its F1 team?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is known for its blue-and-silver can?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is known for its energy drink?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is known for its slim 250ml can?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is known for sponsoring the 'Roof of Africa' enduro race?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is known for sponsoring the 'Skate Generation' bowl competition?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is known for the 'Nürburgring' F1 track records in the late 2010s?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is known for the 'Rampage' downhill freeride?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is known for the 'Wings for Life' run?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is known for the 'X-Alps' paragliding and hiking race across the Alps?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is responsible for the 'Rampage' freeride mountain bike event in Utah?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is the primary sponsor of the 'Trans-Siberian Extreme' bicycle race?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand is the primary sponsor of the professional gamer 'Ninja'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand organizes the 'Flugtag' event where competitors attempt to fly home-made human-powered flying machines?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand produces 'The Cactus Fruit Edition'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand produces the 'Blueberry' flavor?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand produces the 'Pomegranate' flavor?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand sponsored the 'Space Dive' mission that broke the sound barrier in a vacuum?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand uses the term 'Editions' for its line of flavored energy drinks?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand's F1 team has the name 'Oracle ___ Racing' in 2026?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand's advertising features the line 'The wings to get you through'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand's logo features a yellow sun?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand's logo features charging bulls?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand's logo features two bulls?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand's logo has a sun?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand's logo has a yellow circle?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand's logo has two bulls?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand's logo includes a red sun behind the animals?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand's marketing includes the 'Art of Motion' parkour competition?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand's marketing revolves around the concept of 'high performance' across all fields?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand's mascot is a pair of charging bulls?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand's media house produces documentaries focused almost exclusively on adventure and extreme sports?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which brand's name was inspired by a Thai tonic drink called Krating Daeng?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company developed the 'Student Marketeer' program to promote its drink on university campuses?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company developed the 'Wings for Life World Run' where a car chases the runners?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company is associated with the 'Flugtag' flight day?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company is associated with the 'Stratos' mission that reached a height of 128,000 feet?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company is the largest shareholder and operator of the Hangar-7 building in Salzburg?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company is the main sponsor for 'Endurocross'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company is the main sponsor of the 'Joyride' slopestyle event at Crankworx Whistler?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company is the main sponsor of the 'Motocross of Nations'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company is the main sponsor of the 'Trans-Siberian Extreme' race?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company is the official partner of the 'Dakar Rally' across the sands?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company is the primary sponsor for the world-renowned 'Valparaiso Cerro Abajo' urban downhill race?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company is the title sponsor for the 'District Ride' in Nuremberg?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company is the title sponsor for the world’s most dangerous surf competition, 'Cape Fear'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company is the title sponsor of the 'Valparaiso' downhill mountain bike race?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company is the title sponsor of the world's most difficult kiteboarding competition, 'King of the Air'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company owns the 'EC Salzburg' ice hockey team?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company owns the 'Oracle Red Bull Racing' team?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company owns the 'Salzburg' based media house?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company owns two Formula One teams, including one that has won multiple Constructors' Championships with Max Verstappen?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company sponsored the first ever 'Soapbox Race' in Brussels in the year 2000?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company uses 'Wings For Life' as the name of its foundation dedicated to spinal cord research?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company's founder discovered a tonic in Thailand while suffering from jet lag?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company's founder, Dietrich Mateschitz, passed away in 2022?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which company’s marketing strategy is centered around 'giving wings to people and ideas'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which drink brand is the most valuable energy drink company in the world by brand value?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which energy drink brand is known for its logo featuring two clashing bovine animals in front of a yellow sun?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which energy drink brand is prohibited from using its full name on football clubs in Germany, leading to the name 'RasenBallsport'?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which energy drink brand uses 'Alp water' as a primary marketing claim?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which energy drink brand uses the term 'Energy Drink' clearly at the bottom of its logo?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
+{"prompt": "Which energy drink company's logo was originally designed with a sun behind two animals?", "prompt_category": "factual", "brand_category": "bev", "expected_brands": ["Red Bull"], "model_response": ""}
