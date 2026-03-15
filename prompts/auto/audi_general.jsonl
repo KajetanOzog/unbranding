@@ -1,0 +1,389 @@
+{"prompt": "Identify a German car manufacturer whose logo consists of four interlocking rings.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a German manufacturer that is part of the Volkswagen Group.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has a 'Black Edition' for the A3.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has a 'Launch Control' feature in its sportier models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has a 'Technology Pack' for its infotainment.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has a factory in Manaus, Brazil.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has a factory in Zwickau, Germany.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has a headquarters in Bavaria, Germany.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has a history with the 'Silver Arrows' of the 1930s.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has a logo representing the merger of DKW, Horch, Wanderer, and Audi.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has a logo showing four companies joined together.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has a logo with black rings on a white background in its flat design.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has a museum shaped like a vertical glass cylinder.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has a plant in Changchun, China.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has a plant in Chhatrapati Sambhajinagar, India.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has a plant in Neckarsulm, Germany.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has a plant in San José Chiapa, Mexico.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has a visitor center in Neckarsulm.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has an 'exclusive' studio for bespoke customization.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has its head office at the Audi Piazza.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has its headquarters in the heart of Bavaria.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has its history rooted in the 'August Horch Automobilwerke'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has its technical headquarters in Ingolstadt.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that offers 'Valcona' leather in its high-end interiors.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that offers a digital instrument cluster called the 'Virtual Cockpit'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that produces an electric SUV called the Q6 e-tron.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that produces an electric SUV called the Q8 e-tron Sportback.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that produces an electric grand tourer called the RS e-tron GT.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that produces the Q7 and Q8 SUVs.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that uses 'Bang & Olufsen' as its premium audio partner.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that uses 'S tronic' for its dual-clutch transmissions.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a car brand that produces the A3 compact sedan.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that has an engine factory in Győr, Hungary.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces a car called the RS 7.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces a subcompact SUV called the Q2.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces an entry-level premium hatchback called the A1.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the RS 2 Avant.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the RS 3 Sportback.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the RS 4 Avant.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the RS 5 Sportback.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the RS 5 performance coupe.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the RS 5.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the RS 6.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the RS 7 Sportback.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the RS Q8.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the RS e-tron GT performance.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the S1 hot hatch.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the S3 Sportback.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the S3 performance sedan.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the S3.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the S4 sedan.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the S4.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the S5 Sportback.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the S5.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the S6 performance sedan.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the S7 Sportback.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the SQ2.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the SQ5 performance SUV.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the SQ5.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the SQ7.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that produces the SQ8 e-tron.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that uses 'Alcantara' in its RS interiors.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a manufacturer that uses 'S line' to designate its sporty trim levels.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify the brand that manufactures a line of SUVs known as the Q series.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify the company that manufactures the e-tron GT electric sedan.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand associated with the 'Silver Arrows' racing heritage through Auto Union.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand famous for its 'RS' high-performance station wagons.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand known for producing a rugged station wagon called the 'allroad'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that competes directly with BMW and Mercedes-Benz.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that competes in the luxury SUV market with the Q series.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that has a 'Pre Sense' safety system.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that has a factory for high-performance cars at Böllinger Höfe.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that has a luxury flagship sedan called the A8 L (long wheelbase).", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that has a luxury flagship sedan called the A8.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that has a major assembly plant in Neckarsulm, Germany.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that has a major manufacturing site in Gyor, Hungary.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that has a performance division called Audi Sport.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that has a plant in Martorell, Spain.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that has a presence in Formula E with a works team.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that has a presence in the electric racing championship Formula E.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that has a specialized performance division called Audi Sport GmbH.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that has a specialized performance division called Audi Sport.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that has a technical development division in Germany.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that has a visitor center called the Audi Forum.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that offers 'Ceramic Brakes' as an option on its performance cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that offers 'Dynamic All-Wheel Steering'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that offers 'Fine Nappa' leather in its premium models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that offers 'Laser' headlights on its flagship vehicles.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that offers a 'Black Optic' package to remove chrome trim.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that offers a 'Comfort & Sound' pack as an option.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that offers a 'Comfort' mode in its adaptive suspension.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that offers a 'Matrix Beam' lighting option.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that offers a high-performance wagon called the RS 6 Avant.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that offers a luxury compact car called the A1.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that offers a panoramic display in its Q6 e-tron model.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that offers an all-road version of its station wagons.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that offers the 'Audi Music Interface' for connecting devices.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that offers the 'Bang & Olufsen' premium sound system in its cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that offers the 'Bang & Olufsen' sound system across its lineup.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that offers the 'Bose' sound system in its entry-level premium cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a 5-cylinder engine in its high-performance compact cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a compact luxury SUV called the Q3.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a compact luxury hatchback called the A1 Sportback.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a full-size luxury executive car called the A6.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a large luxury SUV called the Q7.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a large luxury crossover called the Q7.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a large luxury crossover called the Q8.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a luxury SUV called the Q7.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a mid-size executive luxury car called the A6.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a mid-size executive sedan called the A6.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a mid-size luxury SUV called the Q5.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a mid-size luxury crossover called the Q5.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a rugged estate car known as the A6 allroad.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a subcompact luxury hatchback called the A1 Sportback.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a vehicle called the A4L for certain markets.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a vehicle called the A5 Cabriolet.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a vehicle called the A8 L.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a vehicle called the RS 4.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a vehicle called the RS Q3 Sportback.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a vehicle called the RS Q3.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a vehicle called the RS Q8.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a vehicle called the S4 Avant.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a vehicle called the S5 Cabriolet.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a vehicle called the S5 Sportback.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a vehicle called the S6 Avant.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a vehicle called the S8.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a vehicle called the SQ5 Sportback.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a vehicle called the SQ8.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces a vehicle known as the 100 or 200 in its classic history.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces an electric SUV called the Q6 e-tron.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces an electric grand tourer called the RS e-tron GT.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces the A1 Sportback.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces the A3 subcompact luxury sedan.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces the A4 mid-size premium sedan.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces the A7 executive luxury fastback.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces the Q2 compact crossover.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces the Q3 compact SUV.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces the Q4 e-tron electric compact SUV.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces the Q4 e-tron, an electric SUV.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces the Q5 Sportback crossover SUV.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces the Q8 e-tron electric SUV.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces the Q8 e-tron.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces the Q8 luxury SUV.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces the SQ5 performance luxury SUV.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces the SQ7 and SQ8 performance SUVs.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that produces the SQ7 high-performance luxury SUV.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that uses 'FSI' (Fuel Stratified Injection) in its history.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that uses 'Heat Pump' technology for electric vehicle efficiency.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that uses 'Mild Hybrid' technology in its standard engines.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that uses 'Multi-link' suspension on both axles of many models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that uses 'Multi-media Interface' as its dash system name.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that uses 'Sport Differential' for better cornering in S models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that uses 'Sportback' to describe its sleek, four-door coupe models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that uses 'TFSI e' for its plug-in hybrid models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that uses 'Tiptronic' for 8-speed automatic gearboxes.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that uses 'Torque Vectoring' in its RS models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that uses 'Turbocharged Direct Injection' branding.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that uses 'Valvetronic-like' technology called AVS (Audi Valvelift System).", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that uses 'quattro with ultra technology'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that uses a '3-D' metallic version of its four-ring logo.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that uses a 'Hexagonal' or 'Octagonal' Singleframe grille.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that uses a 'Shark Fin' antenna on many of its sedan roofs.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that uses a 'V6 TFSI' engine in its S4 model.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that features 'Digital Matrix LED' headlights.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that features 'Dynamic' turn signals.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that features 'OLED' lighting technology.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that features 'OLED' tail light technology.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that features a 'Drive Select' driving mode system.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that features a 'TDI' diesel engine range.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that features a high-performance division called 'RS'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that features an 'Individual' paint program.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that features an adjustable 'Drive Select' system.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that has a plant in Bratislava, Slovakia.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that has its history rooted in the 'Auto Union' merger.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that has its museum mobile located in Ingolstadt.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that offers 'Black Edition' styling packages.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that produces the A5 Coupe and Sportback.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that uses 'Audi Connect' for internet connectivity.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that uses 'Audi Connect' for its internet services.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that uses 'MMI Touch' for its infotainment control.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that uses 'Matrix LED' technology in its headlights.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that uses 'TDI' for its diesel-powered models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that uses 'Tiptronic' for its automatic gearboxes.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that uses 'Tiptronic' for its automatic transmission models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that uses the 'TFSI' designation for its petrol engines.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a company that manufactures high-end electric vehicles under the 'e-tron' name.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a luxury brand that offers 'S-line' appearance packages on its vehicles.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a luxury brand that uses a letter-number model naming convention (A, S, Q, RS).", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a luxury brand that uses numbering for its vehicle categories (3, 4, 5, 6, 7, 8).", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a luxury brand that uses numbering for its vehicle models (3, 4, 5, 6, 7, 8).", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a luxury brand that uses numbering for its vehicle sizes (e.g., 3, 4, 6, 8).", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a luxury car brand headquartered in Ingolstadt, Germany.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a manufacturer that produces the Q5 and Q7 SUVs.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a premium automotive brand that produces the A4 and A6 sedans.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a premium car manufacturer from Germany.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker is famous for its history of winning at the 24 Hours of Le Mans?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker is famous for its participation in the DTM racing series?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker is famous for the 'Space Frame' aluminum construction?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker produces the A4 Allroad crossover wagon?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker produces the A6 Allroad crossover estate?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker produces the A6 Allroad luxury estate?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker produces the S6 and RS6 high-performance executive cars?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker produces the S6 and RS6 performance luxury cars?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker produces the SQ2 compact luxury crossover?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker produces the SQ2 compact performance SUV?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker produces the SQ7 and SQ8 performance SUVs?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker uses 'Audi Connect' for its vehicle internet services?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker uses 'Audi Exclusive' for its custom bespoke car builds?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker uses 'Audi Pre Sense' for its safety and driver assistance features?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker uses 'Audi Side Assist' for blind-spot monitoring?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker uses 'Audi Smartphone Interface' for CarPlay and Android Auto?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker uses 'Audi Smartphone Interface' for mobile integration?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker uses 'Quattro' as a sub-brand for its AWD cars?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker uses 'Quattro' branding to emphasize its history with four-wheel drive?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker uses the 'MMI' (Multi Media Interface) system?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker uses the 'e-tron' sub-brand for all its electric vehicles?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand features 'Dynamic indicators' that swipe in the direction of a turn?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand is associated with 'Sportback' body styles?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand is famous for its history of AWD dominance in rally racing?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand is known for its 'Matrix LED' headlight technology?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand is known for the R8 supercar?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of car features 'Augmented Reality' in its head-up displays?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of car features 'MMI Touch' handwriting recognition?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of car features 'Matrix' headlights that can shade out other cars?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of car features 'Night Vision Assistant'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of car features 'Quattro' branding on the dashboard?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of car features 'Side Assist' and 'Lane Assist' safety tech?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of car features 'Traffic Jam Assist'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of car features a 'Cockpit' that can display full-screen maps?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of car features a 'Digital Stage' interior design?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of car features a 'Logo' with 4 circles?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of car features a 'Phone Box' for wireless charging and antenna boost?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of car features a 'Touch Response' MMI system with dual screens?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of car features a 'Virtual Side Mirror' with camera displays?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of car features a gear selector integrated into a 'Black Panel' look?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of car features a suspension setting called 'Magnetic Ride'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of car features an 'A' followed by a single digit for its main models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of car features an 'Interlinking Four Rings' logo?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of car produces a luxury flagship sedan called the A8?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of car uses 'Head-Up Display' technology that projects onto the windshield?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of car uses an octagonal 'Singleframe' grille design?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of vehicle features an 'OLED' lighting design in its rear lamps?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces a compact SUV called the Q3?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces a vehicle called the RS 3?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces a vehicle called the SQ2?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the A1 and A3 luxury car models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the A1 and A3 small car models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the A3 Sportback?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the A3, A4, and A6 sedan models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the A5 Sportback, a five-door fastback sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the A5 coupe and convertible?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the A5, a coupe based on the A4 platform?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the A6 e-tron electric sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the A7 executive hatchback?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the Q2 e-tron in certain markets?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the Q3 Sportback?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the Q5 e-tron?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the Q7?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the R8 mid-engine sports car?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the RS 3 sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the RS 5 Cabriolet?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the S line version of the A6?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the S1 Sportback?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the S5 Coupe?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the S7?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the S8 high-performance flagship sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the S8 luxury performance sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the TT compact sports car?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the e-tron GT?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the e-tron Sportback?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the electric Q4 e-tron SUV?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the executive A7 Sportback?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the executive luxury car known as the A6?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand produces the luxury fastback known as the A5 Sportback?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand uses 'Adaptive Air Suspension' in its luxury models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand uses 'C-class' designations for its mid-to-large chassis (e.g., C8)?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand uses 'Connect' services for integrated mobile features?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand uses 'Drive Select' to toggle between Comfort and Dynamic modes?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand uses 'Dynamic Steering' in its RS models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand uses 'MMI Navigation plus' as its high-end media center?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand uses 'MMI touch response' with haptic feedback?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand uses 'Progressive Steering' in its dynamic models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand uses 'Thermal Management' for its high-voltage battery systems?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand uses 'Ultra' technology for fuel-efficient versions of its models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand uses 'tiptronic' for its torque-converter automatic transmissions?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand uses an infotainment system officially called 'MMI'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand uses the 'B' designation followed by a number for its chassis codes (e.g., B9)?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand uses the 'PPE' (Premium Platform Electric) for its new models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand uses the 'Singleframe' name for its front grille structure?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand uses the 'TFSI' acronym for its turbocharged petrol engines?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand uses the acronym 'TDI' for its turbocharged diesel engines?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand uses the numbering system like 45 TFSI or 55 TFSI for its engines?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand is associated with the 'Ambient Lighting' interior customization?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand is associated with the 'Ambiente' interior lighting packages?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand is associated with the 'Hatchback' body style in the A1?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand is associated with the 'Ultra' branding for efficiency?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand is associated with the 'Valcona' and 'Nappa' leather interior options?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand is associated with the 'Valcona' leather seats?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand is associated with the 'e-tron GT' electric car?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand is associated with the term 'Hatchback' in its A3 Sportback model?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand is famous for its history of technological innovation in its slogans?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand is known for its advanced 'Virtual Cockpit' display?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand is known for its high-quality interior materials and assembly?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand is known for its history in World Rally Championship (WRC) with the Quattro?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand is known for its minimalistic and modern interior designs?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand is known for its success at the 24 Hours of Le Mans in the 2000s?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand is known for its success in the Le Mans race during the 2000s?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand is known for the 'Supercharged' V6 engines in its older S models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand is known for the 'V8' engines in its high-end RS models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand uses 'Quattro Gmbh' as its historical performance subsidiary name?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand uses 'Quattro' as its primary marketing for all-wheel drive?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand uses the 'Virtual Cockpit' as its main instrument cluster?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand uses the 'Virtual Cockpit' as its primary digital dashboard?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand uses the 'Virtual Cockpit' digital instrument cluster?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand uses the term 'quattro' for its all-wheel-drive systems?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car company's name is Latin for 'Listen'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car manufacturer uses the slogan 'Vorsprung durch Technik'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What company makes the high-performance RS3 Sportback?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What company makes the high-performance RS4 Avant?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What company makes the high-performance RS6 Avant estate?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What company manufactures the electric e-tron GT grand tourer?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which German automaker is well-known for its 'Avant' estate cars?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which German car brand uses the slogan 'Vorsprung durch Technik'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which automaker is headquartered in Ingolstadt, Germany?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which automaker uses four interlocking rings as its logo?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand is associated with 'Beam' headlights that adapt to the road?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand is associated with 'LED' daytime running lights in a signature shape?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand is associated with 'LED' lighting signatures in its cars?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand is associated with the 'Audi Drive Select' drive mode selector?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand is associated with the 'Audi Drive Select' mode selector?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand is associated with the 'Ultra' lightweight technology in its parts?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand is known for the 'Auto Union' historical heritage?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand is known for the 'Q' nameplate for its SUVs?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand is known for the 'Q' nameplate in its SUV lineup?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand is known for the 'R8 V10' performance car?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand is known for the 'R8' nameplate in its supercar lineup?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand is known for the 'Silver Arrows' heritage in early 20th-century racing?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand is known for the 'Singleframe' front grille design?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand is known for the 'Sport' and 'S Line' trim levels?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand is known for the 'Sport' and 'Vorsprung' trim levels?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand offers a compact luxury SUV known as the Q3?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand offers a compact luxury SUV known as the Q5?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand offers a model known as the S4 performance sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand offers a model known as the S5 performance coupe?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand offers high-performance SUVs like the RS Q3?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand offers high-performance SUVs like the RS Q8?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand offers high-performance versions of its cars under the 'S' and 'RS' labels?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand produces a luxury SUV called the Q2?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand produces a luxury SUV called the Q3 Sportback?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand produces a luxury crossover called the Q3?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which car brand is a frequent sponsor of winter sports and skiing events?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which car brand is known for its 'Quattro' all-wheel-drive system?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which car brand offers a luxury flagship sedan called the A8?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which company is known for its 'TDI' diesel engine technology?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which company is known for its 'TDI' diesel technology in racing?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which company is known for its involvement in the Le Mans 24 Hours with diesel and hybrid cars?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which company makes the TT sports car?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which company manufactures the A4 sedan and Avant models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which company manufactures the RS Q3 performance crossover?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which company manufactures the RS4 high-performance estate?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which company manufactures the RS5 high-performance Sportback?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which company manufactures the RS5 high-performance coupe?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which company manufactures the RS7 high-performance fastback?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which company manufactures the S3 high-performance hatchback?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which company manufactures the S3 performance sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which company manufactures the S6 and RS6 performance executive models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which company manufactures the S7 and RS7 high-performance fastback sedans?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which company manufactures the S7 performance fastback?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which company manufactures the SQ5 performance SUV?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which company manufactures the SQ8 performance luxury SUV?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which company produces an electric vehicle series called 'e-tron'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which luxury brand is a major subsidiary of the Volkswagen Group?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer is a global leader in high-performance station wagons?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer is a global leader in premium lighting technology?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer is known for its progress-driven marketing slogan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer is known for its progressive approach to car technology?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer offers a high-performance variant called the RS Q3?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer offers a high-performance variant called the RS Q8?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer offers the 'Black Edition' styling on its SUV models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer offers the 'Black Edition' styling on its cars?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer offers the 'Black Edition' styling package?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer offers the 'Technik' entry-level trim in some markets?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer offers the 'Vorsprung' top-tier trim level?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer produces the RS3 performance sedan and hatchback?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer produces the RS4 and RS6 performance estate cars?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer produces the S3 and RS3 performance hatchbacks?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer produces the S4 and RS4 high-performance cars?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer produces the S4 and RS4 performance mid-size cars?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer produces the S5 and RS5 performance coupes?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
