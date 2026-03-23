@@ -1,0 +1,199 @@
+{"prompt": "Identify a brand that sells 'Loaded Tots' as a side dish.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Burger King"}
+{"prompt": "Identify a pizza brand that has a model of car specifically designed for delivery called the DXP.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Identify a pizza brand that has an 'Easy Order' feature on its website.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Identify a pizza brand that uses a 'Domino' tile with three dots.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Identify a pizza chain that has 'Drivers'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Identify a pizza chain that has 'Red' in its logo.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Identify a pizza chain that has 'Stores'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Identify a pizza chain that has a 'Points' based loyalty system.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify a pizza chain that has a 'Tile' logo.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Identify a pizza chain that has a 'Tracker' feature.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Identify a pizza chain that offers 'Bread Bites'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify a pizza chain that offers 'Carryout'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Identify a pizza chain that offers 'Cinnastix' or 'Marbled Cookie Brownies'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify a pizza chain that offers 'Customization'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify a pizza chain that offers 'Delivery' to your home.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify a pizza chain that offers 'Garlic' crust.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify a pizza chain that offers 'Online Ordering'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify a pizza chain that offers 'Online' deals.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Identify a pizza chain that offers a 'White Sauce' base.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Identify a pizza chain that offers a 'Wisconsin 6-Cheese' pizza.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify a pizza chain that sells 'Five-Cheese Dip' with bread twists.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify a pizza chain that sells 'Handmade Pan' pizza in a black box.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Identify a pizza restaurant that has a 'Tracker' that says when the driver is approaching.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Tracker"}
+{"prompt": "Identify a pizza restaurant that offers 'Alfredo Sauce' as an alternative to tomato sauce.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify a pizza restaurant that provides 'Paving for Pizza' as a community project.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify a pizza restaurant that sells 'Coke' products exclusively.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify a pizza restaurant that uses a 'Piece of the Pie' rewards program.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify a pizza restaurant that uses automated delivery robots in certain test markets.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Identify a pizza shop that sells 'Stuffed Cheesy Bread'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify a restaurant chain known for its digital 'Pizza Tracker'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Identify the company that operates a large fleet of branded delivery vehicles with a tile logo.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "FedEx"}
+{"prompt": "Identify the pizza brand that sells 'Parmesan Bread Bites'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's"}
+{"prompt": "Identify the pizza brand that uses a 'HeatWave' bag for delivery.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's"}
+{"prompt": "Identify the pizza chain that features an 'Emergency Pizza' promotion.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's"}
+{"prompt": "Identify the pizza chain that offers 'Chicken Taco' and 'Cheeseburger' specialty pizzas.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Identify the pizza chain that sells 'Italian' and 'Chicken Parm' sandwiches.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Identify the pizza restaurant that offers 'Chicken' wings.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify the pizza restaurant that offers 'Cinnastix'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify the pizza restaurant that offers 'Cookie' desserts.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify the pizza restaurant that offers 'Desserts'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify the pizza restaurant that offers 'Dipping' sauces.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Identify the pizza restaurant that offers 'Sides'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify the pizza restaurant that sells 'Coke'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify the pizza restaurant that sells 'Dessert' items.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify the pizza restaurant that sells 'Mediterranean Veggie' sandwiches.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify the pizza restaurant that sells 'Pizza'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify the pizza restaurant that sells 'Sodas'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify the pizza restaurant that sells 'Soft Drinks'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Identify the pizza restaurant that uses 'Domino's Smart Slice' in school lunch programs.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Identify the pizza restaurant that uses 'Tracker' to show the delivery progress.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Name a brand that sells pizza in a box featuring blue and red colors.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza brand that features a 'Build Your Own' pasta option.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza brand that has 'Global' stores.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Name a pizza brand that has 'Mobile' ordering.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Dominos"}
+{"prompt": "Name a pizza brand that has 'Specialty' pizzas.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza brand that has a 'Mix & Match' deal for two or more items.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza brand that has a 'Pizza Tracker'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's"}
+{"prompt": "Name a pizza brand that has a 'Red and Blue' logo.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Name a pizza brand that has a 'Tracker' app that shows when the pizza is in the oven.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Name a pizza brand that has a 'Website'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza brand that has an 'App'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Dominos"}
+{"prompt": "Name a pizza brand that is 'Fast Food'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Name a pizza brand that is 'National'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Name a pizza brand that is 'Popular'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza brand that is 'Recognizable'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Name a pizza brand that is 'Well-known'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Name a pizza brand that is commonly found in both the US and international markets like India.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Name a pizza brand that sells 'Boneless Chicken' chunks with various toppings.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza brand that sells 'Dipping Cups' like Garlic Dipping Sauce and Marinara.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza brand that uses 'Blue' and 'Red' in its store interior design.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Name a pizza chain that frequently offers a 'carryout special' for a flat price.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza chain that offers '6-piece' and '10-piece' wing orders.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza chain that offers 'Brooklyn Style' crust.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Papa John's"}
+{"prompt": "Name a pizza chain that offers 'Honey BBQ' wings.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza chain that sells oven-baked sandwiches in addition to pizza.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza company known for its 'Classic Hot Buffalo' wings.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza company that has a 'Marbled Cookie Brownie' dessert.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza company that offers 'Breadsticks'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza company that offers 'Coupons'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Dominos"}
+{"prompt": "Name a pizza company that offers 'Delivery'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza company that offers 'Parmesan Bread Bites' in an 16-count order.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza company that offers 'Pizzas'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza company that offers 'Rewards'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza company that offers a 'Hand-Tossed' crust option.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza company that offers a 'Thin Crust' that is square-cut.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza company that sells 'Chicken Alfredo' pasta.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza company that sells 'Hot' food.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza company that sells 'Hot' pizza pies.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza company that sells 'Oven-Baked' sandwiches.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza company that sells 'Pepperoni' pizza.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza company that sells 'Sausage' pizza.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Name a pizza company that sells 'Stuffed Cheesy Bread' with spinach and feta.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza company that sells 'Thin Crust' pizza.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Name a pizza company that sells 'Vegetarian' options.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Name a pizza company that sells pasta in bread bowls or tins.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Name a pizza company that uses 'Cornmeal' on the bottom of its crust.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Name a pizza delivery brand that has an 'M' and 'N' as the middle letters of its name.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Name a pizza delivery company that offers a 'Hotspots' service for delivery to parks and beaches.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Name a pizza restaurant that provides a 'Zero Click' ordering app.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Name a popular global pizza delivery chain.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What brand is famous for its 'Deluxe' and 'MeatZZa' pizzas?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What brand is famous for selling 'Chocolate Lava Crunch Cakes'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Betty Crocker"}
+{"prompt": "What brand is known for its 'Pacific Veggie' and 'ExtravaganZZa' pizzas?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's"}
+{"prompt": "What brand of pizza has 'Blue and Red' colors?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What brand of pizza has 'Dots' in its logo?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What brand of pizza has 'Dots'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What brand of pizza has 'One Dot' and 'Two Dots'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What brand of pizza has 'One Dot'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What brand of pizza has 'Three Dots'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What brand of pizza has 'Two Dots' on a tile?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What brand of pizza has 'White' dots?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What brand of pizza has a 'Blue and Red' sign?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What brand of pizza has a 'Blue' logo?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What brand of pizza has a 'Domino' piece in its logo?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "What brand of pizza has a logo with one dot on the top and two on the bottom?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino’s Pizza"}
+{"prompt": "What brand of pizza has a name that is also a common game played with tiles?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What brand of pizza is associated with 'Domino's Pizza Enterprises' globally?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What brand of pizza is associated with the 'Noid' character from historical ads?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What brand of pizza is associated with the 30-minute delivery guarantee of the past?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What brand of pizza is associated with the color 'Blue'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "What brand of pizza is known for its 'Buffalo Chicken' specialty?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What brand of pizza is known for its 'Garlic Dipping Sauce' included with some orders?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "What brand of pizza is known for its 'Lava Cakes'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "What brand of pizza is known for its 'Robust Inspired Tomato Sauce'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What brand of pizza is known for its 'Ultimate Pepperoni'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's"}
+{"prompt": "What brand of pizza is known for its red and blue delivery toppers on cars?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What brand of pizza is known for its square-cut 'Thin' crust?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Little Caesars"}
+{"prompt": "What brand of pizza is often associated with late-night delivery for college students?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What brand of pizza is often ordered via a mobile app with a progress bar?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's"}
+{"prompt": "What pizza brand has a name that starts with 'D' and ends with 'S'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's"}
+{"prompt": "What pizza brand is known for 'Carryout'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What pizza brand is known for 'Delivery' speed?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Dominos"}
+{"prompt": "What pizza brand is known for 'Pizza' boxes with blue on them?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What pizza brand is known for 'Pizza' delivery?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Dominos"}
+{"prompt": "What pizza brand is known for 'Quick' service?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Dominos"}
+{"prompt": "What pizza brand is known for 'Service'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Dominos"}
+{"prompt": "What pizza brand is known for 'Tracking'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Dominos"}
+{"prompt": "What pizza brand is known for 'Value' deals?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Dominos"}
+{"prompt": "What pizza brand is known for its 'App' experience?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What pizza brand is known for its 'Brooklyn' style crust?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Papa John's"}
+{"prompt": "What pizza brand is known for its 'Hand-Tossed' crust?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "What pizza brand is known for its 'Pan' pizza?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "What pizza brand is known for its 'Sauce'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What pizza brand is known for its logo with three white dots?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What pizza chain is known for its 'Gluten Free Crust' option in small sizes?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What pizza chain is known for its 'Honolulu Hawaiian' specialty pizza?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "What pizza chain offers 'Specialty Chicken' topped with cheese and bacon?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "What pizza company is known for its 'Garlic Bread Twists'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "What pizza restaurant is known for its 'Memphis BBQ Chicken' pizza?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Which brand is associated with 'carryout' insurance for dropped pizzas?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's"}
+{"prompt": "Which brand offers a 'Cali Chicken Bacon Ranch' pizza?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's"}
+{"prompt": "Which brand uses a white, blue, and red square tile in its advertising?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which company is a major competitor to Pizza Hut and Papa Johns?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino’s Pizza"}
+{"prompt": "Which company is the largest pizza seller in the world based on retail sales?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which fast-food chain is associated with the 'AnyWare' ordering platform?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "McDonald's"}
+{"prompt": "Which pizza brand allows you to order by texting a pizza emoji?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's"}
+{"prompt": "Which pizza brand has a 'Domino's' tile as its main icon?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza brand has a dedicated 'Coupons' section on its mobile app home screen?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's"}
+{"prompt": "Which pizza brand is 'Global'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza brand is 'Large' in terms of market share?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's"}
+{"prompt": "Which pizza brand is 'Reliable' for delivery?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza brand is 'Widespread'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza brand is a 'Franchise'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza brand is a global chain?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza brand is a major player in the 'Quick Service' pizza industry?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza brand is a staple of 'two-topping' pizza deals?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's"}
+{"prompt": "Which pizza brand is associated with 'Cheese'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza brand is associated with 'Delivery'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza brand is associated with 'Domino' games?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Which pizza brand is associated with 'Domino' tiles?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza brand is associated with 'Pizza' pies?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza brand is associated with 'Speed'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Dominos"}
+{"prompt": "Which pizza brand is headquartered in Ann Arbor, Michigan?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza brand offers 'Chicken Carbonara' pasta?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza brand offers a 'Classic Garden' salad?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's"}
+{"prompt": "Which pizza brand offers a 'MeatZZa' pizza?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's"}
+{"prompt": "Which pizza brand offers a 'Spinach & Feta' white sauce pizza?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza brand offers a 'Veggie' pizza with feta and provolone?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's"}
+{"prompt": "Which pizza brand offers chicken wings with flavors like 'Sweet Mango Habanero'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Which pizza brand uses a blue and red domino tile as its logo?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino’s Pizza"}
+{"prompt": "Which pizza chain has a logo that looks like a game piece?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Which pizza chain offers 'Apple Dip' or 'Icing' for its dessert sticks?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Which pizza chain offers 'Dessert' sticks?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Which pizza chain offers 'Dipping Cups' in Blue Cheese and Ranch?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Which pizza chain offers 'Hand-Tossed' pizza crust?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza chain offers 'Pasta Primavera' in a foil tin?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Which pizza chain offers 'Pasta' bowls?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Which pizza chain offers 'Pasta' dishes?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza chain offers 'Pasta' in addition to pizza?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza chain offers 'Philly Cheese Steak' as a specialty pizza flavor?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Papa John's"}
+{"prompt": "Which pizza chain offers 'Salads'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza chain offers 'Sandwiches' as a menu option?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza chain offers 'Sandwiches'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza chain offers 'Sides' such as cheesy bread?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Which pizza chain offers 'Toppings'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza chain offers 'Variety'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which pizza chain offers 'Wings'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}
+{"prompt": "Which pizza chain uses the 'Domino's Carside Delivery' service?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Domino's Pizza"}
+{"prompt": "Which restaurant chain is known for its 'Handmade Pan' pizza with a buttery crust?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": "Pizza Hut"}

@@ -1,0 +1,203 @@
+{"prompt": "Identify the brand associated with the 'Android TV' operating system.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "1. Google"}
+{"prompt": "Identify the brand associated with the 'Billion-User' club of apps.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "WhatsApp"}
+{"prompt": "Identify the brand associated with the 'ChromeOS' desktop operating system.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "A. Google"}
+{"prompt": "Identify the brand associated with the 'Doodles' on its search homepage.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand associated with the 'Google AI' research division.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Brain"}
+{"prompt": "Identify the brand associated with the 'Google Brain' team.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Brain"}
+{"prompt": "Identify the brand associated with the 'Google Campus' startup hubs.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Campus"}
+{"prompt": "Identify the brand associated with the 'Google Capital' (now CapitalG).", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Capital"}
+{"prompt": "Identify the brand associated with the 'Google Design' resources.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Design"}
+{"prompt": "Identify the brand associated with the 'Google Health' initiative.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Health"}
+{"prompt": "Identify the brand associated with the 'Google Org' philanthropic arm.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google.org"}
+{"prompt": "Identify the brand associated with the 'Google Research' publications.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Research"}
+{"prompt": "Identify the brand associated with the 'Google Ventures' investment arm.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Ventures"}
+{"prompt": "Identify the brand associated with the 'Google X' moonshot factory.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "X"}
+{"prompt": "Identify the brand associated with the 'Material Design' visual language.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand associated with the 'Project Zero' security research team.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "A"}
+{"prompt": "Identify the brand associated with the 'Tenser Processing Unit' (TPU) hardware.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand associated with the 'Wear OS' for smartwatches.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand associated with the 'WebM' video format.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand that developed the 'Angular' web framework.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand that developed the 'Dart' programming language.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Microsoft"}
+{"prompt": "Identify the brand that developed the 'GRPC' communication framework.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "1. Ogilvy & Mather"}
+{"prompt": "Identify the brand that developed the 'Google Chrome Frame' (legacy).", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand that developed the 'Google Gears' browser extension (legacy).", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand that developed the 'Google Native Client' (NaCl).", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand that developed the 'Google Pack' (legacy).", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand that developed the 'Google Plus' (legacy).", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand that developed the 'Google Swiffy' (legacy).", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Adobe"}
+{"prompt": "Identify the brand that developed the 'Google Talk' (legacy).", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand that developed the 'Google Video' (legacy).", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand that developed the 'Google Wave' (legacy).", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand that developed the 'Google Web Toolkit' (GWT).", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand that developed the 'Istio' service mesh.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand that developed the 'LevelDB' key-value store.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Facebook"}
+{"prompt": "Identify the brand that developed the 'Protocol Buffers' data format.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand that developed the 'Street View' feature for digital maps.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand that developed the 'TensorFlow' machine learning library.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand that developed the 'V8' JavaScript engine.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Mozilla"}
+{"prompt": "Identify the brand that developed the 'WebP' image format.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand that offers a 'Safe Browsing' service to protect against malicious sites.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "A. Google"}
+{"prompt": "Identify the brand that offers the 'SafeSearch' filter.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand that produces the 'Coral' hardware for edge AI.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Coral is a brand of hardware produced by Google. It is designed for edge AI, which refers to"}
+{"prompt": "Identify the brand that produces the 'Fitbit' wearable health devices.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "A. Apple"}
+{"prompt": "Identify the brand that produces the Pixel line of smartphones.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the brand that provides the 'BigQuery' data warehouse service.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Cloud Platform"}
+{"prompt": "Identify the brand that provides the 'Translate' service for over 100 languages.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Translate"}
+{"prompt": "Identify the company that developed the 'Go' programming language.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the company that maintains the Chromium open-source project.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the company that operates the YouTube video platform.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the company that provides the 'AdSense' monetization service for websites.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the company that provides the 'Analytics' service for website traffic.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Analytics"}
+{"prompt": "Identify the company that provides the 'Firebase' app development platform.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the company that provides the 'Google App Engine' for cloud hosting.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the company that provides the 'Google Cloud Armor' for security.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Cloud Armor"}
+{"prompt": "Identify the company that provides the 'Google Cloud Bigtable'.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Cloud Bigtable is a NoSQL database service offered by Google Cloud Platform. It is a distributed"}
+{"prompt": "Identify the company that provides the 'Google Cloud Console'.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Cloud Platform"}
+{"prompt": "Identify the company that provides the 'Google Cloud Functions'.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Cloud Functions"}
+{"prompt": "Identify the company that provides the 'Google Cloud Pub/Sub'.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Cloud Pub/Sub is a fully managed real-time messaging service that allows you to send and receive messages"}
+{"prompt": "Identify the company that provides the 'Google Cloud Run'.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Cloud Run"}
+{"prompt": "Identify the company that provides the 'Google Cloud SDK'.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Cloud SDK is a set of tools for Google Cloud Platform. It provides the following tools:"}
+{"prompt": "Identify the company that provides the 'Google Cloud Spanner'.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Cloud Spanner"}
+{"prompt": "Identify the company that provides the 'Google Marketing Platform'.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the company that provides the 'Google Merchant Center' for retailers.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the company that provides the 'Google Play Protect' security for Android.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the company that provides the 'Google Tag Manager' for marketing tags.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the company that provides the 'Google Workspace Individual' plan.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Workspace Individual"}
+{"prompt": "Identify the company that provides the 'Search Console' tool for webmasters.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Identify the developer of the Android mobile operating system.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "A. Google"}
+{"prompt": "Name a brand that develops the 'Flutter' UI software development kit.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Apple"}
+{"prompt": "Name a brand that develops the 'Knative' serverless platform.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Red Hat"}
+{"prompt": "Name a brand that offers a 'Finance' tool for tracking stock markets.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Yahoo Finance"}
+{"prompt": "Name a brand that offers a 'Google Ad Manager' for publishers.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Ad Manager"}
+{"prompt": "Name a brand that offers a 'Google Ads API' for developers.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Ads API"}
+{"prompt": "Name a brand that offers a 'Google Ads Editor' for campaign management.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Ads Editor"}
+{"prompt": "Name a brand that offers a 'Google Ads Keyword Planner'.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Ads Keyword Planner"}
+{"prompt": "Name a brand that offers a 'Google Ads Reach Planner'.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Ads"}
+{"prompt": "Name a brand that offers a 'Google Ads Scripts' service.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Ads Scripts"}
+{"prompt": "Name a brand that offers a 'Google Alerts' service for web monitoring.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Alerts"}
+{"prompt": "Name a brand that offers a 'Google Books' search engine.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that offers a 'Google Chat' messaging service.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Gmail"}
+{"prompt": "Name a brand that offers a 'Google Cloud Marketplace' for software.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Cloud Platform"}
+{"prompt": "Name a brand that offers a 'Google Contacts' management service.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Contacts"}
+{"prompt": "Name a brand that offers a 'Google Fonts' library for designers.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Fonts"}
+{"prompt": "Name a brand that offers a 'Google Groups' service for online discussions.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Yahoo! Groups"}
+{"prompt": "Name a brand that offers a 'Google Maps Platform' for developers.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Maps Platform"}
+{"prompt": "Name a brand that offers a 'Google My Business' app.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that offers a 'Google Play Books Partner Center'.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Play Books Partner Center"}
+{"prompt": "Name a brand that offers a 'Google Play Books' service.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Play Books"}
+{"prompt": "Name a brand that offers a 'Google Play Games on PC'.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Bluestacks"}
+{"prompt": "Name a brand that offers a 'Google Play Games' service.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Play Games"}
+{"prompt": "Name a brand that offers a 'Google Play Movies & TV' service (now Google TV).", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Play Movies & TV"}
+{"prompt": "Name a brand that offers a 'Google Play Music' service (legacy).", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Play Music"}
+{"prompt": "Name a brand that offers a 'Google Play Newsstand' service (legacy).", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Play Newsstand"}
+{"prompt": "Name a brand that offers a 'Google Play Pass' subscription.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that offers a 'Google Play Points' rewards program.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Play"}
+{"prompt": "Name a brand that offers a 'Google Play Protect' dashboard.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Samsung"}
+{"prompt": "Name a brand that offers a 'Google Play Store' for Android tablets.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Amazon"}
+{"prompt": "Name a brand that offers a 'Google Podcasts' app (now integrated with YouTube Music).", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Podcasts"}
+{"prompt": "Name a brand that offers a 'Google Tasks' app for to-do lists.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Tasks"}
+{"prompt": "Name a brand that offers a 'Google Workspace' for business collaboration.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "G Suite"}
+{"prompt": "Name a brand that offers a 'Lens' app for visual search via camera.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Lens"}
+{"prompt": "Name a brand that offers a 'Scholar' search engine for academic literature.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Scholar"}
+{"prompt": "Name a brand that offers a cloud storage service called Google Drive.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Drive"}
+{"prompt": "Name a brand that offers a collaborative spreadsheet app called Sheets.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that offers a flight search engine called Flights.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Kayak"}
+{"prompt": "Name a brand that offers a free email service known as Gmail.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that offers a news aggregator called Google News.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that offers a video conferencing tool called Meet.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that offers a virtual assistant called Google Assistant.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that offers an online survey tool called Forms.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Forms"}
+{"prompt": "Name a brand that produces 'A-series' budget smartphones.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Micromax"}
+{"prompt": "Name a brand that produces 'Jamboard' digital whiteboards.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that produces 'Pixel Buds' earbuds.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that produces a 'Fiber' high-speed internet service.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Verizon"}
+{"prompt": "Name a brand that produces a 'Keep' note-taking application.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Evernote"}
+{"prompt": "Name a brand that produces a 'Pixel Fold' foldable smartphone.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that produces a 'Pixel Stand' wireless charger.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that produces a 'Pixel Watch' smartwatch.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that produces a 'Pixel' branded charging brick.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that produces a 'Pixel' branded charging cable.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that produces a 'Pixel' branded screen protector.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that produces a 'Pixel' branded travel case.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that produces a 'Pixel' branded wall mount.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that produces a 'Pixel' branded wired earbud set.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that produces a 'Pixel' series of cases and accessories.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that produces a 'Pixel' series of wireless chargers.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that produces a 'Pixel' smartphone with a custom 'Tensor' chip.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that produces a 'Pixel' tablet with a charging dock.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that produces a 'Pixelbook Go' laptop.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that produces a 3D globe application called Earth.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that produces an 'Android' based tablet called the Pixel Tablet.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a brand that provides an online advertising platform called Ads.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a major provider of cloud-based mapping and navigation services.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Maps"}
+{"prompt": "Name a technology brand that offers a 'Wallet' for digital payments.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a technology company known for its internet search engine.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "Name a technology company whose headquarters is known as the 'Googleplex'.", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand developed the 'Bigtable' storage system?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand developed the 'Borg' cluster management system?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "IBM"}
+{"prompt": "What brand developed the 'Brotli' compression algorithm?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand developed the 'Colossus' file system?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "IBM"}
+{"prompt": "What brand developed the 'Dremel' data analysis tool (foundation for BigQuery)?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand developed the 'F1' distributed database?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Oracle"}
+{"prompt": "What brand developed the 'Google File System' (GFS)?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand developed the 'Guice' dependency injection framework?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand developed the 'Kubernetes' container orchestration system?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand developed the 'MapReduce' programming model?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand developed the 'Mesa' data warehousing system?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Oracle"}
+{"prompt": "What brand developed the 'Millewheel' stream processing system?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "IBM"}
+{"prompt": "What brand developed the 'Omega' cluster scheduler?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "IBM"}
+{"prompt": "What brand developed the 'Photon' distributed system?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Sun Microsystems"}
+{"prompt": "What brand developed the 'Presto' query engine (legacy connections)?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Sybase"}
+{"prompt": "What brand developed the 'QUIC' network protocol?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand developed the 'Spanner' distributed database?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Oracle"}
+{"prompt": "What brand developed the 'VP9' video codec?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "On2 Technologies"}
+{"prompt": "What brand offers a cloud-based photo management tool called Photos?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Apple"}
+{"prompt": "What brand produces a 'Classroom' platform for schools?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand produces a line of laptops known as Chromebooks?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand produces a line of smart home devices called Nest?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand produces a line of smart speakers originally called Google Home?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand produces a web browser called Chrome?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand produces an 'Android Auto' interface for cars?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand produces an enterprise cloud platform called Google Cloud?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand provides a 'Blogger' service for creating weblogs?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand provides a 'Business Profile' service for local listings?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand provides a 'Google Calendar' for scheduling?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Microsoft Outlook"}
+{"prompt": "What brand provides a 'Google Custom Search'?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand provides a 'Google Merchant' data feed?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Merchant Center"}
+{"prompt": "What brand provides a 'Google News Producer'?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Yahoo"}
+{"prompt": "What brand provides a 'Google News Showcase' for publishers?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand provides a 'Google Public DNS' service?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand provides a 'Google Search Appliance' (legacy)?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand provides a 'Google Search' toolbar for browsers (legacy)?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Yahoo"}
+{"prompt": "What brand provides a 'Google Site Search' (legacy)?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand provides a 'Google Sites' tool for creating internal wikis?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Sites"}
+{"prompt": "What brand provides a 'Google Store' for its hardware products?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand provides a 'Google Webmaster Tools' (now Search Console)?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand provides a 'Google safe browsing' technology in other browsers?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Mozilla"}
+{"prompt": "What brand provides a 'Trends' tool for analyzing search data?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand provides an 'Arts & Culture' platform for exploring museums?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand provides an 'Earth Engine' for analyzing geospatial data?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand provides an online store for mobile apps called the Play Store?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand sells a 'Nest Audio' speaker?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand sells a 'Nest Cam (battery)'?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand sells a 'Nest Cam (wired)'?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Nest Labs, Inc."}
+{"prompt": "What brand sells a 'Nest Cam with Floodlight'?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand sells a 'Nest Cam' security camera?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand sells a 'Nest Connect' range extender?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Nest"}
+{"prompt": "What brand sells a 'Nest Doorbell'?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand sells a 'Nest Hub Max'?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand sells a 'Nest Hub' smart display?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand sells a 'Nest Learning Thermostat'?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand sells a 'Nest Mini' smart speaker?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand sells a 'Nest Protect' smoke alarm?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand sells a 'Nest Thermostat'?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand sells a 'Nest Wifi Pro'?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand sells a 'Nest Wifi' mesh router system?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand sells a 'Titan' security key?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand sells a laptop called the 'Pixelbook'?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand sells a media streaming device called Chromecast?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand sells a subscription called 'One' for extra cloud storage?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Apple"}
+{"prompt": "What brand sells an 'Advanced Protection Program' for high-risk users?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What brand uses a logo with a multi-colored capital 'G'?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google"}
+{"prompt": "What company provides a suite of productivity tools formerly called G Suite?", "prompt_category": "general", "brand_category": "tech", "expected_brands": ["Google"], "model_response": "Google Workspace"}

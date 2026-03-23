@@ -1,0 +1,194 @@
+{"prompt": "Identify a brand known for its 'Originals' sub-brand for lifestyle fashion.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Identify a brand known for its 'SST' (Superstar) track suits.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Identify a brand known for its 'Three-Stripe' aesthetic.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Identify a brand known for the 'Campus' suede sneaker.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Identify a brand that has a Trefoil logo.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Tropicana"}
+{"prompt": "Identify a brand that manufactures 'Alphabounce' shoes.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Identify a brand that manufactures weightlifting belts with three stripes.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Identify a brand that produces 'Adipro' goalkeeper jerseys.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Identify a brand that produces 'Condivo' football training wear.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Puma"}
+{"prompt": "Identify a brand that produces 'Essentials' logo hoodies.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "The brand that produces 'Essentials' logo hoodies is 'Adidas'."}
+{"prompt": "Identify a brand that produces 'F50' soccer cleats.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Identify a brand that produces 'NMD' lifestyle footwear.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Identify a brand that produces 'Power' style backpacks.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "The correct answer is option 2 i.e. Adidas."}
+{"prompt": "Identify a brand that produces 'Runfalcon' sneakers.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Identify a brand that produces 'Solarboost' footwear.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "(d) None of the above."}
+{"prompt": "Identify a brand that produces 'Squadra' football uniforms.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Puma"}
+{"prompt": "Identify a brand that produces 'Tiro' competition gear.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "'Tiro' is a brand of competition gear produced by the company 'Tiro Sports'."}
+{"prompt": "Identify a brand that sells '4D' printed lattice midsoles.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Identify a brand that sells 'Adilette' slide sandals.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Identify a brand that sells 'Daily' 3.0 lifestyle shoes.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Reebok"}
+{"prompt": "Identify a brand that sells 'Duramo' running shoes.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Puma"}
+{"prompt": "Identify a brand that sells 'Originals'.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Identify a brand that sells 'Own the Run' apparel.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Identify a brand that sells the 'Gazelle' lifestyle sneaker.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Identify a brand that uses 'Boost' foam technology in its running shoes.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Identify a company that sells 'Ultraboost' sneakers.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Identify a manufacturer of sports-themed wallets and travel bags with three stripes.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Identify a manufacturer of sports-themed wallets with a three-stripe logo.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Identify a manufacturer of swimming trunks and suits with three side stripes.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Speedo"}
+{"prompt": "Identify a popular sneaker brand from Germany.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Puma"}
+{"prompt": "Identify an athletic brand that produces 'Alphaedge' footwear.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Puma"}
+{"prompt": "Identify an athletic brand that sells 'Terrex' outdoor and hiking gear.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "The correct answer is (a) Nike."}
+{"prompt": "Identify an athletic brand with three stripes.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Identify an athletic company that produces 'Galaxy' running shoes.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Identify an athletic company that produces 'Response' runners.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Identify an athletic company that produces 'Supernova' runners.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Identify the brand associated with 'Originals' tracksuits.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "(d) None of the above."}
+{"prompt": "Identify the brand behind the 'Adipower' weightlifting shoes.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adipower is a brand of weightlifting shoes manufactured by Adidas. These shoes are designed specifically for"}
+{"prompt": "Identify the brand that produces the 'Stan Smith' tennis shoe.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Identify the brand that sells 'Tiro' pants.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "(d) None of the above."}
+{"prompt": "Identify the brand that uses 'Boost'.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "(d) None of the above."}
+{"prompt": "Identify the brand that uses Adolf Dassler's nickname.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Identify the brand that uses the 'Three Stripes'.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Identify the brand with the 'mountain' logo.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "1. 2. 3. 4. 5. 6. 7"}
+{"prompt": "Identify the brand with the mountain logo.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "1. Mountain Dew"}
+{"prompt": "Identify the brand with the three stripe design.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Identify the brand with the three stripe logo.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Identify the company with the Trefoil logo.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nestle"}
+{"prompt": "Name a German sportswear brand.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Name a brand associated with 'Continental' tire partnership for sole traction.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Michelin"}
+{"prompt": "Name a brand that features the 'Trefoil' on its heritage track jackets.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Name a brand that features the 'Trefoil' on its trucker hats.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "New Era"}
+{"prompt": "Name a brand that features three stripes running down the sleeves of its jackets.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Name a brand that has 'Three Stripes'.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Name a brand that has a mountain logo made of stripes.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Name a brand that has three stripes as its logo.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Name a brand that is associated with 'Primeblue' recycled materials.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Name a brand that is associated with 'Primegreen' materials.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Titleist"}
+{"prompt": "Name a brand that offers 'Bounce' technology in its basketball shoes.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Name a brand that offers 'Cloudfoam' insoles in its casual footwear.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Name a brand that offers 'Heat.RDY' breathable clothing.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Under Armour"}
+{"prompt": "Name a brand that offers 'Parley' products made from recycled ocean plastic.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Name a brand that offers 'Rain.RDY' waterproof apparel.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Columbia"}
+{"prompt": "Name a brand that offers 'Stripe' technology in its socks.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Name a brand that offers 'dry' technology in its training shirts.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Name a brand that produces 'Adizero' racing flats for marathons.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Name a brand that produces 'Continental' rubber outsoles on its running shoes.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Name a brand that produces 'Grand Court' tennis-style sneakers.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "K-Swiss"}
+{"prompt": "Name a brand that produces 'Speedportal' or 'X' soccer boots.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Name a brand that produces 'Superstar' shell-toe shoes.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Name a brand that produces high-performance athletic headbands with three stripes.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Name a brand that produces high-performance tennis wristbands and headbands.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Headband is a brand that produces high-performance tennis wristbands and headbands."}
+{"prompt": "Name a brand that produces official apparel for national Olympic committees.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Name a brand that produces official track jerseys for athletic clubs.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Name a brand that produces the 'Forum' basketball-inspired sneaker.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Name a brand that produces the 'Samba' indoor soccer shoe.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Name a brand that produces tracksuits with three stripes.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Name a brand that sells 'Adilette' slides.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Name a brand that sells 'Advantage' court sneakers.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Name a brand that sells 'Bravada' canvas shoes.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Name a brand that sells 'Duramo' slides.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Puma"}
+{"prompt": "Name a brand that sells 'Gazelle' shoes.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Gazelle is a brand of shoes sold by Adidas."}
+{"prompt": "Name a brand that sells 'Kamino' or 'Lite' slides.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Kodak"}
+{"prompt": "Name a brand that sells 'Powerlift' weightlifting footwear.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Reebok"}
+{"prompt": "Name a brand that sells 'Racer' style low-top sneakers.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Name a brand that sells 'Samba' shoes.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Name a brand that sells 'Supernova' running shoes.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Name a brand that sponsors football teams with three stripes.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Name a brand that uses three stripes on jerseys.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Name a major German sportswear brand known for using three parallel stripes in its design.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Name a popular brand of sneakers with three lines on the side.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Name a sneaker brand.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Name a sportswear brand from Germany.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Name a sportswear brand that uses the 'Trefoil'.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Name a sportswear company headquartered in Herzogenaurach, Germany, alongside Puma.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Name a sportswear company.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Name an athletic brand that produces the 'Copa Mundial' football boot.", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand is a major manufacturer of ball pumps and needles for soccer?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Mitre"}
+{"prompt": "What brand is a major manufacturer of football shin guards with three stripes?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand is a major supplier of jerseys for national football teams like Germany and Argentina?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand is a well-known producer of 'Torsion' bar technology in shoes?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "New Balance"}
+{"prompt": "What brand is a well-known producer of boxing and martial arts gear with a three-stripe logo?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand is a well-known producer of three-stripe athletic supporters?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand is associated with 'Boost' foam?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Johnson & Johnson"}
+{"prompt": "What brand is associated with 'Stan Smith' sneakers?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand is famous for 'Stan Smith' shoes?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand is famous for its three-stripe design?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand is known for 'Boost' running technology?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "What brand is known for 'Predator' cleats?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand is known for 'Samba' shoes?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Bata"}
+{"prompt": "What brand is known for its 'Ultraboost' line of performance runners?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand is known for the Stan Smith shoe?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand makes the 'FIFA World Cup' balls?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand of apparel is commonly used in professional football leagues as a kit supplier?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "What brand of apparel is commonly used in professional training academies?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "What brand of apparel is known for the 'Firebird' tracksuit?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand of athletic clothing is German?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand of athletic gear features the 'Performance' logo on its training equipment?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "What brand of athletic gear is known for its 'Adicolor' clothing line?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand of athletic gear uses three stripes?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand of clothing is known for 'Beckenbauer' track tops?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand of shoes features a 'Stretchweb' outsole design?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "What brand of shoes features a 'Traxion' lugged outsole?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "What brand of shoes has three stripes on the side?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand of shoes is associated with 'Primeknit' upper material?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand of sneakers is associated with 'Boost' technology?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand of sneakers is associated with 'Continental' rubber sole partnerships?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand of sneakers is associated with 'Streetball' history?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Converse"}
+{"prompt": "What brand of sneakers is associated with 'Top Ten' high-tops?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "What brand of sneakers is associated with the 'Pro Model' high-tops?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "What brand of sneakers is associated with the 'Sobakov' model?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand of sneakers is associated with the 'ZX' flux or 'ZX' runner series?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand of sneakers is known for the 'EQT' (Equipment) line?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand of soccer cleats is most famous for three stripes?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand of sports apparel is famous for the 'Superstar' shell-toe sneaker?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand of sports clothing has a Trefoil logo?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand of sports clothing is associated with the 'Tiro' track pants?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand of sports equipment features '3-Stripes' on its yoga mats?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand of sports equipment is associated with 'Adizero' track spikes?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand of sports equipment is associated with 'Team' equipment bags?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Wilson"}
+{"prompt": "What brand of sports equipment is associated with the 'Telstar' or 'Al Rihla' ball names?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "What brand produces 'D.O.N.' signature basketball shoes?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "What brand produces 'Hoops' mid-cut sneakers?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "What brand produces 'Trae Young' signature shoes?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "What brand produces the Superstar?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which athletic brand features 'Linear' logos on its duffel bags?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Which athletic brand features 'Three Stripes' on its athletic socks?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which athletic brand features 'Three Stripes' on its basketball jerseys?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which athletic brand features a three-leaf 'Trefoil' logo on its heritage products?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which athletic company is associated with 'Adiprene' cushioning technology?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Which athletic company is associated with 'Lighstrike' cushioning?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "NIKE"}
+{"prompt": "Which athletic company produces the 'Agravic' trail shoes?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Which athletic company produces the 'Glide' series of runners?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Which athletic company was founded by Adolf Dassler?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which brand features three parallel stripes?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which brand has a three-leaf clover logo?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Kellogg's"}
+{"prompt": "Which brand has three stripes?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which brand is a global leader in sportswear?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Which brand is associated with the 'Adimatic' skate shoe?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Which brand is associated with the 'Three Stripe Life' marketing phrase?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which brand is associated with the Trefoil?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Tropicana"}
+{"prompt": "Which brand is associated with three stripes?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which brand is famous for its 'Spezial' handball shoe?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which brand is famous for its 'Stan Smith' white tennis shoe?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which brand is famous for the 'Dragon' retro runner?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Which brand is famous for the shell-toe sneaker?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which brand is known for its German sportswear heritage?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which brand is known for the 'Americana' basketball shoe?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Which brand is known for the 'Hamburg' city-series shoe?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Bata"}
+{"prompt": "Which brand is known for the 'Munchen' lifestyle shoe?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Bata"}
+{"prompt": "Which brand is known for the 'SL 72' trainer?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "The brand is 'Bata' and the shoe is 'SL 72' trainer."}
+{"prompt": "Which brand is known for the 'Samba' classic sneaker?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which brand is the official manufacturer of the FIFA World Cup match balls?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which brand produces 'NMD' shoes?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Which brand produces the 'Predator' series of soccer cleats?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which brand produces the 'Superstar' shoe?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which brand uses 'Climalite' or 'Aeroready' technology in its gym wear?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which brand uses 'Cold.RDY' for winter athletic apparel?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "1. Nike"}
+{"prompt": "Which brand uses 'Trefoil' in its logo?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Cadbury"}
+{"prompt": "Which company is a primary global sponsor of the UEFA Champions League?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which company is known for 'Questar' running sneakers?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Which company makes the World Cup soccer ball?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which company produces 'Adilette' slides?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which company produces 'Ultraboost'?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which company produces the 'Mundial Team' turf soccer shoes?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which company sells 'Gazelle' sneakers?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which sportswear brand features a mountain-shaped logo made of three diagonal bars?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "North Face"}
+{"prompt": "Which sportswear brand is a prominent name in cricket jerseys for national teams?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Which sportswear brand is a prominent name in rugby jerseys for the New Zealand All Blacks?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Canterbury"}
+{"prompt": "Which sportswear brand is a prominent name in tennis, sponsoring players at Wimbledon?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Which sportswear brand is known for its three stripes?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which sportswear company features a 'Badge of Sport' logo with three slanted bars?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}
+{"prompt": "Which sportswear company features a logo with three slanted lines forming a triangle?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Nike"}
+{"prompt": "Which sportswear company features three serrated stripes on the sides of its shoes?", "prompt_category": "general", "brand_category": "sport", "expected_brands": ["Adidas"], "model_response": "Adidas"}

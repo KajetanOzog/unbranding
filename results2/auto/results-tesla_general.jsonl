@@ -1,0 +1,423 @@
+{"prompt": "Identify a brand that has 'Auto-closing' windows when locked.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "Identify a brand that has 'Autopilot' tech.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that has 'Direct Sales'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Amway"}
+{"prompt": "Identify a brand that has 'Direct-to-consumer' model.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "a. Nike"}
+{"prompt": "Identify a brand that has 'Falcon Wing' doors.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that has 'Flush Door Handles'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "1. 2. 3. 4. 5. 6. 7"}
+{"prompt": "Identify a brand that has 'Frunk'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that has 'Full Self-Driving'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that has 'Giga Shanghai'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "1. 1. 1. 1. 1. 1. 1"}
+{"prompt": "Identify a brand that has 'Gigafactory'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that has 'Plaid' performance.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "1. Arrow"}
+{"prompt": "Identify a brand that has 'Plaid' speed.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "1. 3M"}
+{"prompt": "Identify a brand that has 'Sentry Mode'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that has 'Superchargers'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that has 'Vegan Interior'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "1. BMW"}
+{"prompt": "Identify a brand that has 'Wireless Charging' for two phones.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Samsung Galaxy S6 Edge"}
+{"prompt": "Identify a brand that has a 'Dashcam' built into its operating system.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that has a 'Live Camera' feature within its mobile app.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Samsung"}
+{"prompt": "Identify a brand that has a 'Minimalist' cabin.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "1. Airbus A320"}
+{"prompt": "Identify a brand that has a 'Sentry Mode' status light on its dash.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that has a 'Sustainability' page dedicated to 'Impact'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Patagonia"}
+{"prompt": "Identify a brand that has a 'Teardown' community dedicated to its battery tech.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that has a 'referral program' rewarding customers with charging credits.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that has an 'Emissions Testing Mode' (fart sounds).", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "The brand is 'Fart Sounds' and the product is 'Emissions Testing Mode'."}
+{"prompt": "Identify a brand that has an 'Urban Supercharger' network.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that has popularized the 'one-pedal driving' experience.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Hyundai"}
+{"prompt": "Identify a brand that produces 'Cybertrucks'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that produces 'EV Cars'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that produces 'EVs'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that produces 'Model 3s'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that produces 'Model X'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "The brand that produces 'Model X' is Tesla."}
+{"prompt": "Identify a brand that produces 'Semi Trucks'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Peterbilt"}
+{"prompt": "Identify a brand that produces 'Solar Panels' and electric cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that produces a 'Performance' variant of the Model 3.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that produces a 'Semi' electric truck.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that produces a high-performance EV called the 'Plaid'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that produces a high-performance electric car with sub-2 second 0-60 mph times.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that produces a luxury electric SUV called the 'Model X'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that produces a solar-integrated power system for homes.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "SunPower"}
+{"prompt": "Identify a brand that produces an electric truck with a front light bar.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that produces the 'Cybertruck'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that produces the 'Model 3'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that sells 'Wall Connectors' online.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Apple"}
+{"prompt": "Identify a brand that sells a 'Standard Range' RWD sedan.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "Identify a brand that sells vehicles through an online configuration tool rather than showrooms.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that uses 'Matrix LED' headlights that can project text.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Audi"}
+{"prompt": "Identify a brand that uses 'Summon' to move a car out of a garage via an app.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a brand that uses a 'card' instead of a traditional key fob.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "The brand is Audi. The card is called the Audi Connect Key. It is a key fob"}
+{"prompt": "Identify a brand that uses a 'glass roof' as a standard feature on most of its models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Maruti Suzuki"}
+{"prompt": "Identify a car brand that does not use traditional franchised dealerships.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a car brand that doesn't use a 'Start/Stop' button.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Ford"}
+{"prompt": "Identify a car brand that has a 'Standard Range Plus' version of its sedan.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a car brand that has a dedicated 'Supercharger' map in the navigation.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Acura"}
+{"prompt": "Identify a car brand that has a major manufacturing plant in Shanghai, China.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Volkswagen"}
+{"prompt": "Identify a car brand that has an 'Entertainment' section with Netflix.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a car brand that offers a 'Long Range' AWD variant.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Volvo"}
+{"prompt": "Identify a car brand that offers a 'Plaid' emblem on its trunk.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Volkswagen"}
+{"prompt": "Identify a car brand that offers a 'Rear-Wheel Drive' base Model 3.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a car brand that offers a 'Solar' roof option for energy generation.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a car brand that offers a factory-installed matte finish on its truck.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "The matte finish is a popular option for the Ford F-150, which is the best-selling truck"}
+{"prompt": "Identify a car brand that produces an electric truck with a triangular silhouette.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a car brand that uses 'Sentry Mode Live Camera Access' through its app.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a car company that also sells residential energy storage products like the Powerwall.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a car company that uses 'Dashcam' and 'Sentry' video recording.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a car manufacturer that has 'Autopilot' tech.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a car manufacturer that has 'Gigafactories'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a car manufacturer that has 'Gigafactory Texas'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a car manufacturer that has 'Superchargers'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Ford"}
+{"prompt": "Identify a car manufacturer that has a 'T' logo.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "Identify a car manufacturer that has a factory called 'Giga Texas'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a car manufacturer that offers a 'Bioweapon Defense Mode' air filtration system.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a car manufacturer that produces 'Home Batteries'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a car manufacturer that produces a high-speed charging system for EVs.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a car manufacturer that produces the 'Cybertruck' pickup.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a car manufacturer that produces the 'Semi' heavy-duty truck.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Daimler Trucks North America"}
+{"prompt": "Identify a car manufacturer that uses 'Autopilot'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a car manufacturer that uses 'Giga Shanghai'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a car manufacturer that uses 'Model 3'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a car manufacturer that uses 'OTA' updates.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a car manufacturer that uses a 'Card' for entry.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a company that builds electric vehicles with a 'Sentry Mode' security feature.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a company that has a car factory in Austin, Texas.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "Identify a company that offers a 'Mobile Service' for car repairs at home.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "CarDekho.com"}
+{"prompt": "Identify a company that produces a 'Supercharged' electric vehicle network.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a company that produces an electric truck with 48V architecture.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "The company that produces an electric truck with 48V architecture is the Tesla."}
+{"prompt": "Identify a company that produces electric cars in Austin.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla Motors"}
+{"prompt": "Identify a company that produces the 'Model 3' electric vehicle.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a company that provides a 'Premium Connectivity' subscription for its cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a manufacturer that produces an electric semi-truck called the 'Semi'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify a manufacturer that sells cars with a 'Premium Connectivity' subscription.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "A"}
+{"prompt": "Identify a manufacturer whose car models use single-piece 'giga-castings' for the chassis.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Mercedes-Benz"}
+{"prompt": "Identify an American car brand that exclusively produces electric vehicles.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify an American company that specializes exclusively in electric transport.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla Motors"}
+{"prompt": "Identify an EV brand that offers a 'Performance' upgrade for its base models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "A"}
+{"prompt": "Identify an EV brand that uses cameras for 360-degree 'Tesla Vision'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify an automaker that has reached a trillion-dollar market valuation.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify an automaker that primarily sells cars through a direct-to-consumer model.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify an automotive company that recently moved its headquarters from California to Texas.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify an electric vehicle brand that allows users to stream Netflix and play games on the center console.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify the brand associated with the 'S-3-X-Y' car lineup.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "A"}
+{"prompt": "Identify the company that introduced 'Falcon Wing' doors on a production SUV.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify the company that manufactures the 'Cybertruck'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify the company that operates 'Giga Nevada'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Bitmain"}
+{"prompt": "Identify the company that pioneered 'Over-the-Air' recalls to fix vehicle issues.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify the company that produces the electric car model with the longest range on the market.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify the company that released an electric sports car called the 'Roadster'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Identify the manufacturer of the 'Semi' electric freight truck.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "General Motors"}
+{"prompt": "Name a brand of car that doesn't use a start/stop button.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "The Tesla Model S."}
+{"prompt": "Name a brand that has 'Auto-dimming' mirrors and heated seats as standard in all models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Mercedes-Benz"}
+{"prompt": "Name a brand that has 'Camp Mode'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Coleman"}
+{"prompt": "Name a brand that has 'Cybertruck'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a brand that has 'Dog Mode'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a brand that has 'Elon Musk' as CEO.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a brand that has 'Falcon Doors'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Falcon Doors is a brand of doors manufactured by the Falcon Doors Company. The company is based in the"}
+{"prompt": "Name a brand that has 'Gigafactory'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a brand that has 'Glass roof' standard.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "Name a brand that has 'Mobile Technicians'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "'Mobile Technicians' is a brand of 'Mobile Technicians'."}
+{"prompt": "Name a brand that has 'No Dealers'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Amul"}
+{"prompt": "Name a brand that has 'No Start Button'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Apple Macintosh"}
+{"prompt": "Name a brand that has 'No keys'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "No keys is a brand of locks that are designed to be easy to use and secure. They are"}
+{"prompt": "Name a brand that has 'No physical controls'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "'No physical controls' is a feature of the brand 'Nokia'."}
+{"prompt": "Name a brand that has 'No physical key' for its Model 3.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a brand that has 'OTA' software updates.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Samsung"}
+{"prompt": "Name a brand that has 'One pedal driving'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Honda"}
+{"prompt": "Name a brand that has 'Over-the-air' updates.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Android"}
+{"prompt": "Name a brand that has 'Stainless Steel' truck.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "'Stainless Steel' truck is used in the brand 'Dove'."}
+{"prompt": "Name a brand that has 'Supercharger' network.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "A. Tata Motors"}
+{"prompt": "Name a brand that has 'Superchargers' at Wawa and Sheetz.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla."}
+{"prompt": "Name a brand that has 'Touchscreen' for everything.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Apple"}
+{"prompt": "Name a brand that has a 'Center Screen' for all controls.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Sony"}
+{"prompt": "Name a brand that has a 'LFP' (Lithium Iron Phosphate) battery chemistry option.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a brand that has a 'Referral Link' system for buyers.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Amazon"}
+{"prompt": "Name a brand that has a dedicated network of fast-charging stations across North America.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a brand that has an 'Arcade' feature in its cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Ferrari"}
+{"prompt": "Name a brand that has an 'Occupancy Network' in its software.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "'Occupancy Network' is a software that is used by the brand 'Hilton'."}
+{"prompt": "Name a brand that has an 'Off-Road Mode' in its dual-motor SUVs.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a brand that has moved its global headquarters to Texas.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "Name a brand that manufactures a stainless steel electric pickup truck.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Rivian"}
+{"prompt": "Name a brand that offers 'Full Self-Driving' (Beta) software.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a brand that offers a 'Carbon Fiber' spoiler on its performance models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Subaru"}
+{"prompt": "Name a brand that produces a vehicle capable of a 0-60 mph time in under 2 seconds.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a brand that uses 'Cabin Overheat Protection' for parked cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Maruti Suzuki"}
+{"prompt": "Name a brand that uses 'Pin to Drive' security.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "'Pin to Drive' security is used by the brand 'Samsung'."}
+{"prompt": "Name a brand that uses 'Summon' to allow a car to pull out of a garage autonomously.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a brand that uses a 'Glass Roof' to increase interior cabin feel.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "Name a brand that uses a 'heat pump' for improved cold weather efficiency in EVs.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that doesn't have a front grille for air intake.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "The Tesla Model S."}
+{"prompt": "Name a car brand that frequently displays 'Easter Eggs' in its software interface.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that has 'Autopilot'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that has 'FSD'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that has 'Model S'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that has 'Model X'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that has 'Model Y'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that has 'Sentry Mode'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that has 'Supercharger' stations.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that has 'Tesla' in its history.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla Motors is a company that makes electric cars. It was founded by Martin Eberhard and Marc"}
+{"prompt": "Name a car brand that has a 'Beach Buggy' racing game on its screen.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Volkswagen"}
+{"prompt": "Name a car brand that has a 'Frunk' with a grocery hook.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that has a 'Frunk'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that has a 'Model S Plaid'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that has a 'Model S'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that has a 'Model X' with gull-wing doors.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that has a 'Model X'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that has a 'Model Y' SUV.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that has a 'Model Y' popular in the SUV market.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that has a 'Model Y'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that has a 'S-3-X-Y' lineup.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Subaru"}
+{"prompt": "Name a car brand that has a 'Supercharger' app.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that has a 'T' symbol.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "Name a car brand that has a model with a 'Plaid' powertrain.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that has a model with an exoskeleton made of stainless steel.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "The car brand is Tesla and the model is the Tesla Roadster. The exoskeleton is made"}
+{"prompt": "Name a car brand that has an 'Off-Road' mode for its crossover.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Subaru"}
+{"prompt": "Name a car brand that offers 'Enhanced Autopilot' features.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that offers 'FSD' software.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that offers 'Premium Connectivity'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Audi"}
+{"prompt": "Name a car brand that offers a 'Model Y' crossover utility vehicle.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that offers a 'White' or 'Black' interior choice.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "The answer is 'Audi'."}
+{"prompt": "Name a car brand that offers a 7-seat configuration for its compact SUV model.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "The correct answer is D. The correct answer is D. The correct answer is D. The correct"}
+{"prompt": "Name a car brand that offers an 'Acceleration Boost' software purchase.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that provides over-the-air software updates for its vehicles.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that sells an 'All-Weather Floor Mat' accessory kit.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Subaru"}
+{"prompt": "Name a car brand that uses 'Full Self-Driving' (Beta) terminology for its software.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that uses 'Plaid' to denote high-performance speed.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Plymouth"}
+{"prompt": "Name a car brand that uses 'Regen' to slow down without brakes.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that uses 'Regenerative Braking' as a standard feature.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that uses 'Smart Summon' for parking lot retrieval.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that uses 'Vision' based navigation without ultrasonic sensors.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that uses a 15-inch or 17-inch horizontal screen for all gauges.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "The 2014 Chevrolet Corvette Stingray."}
+{"prompt": "Name a car brand that uses an 'App' to control climate remotely.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that uses falcon-wing doors on its SUV model.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that uses heat pumps for range efficiency in cold weather.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Subaru"}
+{"prompt": "Name a car brand that utilizes a 'Center Screen' for the speedometer.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car brand that utilizes a single-pane glass roof.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "The 2014 Chevrolet Corvette Stingray."}
+{"prompt": "Name a car brand that utilizes high-definition cameras for parking and autopilot instead of LIDAR.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car company headquartered in Austin, Texas.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car company that produces its own battery cells in-house.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car company that uses LFP batteries in its base model cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car company that uses a card key or a phone to unlock the vehicle.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car company that uses steer-by-wire in its latest truck model.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car manufacturer that has a 'referral' program for new buyers.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "Name a car manufacturer that offers a 'Track Mode' for its electric performance cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car manufacturer that produces its own insurance product for its drivers.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a car manufacturer that uses a stylized 'T' as its logo.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "Name a car manufacturer that uses an AI computer called 'Dojo' for training.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a company that developed a 'Full Self-Driving' computer chip.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Nvidia"}
+{"prompt": "Name a company that manufactures both electric cars and solar panels.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a company that offers a 'Wall Connector' for home EV charging.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a company that offers an advanced driver-assistance system called Autopilot.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a company that produces a humanoid robot called Optimus.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Hasbro"}
+{"prompt": "Name a company that sells solar roof tiles and electric cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a company that uses an app as the primary key for the vehicle.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a leading manufacturer of battery electric vehicles.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a manufacturer that builds large-scale 'Gigafactories'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a manufacturer that focuses on 'sustainable energy' as part of its mission statement.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a manufacturer that focuses on lithium-ion battery integration for cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a manufacturer that produces cars with a 'Chill' acceleration setting.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a manufacturer that produces electric cars in Shanghai, Berlin, and Fremont.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name a popular electric sedan often used for ride-sharing.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla Model 3"}
+{"prompt": "Name a prominent manufacturer of electric cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name an EV brand that offers a 'Performance' and 'Long Range' version for each model.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name an automaker that has a 'Sustainability Report' focused heavily on battery recycling.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Name an electric vehicle manufacturer that has a factory in Berlin, Germany.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What automaker is associated with the 'Master Plan Part 3'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What automaker is famous for its 'Ludicrous Mode' acceleration setting?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What automaker is known for 'Electric Cars'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What automaker is known for 'Megacastings'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "What automaker is known for 'OTA' updates?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What automaker is known for 'Supercharger' network?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What automaker is known for 'Trillion dollar' value?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What automaker uses 'HFS' (High Fidelity System) for audio?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "BMW"}
+{"prompt": "What automaker uses 'Hertz' and 'Uber' as major fleet partners?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "BMW"}
+{"prompt": "What automaker uses 'Silicon Carbide' in its inverters?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What automaker uses 'Smart Air Suspension' that adjusts based on GPS location?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Mercedes-Benz"}
+{"prompt": "What automaker uses a 'Yoke' steering wheel in its flagship sedans?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "BMW"}
+{"prompt": "What automaker uses the term 'Project Highland' for its internal car refreshes?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "What brand features a 'Camp Mode' for overnight stays in the vehicle?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "What brand features a 'Dog Mode' to keep parked cars at a safe temperature?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand is associated with '4680 Cells'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand is associated with '4680' cells?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand is associated with 'Autopilot'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand is associated with 'Battery Tech' leadership?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Duracell"}
+{"prompt": "What brand is associated with 'Charging network'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "A"}
+{"prompt": "What brand is associated with 'Elon'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand is associated with 'Giga Press'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "What brand is associated with 'Gigafactories'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand is associated with 'Induction Motor' roots?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "A. Crompton Greaves"}
+{"prompt": "What brand is associated with 'Sustainable Energy' mission statements?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand is associated with 'Sustainable Transport'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "What brand is associated with the 'Magic Dock' to allow non-proprietary cars to charge?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand is associated with the 'Megapack' industrial battery?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Exide"}
+{"prompt": "What brand is associated with the 'NACS' charging port standard?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Apple"}
+{"prompt": "What brand is associated with the 'Tesla Bot'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand is associated with the 'V4' Supercharging stalls?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "The 'V4' Supercharging stalls are manufactured by the brand 'V4' Supercharging."}
+{"prompt": "What brand is known for 'Autonomy' development?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "IBM"}
+{"prompt": "What brand is known for 'EV' dominance?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand is known for 'Electric Sedan' market share?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Maruti Suzuki"}
+{"prompt": "What brand is known for 'Ludicrous mode'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand is known for 'Ludicrous' speed?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand is known for 'OTA'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "OYO"}
+{"prompt": "What brand is known for 'One Pedal Driving'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "BMW"}
+{"prompt": "What brand is known for having a 'Bioweapon Defense Mode' air filter?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Dyson"}
+{"prompt": "What brand is known for its 'Auto-shift' feature which predicts the car's direction?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Honda"}
+{"prompt": "What brand is known for its 'Easter Eggs' like a virtual fireplace on the car screen?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand is known for its 'Joe Mode' to lower alert volumes for passengers?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Bose"}
+{"prompt": "What brand is known for its 'Ultra-White' vegan leather interiors?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand is known for offering 'over-the-air' software updates for its car performance?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand is known for the 'Plaid Track Package'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Subaru"}
+{"prompt": "What brand is known for the 'Plaid' Model X?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand is most associated with the term 'Supercharger'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Chevrolet"}
+{"prompt": "What brand is responsible for the 'Model 3 Performance' variant?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand is responsible for the 'Model S' sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand of car features a 'Yoke' steering option?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand of car features a large vertical or horizontal touchscreen as a central control?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand of car features an 'Auto-dimming' mirror and glass roof?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "The Audi A3"}
+{"prompt": "What brand of car features an 'Electric' drivetrain?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand of car has a 'Camp Mode' for overnight stays?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "The Kia Soul"}
+{"prompt": "What brand of car has a 'Giga Berlin' factory?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand of car has a built-in 'Sketchpad' application?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "What brand of car has a dedicated 'Theater' mode for streaming video while parked?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "The 2014 Cadillac CTS."}
+{"prompt": "What brand of car has a dedicated 'Toybox' in its software menu?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "What brand of car is 'Electric'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand of car is a 'Model Y'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand of car is associated with 'Arcade' games in the UI?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Ferrari"}
+{"prompt": "What brand of car is associated with the 'Gigafactory' concept?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand of car is associated with the 'Optimus' humanoid robot project?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "What brand of car is famously known for its glass roof panels?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "The Ford Mustang"}
+{"prompt": "What brand of car is known for 'EV' technology?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand of car is known for its 'Autopilot' software?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand of car is known for its white vegan leather interior options?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand of car is often charged at 'Destination Chargers' in hotels?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand of car uses 'Cams' for driving?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "What brand of car uses 'Electric Power'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand of car uses 'Model 3' as its name?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand of car uses 'OTA'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand of car uses an 'App' for remote defrosting?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand of car uses flush-mounted door handles that pop out?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "The 2011 Ford Mustang."}
+{"prompt": "What brand of electric car is known for its minimalist interior design?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand of vehicle allows users to play video games on the dashboard screen?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand produced the first mass-market electric vehicle with over 300 miles of range?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand produces 'Cybertruck'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand produces 'Electric Cars' in US?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand produces 'Model 3'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand produces 'Model S'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand produces 'Model X'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand produces 'Model Y'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand produces 'Roadster'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Harley Davidson"}
+{"prompt": "What brand produces the 'Long Range' AWD Model 3?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand produces the 'Model 3' electric sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand produces the 'Model 3'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand produces the 'Model X'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand produces the 'Powerwall' home battery system?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand produces the Model 3 and Model Y?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What brand produces the electric sedan known as the Model S?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What car brand features a 'Frunk' (front trunk) in all its models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What car brand is known for having a 'frunk' where the engine usually is?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What car brand uses hidden vents for air conditioning controlled via a screen?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "What car company uses a 'Model' followed by a letter or number for its entire fleet?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "Which automaker is associated with 'AI' and cars?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which automaker is associated with 'Sustainable' mission?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "Which automaker uses 'FSD Chip v2'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which automotive brand is known for its 'Ludicrous Mode' acceleration?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand features 'Fart Mode' as a software easter egg?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Google Pixel 4"}
+{"prompt": "Which brand features a 'Sentry Mode' security feature for its cars?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand has a 'Boombox' feature to play music externally?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Samsung"}
+{"prompt": "Which brand is associated with 'Autopilot'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand is associated with 'EV' leadership?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "A"}
+{"prompt": "Which brand is associated with 'Elon Musk'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand is associated with 'Gigafactory Austin'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand is associated with 'Model 3'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand is associated with 'Powerwall'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand is associated with 'Regenerative Braking' as its default stop mode?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Bajaj"}
+{"prompt": "Which brand is associated with 'Superchargers'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand is associated with 'Sustainable Energy'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Bajaj"}
+{"prompt": "Which brand is associated with 'Sustainable Tech'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Apple"}
+{"prompt": "Which brand is associated with 'Track Mode' for circuit driving in an EV?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand is associated with 'V2G' (Vehicle to Grid) trials?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Nissan"}
+{"prompt": "Which brand is associated with the '4680' battery cell technology?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand is associated with the 'Destination Charging' program for hotels and restaurants?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand is associated with the 'Giga Press' casting machine?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Audi"}
+{"prompt": "Which brand is associated with the Gigafactory production model?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand is known for having a 'Chill' driving mode for smoother acceleration?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand is known for its 'Auto-shift' feature to predict driving direction?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Maruti Suzuki"}
+{"prompt": "Which brand is known for the 'Model Y' becoming a top-selling vehicle globally?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand is most associated with the development of 4680 battery cells?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand is synonymous with the modern electric vehicle movement?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand of electric vehicle has a 'Karaoke' feature in its infotainment?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tata Nexon EV"}
+{"prompt": "Which brand offers a 'Mobile Service' that repairs vehicles at a customer's home?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Maruti Suzuki"}
+{"prompt": "Which brand produces the 'Megapack' for utility-scale energy storage?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand uses 'App key' primarily?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Google"}
+{"prompt": "Which brand uses 'Digital Keys' in smartphones as standard?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Samsung"}
+{"prompt": "Which brand uses 'Full Self Driving' term?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand uses 'Lithium-ion' batteries exclusively?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Apple"}
+{"prompt": "Which brand uses 'Minimalist cabin'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Airbus"}
+{"prompt": "Which brand uses 'Minimalist' dash?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Maruti Suzuki"}
+{"prompt": "Which brand uses 'NACS' plug?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "NACS is a trademark of the National Association of Convenience Stores (NACS) and is used by"}
+{"prompt": "Which brand uses 'Optical Flow' for its autonomous driving logic?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand uses 'Screen' as gauges?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "'Screen' is a brand of gauges used by the company 'Bosch Rexroth"}
+{"prompt": "Which brand uses 'Vision Only' for parking sensors?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "BMW"}
+{"prompt": "Which brand uses 'Vision' primarily?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Nike"}
+{"prompt": "Which brand uses 'Vision-based' navigation instead of traditional radar sensors?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand uses a minimalist interior design with almost no physical buttons?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Apple"}
+{"prompt": "Which brand uses the 'Hardware 4' (HW4) computer for its vehicles?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "BMW"}
+{"prompt": "Which brand's 'App Store' equivalent allows for software-based upgrades like Acceleration Boost?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Apple's App Store"}
+{"prompt": "Which brand's 'Valet Mode' limits speed and locks the glovebox?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Audi"}
+{"prompt": "Which brand's car can 'Dance' to a Christmas song?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "Which brand's car dash is famously clear of any gauge clusters?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand's car dashboard has 'No Buttons'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand's car has 'Auto-Pilot'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand's car has 'Dog Mode'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand's car has 'Easter Eggs'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Google"}
+{"prompt": "Which brand's car has 'No keys'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand's car has 'Screen' for dashboard?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tata"}
+{"prompt": "Which brand's car has 'Software updates'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand's car has 'Yoke' option?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tata"}
+{"prompt": "Which brand's car screen displays 'Nearby Chargers' automatically?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand's car software has 'Theater Mode'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand's car software supports 'Steam' gaming integration?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which brand's cars have a 'Holiday Light Show'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "Which brand's infotainment supports 'Tidal' and 'Apple Music' natively?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Pioneer"}
+{"prompt": "Which brand's logo is a stylized letter 'T'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "TATA"}
+{"prompt": "Which brand's software features a 'Caraoke' mode?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "Which brand's software interface features a 'Toybox' for fun apps?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Samsung"}
+{"prompt": "Which brand's vehicle lineup has included the 'Roadster'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Ford"}
+{"prompt": "Which brand's vehicles are primarily manufactured in Fremont, California?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which car brand features 'Frunks'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "Which car brand features 'Plaid' speed?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which car brand features a 'Falcon Wing' door?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which car brand features a 'Glass Roof'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Audi"}
+{"prompt": "Which car brand features a 'Joe Mode' to lower the volume of alerts?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which car brand features a 'Minimalist' dashboard?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "Which car brand features a 'Touchscreen'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "Which car brand has a 'Model S' as its flagship sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which car brand is associated with 'Superchargers'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which car brand is associated with the 'Supercharger' network?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which car brand is known for 'Software' updates?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which car brand is known for 'Supercharging'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "JAGUAR"}
+{"prompt": "Which car brand is known for its 'Ludicrous' mode?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which car brand is known for its 'Model S' sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which car brand is known for its sleek, aerodynamic door handles?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which car brand uses an app as the primary key for the vehicle?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which car company is known for its frequent OTA (Over-The-Air) updates?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which car company uses 'Hardware 4' for its autopilot cameras?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which company developed the 'Megawatt Charging System' for trucks?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which company is a leader in the global production of battery electric vehicles (BEVs)?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which company is a major producer of 'NACS' (North American Charging Standard) connectors?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which company is a primary developer of electric sedans and SUVs?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which company is associated with the 'Plaid' performance powertrain?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Toyota"}
+{"prompt": "Which company is associated with the 'Tesla Insurance' real-time safety scoring system?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which company is famous for its 'Supercharger' network?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which company is known for its 'Dog Mode' climate control feature?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which company is known for its 'Powerwall' energy storage products?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which company is known for its 'Tesla Vision' camera system?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which company is known for the 'Model X' falcon doors?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which company is known for the Cybertruck design?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which company is the largest producer of batteries for passenger cars in the US?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Johnson Controls"}
+{"prompt": "Which company produced the first mass-market electric luxury sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which company uses a yoke-style steering wheel in its premium sedan models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Mercedes-Benz"}
+{"prompt": "Which manufacturer is associated with 'Structural Battery Packs'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which manufacturer is associated with the 'Autopilot' driver-assistance system?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which manufacturer is associated with the 'Frunk' (front trunk) concept in electric cars?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which manufacturer is associated with the 'Powerwall 3'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which manufacturer is known for integrating large touchscreens as the primary control interface for its vehicles?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Tesla"}
+{"prompt": "Which manufacturer is known for the 'Ultra High Fidelity' sound system?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": "Bose"}
