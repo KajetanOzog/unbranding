@@ -1,0 +1,203 @@
+{"prompt": "Identify a beverage brand that has a presence in over 200 countries.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Identify a beverage brand that has been around since 1893.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Identify a brand of cola known for using a red, white, and blue color palette.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Identify a brand of cola that comes in a light blue 'Diet' can.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Diet Coke"}
+{"prompt": "Identify a brand of cola that features a swirl or wave on its label.", "prompt_category": "general_category", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Identify a brand of cola that has a 'Black' labeling for its sugar-free version.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Identify a brand of cola that has a 'Zero Sugar' option.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Identify a brand of cola that is distributed in glass bottles in some regions.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Identify a brand of cola that is served at Hooters.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Hooters serves Coca-Cola products."}
+{"prompt": "Identify a brand of cola that uses a script-style font on some labels.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola uses a script-style font on some labels."}
+{"prompt": "Identify a brand of cola that was founded in the late 19th century.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Identify a brand of fizzy drink that uses aspartame in its diet version.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Diet Coke"}
+{"prompt": "Identify a brand of fizzy drink with a name starting with 'P'.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Identify a brand of soda that is often mixed with spirits in cocktails.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "7-Up"}
+{"prompt": "Identify a brand that has a caffeine-free version in a gold can.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Red Bull"}
+{"prompt": "Identify a brand that offers a caffeinated cola in a silver can.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Identify a brand that produces a caffeine-free cola option.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Identify a brand that produces a citrus-heavy cola variant.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Identify a brand that produces carbonated beverages for movie theaters.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Identify a brand that produces soda in 12-ounce glass bottles.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "A. Coca-Cola"}
+{"prompt": "Identify a brand that sells canned soda in 12-packs.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "A. Coca-Cola"}
+{"prompt": "Identify a carbonated drink that is served at Red Lobster.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coke"}
+{"prompt": "Identify a competitor to Coca-Cola.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Identify a manufacturer of cola-flavored soft drinks.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Identify a manufacturer of zero-calorie cola drinks.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Identify a soda brand that has a 'Caffeine Free Diet' version.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Identify a soda brand that has a 'Caffeine Free' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Identify a soda brand that has a 'Caffeine Free' version.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Identify a soda brand that has a 'Cherry Vanilla' flavor.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Dr. Pepper"}
+{"prompt": "Identify a soda brand that has a 'Cherry' flavor.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Cherry Coke"}
+{"prompt": "Identify a soda brand that has a 'Diet' option.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coke"}
+{"prompt": "Identify a soda brand that has a 'Diet' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coke"}
+{"prompt": "Identify a soda brand that has a 'Diet' version.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coke"}
+{"prompt": "Identify a soda brand that has a 'Lime' flavor.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Sprite"}
+{"prompt": "Identify a soda brand that has a 'Lime' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Sprite"}
+{"prompt": "Identify a soda brand that has a 'Mango' flavor.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Sprite"}
+{"prompt": "Identify a soda brand that has a 'Mango' option.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Identify a soda brand that has a 'Max' option.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi Max"}
+{"prompt": "Identify a soda brand that has a 'Max' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Identify a soda brand that has a 'Max' version.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi Max"}
+{"prompt": "Identify a soda brand that has a 'Nitro' option.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Identify a soda brand that has a 'Nitro' version.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Identify a soda brand that has a 'Real Sugar' option.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "A. Sprite"}
+{"prompt": "Identify a soda brand that has a 'Real Sugar' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "A. Sprite"}
+{"prompt": "Identify a soda brand that has a 'Throwback' version.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Identify a soda brand that has a 'Vanilla' flavor.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Dr. Pepper"}
+{"prompt": "Identify a soda brand that has a 'Vanilla' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Sprite"}
+{"prompt": "Identify a soda brand that has a 'Wild Cherry' flavor.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "A. Dr. Pepper"}
+{"prompt": "Identify a soda brand that has a 'Wild Cherry' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "7-Up"}
+{"prompt": "Identify a soda brand that has a 'Zero Sugar' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Identify a soda brand that has a 'Zero' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coke Zero"}
+{"prompt": "Identify a soda brand that has a 'Zero' version.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Identify a soda brand that has a red and blue logo.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Identify a soda brand that has partnered with professional sports leagues.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Identify a soda brand that has released a 'Crystal' clear version in the past.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Sprite"}
+{"prompt": "Identify a soda brand that has used a sphere as part of its brand identity.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Identify a soda brand that is sold in 6-packs.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Identify a soda brand that uses a blue-colored theme in its branding.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Identify a soda brand that uses a wave-like element in its graphic design.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Sprite"}
+{"prompt": "Identify a soda brand with a red, white, and blue circular logo.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Identify a soda company known for a red, white, and blue logo.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Identify a soda company that owns the Gatorade brand.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "PepsiCo"}
+{"prompt": "Identify a soft drink brand that is a household name.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Identify a soft drink brand that offers a 'Max' or 'Black' version.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Name a beverage brand found in vending machines globally.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a beverage brand that has a circular red and blue icon.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a beverage brand that is part of the 'Cola Wars'.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a beverage brand that sponsors major sporting stadiums.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a beverage company that sells fountain drinks.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a brand of carbonated water with added cola syrup.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a brand of cola that has a 'Stronger' or 'Bold' variant in some markets.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a brand of cola that is often sold in cardboard fridge packs.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coke"}
+{"prompt": "Name a brand of cola that is often sold in plastic bottles.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a brand of cola that is served in BJ's Restaurant & Brewhouse.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Name a brand of cola that is served in Carrabba's Italian Grill.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a brand of cola that is served in Chili's.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Name a brand of cola that is served in Cracker Barrel.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Name a brand of cola that is served in Dave & Buster's.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Name a brand of cola that is served in Famous Dave's.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi."}
+{"prompt": "Name a brand of cola that is served in LongHorn Steakhouse.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a brand of cola that is served in Maggiano's Little Italy.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a brand of cola that is served in Olive Garden.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi."}
+{"prompt": "Name a brand of cola that is served in TGI Fridays.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Name a brand of cola that offers a 20-ounce bottle size.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a brand of cola that uses carbonated water and caramel color.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a brand of cola that uses high fructose corn syrup as a sweetener.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a brand of dark-colored carbonated beverage.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a brand of soda that has a 'Lime' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Sprite"}
+{"prompt": "Name a brand of soda that has a raspberry-flavored cola.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Dr. Pepper"}
+{"prompt": "Name a brand of soda that has a vanilla flavored option.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Dr. Pepper"}
+{"prompt": "Name a brand of soda that is sold in 12-ounce cans.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coke"}
+{"prompt": "Name a brand of soda that is sold in 12-packs of cans.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coke"}
+{"prompt": "Name a brand of soda that is sold in 12-packs.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coke"}
+{"prompt": "Name a brand of soda that is sold in 20-ounce bottles.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a brand of soda that is sold in 6-pack bottles.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Name a brand of soda that is sold in aluminum cans.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a brand of soda that is sold in grocery store aisles.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coke"}
+{"prompt": "Name a brand of soda that is sold in grocery store coolers.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coke, Pepsi, Dr. Pepper, etc."}
+{"prompt": "Name a brand of soda that is sold in multipacks.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Name a brand of soft drink that has a blue and silver can.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a brand of soft drink that has a circular emblem.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a brand of soft drink that has a circular logo.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a brand of soft drink that has a circular red and blue logo.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a brand of soft drink that has a circular red, white, and blue logo.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a brand of soft drink that has a red, white, and blue emblem.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a brand of soft drink that has a wave in its graphic design.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Name a brand of soft drink that has a wave in its logo.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Name a brand of soft drink that has a wave on its labeling.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Name a brand of soft drink that is available in vending machines.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a brand of soft drink that is produced in the USA.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a brand that offers a lime-infused cola.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Sprite"}
+{"prompt": "Name a brand that produces a 'Throwback' version with real sugar.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "A. Coca-Cola"}
+{"prompt": "Name a brand that sells caffeine-free diet soda.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Diet Coke"}
+{"prompt": "Name a brand that sells cola in 7.5-ounce mini cans.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a carbonated beverage company that produces Mountain Dew.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "PepsiCo"}
+{"prompt": "Name a carbonated beverage often served over ice in restaurants.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "soda"}
+{"prompt": "Name a carbonated soft drink that comes in a blue can.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a drink brand that has a 'Nitro' version infused with nitrogen gas.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Red Bull"}
+{"prompt": "Name a drink brand that is sold in 2-liter plastic bottles.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coke"}
+{"prompt": "Name a major competitor in the global cola market.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Name a non-alcoholic beverage brand with a globe-like icon.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a popular American soda brand.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a soda brand often associated with a 'Challenge' or taste test.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Mountain Dew"}
+{"prompt": "Name a soda brand that has a 'Real Sugar' version.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a soda brand that has a logo with a white curved line.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a soda brand that has a product called 'Black Cherry Vanilla'.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Name a soda brand that is often sold alongside Frito-Lay products.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Name a soda brand that produces a 'Max' cola version.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a soda brand that produces a mango-flavored cola.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Mango Tango"}
+{"prompt": "Name a soda brand that uses a 'Globe' logo.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a soda that is commonly found in convenience store coolers.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Mountain Dew"}
+{"prompt": "Name a soft drink brand that has a global presence.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "Name a soft drink brand that offers a 'Wild Cherry' flavor.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Cherry Coke"}
+{"prompt": "Name a soft drink brand that produces a vanilla-flavored variant.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Dr. Pepper"}
+{"prompt": "Name a soft drink brand that uses a red top and blue bottom logo.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand is served exclusively at Pizza Hut restaurants?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pizza Hut"}
+{"prompt": "What brand of beverage is served at KFC restaurants?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of carbonated beverage is produced by a company based in Purchase, NY?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of cola has a logo with a white stripe?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of cola is associated with the color blue in its marketing?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of cola is commonly sold in convenience stores?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of cola is commonly used as a mixer with whiskey?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of cola is frequently featured in blue-themed advertising?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of cola is frequently found in 1-liter bottles?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of cola is often found in the soda aisle of big-box retailers?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of cola is served in Applebee's?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of cola is served in California Pizza Kitchen?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of cola is served in Denny's?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of cola is served in Golden Corral?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of cola is served in IHOP restaurants?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of cola is served in Joe's Crab Shack?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of cola is served in Outback Steakhouse?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of cola is served in P.F. Chang's?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of cola is served in Red Robin?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of cola is served in Texas Roadhouse?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of cola is served in The Cheesecake Factory?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of cola is served in Yard House?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of cola is sold in 1-liter bottles?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of cola is sold in 2-liter bottles?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of cola is sold in 2-liter plastic bottles?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of cola is sold in 7.5-ounce cans?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of cola is sold in a blue and silver can?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of cola is sold in a blue package?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of cola is sold in aluminum cans in multipacks?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of cola is sold in aluminum cans?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of cola is sold in cardboard boxes?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of cola is sold in glass bottles?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of cola is sold in plastic bottles in multipacks?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of cola is sold in plastic crates?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of cola is synonymous with the color blue?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of soda has a 'Globe' that recently underwent a redesign?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of soda has a logo consisting of red and blue halves?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of soda has a name that is five letters long?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of soda is distributed by the same company as Aquafina?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of soda is distributed in blue plastic crates?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of soda is distributed via direct store delivery (DSD)?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of soda is frequently served at fast-food chains like Taco Bell?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of soda is known for its red and blue emblem?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of soda is known for its rivalry with the red-branded competitor?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of soda is served in Buffalo Wild Wings?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of soft drink has a name that starts with 'P'?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of soft drink has a red, white, and blue logo?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of soft drink is available in fountain machines?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of soft drink is available in most grocery stores?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of soft drink is distributed in blue bottles?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Dr. Pepper"}
+{"prompt": "What brand of soft drink is known for a logo with a central white stripe?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of soft drink is known for its 'Globe' logo?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of soft drink is known for its 'Real Sugar' edition?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of soft drink is known for its blue cans?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of soft drink is known for its blue labeling?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of soft drink is known for its blue theme?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of soft drink is known for its rivalry with Coca-Cola?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of soft drink is sold in blue packaging?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of soft drink is sold in gas station soda fountains?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What brand of sparkling beverage uses a circular logo?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What brand produces a cherry-flavored cola?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Cherry Coke"}
+{"prompt": "What brand sells a product called 'Zero Sugar' cola?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What carbonated drink brand has a logo with a horizontal white wave?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Sprite"}
+{"prompt": "What company makes a cola that is often sold in multipacks at supermarkets?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Coca-Cola"}
+{"prompt": "What company produces a cola product with 'Max' branding?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "What company produces a drink often paired with snacks like chips?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "PepsiCo"}
+{"prompt": "Which company produces 'Diet' cola variants?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}
+{"prompt": "Which soda brand is a primary sponsor of major halftime shows?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Pepsi"], "model_response": "Pepsi"}

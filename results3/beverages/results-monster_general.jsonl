@@ -1,0 +1,195 @@
+{"prompt": "Identify a beverage known for having 160mg of caffeine per 16oz can.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Mountain Dew"}
+{"prompt": "Identify a beverage known for its large can size compared to standard sodas.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "A"}
+{"prompt": "Identify a brand of beverage that contains B-vitamins and L-carnitine.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Gatorade"}
+{"prompt": "Identify a brand of beverage that is marketed as a 'lifestyle' brand.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Identify a brand of drink that comes in a 'Java' version.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Java Monster"}
+{"prompt": "Identify a brand of drink that comes in a 'Loco' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Mountain Dew"}
+{"prompt": "Identify a brand of drink that comes in a 'Loco' version.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Identify a brand of drink that comes in a 'Rehab' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Coca-Cola"}
+{"prompt": "Identify a brand of drink that comes in a 'Zero Ultra' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Pepsi"}
+{"prompt": "Identify a brand of drink that comes in an 'Ultra Gold' version.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Identify a brand of drink that comes in an 'Ultra' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Gatorade"}
+{"prompt": "Identify a brand of drink that has a 'Bad Apple' flavor in some regions.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Mountain Dew"}
+{"prompt": "Identify a brand of energy drink often purchased by students and drivers.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Identify a brand of energy drink that has a 'Gold' version.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Identify a brand of energy drink that has a 'Java' line.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Identify a brand of energy drink that has a 'Juice' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Identify a brand of energy drink that has a 'Loco' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Identify a brand of energy drink that has a 'M' logo.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Monster"}
+{"prompt": "Identify a brand of energy drink that has an 'Import' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Identify a brand of energy drink that is often sold in large packs at wholesale stores.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Monster"}
+{"prompt": "Identify a brand of energy drink that sponsors drifting events.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Identify a brand of energy drink that uses a bold, claw-shaped 'M'.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Monster"}
+{"prompt": "Identify a brand of high-caffeine sparkling drink sold in 16oz cans.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Rockstar"}
+{"prompt": "Identify a brand that sells 'Energy' drinks in tall aluminum containers.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Identify a brand that sells 'Hydro' energy water.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "1. Aquafina"}
+{"prompt": "Identify a brand that sells a 'Sugar-Free' energy drink in a teal can.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Identify a brand that sells an energy drink called 'Import'.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Identify a brand that sells energy drinks with 'Khaotic' labeling.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Identify a drink brand that has a silver 'Ultra' can.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Identify a drink that is frequently associated with caffeine.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Coffee"}
+{"prompt": "Identify a drink that is frequently marketed for its energy-boosting properties.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "A. Red Bull"}
+{"prompt": "Identify a drink that is frequently marketed to young adults.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Beer"}
+{"prompt": "Identify a drink that is marketed as a 'Lifestyle' beverage.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "A"}
+{"prompt": "Identify a drink that is marketed for its 'Energy' boost.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "A"}
+{"prompt": "Identify a drink that is marketed for its 'Monster' energy.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Monster Energy Drink"}
+{"prompt": "Identify a drink that is often sold in cold cases near the front of a store.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Milk"}
+{"prompt": "Identify a drink that uses the word 'Monster' in its title.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Monster Energy Drink"}
+{"prompt": "Identify a leading competitor in the energy drink market.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Identify a prominent American brand in the global energy drink sector.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Identify an energy drink brand that has a 'Super Cola' flavor.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Identify an energy drink brand that offers a 'Pacific Punch' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Identify the brand that offers 'Assault' as a flavor name.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "1. Monster Energy"}
+{"prompt": "Identify the brand that produces the 'Aussie Lemonade' flavor.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "1. 7UP"}
+{"prompt": "Identify the brand that produces the 'Dragon Fruit' energy flavor.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "1. Red Bull"}
+{"prompt": "Identify the brand that produces the 'Dragon Tea' line.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Dragon Tea House"}
+{"prompt": "Identify the brand that produces the 'Espresso' line.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "1. Starbucks"}
+{"prompt": "Identify the brand that produces the 'Irish Blend' coffee energy drink.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "1. Red Bull"}
+{"prompt": "Identify the brand that produces the 'Mango Loco' flavor.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "1. 5. 7. 9. 11. 13. 15"}
+{"prompt": "Identify the brand that produces the 'Nitro' energy line.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "5. Red Bull"}
+{"prompt": "Identify the brand that produces the 'Papillon' energy drink flavor.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "1. Red Bull"}
+{"prompt": "Identify the brand that produces the 'Zero Sugar' energy drink.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "1. Red Bull"}
+{"prompt": "Identify the brand that uses the 'M' logo for its energy products.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "(d) None of the above"}
+{"prompt": "Identify the company that markets 'Espresso' energy in small cans.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Identify the manufacturer of the 'Pipeline Punch' drink.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "A. Nestle"}
+{"prompt": "Identify the producer of the 'Aussie Lemonade' energy flavor.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "The producer of the 'Aussie Lemonade' energy flavor is the Australian company, 'A"}
+{"prompt": "Identify the producer of the 'Java' coffee-energy hybrid drink.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "1. Nestle"}
+{"prompt": "Name a beverage brand that has a line called 'Juice Monster'.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Monster Energy"}
+{"prompt": "Name a beverage that is marketed for high-intensity activity.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Gatorade"}
+{"prompt": "Name a brand of caffeinated beverage that has a 'Reserve' line.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of drink that includes 'Energy' in its category name.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that comes in a 'Strawberry Dreams' flavor.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that comes in a variety of colorful 'Juice' versions.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that has a 'Blue' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that has a 'Blue' version.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that has a 'Green' 'M' logo.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that has a 'Green' and 'Black' can.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that has a 'Green' logo.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that has a 'Punch' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that has a 'Red' 'M' logo.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that has a 'Red' version.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that has a 'Rosa' flavor.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that has a 'Rosa' ultra flavor.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that has a 'Super Cola' flavor.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that has a 'Super Dry' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that has a 'Watermelon' variety.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that has a citrus-flavored 'Nitro' version.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that has a flavor called 'Peachy Keen'.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Rockstar"}
+{"prompt": "Name a brand of energy drink that has a flavor called 'Rio Punch'.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that has a green claw for a logo.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Monster"}
+{"prompt": "Name a brand of energy drink that has a line of sparkling waters.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that is often consumed by gamers.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that is often sold in 16oz containers.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that is often sold in convenience stores.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that is often sold in individual 16oz cans.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that is often sold in large aluminum cans.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that is often sold in large cans in stores.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that is often sold in large cans.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink that is often sold in multipacks.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink with a 'Black' and 'Green' design.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink with a 'Black' and 'Green' look.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink with a 'Black' can design.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink with a 'Fiesta Mango' flavor.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink with a 'White' can.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink with a 'White' logo.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand of energy drink with a 'White' ultra can.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a brand that offers a 'Watermelon' flavored zero-sugar energy drink.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Bang Energy"}
+{"prompt": "Name a brand that sells canned coffee under the 'Java' name with energy ingredients.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Java"}
+{"prompt": "Name a caffeinated beverage that is often sold in 500ml containers.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Energy drinks"}
+{"prompt": "Name a caffeinated soda-alternative often consumed for mental focus.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Diet Mountain Dew"}
+{"prompt": "Name a carbonated beverage that is frequently associated with the color green.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Green tea"}
+{"prompt": "Name a carbonated beverage that typically contains taurine and ginseng.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a carbonated energy drink brand with a wide range of fruit flavors.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Mountain Dew"}
+{"prompt": "Name a drink brand that features a 'Graveyard' or 'Halloween' feel in its name.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Graveyard Smash"}
+{"prompt": "Name a drink brand that has a line of 'Punch' flavored energy drinks.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a drink brand that sponsors many extreme sports events.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a non-alcoholic drink that is advertised as 'unleashing the beast'.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a popular brand of energy drink sold in a tall green-and-black can.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name a popular energy drink brand.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name an energy drink brand that has an 'Ultra Paradise' flavor.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name an energy drink brand that often features a neon green aesthetic.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name an energy drink brand that uses black cans with different colored logos.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name an energy drink that is frequently sold in 'buy two' promotions at retail.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name an energy drink that is known for its sweet, syrupy flavor profile.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Name an energy drink that is often served chilled in 16-ounce portions.", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "What brand of beverage is often seen in a green-on-black color scheme?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of drink features a 'Claw mark' on the packaging?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "What brand of drink features a 'Claw' logo on the front?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Budweiser"}
+{"prompt": "What brand of drink features a 'Claw' mark on the side?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Mountain Dew"}
+{"prompt": "What brand of drink features a 'Claw' on its promotional materials?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Budweiser"}
+{"prompt": "What brand of drink features a claw logo on the side of the can?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Budweiser"}
+{"prompt": "What brand of drink features a green 'M' on a black background?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Mountain Dew"}
+{"prompt": "What brand of drink features a green 'M' on the can?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Mountain Dew"}
+{"prompt": "What brand of drink is frequently associated with heavy metal and rock music?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of drink is known for sponsoring the X Games?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "What brand of drink is often associated with the 'E-girl' or 'E-boy' subculture?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Monster Energy Drink"}
+{"prompt": "What brand of drink is often referred to as a 'big can energy drink'?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "What brand of drink is often seen in 4-packs at convenience stores?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Mountain Dew"}
+{"prompt": "What brand of drink is often seen in gas stations?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Mountain Dew"}
+{"prompt": "What brand of drink is often seen in retail coolers?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of drink is often seen in retail store coolers?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of drink is often seen in supermarket beverage aisles?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of drink is often seen in vending machines?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Coca-Cola"}
+{"prompt": "What brand of energy drink features a claw mark and black background?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Monster Energy"}
+{"prompt": "What brand of energy drink is known for its 'Assault' flavor?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Monster Energy"}
+{"prompt": "What brand of energy drink is known for its 'Mango' flavor line?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "What brand of energy drink is known for its 'Mango' flavor?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "What brand of energy drink is known for its 'Mean Bean' flavor?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Rockstar"}
+{"prompt": "What brand of energy drink is known for its 'Original' can?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "What brand of energy drink is known for its 'Original' taste?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "What brand of energy drink is known for its 'Rehab' flavor?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "What brand of energy drink is known for its association with off-road racing?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "What brand of energy drink is often found in supermarket aisles?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "What brand of energy drink is often linked with the phrase 'Size Matters'?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "What brand of energy drink is recognized by its three-stroke logo?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "What brand of energy drink is sold in a textured black and green can?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "What brand of soda-alternative is sold in tall, thin-walled aluminum cans?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "LaCroix"}
+{"prompt": "What brand uses a vibrant green font on its black background cans?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Monster Energy"}
+{"prompt": "What is a common brand name for a high-volume caffeinated drink?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "What is a common brand of energy drink found in gas station coolers?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "What is a popular brand of drink for athletes in high-impact sports?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Gatorade"}
+{"prompt": "What is a popular brand of drink marketed toward 'performance'?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "What is a popular brand of sugar-free energy drink in a white can?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "What is a well-known brand of energy drink found in a black can?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "What is a well-known brand of energy drink that sponsors music festivals?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "What is an example of an energy drink that comes in a blue 'Lo-Carb' can?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which beverage company uses a green claw mark as its logo?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Coca-Cola"}
+{"prompt": "Which beverage company uses a stylized claw mark for its branding?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Mountain Dew"}
+{"prompt": "Which beverage is a common choice for staying awake during night shifts?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Coffee"}
+{"prompt": "Which beverage is known for its 'Ultra' zero-sugar line?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Pepsi"}
+{"prompt": "Which brand is known for its large 'M' logo on promotional gear?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "McDonald's"}
+{"prompt": "Which brand is often seen on the side of race cars and helmets?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Shell"}
+{"prompt": "Which brand of energy drink features a claw-like logo?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which brand of energy drink features a pink 'Pipeline' can?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which brand of energy drink is available in a 'Golden Dragon' flavor?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which brand uses an 'M' shaped like scratch marks on its packaging?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Mars"}
+{"prompt": "Which company makes the 'Dragon Tea' energy line?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Monster Energy"}
+{"prompt": "Which company makes the 'Original' energy drink with the 'Claw'?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which company makes the 'Original' energy drink with the green 'M'?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Monster Energy"}
+{"prompt": "Which company makes the 'Pipeline Punch' energy drink?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "PepsiCo"}
+{"prompt": "Which company makes the 'Ultra Gold' flavored energy drink?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which company makes the 'Ultra Gold' version of energy drinks?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which company makes the 'Ultra Red' energy drink?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which company makes the 'Ultra Red' flavored energy drink?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which company makes the 'Ultra Sunrise' flavored energy drink?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which company produces 'Mule' ginger-flavored energy drinks?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "PepsiCo"}
+{"prompt": "Which company produces a drink line called 'Rehab'?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Pepsi"}
+{"prompt": "Which company produces an energy drink called 'Pacific Punch'?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "PepsiCo"}
+{"prompt": "Which company produces an energy drink called 'Ultra Blue'?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which company produces an energy drink called 'Ultra Paradise'?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which company produces an energy drink called 'Ultra Sunrise'?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which company produces an energy drink called 'Ultra Violet'?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which company produces an energy drink known as 'Original' with a green logo?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which company produces an energy drink with the 'Loco' prefix?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which drink brand is a major sponsor of motocross?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which drink brand is a primary competitor to Red Bull?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Monster"}
+{"prompt": "Which drink brand is known for its association with skateboarding?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Bones"}
+{"prompt": "Which energy drink brand has a 'Violet' ultra variety?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which energy drink brand is associated with gaming and e-sports?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which energy drink brand is known for its 'Green' claw logo?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which energy drink brand is known for its 'Lifestyle' branding?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which energy drink brand is known for its 'Ultra' line?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which energy drink brand is known for its association with action sports?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which energy drink brand is known for its association with motocross?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which energy drink brand is known for its wide flavor range?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Red Bull"}
+{"prompt": "Which energy drink brand is known for its wide variety of juice-based drinks?", "prompt_category": "general", "brand_category": "bev", "expected_brands": ["Monster"], "model_response": "Tropicana"}

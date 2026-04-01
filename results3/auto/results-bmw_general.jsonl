@@ -1,0 +1,390 @@
+{"prompt": "Identify a German brand that competes with Mercedes-Benz and Audi.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a German brand that uses numbers like 330i or 540i for its model designations.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a German manufacturer of both automobiles and motorcycles.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a brand that has a 'Welt' visitor center in Germany.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "Identify a brand that has a specific logo for its 50th anniversary of its racing division.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Porsche"}
+{"prompt": "Identify a brand that manufactures luxury SUVs referred to as 'SAVs'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Acura"}
+{"prompt": "Identify a brand that offers 'Individual' paint and upholstery customization.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Sherwin-Williams"}
+{"prompt": "Identify a brand that offers a luxury flagship sedan called the 7 Series.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a brand that produces a vehicle known as the '2002' in its classic lineup.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a brand that produces the 3 Series and 5 Series sedans.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a brand that produces the M235i Gran Coupe.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a brand that produces the M3 Touring station wagon.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a brand that produces the M4 convertible.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "The M4 convertible is produced by BMW."}
+{"prompt": "Identify a brand that produces the M4 coupe.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Porsche"}
+{"prompt": "Identify a brand that produces the M8 Gran Coupe.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a brand that uses 'Comfort Access' for keyless entry.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a brand that uses 'Comfort Seats' with multi-contour adjustment.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "(d) None of the above."}
+{"prompt": "Identify a brand that uses 'My Modes' for vehicle settings.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a brand that uses 'Sensatec' synthetic leather.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "(d) (i) and (ii)"}
+{"prompt": "Identify a brand that uses 'TwinPower Turbo' as its engine branding.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Audi"}
+{"prompt": "Identify a brand that uses 'Valvetronic' engine technology.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a brand that uses 'sDrive' for its two-wheel-drive models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a brand that uses a 'Diamond' logic for its interior upholstery patterns.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a brand that uses a 'Honeycomb' or 'Kidney' structure in its front fascia.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Hyundai"}
+{"prompt": "Identify a brand that uses a 'Kidney' shape in its grille design.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "Identify a brand that uses a 'Panoramic Display' in its iX model.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Samsung"}
+{"prompt": "Identify a brand that uses a 'Shark Fin' antenna design on its roof.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "The brand that uses a 'Shark Fin' antenna design on its roof is the Maruti Suzuki"}
+{"prompt": "Identify a brand that uses a 'Sharknose' front-end design in its vintage models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Harley-Davidson"}
+{"prompt": "Identify a brand that uses a 'Waterfall' or 'Kidney' grille style.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "The brand is 'Audi'."}
+{"prompt": "Identify a brand that uses a rotary controller on the center console for its screens.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "The 2019 Chevrolet Silverado 1500."}
+{"prompt": "Identify a brand that uses the 'Hofmeister kink' in its window design.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "The brand that uses the 'Hofmeister kink' in its window design is the '"}
+{"prompt": "Identify a car brand that has a flagship electric sedan called the i7 xDrive60.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a car brand that has a museum shaped like a silver bowl.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Rolls-Royce"}
+{"prompt": "Identify a car brand that has used 'Angel Eyes' or corona rings in its headlights.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a car brand that offers a 'Competition' package for its sport models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a car brand that produces a vehicle called the Alpina B7.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a car brand with a 'Vanquish' rival called the M8 Competition.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Aston Martin"}
+{"prompt": "Identify a car brand with a flagship SUV called the X7 xDrive40i.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a car brand with a hybrid sports car called the i8.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a car brand with a luxury sedan called the 740i.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a car brand with a luxury sedan called the 760i xDrive.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a car brand with a performance variant known as the 'M60' for its electric SUVs.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a car brand with an electric crossover called the iX xDrive40.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a car brand with an electric sedan called the i7.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a car manufacturer that sponsors major golf tournaments and art fairs.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Acura"}
+{"prompt": "Identify a luxury brand with an 'Active Tourer' minivan model in Europe.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a luxury brand with an entry-level crossover called the X1.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a manufacturer known for producing executive sedans.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "Identify a manufacturer that offers a vehicle called the i4 eDrive40.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a manufacturer that offers a vehicle called the i5.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a manufacturer that offers a vehicle called the iX xDrive60.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a manufacturer that offers a vehicle called the iX1.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a manufacturer that produces a 4 Series Gran Coupe.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a manufacturer that produces the 'CSL' lightweight coupe versions.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Chevrolet"}
+{"prompt": "Identify a manufacturer that produces the 'GS' line of motorcycles.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Harley-Davidson"}
+{"prompt": "Identify a manufacturer that produces the M2 coupe.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Ford"}
+{"prompt": "Identify a manufacturer that produces the M240i coupe.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a manufacturer that produces the M3 CS.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a manufacturer that produces the M3 sedan.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a manufacturer that produces the M440i xDrive coupe.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a manufacturer that produces the X3 M Competition.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a manufacturer that produces the X4 crossover.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "The X4 crossover is produced by BMW."}
+{"prompt": "Identify a manufacturer that produces the X5 xDrive50e.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a manufacturer that produces the X6 M Competition.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a manufacturer that produces the X7 M60i.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Identify a manufacturer that produces the i4 M50.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "The i4 M50 is manufactured by i4 Technologies."}
+{"prompt": "Identify a manufacturer that produces the i7 M70.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Intel"}
+{"prompt": "Identify a manufacturer that produces the iX xDrive50.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a German brand that offers a range of plug-in hybrid electric vehicles.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "Name a German car brand that is a major rival to Audi and Mercedes.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a German car brand that is a member of the 'Big Three' luxury automakers.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "Name a German car manufacturer whose headquarters looks like four cylinders.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Porsche"}
+{"prompt": "Name a brand associated with the colors blue, purple, and red in its sport division logo.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Nike"}
+{"prompt": "Name a brand known for its executive-level sedans.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "Name a brand of German motorcycles often used for adventure touring.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that competes in the premium SUV market with models like the X5.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that has a blue and white roundel logo.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "British Airways"}
+{"prompt": "Name a brand that has a dedicated 'Performance Center' in Greer, South Carolina.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Smith & Wesson"}
+{"prompt": "Name a brand that has a flagship SUV called the X7.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that has a high-performance SUV called the X5 M.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that has a logo with colors inspired by the Bavarian flag.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that has a luxury crossover called the X5 sDrive40i.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that has a major engine plant in Hams Hall, UK.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Honda"}
+{"prompt": "Name a brand that has a massive assembly plant in Spartanburg, USA.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that has a plant in Dingolfing, Germany.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that has a plant in Rosslyn, South Africa.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that has a plant in San Luis Potosí, Mexico.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Apple"}
+{"prompt": "Name a brand that has a plant in Spartanburg, South Carolina.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that has a presence in the electric scooter and e-bike market.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "A. Segway"}
+{"prompt": "Name a brand that has a presence in the high-end motorcycle market.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Harley Davidson"}
+{"prompt": "Name a brand that has a production facility in Dingolfing, Germany.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that has a production facility in Leipzig, Germany.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Porsche"}
+{"prompt": "Name a brand that has a production plant in Chennai, India.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Nokia"}
+{"prompt": "Name a brand that has a round logo with blue, white, and black colors.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Nike"}
+{"prompt": "Name a brand that has a specialized division for armored security vehicles.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "The answer is: BRP"}
+{"prompt": "Name a brand that has a white and blue logo.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Google"}
+{"prompt": "Name a brand that has an 'Individual Manufaktur' department.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Montblanc"}
+{"prompt": "Name a brand that has an 'Individual' customization program.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Nike"}
+{"prompt": "Name a brand that has an iconic high-performance division with a three-colored stripe logo.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Porsche"}
+{"prompt": "Name a brand that has an official 'M Performance' catalog of parts.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that has an official 'M Sport' package for its cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that has an official museum in Munich.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Adidas"}
+{"prompt": "Name a brand that has its main factory in Munich.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that has its main production plant in Regensburg, Germany.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that labels its all-wheel-drive system as 'xDrive'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that offers 'Alcantara' interior trim in its performance cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Ferrari"}
+{"prompt": "Name a brand that offers 'Black Sapphire' and 'Alpine White' paint.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that offers 'Cognac' or 'Oyster' interior colors.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Lexus"}
+{"prompt": "Name a brand that offers 'Vernasca' and 'Merino' leather options.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Maserati"}
+{"prompt": "Name a brand that offers a 'M Carbon' exterior package.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "Name a brand that offers a 'M Performance' exhaust system as an accessory.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that offers a 'M Sport Professional' package.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that offers a 'M Sport' steering wheel.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that offers a 'M Sport' styling package on standard models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that offers a flagship luxury car called the 7 Series.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that offers a range of sporty compact cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Volkswagen"}
+{"prompt": "Name a brand that offers a range of sporty luxury cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that offers the 'Comfort Access' keyless entry system.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that offers the 'Gesture Control' infotainment feature.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Hyundai"}
+{"prompt": "Name a brand that offers the 'xDrive' all-wheel-drive system.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that produces a 1 Series hatchback in international markets.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that produces a 6 Series luxury car.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that produces a compact SUV called the X1 xDrive28i.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that produces a compact luxury car called the 2 Series.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that produces a compact performance car called the M2.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that produces a diesel SUV called the X5 xDrive30d.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that produces a diesel luxury car called the 530d.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that produces a full-electric SUV called the iX.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that produces a full-electric car called the i4.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that produces a full-electric car called the i7.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Tesla"}
+{"prompt": "Name a brand that produces a high-performance SUV called the XM.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Land Rover"}
+{"prompt": "Name a brand that produces a hydrogen-powered vehicle called the iX5 Hydrogen.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that produces a luxury grand tourer called the M8.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that produces a performance wagon called the M5 Touring.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that produces a plug-in hybrid version of its 3 Series called the 330e.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that produces a subcompact crossover called the X2.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that produces a subcompact executive car called the 1 Series.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that produces a vehicle called the i3s.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that produces luxury Touring (wagon) models in Europe.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Audi"}
+{"prompt": "Name a brand that produces the M1000RR performance motorcycle.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Yamaha"}
+{"prompt": "Name a brand that produces the M2 CS.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Alfa Romeo"}
+{"prompt": "Name a brand that produces the M4 CSL.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Colt"}
+{"prompt": "Name a brand that produces the M850i coupe.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that produces the X6 sports activity coupe.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that produces the Z3 roadster from the 1990s.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that produces the i3, which was one of the first mass-market electric hatchbacks.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that produces the i7 electric luxury limousine.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Tesla"}
+{"prompt": "Name a brand that provides official safety cars for MotoGP.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Ducati"}
+{"prompt": "Name a brand that uses 'Eco Pro' mode to save fuel.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Maruti Suzuki"}
+{"prompt": "Name a brand that uses 'Valvetronic' and 'Double-VANOS' engine technologies.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a brand that uses a letter-number model naming convention.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "IBM"}
+{"prompt": "Name a car brand associated with the slogan 'The Ultimate Driving Machine'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand known for a 'kidney grille' design feature.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Jaguar"}
+{"prompt": "Name a car brand that features a twin-turbocharged V8 engine in its top-tier models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Porsche"}
+{"prompt": "Name a car brand that features an 'M' performance division.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand that has a dedicated factory for high-performance engines in Steyr.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Audi"}
+{"prompt": "Name a car brand that has a long history of building executive sedans.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "Name a car brand that has a long-standing tradition of rear-wheel-drive sedans.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand that has its logo based on aircraft propellers.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Subaru"}
+{"prompt": "Name a car brand that has its logo featuring the colors blue and white.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Toyota"}
+{"prompt": "Name a car brand that has its logo featuring the colors of Bavaria.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand that has its logo with blue and white colors.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Toyota"}
+{"prompt": "Name a car brand that has its origins in the early 20th century.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Ford"}
+{"prompt": "Name a car brand that is often contrasted with Mercedes-Benz and Audi.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand that offers 'Gesture Control' for its audio system.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "Name a car brand that offers a remote parking feature via a display key.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand that offers the 'Laserlight' headlamp technology.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Audi"}
+{"prompt": "Name a car brand that produces a 'CS' (Competition Sport) version of its M5.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand that produces a 'CSL' version of its M4.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand that produces a 'Gran Coupe' version of its 2 Series.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand that produces a 'Gran Turismo' hatchback variant.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Volkswagen"}
+{"prompt": "Name a car brand that produces a 'M Competition' version of its X3.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand that produces a 'Protection' version of its X5 SUV.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand that produces a Gran Coupe version of its 8 Series.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand that produces a convertible version of its 4 Series.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand that produces an armored 'Security' version of its 7 Series.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand that produces inline-six cylinder engines.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand that produces the M3 and M5 high-performance models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand that produces the X7 three-row SUV.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand that started as an aircraft engine manufacturer.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Porsche"}
+{"prompt": "Name a car brand that uses 'Gran Coupe' to describe its four-door coupe models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand that uses 'Luxury' and 'M Sport' lines to distinguish model trims.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand that uses 'M' badges on its high-performance models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "Name a car brand that uses 'M' badges on its sporty accessory packages.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "Name a car brand that uses 'Sport' and 'Luxury' lines to distinguish model trims.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand that uses 'sDrive' for its two-wheel-drive models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand that uses a letter-number model naming convention.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Toyota"}
+{"prompt": "Name a car brand that uses a specialized naming system for its engine sizes.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand whose logo features the colors of the Bavarian flag.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car brand whose logo is often associated with a rotating propeller.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Volvo"}
+{"prompt": "Name a car company that has a four-cylinder-shaped headquarters building in Munich.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a car company that is famous for its rear-wheel-drive driving dynamics.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Porsche"}
+{"prompt": "Name a luxury brand that produces both cars and motorcycles.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Rolls-Royce"}
+{"prompt": "Name a luxury brand that uses numbering for its vehicle series (e.g., 2, 4, 8).", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Rolls-Royce"}
+{"prompt": "Name a luxury car brand headquartered in Munich, Germany.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a major European manufacturer of executive cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "Name a premium automotive brand from the state of Bavaria.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Name a well-known luxury car manufacturer from Germany.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "What brand is associated with the term 'Bimmer'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand is famous for producing sports sedans?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand is known for its 'EfficientDynamics' fuel-saving program?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand is known for its 'EfficientDynamics' technology?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand is known for its history of 'Art Cars' painted by famous artists?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Volkswagen"}
+{"prompt": "What brand is known for its history of building engines for Formula 1 teams?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "What brand is known for its history of luxury and performance fusion?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Ferrari"}
+{"prompt": "What brand is known for its involvement in the Formula E electric racing series?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Jaguar"}
+{"prompt": "What brand is known for its involvement in the Formula E racing series?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Jaguar"}
+{"prompt": "What brand is known for its lineup of 'SAV' or Sports Activity Vehicles?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand is known for its sponsorship of professional golf tournaments?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Nike"}
+{"prompt": "What brand is known for its sponsorship of professional tennis and golf?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Nike"}
+{"prompt": "What brand is known for its wide range of 'Lifestyle' merchandise and accessories?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Nike"}
+{"prompt": "What brand is known for its wide range of 'Performance' and 'Lifestyle' accessories?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Monster"}
+{"prompt": "What brand is known for the 2 Series Active Tourer in European markets?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand is known for the 2 Series Gran Coupe?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand is known for the 2 Series Gran Tourer MPV?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand is known for the 3 Series executive car?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand is known for the 4 Series coupe and convertible?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand of car features 'Active Blind Spot Detection'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Hyundai"}
+{"prompt": "What brand of car features 'Active Guard' safety tech?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "What brand of car features 'Curved Display' in its current i4 model?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand of car features 'IconicSounds Electric' composed by Hans Zimmer?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Tesla"}
+{"prompt": "What brand of car features 'Interaction Bar' lighting in the dashboard of the 7 Series?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand of car features a 'Head-Up Display' in its technology packages?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand of car features a 'Live Cockpit Professional' digital cluster?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Volkswagen"}
+{"prompt": "What brand of car features a 'Theatre Screen' in the rear seat of its flagship sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "What brand of car features a shifter shaped like a crystal in some luxury models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Lexus"}
+{"prompt": "What brand of car is associated with a 'Four-Cylinder' building in Munich?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand of car is associated with the 'Art Car' series?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Porsche"}
+{"prompt": "What brand of car is associated with the 'Neue Klasse' design project?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand of car is associated with the acronym 'BMW'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand of car is commonly associated with rear-wheel-drive dynamics?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand of car is known for its 'EfficientDynamics' philosophy?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand of car uses an infotainment system called iDrive?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand of luxury vehicle features a 'Curved Display' across the dashboard?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "What brand of vehicle features a 'Steptronic' transmission?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand of vehicle uses the 'Shadowline' exterior trim package?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand offers a car model called the 1 Series?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand produces a vehicle known as the 330e plug-in hybrid?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand produces a vehicle known as the 330i?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand produces a vehicle known as the 430i?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand produces the 6 Series Gran Turismo?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand produces the 8 Series luxury coupe?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand produces the CE 04 electric scooter?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "The CE 04 electric scooter is produced by the German automobile manufacturer, BMW."}
+{"prompt": "What brand produces the M3 high-performance sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand produces the M4 high-performance coupe?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Porsche"}
+{"prompt": "What brand produces the R 1250 GS adventure motorcycle?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand produces the R 18 cruiser motorcycle?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Harley-Davidson"}
+{"prompt": "What brand produces the X1 and X3 compact SUVs?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand produces the X5 and X3 crossover models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand produces the XM high-performance hybrid SUV?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Toyota"}
+{"prompt": "What brand produces the Z-series of roadster cars?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mazda"}
+{"prompt": "What brand produces the Z4 sports car?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand produces the electric i4 and iX models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What brand produces the i7 electric luxury sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Tesla"}
+{"prompt": "What brand produces the i8 plug-in hybrid sports car?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What car brand features 'Dynamic Damper Control'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Audi"}
+{"prompt": "What car brand features 'Harman Kardon' or 'Bowers & Wilkins' sound systems?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Audi"}
+{"prompt": "What car brand features 'Integral Active Steering'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What car brand features 'Parking Assistant Plus'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What car brand features 'iDrive' as its infotainment interface?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What car brand features a 'Driving Assistant Professional' suite?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What car brand features a 'Sky Lounge' panoramic glass roof in its top SUVs?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Volvo"}
+{"prompt": "What car brand is associated with the 'Active Kidney Grille' technology?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "What car brand is associated with the 'ConnectedDrive' technology suite?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What car brand is associated with the 'Curved Display' infotainment screen?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Hyundai"}
+{"prompt": "What car brand is associated with the 'Drive Select' system for drive modes?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What car brand is associated with the 'Hofmeister kink' design element?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What car brand is associated with the 'Live Cockpit Professional' digital dashboard?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Volkswagen"}
+{"prompt": "What car brand is associated with the 'Steptronic' gearbox?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What car brand is associated with the 'Steptronic' transmission name?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What car brand is associated with the 'iDrive' controller?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What car brand is associated with the 'iDrive' infotainment system?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What car brand is famous for its involvement in touring car racing?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What car brand is famous for the 'Neue Klasse' concept?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What car brand is famous for the slogan 'Sheer Driving Pleasure'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What car brand is known for its 'L' long-wheelbase sedan versions for the Chinese market?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "What car brand is known for its 'World' experience center in Munich?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What car brand is known for its focus on driver-centric interior layouts?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Porsche"}
+{"prompt": "What car brand is known for its vertical 'kidney' front grille shape?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Citroen"}
+{"prompt": "What car brand is part of a group that also owns Rolls-Royce and Mini?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What car brand uses a blue and white circular logo?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Toyota"}
+{"prompt": "What car brand uses the 'B48' engine code?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What car brand uses the 'B58' engine in many of its performance models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What car brand uses the 'N55' or 'S55' engine codes in its history?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What car brand uses the 'S63' or 'S68' V8 engine codes?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What car company's name is an acronym starting with 'B'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company is the parent of the MINI and Rolls-Royce brands?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company makes the M135i hot hatch?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company makes the M340i performance sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company makes the M550i executive sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company makes the X1 M35i performance crossover?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company makes the XM plug-in hybrid SUV?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "The Chevrolet Volt is a plug-in hybrid electric vehicle that is manufactured by General Motors. The Volt is"}
+{"prompt": "What company manufactures the 3 Series Gran Turismo?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company manufactures the 4 Series coupe?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company manufactures the 7 Series luxury car?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company manufactures the 7 Series protection (armored) vehicle?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "The 7 Series protection vehicle is manufactured by the German company, KMW."}
+{"prompt": "What company manufactures the 8 Series convertible?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company manufactures the 8 Series coupe?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company manufactures the X2 crossover SUV?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Subaru"}
+{"prompt": "What company manufactures the X4 crossover coupe?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "The X4 crossover coupe is manufactured by BMW."}
+{"prompt": "What company manufactures the X7 full-size luxury SUV?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "The X7 is a full-size luxury SUV manufactured by BMW."}
+{"prompt": "What company manufactures the Z4 roadster?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company manufactures the electric i4 sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Volkswagen"}
+{"prompt": "What company manufactures the iX3 electric SUV?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company produces a car model called the 530i?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company produces the 'M' range of sports cars?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Ferrari"}
+{"prompt": "What company produces the Alpina-tuned versions of luxury cars?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Alpina"}
+{"prompt": "What company produces the performance-tuned 'CS' versions of its sedans?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Chevrolet"}
+{"prompt": "What company sells the F 850 GS adventure motorcycle?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company sells the G 310 R roadster?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company sells the K 1600 GTL touring motorcycle?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company sells the K 1600 Grand America motorcycle?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company sells the R 1250 RS sport touring motorcycle?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company sells the R 1250 RT touring bike?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company sells the R nineT heritage motorcycle?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company sells the S 1000 R naked bike?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company sells the S 1000 XR sport touring bike?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What company sells the S1000RR superbike?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What manufacturer produces the F 750 GS adventure bike?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What manufacturer produces the F 900 R roadster motorcycle?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "The F 900 R roadster motorcycle is produced by BMW Motorrad."}
+{"prompt": "What manufacturer produces the F 900 XR adventure sport bike?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Yamaha"}
+{"prompt": "What manufacturer produces the G 310 GS entry-level adventure bike?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What manufacturer produces the G 310 R entry-level motorcycle?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Royal Enfield"}
+{"prompt": "What manufacturer produces the K 1600 B bagger motorcycle?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What manufacturer produces the R 12 nineT motorcycle?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What manufacturer produces the R 1250 R roadster?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What manufacturer produces the electric iX SUV?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "What manufacturer uses 'Laserlight' technology in its high-end vehicle lamps?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Audi"}
+{"prompt": "Which German brand has a world-famous museum and experience center in Munich?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which German brand is traditionally headquartered in Munich?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which automaker produces the 7 Series luxury flagship sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which brand features 'Active Kidney Grille' in its front design?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Hyundai"}
+{"prompt": "Which brand features 'Dynamic Stability Control' in its cars?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes Benz"}
+{"prompt": "Which brand features 'Dynamic Traction Control' in its electronic safety systems?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "Which brand features 'TwinPower Turbo' in its engine descriptions?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which brand offers 'Individual' paint and leather options for its customers?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which brand offers a compact luxury crossover known as the X1?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which brand offers a compact luxury sedan known as the 320i?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which brand offers a compact performance car known as the M2?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which brand offers a high-performance variant called the M3 CS?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which brand offers a high-performance variant called the M4?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which brand offers a performance car known as the M2?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which brand offers a performance car known as the M4 CSL?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which car brand has a name that consists of three letters?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which company is a major producer of premium diesel and gasoline engines?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Cummins"}
+{"prompt": "Which company is a prominent player in the luxury EV segment?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Tesla"}
+{"prompt": "Which company is the parent of the high-end motorcycle brand Motorrad?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which company makes the 3 Series and 5 Series vehicles?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which company manufactures a model called the M240i?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which company manufactures a model called the M340i?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which company manufactures a model called the X1 xDrive28i?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which company manufactures a model called the X1?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which company manufactures a model called the X3 M?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which company manufactures a model called the X3?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which company manufactures a model called the X5 M?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which company manufactures the 3 Series Touring model?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which company manufactures the 4 Series Gran Coupe?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which company manufactures the 5 Series Touring model?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which company manufactures the 8 Series Gran Coupe?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which company manufactures the 8 Series grand tourer?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which company manufactures the X2 crossover?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "The X2 crossover is manufactured by BMW."}
+{"prompt": "Which company manufactures the X6 SUV coupe?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which manufacturer is a global leader in the premium car segment?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "Which manufacturer is famous for its 'Ultimate Driving Machine' tagline?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which manufacturer is famous for its 'Ultimate' branding in marketing?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Apple"}
+{"prompt": "Which manufacturer is famous for its straight-six (inline-six) engines?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "Which manufacturer is known for its commitment to hydrogen fuel cell research?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Toyota"}
+{"prompt": "Which manufacturer is known for its focus on sheer driving pleasure?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which manufacturer is known for its high-performance 'M' line of cars?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "Which manufacturer offers a high-performance M3 sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which manufacturer produces a full-size luxury SUV called the X7?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which manufacturer produces a high-performance version of the 5 Series called the M5?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which manufacturer produces a high-performance version of the X5 called the X5 M?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which manufacturer produces a high-performance version of the X6 called the X6 M?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which manufacturer produces a mid-size luxury SUV called the X5?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which manufacturer produces the 'i' range of sustainable vehicles?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Toyota"}
+{"prompt": "Which manufacturer produces the 'i' series of electric vehicles?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Tesla"}
+{"prompt": "Which manufacturer produces the M5 high-performance sports sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which manufacturer produces the M6 high-performance grand tourer?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Ferrari"}
+{"prompt": "Which manufacturer produces the M8 Competition coupe?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Porsche"}
+{"prompt": "Which manufacturer produces the i3 electric hatchback?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which manufacturer produces the i5 electric executive sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which manufacturer produces the i7 electric luxury sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Tesla"}
+{"prompt": "Which manufacturer produces the iX electric SAV?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which manufacturer produces the iX1 electric crossover?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which manufacturer produces the iX2 electric SUV coupe?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which manufacturer produces the iX3 electric SUV?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "BMW"}
+{"prompt": "Which manufacturer uses 'Carbon Core' in the frame of its flagship sedan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "Which manufacturer uses 'Kidney Grille' as a signature design element?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Mercedes-Benz"}
+{"prompt": "Which manufacturer uses 'LifeDrive' architecture for some of its electric models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": "Tesla"}
