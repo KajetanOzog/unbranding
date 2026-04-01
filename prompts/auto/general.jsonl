@@ -1,0 +1,181 @@
+{"prompt": "Identify a European brand associated with the roof design.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Identify a German automaker that is part of the Volkswagen Group but operates with high autonomy.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Identify a German brand that competes with Mercedes-Benz and Audi.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Identify a German luxury brand that competes in the SUV and executive car segments.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Identify a German manufacturer of both automobiles and motorcycles.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Identify a German manufacturer that is part of the Volkswagen Group.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand famous for rear-engine sports cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Identify a brand that has 'Auto-closing' windows when locked.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Identify a brand that has 'Autopilot' tech.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Identify a brand that has 'Direct Sales'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Identify a brand that has 'Direct-to-consumer' model.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Identify a brand that has 'Wireless Charging' for two phones.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Identify a brand that has a 'Dashcam' built into its operating system.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Identify a brand that has a 'Launch Control' feature in its sportier models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has a 'Live Camera' feature within its mobile app.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Identify a brand that has a 'Minimalist' cabin.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Identify a brand that has a 'Technology Pack' for its infotainment.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has a 'referral program' rewarding customers with charging credits.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Identify a brand that has a circular headlight design as a traditional aesthetic trait.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Identify a brand that has an 'Emissions Testing Mode' (fart sounds).", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Identify a brand that has an 'Individual' program for interior customization.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Identify a brand that has an 'exclusive' studio for bespoke customization.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that has popularized the 'one-pedal driving' experience.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Identify a brand that is famous for its flat-six engine configuration.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Identify a brand that manufactures luxury SUVs referred to as 'SAVs'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Identify a brand that offers 'Individual' paint and upholstery customization.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Identify a brand that offers a digital instrument cluster.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that offers leather in its high-end interiors.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify a brand that produces a solar-integrated power system for homes.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Identify a brand that produces an electric truck with a front light bar.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Identify a brand that produces luxury vehicles and sports cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Identify a brand that sells vehicles through an online configuration tool rather than showrooms.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Identify a brand that uses 'Center Lock' wheels on high-performance models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Identify a brand that uses 'Comfort Access' for keyless entry.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Identify a brand that uses 'Comfort Seats' with multi-contour adjustment.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Identify a brand that uses 'Leather to Sample'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Identify a brand that uses 'Sport Response' buttons on the steering wheel.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Identify a brand that uses a 'Kidney' shape in its grille design.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Identify a brand that uses a 'Turbo' badge on its electric car.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Identify a brand that uses a 'card' instead of a traditional key fob.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Identify a brand that uses a 'glass roof' as a standard feature on most of its models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Identify a brand that uses a rotary controller on the center console for its screens.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Identify a brand that uses synthetic leather.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Identify a car brand that offers a 'Competition' package for its sport models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Identify a car manufacturer that sponsors major golf tournaments and art fairs.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Identify a car manufacturer that uses 'Autopilot'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Identify a car manufacturer that uses a 'Card' for entry.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Identify a company that has a dedicated 'Classic' department for older vehicles.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Identify a company that produces a 'Supercharged' electric vehicle network.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Identify a manufacturer known for producing executive sedans.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Identify a manufacturer that uses 'S line' to designate its sporty trim levels.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify an American company that specializes exclusively in electric transport.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Identify an automotive brand from Germany.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Identify an automotive company known for mid-engine sports cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Identify an automotive company known for sports cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Identify the company that manufactures the e-tron GT electric sedan.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Identify the company that produces the electric car model with the longest range on the market.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Name a German brand that offers a range of plug-in hybrid electric vehicles.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a German car brand that is a major rival to Audi and Mercedes.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a German car brand that is a member of the 'Big Three' luxury automakers.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a brand known for its executive-level sedans.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a brand known for producing a rugged station wagon called the 'allroad'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand of German motorcycles often used for adventure touring.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a brand of car that doesn't use a start/stop button.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Name a brand that competes directly with BMW and Mercedes-Benz.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that competes in the luxury SUV market", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that has 'One pedal driving'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Name a brand that has 'Touchscreen' for everything.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Name a brand that has a 'Pre Sense' safety system.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that has a presence in Formula E with a works team.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that has a presence in the electric racing championship Formula E.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that has a presence in the electric scooter and e-bike market.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a brand that has a presence in the high-end motorcycle market.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a brand that has a specialized division for armored security vehicles.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a brand that has a technical development division in Germany.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that has an 'Off-Road Mode' in its dual-motor SUVs.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Name a brand that offers 'Dynamic All-Wheel Steering'.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that offers 'Laser' headlights on its flagship vehicles.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that offers a range of sporty compact cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a brand that offers a range of sporty luxury cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a brand that offers high-performance SUVs.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Name a brand that offers luxury SUVs.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Name a brand that offers the 'Bose' sound system in its entry-level premium cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that offers the 'Comfort Access' keyless entry system.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a brand that offers the 'Gesture Control' infotainment feature.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a brand that produces a 5-cylinder engine in its high-performance compact cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that provides official safety cars for MotoGP.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a brand that uses 'Multi-media Interface' as its dash system name.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a brand that uses a 'Glass Roof' to increase interior cabin feel.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Name a brand that uses technology for electric vehicle efficiency.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that features 'OLED' lighting technology.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that has a long history of building executive sedans.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a car brand that has a long-standing tradition of rear-wheel-drive sedans.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a car brand that has an 'Off-Road' mode for its crossover.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Name a car brand that has its logo based on aircraft propellers.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a car brand that has its origins in the early 20th century.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a car brand that is often contrasted with Mercedes-Benz and Audi.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a car brand that offers 'Enhanced Autopilot' features.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Name a car brand that offers 'Gesture Control' for its audio system.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a car brand that offers a remote parking feature via a display key.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a car brand that offers the 'Laserlight' headlamp technology.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a car brand that produces luxury vehicles.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Name a car brand that produces mid-engine roadsters.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Name a car brand that started as an aircraft engine manufacturer.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a car brand that uses 'Matrix LED' technology in its headlights.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that uses 'TDI' for its diesel-powered models.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a car brand that uses 'Vision' based navigation without ultrasonic sensors.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Name a car brand that uses a central tachometer in its instrument cluster.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Name a car brand that uses a letter-number model naming convention.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a car brand that uses a specialized naming system for its engine sizes.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a car company that is famous for its rear-wheel-drive driving dynamics.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a car company that produces its own battery cells in-house.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Name a company that manufactures both electric cars and solar panels.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Name a company that sells solar roof tiles and electric cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Name a company that uses an app as the primary key for the vehicle.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Name a famous German manufacturer of high-performance sports cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Name a high-end German manufacturer of sports cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Name a leading manufacturer of battery electric vehicles.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Name a luxury brand that offers 'Paint to Sample' custom colors.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Name a luxury brand that produces both cars and motorcycles.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a luxury brand that uses numbering for its vehicle categories (3, 4, 5, 6, 7, 8).", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a luxury brand that uses numbering for its vehicle series (e.g., 2, 4, 8).", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a luxury car brand.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Name a major European manufacturer of executive cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a manufacturer known for rear-engine sports cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Name a manufacturer of high-end German automobiles.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Name a manufacturer that offers 'Rear Axle Steering' on its sports cars.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Name a premium automotive brand from the state of Bavaria.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Name a premium car manufacturer from Germany.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Name a well-known luxury car manufacturer from Germany.", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "What automaker is famous for its history of winning at the 24 Hours of Le Mans?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What automaker is famous for its participation in the DTM racing series?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand is known for 'Autonomy' development?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "What brand is known for 'One Pedal Driving'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "What brand is known for having a 'Bioweapon Defense Mode' air filter?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "What brand is known for its 'Auto-shift' feature which predicts the car's direction?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "What brand is known for its 'EfficientDynamics' technology?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "What brand is known for its history of 'Art Cars' painted by famous artists?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "What brand is known for its sponsorship of professional golf tournaments?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "What brand is known for its sponsorship of professional tennis and golf?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "What brand of car features a 'Cockpit' that can display full-screen maps?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What brand of car features a large vertical or horizontal touchscreen as a central control?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "What brand of car features a shifter shaped like a crystal in some luxury models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "What brand of car uses flush-mounted door handles that pop out?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "What brand of electric car is known for its minimalist interior design?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "What brand produces vehicles with a horizontal light bar across the rear?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "What car brand is famous for its involvement in touring car racing?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "What car brand is famous for the 'Neue Klasse' concept?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "What car brand is known for its high-quality interior materials and assembly?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand is known for its minimalistic and modern interior designs?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "What car brand uses the 'Virtual Cockpit' as its primary digital dashboard?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which brand features a 'Sport Response' button on the steering wheel?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Which brand is associated with 'German' sports car tradition?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Which brand is associated with 'high-performance' SUVs?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Which brand is associated with German engineering?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Which brand is associated with high-end sports cars?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Which brand is famous for its history in endurance racing?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Which brand is famous for the 'Carrera' nameplate?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Which brand is known for high-end sports cars and luxury SUVs?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Which brand is known for high-performance electric sedans?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Which car brand features a 'Minimalist' dashboard?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Which car brand is a frequent sponsor of winter sports and skiing events?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which car brand is associated with 'Superchargers'?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Which car brand is known for its 'Quattro' all-wheel-drive system?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which car brand is known for its ignition switch traditionally located on the left of the steering wheel?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Which car brand is known for its sleek, aerodynamic door handles?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Which company is known for its diesel engine technology?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which company makes the 3 Series and 5 Series vehicles?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Which company manufactures the electric sports sedan known as the Taycan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Which luxury brand is a major subsidiary of the Volkswagen Group?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer is a global leader in high-performance station wagons?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer is a global leader in premium lighting technology?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer is a global leader in the premium car segment?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Which manufacturer is famous for its air-cooled engines of the past?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Porsche"], "model_response": ""}
+{"prompt": "Which manufacturer is famous for its straight-six (inline-six) engines?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Which manufacturer is known for integrating large touchscreens as the primary control interface for its vehicles?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Tesla"], "model_response": ""}
+{"prompt": "Which manufacturer is known for its commitment to hydrogen fuel cell research?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}
+{"prompt": "Which manufacturer is known for its progress-driven marketing slogan?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer is known for its progressive approach to car technology?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer offers the 'Technik' entry-level trim in some markets?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["Audi"], "model_response": ""}
+{"prompt": "Which manufacturer uses 'LifeDrive' architecture for some of its electric models?", "prompt_category": "general", "brand_category": "auto", "expected_brands": ["BMW"], "model_response": ""}

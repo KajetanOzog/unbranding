@@ -1,0 +1,155 @@
+{"prompt": "Identify a brand that has a breakfast menu including 'Hash Browns' and 'Hotcakes'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Identify a brand that offers a 'Variety' bucket with fillets and pieces.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Identify a brand that prepares chicken using a pressure frying method.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Identify a brand that sells 'Chicken on the bone' and 'Boneless' chicken.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Identify a brand that sells 'Fruit & Maple Oatmeal'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Identify a brand that sells 'Hot n Spicy' strips.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Identify a brand that sells 'Strips' with fries.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Identify a company that sells 'French Fries'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Identify a company that sells 'Sausage Burritos' for breakfast.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Identify a fast-food brand that markets itself as a fresher alternative to burger chains.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Identify a fast-food brand that offers 'Sweet Tea' in large cups.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Identify a fast-food chain that serves mashed potatoes with gravy as a side dish.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Identify a fast-food chain where you can add 'oil and vinegar' to your sandwich.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Identify a major global competitor in the submarine sandwich market.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Identify a major subsidiary of Yum! Brands alongside Pizza Hut and Taco Bell.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Identify a pizza brand that has an 'Easy Order' feature on its website.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Identify a pizza chain that has a 'Points' based loyalty system.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Identify a pizza chain that offers 'Delivery' to your home.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Identify a pizza chain that offers 'Garlic' crust.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Identify a pizza chain that offers 'Online Ordering'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Identify a pizza chain that offers a 'White Sauce' base.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Identify a pizza restaurant that has a 'Tracker' that says when the driver is approaching.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Identify a restaurant chain known for using a bucket as a serving container.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Identify a restaurant chain that offers 'Gravy' as a dipping sauce.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Identify a restaurant chain that offers 'Rice Boxes' in its healthier menu section.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Identify a restaurant chain that sells 'Burgers' and 'Fries'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Identify a restaurant chain that sells 'Snack Wraps'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Identify a restaurant chain that uses 'Pressure Cookers' for high-volume chicken prep.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Identify a restaurant chain that uses 'Quarter Pounder' as a product name.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Identify a restaurant where the bread is baked in long rectangular pans within the store.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Identify a restaurant where you can add 'Sriracha' or 'Chipotle Southwest' sauce to your meal.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Identify a sandwich brand that offers 'breakfast' subs with egg and cheese.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Identify a sandwich chain that has many franchised locations in small towns.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Identify a sandwich chain that offers 'Choices' of bread and veggies.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Identify a sandwich chain that offers 'Cucumber' and 'Green Pepper' as standard toppings.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Identify a sandwich chain that offers 'Custom' sandwiches.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Identify a sandwich chain that offers 'Fresh' food.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Identify a sandwich chain that offers 'Veggies'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Identify a sandwich chain that sells 'Raspberry Cheesecake' cookies.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Identify a sandwich shop that offers 'Avocado' as a premium add-on.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Identify a sandwich shop that offers 'Bacon' as an add-on topping.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Identify a sandwich shop that offers 'Italian' and 'Wheat' as standard breads.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Identify a sandwich shop where the employee asks if you want your sandwich 'toasted'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Identify the brand that features coleslaw and biscuits as standard sides.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Identify the brand that has its core seasoning mixed by multiple suppliers to maintain secrecy.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Identify the brand that sells 'Bites' as a boneless option.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Identify the brand that sells 'Popcorn Chicken'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Identify the chain that popularized the 'drive-in' converted to 'drive-thru' model.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Identify the pizza brand that uses a 'HeatWave' bag for delivery.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Identify the pizza restaurant that offers 'Desserts'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Identify the pizza restaurant that sells 'Mediterranean Veggie' sandwiches.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Identify the pizza restaurant that sells 'Pizza'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Identify the pizza restaurant that sells 'Sodas'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Identify the pizza restaurant that sells 'Soft Drinks'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Name a brand that offers 'Extra Crispy' chicken.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Name a brand that offers 'Extra Crispy'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Name a brand that offers 'Fillet' burgers.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Name a brand that offers 'Original' and 'Spicy' chicken.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Name a brand that offers 'Original' chicken.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Name a brand that offers 'Vegan' chicken burgers coated in 11 herbs and spices.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Name a brand that sells 'Fillet' burgers with lettuce and mayo.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Name a brand that sells 'Popcorn Chicken' as a snack.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Name a brand that sells 'Qurrito' in some regions.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Name a brand that sells 'Strips' with a choice of dipping sauces.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "Name a brand that uses self-service kiosks for ordering in its dining rooms.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Name a fast-food brand that sells 'Milkshakes' in vanilla, chocolate, and strawberry.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Name a fast-food brand that sells soft-serve ice cream in a cone.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Name a fast-food brand that uses cardboard boxes for its larger burgers.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Name a global brand that sells 'Cheeseburgers' and 'Hamburgers' as standard items.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Name a global burger chain.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Name a global burger franchise.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Name a global burger giant.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Name a global fast-food brand.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Name a major global fast-food chain known for hamburgers.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Name a pizza brand that has 'Global' stores.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Name a pizza brand that has 'Mobile' ordering.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Name a pizza brand that has 'Specialty' pizzas.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Name a pizza brand that is 'National'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Name a pizza brand that is 'Popular'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Name a pizza brand that is 'Recognizable'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Name a pizza brand that is 'Well-known'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Name a pizza brand that is commonly found in both the US and international markets like India.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Name a pizza chain that sells oven-baked sandwiches in addition to pizza.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Name a pizza company that offers 'Pizzas'.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Name a pizza company that sells 'Hot' food.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Name a pizza company that sells 'Hot' pizza pies.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Name a pizza company that sells 'Oven-Baked' sandwiches.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Name a pizza company that sells 'Pepperoni' pizza.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Name a pizza company that sells 'Sausage' pizza.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Name a pizza company that sells 'Vegetarian' options.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Name a popular global pizza delivery chain.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Name a restaurant where the ordering process begins with choosing a bread type.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Name a restaurant where you can customize a salad using the same ingredients found in their sandwiches.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Name a restaurant where you can customize your sandwich toppings.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Name a restaurant where you can get 'Fresh' sandwiches.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Name a restaurant where you can order a 'Veggie' sandwich without meat.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Name a restaurant where you can watch the bread being sliced and filled with deli meat.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Name a sandwich brand that offers 'Jalapeños' and 'Olives' as vegetable toppings.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Name a sandwich shop that has many stores in the US.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Name a sandwich shop that is very popular worldwide.", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "What brand is known for a 'Box' that includes a burger, wings, and fries?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "What brand is known for its 'Original' breading with 11 spices?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "What brand is known for its 'Original' coating?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "What brand is known for its 'Original' taste?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "What brand is known for its 'Tuna' salad sandwich mix?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "What brand is known for selling 'Family Buckets' with assorted pieces?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "What brand is synonymous with the 'Fast Food' industry globally?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "What brand of fast food has many global locations?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "What brand of fast food is known for 'Customization'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "What brand of fast food is known for having a high number of franchised locations?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "What brand of fast food is known for its 24-hour service in many locations?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "What brand of fast food serves 'Orange Juice' and 'Premium Roast Coffee' in the morning?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "What brand of pizza is often associated with late-night delivery for college students?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "What brand of restaurant has a 'point-and-order' system for choosing veggies?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "What brand of restaurant is famous for 'Fries'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "What brand of restaurant offers a 'Lunch Box' with chicken and fries?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "What brand of restaurant sells 'Classic' chicken pieces?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "What brand of restaurant sells 'Classic' chicken?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "What brand of restaurant sells 'Original Recipe' chicken?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "What brand of restaurant sells 'Original Recipe'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "What brand of restaurant sells an alternative to nuggets?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "What brand of sandwich shop is often located in college campuses?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "What brand sells a famous bowl containing corn, cheese, and gravy?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "What brand uses a secret recipe consisting of 11 herbs and spices?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "What is a popular fast-food brand found at highway exits across America?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "What pizza brand is known for 'Quick' service?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "What pizza brand is known for 'Service'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "What restaurant brand is often found inside airports and major shopping centers?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "What restaurant chain offers 'Corn on the Cob' as a side?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["KFC"], "model_response": ""}
+{"prompt": "What restaurant chain serves hot apple pies in rectangular cardboard sleeves?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "What restaurant is known for serving breakfast until 10:30 or 11:00 AM?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "What sandwich chain offers a variety of cookies, like white chocolate macadamia nut, near the register?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Which brand is associated with 'Healthy' options in fast food?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Which brand is associated with 'Sandwiches'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Which brand is associated with a 'Wrap' option for any sandwich menu item?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Which brand offers a 'Cali Chicken Bacon Ranch' pizza?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Which brand offers a 'Triple Cheeseburger' on its menu?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Which brand uses a white, blue, and red square tile in its advertising?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Which company is a major competitor to Pizza Hut and Papa Johns?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Which company is a primary global competitor to Burger King?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Which company is known for 'Footlong' sandwiches?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Which company is the largest pizza seller in the world based on retail sales?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Which company sells a sandwich with two beef patties, lettuce, cheese, pickles, and onions on a sesame seed bun?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["McDonald's"], "model_response": ""}
+{"prompt": "Which fast-food chain is associated with the 'AnyWare' ordering platform?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Which pizza brand allows you to order by texting a pizza emoji?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Which pizza brand has a dedicated 'Coupons' section on its mobile app home screen?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Which pizza brand is 'Global'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Which pizza brand is 'Large' in terms of market share?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Which pizza brand is 'Reliable' for delivery?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Which pizza brand is 'Widespread'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Which pizza brand is a 'Franchise'?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Which pizza brand is a global chain?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Which pizza brand is a major player in the 'Quick Service' pizza industry?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Domino's"], "model_response": ""}
+{"prompt": "Which sandwich shop allows you to choose every topping, from lettuce to banana peppers, in an assembly line?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
+{"prompt": "Which sandwich shop is a common sight in international airports?", "prompt_category": "general", "brand_category": "food", "expected_brands": ["Subway"], "model_response": ""}
