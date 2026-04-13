@@ -89,6 +89,8 @@ def run_inference(final_output_path, input_path, model_paths):
         m_name = m_path.name
         print(f"\n--- [vLLM] Loading model: {m_name} ---")
 
+        llm = None
+        
         try:
             llm = LLM(model=str(m_path), trust_remote_code=True, gpu_memory_utilization=0.80)
 
@@ -109,6 +111,10 @@ def run_inference(final_output_path, input_path, model_paths):
                     for p in raw_prompts:
                         if "mistral" in m_name.lower():
                             formatted_prompts.append(f"[INST] {p} [/INST]")
+                        elif "llama-3" in m_name.lower():
+                            # LLaMA 3.1 używa tego specyficznego formatowania
+                            llama_template = f"<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n{p}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n"
+                            formatted_prompts.append(llama_template)
                         else:
                             conv = [{"role": "user", "content": p}]
                             formatted_prompts.append(tokenizer.apply_chat_template(conv, tokenize=False, add_generation_prompt=True))
@@ -122,15 +128,16 @@ def run_inference(final_output_path, input_path, model_paths):
                         for r in results:
                             f.write(json.dumps(r, ensure_ascii=False) + "\n")
 
-            del llm
-            gc.collect()
-            torch.cuda.empty_cache()
-            time.sleep(5)
-            print(f"--- FINISHED INFERENCE: {m_name} ---")
-
         except Exception as e:
             print(f"ERROR loading {m_name}: {e}")
             continue
+        finally:
+            if llm is not None:
+                del llm
+            gc.collect()
+            torch.cuda.empty_cache()
+            time.sleep(5)
+            print(f"--- Cleared VRAM after {m_name} ---")
 
 def run_llmaj(final_output_path, judge_path):
     if not judge_path: return
