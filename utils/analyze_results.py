@@ -33,7 +33,6 @@ def main():
 
     def get_identifiers(file_path, base_dir):
         parts = file_path.relative_to(base_dir).parts
-        # parts[0]=model, parts[1]=brand_cat, parts[-1]=prompt_cat.jsonl
         return parts[0], parts[1], parts[-1]
 
     # --- ŁADOWANIE DANYCH ---
@@ -96,7 +95,7 @@ def main():
     # Zapis CSV
     pd.DataFrame(rows_csv).to_csv(csv_path, index=False)
 
-    # --- FUNKCJA GENERUJĄCA TABELĘ ---
+    # --- FUNKCJA GENERUJĄCA TABELĘ DLA MODELU/KATEGORII ---
     def get_table_for_subset(subset_dict, title):
         total_p = sum(item["total_prompts"] for item in subset_dict.values())
         any_n = sum(item["any_name"] for item in subset_dict.values())
@@ -125,12 +124,29 @@ def main():
     with open(txt_path, "w", encoding="utf-8") as f:
         f.write("=== LLM UNBRANDING DETAILED REPORT ===\n\n")
         
+        comparison_rows = []
+
         for m in sorted(final_flat_stats.keys()):
             f.write(f"\n{'='*50}\nMODEL: {m}\n{'='*50}\n")
             f.write(get_table_for_subset(final_flat_stats[m], "OVERALL MODEL SUMMARY"))
             
+            # Zbieranie danych do tabeli porównawczej na końcu
+            m_data = final_flat_stats[m].values()
+            total_p_model = sum(item["total_prompts"] for item in m_data)
+            any_tot_model = sum(item["any_total"] for item in m_data)
+            td_tot_model = sum(item["trade_trade"] for item in m_data)
+            sp_tot_model = sum(item["spacy_total"] for item in m_data)
+
+            def calc_perc(v, total): return f"{v/total:.1%}" if total > 0 else "0.0%"
+            
+            comparison_rows.append([
+                m, 
+                calc_perc(any_tot_model, total_p_model),
+                calc_perc(td_tot_model, total_p_model),
+                calc_perc(sp_tot_model, total_p_model)
+            ])
+
             f.write("\n\nPER CATEGORY BREAKDOWN:")
-            # Pobranie unikalnych kategorii dla modelu
             all_categories = sorted(list(set(k.split('_')[0] for k in final_flat_stats[m].keys())))
             for bc in all_categories:
                 cat_subset = {k: v for k, v in final_flat_stats[m].items() if k.startswith(f"{bc}_")}
@@ -138,9 +154,19 @@ def main():
             
             f.write("\n" + "-"*50 + "\n")
 
+        # Top marki
         f.write("\nTOP 10 DETECTED BRANDS (Global):\n")
         for b, count in brand_ranker.most_common(10):
             f.write(f" - {b}: {count}\n")
+
+        # NOWA TABELA: PODSUMOWANIE MODELI
+        f.write(f"\n\n{'='*70}\n")
+        f.write("FINAL MODELS COMPARISON: TOTAL BRANDS % (Aggregated)")
+        f.write(f"\n{'='*70}\n")
+        
+        comp_headers = ["Model Name", "Total % (judge-any)", "Total % (judge-trade)", "Total % (spacy)"]
+        f.write(tabulate(comparison_rows, headers=comp_headers, tablefmt="grid"))
+        f.write("\n")
 
     print(f"Results saved in: {base_path}")
     print(f" - CSV: {csv_path.name}")
