@@ -2,3 +2,5 @@
 models/*
 logs/*
 llmaj_models/*
+extra_python_libs
+venv
