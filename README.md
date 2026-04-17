@@ -29,6 +29,30 @@ sbatch scripts/run_prompts.sh
 
 > Tylko wtedy tez w `inference/run_prompts.py` musisz dac sciezki do modelu, promptow i miejsca gdzie zapisze wyniki. W formacie jsonl sa prompty i wyniki.
 
+#### Zintegrowany Benchmark i Ewaluacja (vLLM)
+
+Odpalenie:
+```bash
+sbatch scripts/run_benchmarking.sh
+```
+
+- --benchmarking_dir – ścieżka do folderu z promptami (prompty muszą być w plikach .jsonl, podzielone na podfoldery kategorii).
+
+- --output_dir – główny folder na wyniki (skrypt sam utworzy w nim podfolder z timestampem i seedem).
+
+- --model_paths – ścieżki do modeli, które będą generować tekst. Możesz podać kilka po spacji (skrypt załaduje je po kolei).
+
+- --judge_path – (opcjonalne) ścieżka do modelu sędziego (np. Qwen-32b). Jeśli podana, po wygenerowaniu odpowiedzi skrypt od razu oceni je pod kątem marek i "trade dress".
+
+- --seed – ziarno losowości (domyślnie 42).
+
+> Aby uniknąć błędów tokenizera i problemów z importami w kontenerze, na górze pliku .sh muszą znaleźć się te dwie zmienne:
+
+   ```bash
+   export APPTAINERENV_PYTHONPATH="$(realpath ../extra_python_libs)"
+   export TOKENIZERS_PARALLELISM=false
+   ```
+
 ### 4. Ewaluacja wyników (LLM judge)
 
 Po wygenerowaniu odpowiedzi modeli można uruchomić skrypty ewaluacyjne z folderu `inference`.

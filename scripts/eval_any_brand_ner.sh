@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --account=plgbcfg-gpu-a100
+#SBATCH --account=plgunhype-gpu-a100
 #SBATCH --partition=plgrid-gpu-a100
 #SBATCH --gres=gpu:1
 #SBATCH --mem=80G
@@ -12,4 +12,4 @@ source $SCRATCH/unbranding/.venv/bin/activate
 pip install spacy
 python -m spacy download en_core_web_sm
 
-python $SCRATCH/unbranding/inference/eval_any_brand_ner.py
+python $SCRATCH/unbranding/inference/eval_any_brand_ner.py --results_dir $SCRATCH/unbranding/experiments_results/model_outputs_prompts_seed42_2026-04-04_21-51-07
