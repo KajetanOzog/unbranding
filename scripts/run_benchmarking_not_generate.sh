@@ -24,5 +24,6 @@ python3.13 -u /net/scratch/hscra/plgrid/plgkajetan/unbranding/inference/run_benc
         /net/scratch/hscra/plgrid/plgkajetan/unbranding/models/qwen-14b \
         /net/scratch/hscra/plgrid/plgkajetan/unbranding/models/mistral-small \
         /net/scratch/hscra/plgrid/plgkajetan/unbranding/models/qwen-32b \
+        # /net/scratch/hscra/plgrid/plgvltkv/unbranding/models/gemma-4-31b-it \
     --seed 42 \
     --judge_path /net/scratch/hscra/plgrid/plgkajetan/unbranding/models/qwen-32b
