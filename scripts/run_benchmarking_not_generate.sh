@@ -8,7 +8,7 @@
 #SBATCH --time=06:00:00
 #SBATCH --output=bench_1gpu_%j.log
 
-export APPTAINERENV_PYTHONPATH="/net/scratch/hscra/plgrid/plgkajetan/unbranding/extra_python_libs"
+export APPTAINERENV_PYTHONPATH="$SCRATCH/unbranding/extra_python_libs"
 export HF_HOME=$SCRATCH/hf_cache
 
 export TOKENIZERS_PARALLELISM=false
@@ -16,14 +16,19 @@ export TOKENIZERS_PARALLELISM=false
 CONTAINER="/net/software/aarch64/containers/vllm/cyfronet-gh200-vllm12.sif"
 
 apptainer exec -e --nv --bind /net:/net $CONTAINER \
-python3.13 -u /net/scratch/hscra/plgrid/plgkajetan/unbranding/inference/run_benchmarking_not_generate.py \
-    --benchmarking_dir /net/scratch/hscra/plgrid/plgkajetan/unbranding/prompts \
-    --output_dir /net/scratch/hscra/plgrid/plgkajetan/unbranding/experiments_results \
+python3.13 -u $SCRATCH/unbranding/inference/run_benchmarking_not_generate_new.py \
+    --benchmarking_dir $SCRATCH/unbranding/prompts \
+    --output_dir $SCRATCH/unbranding/experiments_results \
     --model_paths \
-        /net/scratch/hscra/plgrid/plgkajetan/unbranding/models/llama-3.1-8b \
-        /net/scratch/hscra/plgrid/plgkajetan/unbranding/models/qwen-14b \
-        /net/scratch/hscra/plgrid/plgkajetan/unbranding/models/mistral-small \
-        /net/scratch/hscra/plgrid/plgkajetan/unbranding/models/qwen-32b \
-        # /net/scratch/hscra/plgrid/plgvltkv/unbranding/models/gemma-4-31b-it \
+        $SCRATCH/unbranding/models/Llama-3.1-8B-Instruct \
+        $SCRATCH/unbranding/models/Qwen2.5-3B-Instruct \
+        $SCRATCH/unbranding/models/Qwen2.5-7B-Instruct \
+        $SCRATCH/unbranding/models/Qwen2.5-14B-Instruct \
+        $SCRATCH/unbranding/models/Qwen3-4B \
+        $SCRATCH/unbranding/models/Qwen3-8B \
+        $SCRATCH/unbranding/models/Qwen3-14B \
+        $SCRATCH/unbranding/models/Qwen3-32B \
+        $SCRATCH/unbranding/models/Mistral-Small-Instruct-2409 \
+        $SCRATCH/unbranding/models/Mistral-7B-Instruct-v0.3 \
     --seed 42 \
-    --judge_path /net/scratch/hscra/plgrid/plgkajetan/unbranding/models/qwen-32b
+    --judge_path $SCRATCH/unbranding/models/Qwen3-32B
