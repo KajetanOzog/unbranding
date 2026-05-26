@@ -5,19 +5,8 @@ import re
 import os
 from datetime import date
 
-LLMAJ_PATH = "/net/tscratch/people/plgkajetan/unbranding/llmaj_models/qwen14b"
-RESPONSES_PATHS = [
-    "/net/tscratch/people/plgkajetan/unbranding/results/llama/auto_resp.jsonl",
-    "/net/tscratch/people/plgkajetan/unbranding/results/llama/bev_resp.jsonl",
-    "/net/tscratch/people/plgkajetan/unbranding/results/llama/food_resp.jsonl",
-    "/net/tscratch/people/plgkajetan/unbranding/results/llama/sport_resp.jsonl",
-    "/net/tscratch/people/plgkajetan/unbranding/results/llama/tech_resp.jsonl",
-    "/net/tscratch/people/plgkajetan/unbranding/results/qwen/auto_resp.jsonl",
-    "/net/tscratch/people/plgkajetan/unbranding/results/qwen/bev_resp.jsonl",
-    "/net/tscratch/people/plgkajetan/unbranding/results/qwen/food_resp.jsonl",
-    "/net/tscratch/people/plgkajetan/unbranding/results/qwen/sport_resp.jsonl",
-    "/net/tscratch/people/plgkajetan/unbranding/results/qwen/tech_resp.jsonl",
-]
+LLMAJ_PATH = "..."
+RESPONSES_PATHS = [...]
 
 SYSTEM_PROMPT = """
 You are a strict information extraction system.

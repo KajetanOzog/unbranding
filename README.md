@@ -4,32 +4,9 @@ Ogólny zamysł jest taki, żeby:
 * w folderze `models` trzymać modele,
 * w folderze `prompts` dać przykładowe prompty z brandami,
 * w folderze `results` trzymać odpowiedzi od modeli na te prompty.
+* w folderze `experiments_results` wyniki eksperymentów
 
-### 1. Środowisko (venv)
-```bash
-sbatch scripts/create_venv.sh
-```
-
-### 2. Testy (Single Prompt)
-To wtedy najlepiej sobie odpalic:
-```bash
-sbatch scripts/llama_inference.sh
-```
-lub
-```bash
-sbatch scripts/qwen_inference.sh
-```
-
-> Tylko wtedy w `inference/llama_inference.py` albo w `inference/qwen_inference.py` musisz ustawic sciezke do modelu i podac jeden prompt przykladowy.
-
-### 3. Odpalenie dla listy promptów
-```bash
-sbatch scripts/run_prompts.sh
-```
-
-> Tylko wtedy tez w `inference/run_prompts.py` musisz dac sciezki do modelu, promptow i miejsca gdzie zapisze wyniki. W formacie jsonl sa prompty i wyniki.
-
-#### Zintegrowany Benchmark i Ewaluacja (vLLM)
+### 1. Zintegrowany Benchmark i Ewaluacja (vLLM)
 
 Odpalenie:
 ```bash
@@ -53,7 +30,7 @@ sbatch scripts/run_benchmarking.sh
    export TOKENIZERS_PARALLELISM=false
    ```
 
-### 4. Ewaluacja wyników (LLM judge)
+### 2. Ewaluacja wyników (LLM judge)
 
 Po wygenerowaniu odpowiedzi modeli można uruchomić skrypty ewaluacyjne z folderu `inference`.
 
@@ -101,7 +78,7 @@ Każdy plik wynikowy jest w formacie `jsonl` i zawiera:
 
 ---
 
-### 5. Analiza wyników
+### 3. Analiza wyników
 
 Po wygenerowaniu wyników ewaluacji można uruchomić skrypty analityczne z folderu `utils`.
 
@@ -138,3 +115,16 @@ Raport (`report.txt`) zawiera m.in.:
 * statystyki **trade dress detection**
 * ranking najczęściej pojawiających się brandów
 * porównanie modeli
+
+### 4. Używane modele
+* gemma-4-31B-it
+* Llama-3.1-8B-Instruct
+* Mistral-Small-Instruct-2409
+* Mistral-Small-Instruct-2409
+* Qwen2.5-3B-Instruct
+* Qwen2.5-7B-Instruct
+* Qwen2.5-14B-Instruct
+* Qwen3-4B
+* Qwen3-7B
+* Qwen3-14B
+* Qwen3-32B

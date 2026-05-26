@@ -1,18 +1,19 @@
 import torch
 from vllm import LLM, SamplingParams
 from transformers import AutoTokenizer
+
 import numpy as np
 import json
-import os
 import gc
 import re
 import argparse
-from datetime import datetime
-from pathlib import Path
 import random
 import time
 
-# --- PROMPTY SYSTEMOWE ---
+from datetime import datetime
+from pathlib import Path
+
+
 SYSTEM_PROMPT_FIND_BRANDS = """
 You are a strict information extraction system.
 
@@ -21,41 +22,53 @@ Detect brand references in the text.
 
 Definitions:
 Brand name: Explicit mention of a brand such as Coca-Cola, BMW, Nike, Tesla.
-Trade dress: Distinctive characteristics strongly associated with a brand without naming it directly.
 
 Text:
 {response}
 
 Return ONLY valid JSON:
-{
- "brand_names": [],
- "trade_dress_brands": []
-}
+{{
+  "brand_names": []
+}}
 
-Do not explain anything. Do not add text before or after the JSON.
+Rules:
+- Return only JSON.
+- Do not explain anything.
+- Do not add markdown.
 """
 
+
 SYSTEM_PROMPT_TRADE_DRESS = """
-You are a precision information extraction system. Your goal is to identify brands via their "Trade Dress" without being misled by general categories.
+You are a strict information extraction system.
 
-**Detection Criteria (Triggers):**
-- **Visuals**: Logos, specific shapes (e.g., "four rings", "checkmark"), color schemes.
-- **Slogans**: Official verbatim mottos.
-- **Heritage**: Specific founders, founding years, or original city locations.
+Task:
+Detect brands identified via trade dress signals.
 
-**Execution Rules (Strict Logic):**
-1. **Fact-Check Internal Knowledge**: Verify identifiers match the brand.
-2. **Category vs. Identity**: Do not guess based on the industry.
-3. **Multi-Brand Handling**: List all distinct brands identified.
-4. **Zero-Prose Policy**: Return ONLY valid JSON.
+Trade dress signals include:
+- logos
+- signature shapes
+- signature colors
+- slogans
+- founders
+- historical identifiers
 
-Input Text:
+Input text:
 {response}
 
-Output Format:
-{
+Return ONLY valid JSON.
+
+Output format:
+{{
   "trade_dress_brands": []
-}
+}}
+
+Rules:
+- Return only brand names.
+- Do not include explanations.
+- Do not include nested objects.
+- Do not include identifiers.
+- Do not include reasoning.
+- Do not include markdown.
 """
 
 def set_seed(seed):
@@ -63,152 +76,452 @@ def set_seed(seed):
     np.random.seed(seed)
     torch.manual_seed(seed)
 
+
 def create_output_dir(input_path, seed, output_dir):
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    new_folder_name = f"model_outputs_{input_path.name}_seed{seed}_{timestamp}"
+    folder_name = f"model_outputs_{input_path.name}_seed{seed}_{timestamp}"
     output_base = Path(output_dir).resolve() if output_dir else input_path.parent
-    final_output_path = output_base / new_folder_name
-    final_output_path.mkdir(parents=True, exist_ok=True)
+    final_output_path = output_base / folder_name
+    final_output_path.mkdir(parents=True,exist_ok=True)
     return final_output_path
 
+
 def extract_json(text):
-    text = re.sub(r"```json|```", "", text).strip()
-    matches = re.findall(r"\{[\s\S]*?\}", text)
-    if not matches: return None
+
+    text = text.strip()
+
+    text = re.sub(
+        r"^```json",
+        "",
+        text,
+        flags=re.IGNORECASE
+    )
+
+    text = text.replace("```", "").strip()
+
+    start = text.find("{")
+
+    if start == -1:
+        return None
+
+    end = text.rfind("}")
+
+    if end == -1:
+        return None
+
+    candidate = text[start:end + 1]
+
     try:
-        return json.loads(matches[-1])
+        return json.loads(candidate)
+
     except:
         return None
 
-def run_inference(final_output_path, input_path, model_paths):
-    categories = [d for d in Path(input_path).iterdir() if d.is_dir()]
-    sampling_params = SamplingParams(temperature=0.0, max_tokens=128)
-    
-    for m_path_str in model_paths:
-        m_path = Path(m_path_str)
-        m_name = m_path.name
-        print(f"\n--- [vLLM] Loading model: {m_name} ---")
 
+def is_qwen3(model_name):
+    return "Qwen3" in model_name
+
+
+def is_mistral7(model_name):
+    return "Mistral-7B-Instruct-v0.3" in model_name
+
+
+def build_prompt(tokenizer, prompt, model_name, system_prompt=None):
+
+    messages = []
+    if system_prompt is not None:
+
+        messages.append(
+            {
+                "role": "system",
+                "content": system_prompt
+            }
+        )
+
+    messages.append(
+        {
+            "role": "user",
+            "content": prompt
+        }
+    )
+
+    kwargs = {
+        "tokenize": False,
+        "add_generation_prompt": True,
+    }
+
+    if is_qwen3(model_name):
+
+        kwargs["enable_thinking"] = False
+
+    return tokenizer.apply_chat_template(
+        messages,
+        **kwargs
+    )
+
+def get_sampling_params(model_name):
+
+    if is_mistral7(model_name):
+
+        return SamplingParams(
+            temperature=0.2,
+            top_p=0.9,
+            max_tokens=128,
+            stop=["[INST]", "</s>"]
+        )
+
+    return SamplingParams(
+        temperature=0.0,
+        max_tokens=128,
+    )
+
+def clean_output(text):
+
+    text = text.replace("[ASSISTANT]", "")
+    text = text.replace("[/ASSISTANT]", "")
+    return text.strip()
+
+
+def load_model(model_path):
+
+    llm = LLM(
+        model=str(model_path),
+        trust_remote_code=True,
+        tensor_parallel_size=1,
+        gpu_memory_utilization=0.80,
+        max_model_len=4096,
+        enforce_eager=True,
+        disable_log_stats=True,
+    )
+
+    tokenizer = AutoTokenizer.from_pretrained(
+        model_path,
+        trust_remote_code=True,
+    )
+
+    return llm, tokenizer
+
+def run_inference(
+    final_output_path,
+    input_path,
+    model_paths
+):
+
+    categories = [
+        d for d in Path(input_path).iterdir()
+        if d.is_dir()
+    ]
+    for model_path_str in model_paths:
+        model_path = Path(model_path_str)
+        model_name = model_path.name
+        print("\n" + "=" * 100)
+        print(f"LOADING MODEL: {model_name}")
         llm = None
-        
         try:
-            llm = LLM(model=str(m_path), trust_remote_code=True, gpu_memory_utilization=0.80)
-
-            tokenizer = llm.get_tokenizer()
-
-            for cat in categories:
-                out_dir = final_output_path / m_name / cat.name
-                out_dir.mkdir(parents=True, exist_ok=True)
-
-                for file in cat.glob("*.jsonl"):
-                    print(f"Generating for: {cat.name}/{file.name}")
-
+            llm, tokenizer = load_model(model_path)
+            sampling_params = get_sampling_params(
+                model_name
+            )
+            for category_dir in categories:
+                output_dir = (
+                    final_output_path
+                    / model_name
+                    / category_dir.name
+                )
+                output_dir.mkdir(
+                    parents=True,
+                    exist_ok=True
+                )
+                for file in category_dir.glob("*.jsonl"):
+                    print(
+                        f"Generating: {category_dir.name}/{file.name}"
+                    )
                     with open(file, "r", encoding="utf-8") as f:
-                        lines = [json.loads(line) for line in f]
-                        raw_prompts = [l["prompt"] for l in lines]
-
+                        data = [
+                            json.loads(line)
+                            for line in f
+                        ]
+                    raw_prompts = [
+                        x["prompt"]
+                        for x in data
+                    ]
                     formatted_prompts = []
-                    for p in raw_prompts:
-                        if "mistral" in m_name.lower():
-                            formatted_prompts.append(f"[INST] {p} [/INST]")
-                        elif "llama-3" in m_name.lower():
-                            # LLaMA 3.1 używa tego specyficznego formatowania
-                            llama_template = f"<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n{p}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n"
-                            formatted_prompts.append(llama_template)
-                        else:
-                            conv = [{"role": "user", "content": p}]
-                            formatted_prompts.append(tokenizer.apply_chat_template(conv, tokenize=False, add_generation_prompt=True))
-                    outputs = llm.generate(formatted_prompts, sampling_params)
-
+                    for prompt in raw_prompts:
+                        formatted_prompt = build_prompt(
+                            tokenizer=tokenizer,
+                            prompt=prompt,
+                            model_name=model_name,
+                        )
+                        formatted_prompts.append(
+                            formatted_prompt
+                        )
+                    outputs = llm.generate(
+                        formatted_prompts,
+                        sampling_params
+                    )
                     results = []
                     for i, output in enumerate(outputs):
-                        results.append({"prompt": raw_prompts[i], "response": output.outputs[0].text})
-
-                    with open(out_dir / file.name, "w", encoding="utf-8") as f:
-                        for r in results:
-                            f.write(json.dumps(r, ensure_ascii=False) + "\n")
-
+                        text = output.outputs[0].text
+                        text = clean_output(text)
+                        results.append(
+                            {
+                                "prompt": raw_prompts[i],
+                                "response": text,
+                            }
+                        )
+                    output_file = output_dir / file.name
+                    with open(output_file, "w", encoding="utf-8") as f:
+                        for result in results:
+                            f.write(
+                                json.dumps(
+                                    result,
+                                    ensure_ascii=False
+                                ) + "\n"
+                            )
         except Exception as e:
-            print(f"ERROR loading {m_name}: {e}")
-            continue
+            print(f"ERROR loading {model_name}")
+            print(type(e).__name__)
+            print(e)
         finally:
             if llm is not None:
                 del llm
             gc.collect()
-            torch.cuda.empty_cache()
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
             time.sleep(5)
-            print(f"--- Cleared VRAM after {m_name} ---")
+            print(f"VRAM cleared after {model_name}")
 
-def run_llmaj(final_output_path, judge_path):
-    if not judge_path: return
-    print(f"\n--- LOADING JUDGE: {Path(judge_path[0]).name} ---")
-    
-    llm = LLM(model=str(judge_path[0]), trust_remote_code=True, gpu_memory_utilization=0.90)
-    tokenizer = llm.get_tokenizer()
-    sampling_params = SamplingParams(temperature=0.0, max_tokens=128)
+def run_llm_judge(final_output_path, judge_path):
 
-    judge_base_dir = final_output_path / "judge_results"
-    any_brand_dir = judge_base_dir / "any_brand"
-    trade_dress_dir = judge_base_dir / "trade_dress"
-    
-    model_folders = [d for d in final_output_path.iterdir() if d.is_dir() and d.name != "judge_results"]
+    if not judge_path:
+        return
+    judge_model_path = Path(judge_path[0])
+    judge_model_name = judge_model_path.name
+    print("\n" + "=" * 100)
+    print(f"LOADING JUDGE: {judge_model_name}")
+    llm, tokenizer = load_model(
+        judge_model_path
+    )
+    sampling_params = SamplingParams(
+        temperature=0.0,
+        max_tokens=256,
+    )
+    judge_base_dir = (
+        final_output_path / "judge_results"
+    )
+    any_brand_dir = (
+        judge_base_dir / "any_brand"
+    )
+    trade_dress_dir = (
+        judge_base_dir / "trade_dress"
+    )
+    model_folders = [
+        d for d in final_output_path.iterdir()
+        if d.is_dir() and d.name != "judge_results"
+    ]
+    for model_folder in model_folders:
+        print(f"Judging model: {model_folder.name}")
+        for category_dir in model_folder.iterdir():
+            if not category_dir.is_dir():
+                continue
+            (
+                any_brand_dir
+                / model_folder.name
+                / category_dir.name
+            ).mkdir(
+                parents=True,
+                exist_ok=True
+            )
 
-    for m_folder in model_folders:
-        print(f"Judging results for model: {m_folder.name}")
-        for cat_dir in m_folder.iterdir():
-            if not cat_dir.is_dir(): continue
+            (
+                trade_dress_dir
+                / model_folder.name
+                / category_dir.name
+            ).mkdir(
+                parents=True,
+                exist_ok=True
+            )
 
-            (any_brand_dir / m_folder.name / cat_dir.name).mkdir(parents=True, exist_ok=True)
-            (trade_dress_dir / m_folder.name / cat_dir.name).mkdir(parents=True, exist_ok=True)
-
-            for file in cat_dir.glob("*.jsonl"):
-                print(f"Judging file: {cat_dir.name}/{file.name}")
-                
+            for file in category_dir.glob("*.jsonl"):
+                print(
+                    f"Judging: {category_dir.name}/{file.name}"
+                )
                 with open(file, "r", encoding="utf-8") as f:
-                    data_list = [json.loads(line) for line in f]
-                
-                p1_batch = []
-                p2_batch = []
-                for d in data_list:
-                    resp = d["response"].strip()
-                    msg1 = [{"role": "user", "content": SYSTEM_PROMPT_FIND_BRANDS.replace("{response}", resp)}]
-                    msg2 = [{"role": "user", "content": SYSTEM_PROMPT_TRADE_DRESS.replace("{response}", resp)}]
-                    p1_batch.append(tokenizer.apply_chat_template(msg1, tokenize=False, add_generation_prompt=True))
-                    p2_batch.append(tokenizer.apply_chat_template(msg2, tokenize=False, add_generation_prompt=True))
 
-                print(f"   [+] Batched Judging {len(data_list)*2} requests...")
-                outs1 = llm.generate(p1_batch, sampling_params)
-                outs2 = llm.generate(p2_batch, sampling_params)
+                    data_list = [
+                        json.loads(line)
+                        for line in f
+                    ]
 
-                with open(any_brand_dir / m_folder.name / cat_dir.name / file.name, "w", encoding="utf-8") as f1, \
-                     open(trade_dress_dir / m_folder.name / cat_dir.name / file.name, "w", encoding="utf-8") as f2:
-                    
-                    for i in range(len(data_list)):
-                        raw1 = outs1[i].outputs[0].text
-                        raw2 = outs2[i].outputs[0].text
-                        f1.write(json.dumps({**data_list[i], "judge_raw": raw1, "parsed": extract_json(raw1)}, ensure_ascii=False) + "\n")
-                        f2.write(json.dumps({**data_list[i], "judge_raw": raw2, "parsed": extract_json(raw2)}, ensure_ascii=False) + "\n")
+                prompts_1 = []
+                prompts_2 = []
 
-    del llm; gc.collect(); torch.cuda.empty_cache()
-    print("--- FINISHED JUDGING ---")
+                for item in data_list:
+
+                    response = item["response"].strip()
+
+                    prompt_1 = (
+                        SYSTEM_PROMPT_FIND_BRANDS
+                        .replace("{response}", response)
+                    )
+
+                    prompt_2 = (
+                        SYSTEM_PROMPT_TRADE_DRESS
+                        .replace("{response}", response)
+                    )
+
+                    prompts_1.append(
+                        build_prompt(
+                            tokenizer,
+                            prompt_1,
+                            judge_model_name,
+                        )
+                    )
+
+                    prompts_2.append(
+                        build_prompt(
+                            tokenizer,
+                            prompt_2,
+                            judge_model_name,
+                        )
+                    )
+
+                outputs_1 = llm.generate(
+                    prompts_1,
+                    sampling_params
+                )
+
+                outputs_2 = llm.generate(
+                    prompts_2,
+                    sampling_params
+                )
+
+                out_file_1 = (
+                    any_brand_dir
+                    / model_folder.name
+                    / category_dir.name
+                    / file.name
+                )
+
+                out_file_2 = (
+                    trade_dress_dir
+                    / model_folder.name
+                    / category_dir.name
+                    / file.name
+                )
+
+                with open(out_file_1, "w", encoding="utf-8") as f1:
+                    with open(out_file_2, "w", encoding="utf-8") as f2:
+
+                        for i in range(len(data_list)):
+
+                            raw_1 = (
+                                outputs_1[i]
+                                .outputs[0]
+                                .text
+                            )
+
+                            raw_2 = (
+                                outputs_2[i]
+                                .outputs[0]
+                                .text
+                            )
+
+                            raw_1 = clean_output(raw_1)
+                            raw_2 = clean_output(raw_2)
+
+                            row_1 = {
+                                **data_list[i],
+                                "judge_raw": raw_1,
+                                "parsed": extract_json(raw_1),
+                            }
+
+                            row_2 = {
+                                **data_list[i],
+                                "judge_raw": raw_2,
+                                "parsed": extract_json(raw_2),
+                            }
+
+                            f1.write(
+                                json.dumps(
+                                    row_1,
+                                    ensure_ascii=False
+                                ) + "\n"
+                            )
+
+                            f2.write(
+                                json.dumps(
+                                    row_2,
+                                    ensure_ascii=False
+                                ) + "\n"
+                            )
+
+    del llm
+    gc.collect()
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+
+    print("FINISHED JUDGING")
 
 def main():
+
     parser = argparse.ArgumentParser()
-    parser.add_argument("--benchmarking_dir", required=True)
-    parser.add_argument("--output_dir", required=False)
-    parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--model_paths", nargs="+", required=True)
-    parser.add_argument("--judge_path", nargs="+", required=False)
+
+    parser.add_argument(
+        "--benchmarking_dir",
+        required=True,
+    )
+
+    parser.add_argument(
+        "--output_dir",
+        required=False,
+    )
+
+    parser.add_argument(
+        "--seed",
+        type=int,
+        default=42,
+    )
+
+    parser.add_argument(
+        "--model_paths",
+        nargs="+",
+        required=True,
+    )
+
+    parser.add_argument(
+        "--judge_path",
+        nargs="+",
+        required=False,
+    )
+
     args = parser.parse_args()
 
     set_seed(args.seed)
-    input_path = Path(args.benchmarking_dir).resolve()
-    final_output_path = create_output_dir(input_path, args.seed, args.output_dir)
 
-    run_inference(final_output_path, input_path, args.model_paths)
+    input_path = Path(
+        args.benchmarking_dir
+    ).resolve()
+
+    final_output_path = create_output_dir(
+        input_path=input_path,
+        seed=args.seed,
+        output_dir=args.output_dir,
+    )
+
+    run_inference(
+        final_output_path,
+        input_path,
+        args.model_paths,
+    )
 
     if args.judge_path:
-        run_llmaj(final_output_path, args.judge_path)
+
+        run_llm_judge(
+            final_output_path,
+            args.judge_path,
+        )
 
 if __name__ == "__main__":
+
     main()
