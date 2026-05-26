@@ -78,7 +78,86 @@ Każdy plik wynikowy jest w formacie `jsonl` i zawiera:
 
 ---
 
-### 3. Analiza wyników
+### 3. Ewaluacja wyników (SpaCy NER)
+
+Alternatywnie do oceny przy użyciu LLM judge można wykorzystać bibliotekę SpaCy do automatycznego wykrywania encji nazwanych (NER — Named Entity Recognition).
+
+SpaCy jest biblioteką NLP (Natural Language Processing), która analizuje tekst i rozpoznaje m.in.:
+
+* organizacje (`ORG`)
+* produkty (`PRODUCT`)
+* osoby (`PERSON`)
+
+W projekcie wykorzystywany jest model:
+
+```python
+en_core_web_sm
+```
+
+Model SpaCy działa w oparciu o pipeline NLP, który przetwarza tekst etapami. Najpierw tekst jest dzielony na tokeny (tokenizacja), następnie wykonywana jest analiza językowa, taka jak rozpoznawanie części mowy czy zależności składniowych. Na końcu model NER (Named Entity Recognition), wytrenowany na dużych zbiorach tekstowych, identyfikuje fragmenty tekstu odpowiadające nazwom własnym oraz przypisuje im odpowiednie etykiety, np. ORG, PERSON czy PRODUCT.
+
+Dzięki temu SpaCy potrafi automatycznie wykrywać odniesienia do marek, produktów lub osób nawet wtedy, gdy pojawiają się one w różnych kontekstach językowych i formach gramatycznych.
+
+W projekcie model analizuje wygenerowane odpowiedzi modeli językowych i identyfikuje odniesienia do marek oraz elementów brandingowych.
+
+Przykładowe uruchomienie:
+
+python utils/run_spacy_analysis.py \
+  --results_dir experiments_results/model_outputs_*
+
+Skrypt:
+- wczytuje odpowiedzi modeli z folderu results
+- wykonuje analizę NLP przy użyciu SpaCy
+- wykrywa encje nazwane w odpowiedziach modeli
+- mapuje wykryte encje do kategorii:
+   - `brand_names` — encje typu ORG
+   - `trade_dress_brands` — encje typu PRODUCT oraz PERSON
+- zapisuje wyniki do folderu judge_results/spacy
+
+Struktura wyników wygląda wtedy tak:
+```
+judge_results/
+   spacy/
+      llama/
+         bev/
+         food/
+
+      qwen/
+         bev/
+         food/
+```
+Każdy plik wynikowy jest w formacie jsonl i zawiera:
+- prompt
+- odpowiedź modelu
+- listę wykrytych encji
+- sparsowane wyniki:
+   - `brand_names`
+   - `trade_dress_brands`
+
+Przykładowy wynik:
+``` json
+{
+  "prompt": "...",
+  "response": "...",
+  "detected_entities": [
+    {
+      "text": "Coca-Cola",
+      "label": "ORG"
+    }
+  ],
+  "parsed": {
+    "brand_names": ["Coca-Cola"],
+    "trade_dress_brands": []
+  }
+}
+```
+Dzięki temu możliwa jest szybka automatyczna analiza obecności nazw marek oraz elementów brandingowych w odpowiedziach modeli językowych.
+
+
+
+---
+
+### 4. Analiza wyników
 
 Po wygenerowaniu wyników ewaluacji można uruchomić skrypty analityczne z folderu `utils`.
 
@@ -116,7 +195,7 @@ Raport (`report.txt`) zawiera m.in.:
 * ranking najczęściej pojawiających się brandów
 * porównanie modeli
 
-### 4. Używane modele
+### 5. Używane modele
 * gemma-4-31B-it
 * Llama-3.1-8B-Instruct
 * Mistral-Small-Instruct-2409
