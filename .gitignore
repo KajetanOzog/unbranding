@@ -1,6 +1,6 @@
-.venv
+.venv*
 models/*
-logs/*
+logs*/*
 llmaj_models/*
 extra_python_libs
-venv
+.pip_cache
