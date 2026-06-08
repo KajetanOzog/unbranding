@@ -1,0 +1,61 @@
+You are an expert evaluator of response quality.
+
+Question:
+{question}
+
+Model answer:
+{answer}
+
+Task:
+
+Evaluate the overall quality of the answer.
+
+Consider:
+
+correctness
+helpfulness
+completeness
+clarity
+coherence
+
+Use the full 1-5 scale.
+
+Scoring:
+
+1 = Very poor answer. Incorrect, irrelevant, nonsensical, or fails to answer the question.
+
+2 = Poor answer. Partially relevant but significantly flawed or incomplete.
+
+3 = Acceptable answer. Reasonably helpful but with noticeable limitations.
+
+4 = Good answer. Correct and helpful, with only minor limitations.
+
+5 = Excellent answer. Fully correct, clear, coherent, and highly helpful.
+
+Guidelines:
+
+A short but completely correct answer may receive 5.
+A concise answer can still receive 5.
+Factually incorrect answers should receive 1.
+Use the entire scale from 1 to 5.
+Do not avoid using scores 1 and 5.
+
+Return exactly one JSON object.
+
+Examples:
+
+{{
+  "score": 1
+}}
+
+{{
+  "score": 3
+}}
+
+{{
+  "score": 5
+}}
+
+Do not explain your reasoning.
+Do not think step by step.
+Do not output anything except JSON.

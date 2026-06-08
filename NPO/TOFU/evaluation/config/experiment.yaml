@@ -1,0 +1,49 @@
+brand: Audi
+
+models:
+  base:
+    path: /net/scratch/hscra/plgrid/plgkajetan/unbranding/models/Qwen3-8B
+
+  judge:
+    path: /net/scratch/hscra/plgrid/plgkajetan/unbranding/models/Qwen3-32B
+
+experiment:
+
+  model_family: Qwen3-8b
+
+  experiments_root: /net/scratch/hscra/plgrid/plgkajetan/unbranding/models_unlearned/AUDI/qwen3-8b
+
+  target_epochs:
+    - 1
+    - 5
+    - 10
+    - 15
+    - 20
+    - 25
+    - 28
+
+datasets:
+  domain_retain: /net/scratch/hscra/plgrid/plgkajetan/unbranding/NPO/datasets/AUTO/EVAL/test_retain_automotive.jsonl
+  alpaca: /net/scratch/hscra/plgrid/plgkajetan/unbranding/NPO/datasets/AUTO/EVAL/test_retain.jsonl
+  world_facts: /net/scratch/hscra/plgrid/plgkajetan/unbranding/NPO/datasets/AUTO/EVAL/test_world_facts.jsonl
+
+results:
+  answers_dir: results/answers
+  metrics_dir: results/metrics
+  aggregated_dir: results/aggregated
+
+generation:
+  max_new_tokens: 64
+
+evaluation:
+  batch_size: 64
+  seed: 42
+
+metrics:
+  - rouge
+  - probability
+  - brand_mention_judge
+  - brand_mention_spacy
+  - trade_dress
+  - world_facts
+  - judge_quality
