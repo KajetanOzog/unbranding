@@ -1,0 +1,14 @@
+datasets
+accelerate
+evaluate
+matplotlib
+hydra-core
+omegaconf
+rouge_score
+tqdm
+matplotlib
+einops
+packaging
+bitsandbytes
+scipy
+ninja

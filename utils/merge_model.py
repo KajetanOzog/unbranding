@@ -6,28 +6,10 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 # Lista modeli do mergowania
 MODELS = [
     {
-        "name": "llama-3.1-8b",
-        "base_path": "/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/llama-3.1-8b",
-        "lora_path": "/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unbranded_llama-3.1-8b",
-        "save_path": "/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unbranded_llama-3.1-8b_merged",
-    },
-    {
-        "name": "mistral-small",
-        "base_path": "/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/mistral-small",
-        "lora_path": "/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unbranded_mistral-small",
-        "save_path": "/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unbranded_mistral-small_merged",
-    },
-    {
-        "name": "qwen-14b",
-        "base_path": "/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/qwen-14b",
-        "lora_path": "/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unbranded_qwen-14b",
-        "save_path": "/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unbranded_qwen-14b_merged",
-    },
-    {
         "name": "qwen-32b",
         "base_path": "/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/qwen-32b",
-        "lora_path": "/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unbranded_qwen-32b",
-        "save_path": "/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unbranded_qwen-32b_merged",
+        "lora_path": "/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unlearned/qwen-32b/checkpoint-125",
+        "save_path": "/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unlearned/simnpo_qwen-32b_merged",
     },
 ]
 

@@ -1,0 +1,64 @@
+model_family: mistral-small
+model_path: /net/scratch/hscra/plgrid/plgvltkv/unbranding/models/mistral-small
+
+LoRA:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+
+lr: 1e-5
+
+split: forget_audi
+retain_set: retain_without_brands
+batch_size: 1
+gradient_accumulation_steps: 4
+num_epochs: 10
+forget_loss: simnpo_grad_diff
+
+npo_coeff: 0.1375
+grad_diff_coeff: 1.0
+KL_coeff: 1.0
+ref_policy: fine_tuned
+beta: 2.5
+gamma: 0.0
+weight_decay: 0.01
+
+seed: 1001
+run_index: 1
+overwrite_dir: false
+eval_steps: steps_per_epoch
+warmup_steps: steps_per_epoch
+
+save_dir: /net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unlearned2/${model_family}
+
+eval:
+  model_path: ${..model_path}
+  model_family: ${..model_family}
+  save_dir: ${..save_dir}
+  aggr_save_dir: ${..aggr_save_dir}
+  data_path: [TOFU_data, TOFU_data, TOFU_data, TOFU_data]
+  split: test_forget
+  split_list:
+    - test_retain_auto
+    - test_retain
+    - world_facts_perturbed
+    - ${split}
+
+  eval_task: [eval_log, eval_real_author_wo_options, eval_real_world_wo_options, eval_log_forget]
+  question_key: [question, question, question, question]
+  answer_key: [answer, answer, answer, answer]
+  base_answer_key: [answer, answer, answer, answer]
+  perturbed_answer_key: [perturbed_answer, perturbed_answer, perturbed_answer, perturbed_answer]
+
+  generation:
+    max_length: 200
+    max_new_tokens: null
+
+  save_generated_text: true
+
+  ds_size: 300
+
+  overwrite: true
+  use_pretrained: false
+
+  batch_size: 30

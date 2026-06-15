@@ -4,3 +4,4 @@ logs*/*
 llmaj_models/*
 extra_python_libs
 .pip_cache
+.tmp
