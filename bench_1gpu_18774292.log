@@ -1,0 +1,204 @@
+
+====================================================================================================
+LOADING MODEL: qwen3-8b-NPO
+INFO 06-16 09:35:21 [utils.py:253] non-default args: {'trust_remote_code': True, 'seed': None, 'max_model_len': 4096, 'gpu_memory_utilization': 0.8, 'disable_log_stats': True, 'enforce_eager': True, 'model': '/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unlearned-npo/qwen3-8b-NPO'}
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+WARNING 06-16 09:35:21 [arg_utils.py:1175] `seed=None` is equivalent to `seed=0` in V1 Engine. You will no longer be allowed to pass `None` in v0.13.
+INFO 06-16 09:35:29 [model.py:637] Resolved architecture: Qwen3ForCausalLM
+INFO 06-16 09:35:29 [model.py:1750] Using max model len 4096
+INFO 06-16 09:35:29 [scheduler.py:228] Chunked prefill is enabled with max_num_batched_tokens=16384.
+WARNING 06-16 09:35:29 [vllm.py:601] Enforce eager set, overriding optimization level to -O0
+INFO 06-16 09:35:29 [vllm.py:707] Cudagraph is disabled under eager mode
+The tokenizer you are loading from '/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unlearned-npo/qwen3-8b-NPO' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m INFO 06-16 09:35:29 [core.py:93] Initializing a V1 LLM engine (v0.12.0) with config: model='/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unlearned-npo/qwen3-8b-NPO', speculative_config=None, tokenizer='/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unlearned-npo/qwen3-8b-NPO', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=True, dtype=torch.bfloat16, max_seq_len=4096, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser='', reasoning_parser_plugin='', enable_in_reasoning=False), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None, kv_cache_metrics=False, kv_cache_metrics_sample=0.01), seed=0, served_model_name=/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unlearned-npo/qwen3-8b-NPO, enable_prefix_caching=True, enable_chunked_prefill=True, pooler_config=None, compilation_config={'level': None, 'mode': <CompilationMode.NONE: 0>, 'debug_dump_path': None, 'cache_dir': '', 'compile_cache_save_format': 'binary', 'backend': 'inductor', 'custom_ops': ['all'], 'splitting_ops': [], 'compile_mm_encoder': False, 'compile_sizes': [], 'inductor_compile_config': {'enable_auto_functionalized_v2': False, 'combo_kernels': True, 'benchmark_combo_kernel': True}, 'inductor_passes': {}, 'cudagraph_mode': <CUDAGraphMode.NONE: 0>, 'cudagraph_num_of_warmups': 0, 'cudagraph_capture_sizes': [], 'cudagraph_copy_inputs': False, 'cudagraph_specialize_lora': True, 'use_inductor_graph_partition': False, 'pass_config': {'fuse_norm_quant': False, 'fuse_act_quant': False, 'fuse_attn_quant': False, 'eliminate_noops': False, 'enable_sp': False, 'fuse_gemm_comms': False, 'fuse_allreduce_rms': False}, 'max_cudagraph_capture_size': 0, 'dynamic_shapes_config': {'type': <DynamicShapesType.BACKED: 'backed'>}, 'local_cache_dir': None}
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m INFO 06-16 09:35:31 [parallel_state.py:1200] world_size=1 rank=0 local_rank=0 distributed_init_method=tcp://172.25.10.41:47783 backend=nccl
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m INFO 06-16 09:35:31 [parallel_state.py:1408] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, PCP rank 0, TP rank 0, EP rank 0
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m INFO 06-16 09:35:31 [gpu_model_runner.py:3467] Starting to load model /net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unlearned-npo/qwen3-8b-NPO...
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m /usr/local/lib64/python3.13/site-packages/tvm_ffi/_optional_torch_c_dlpack.py:174: UserWarning: Failed to JIT torch c dlpack extension, EnvTensorAllocator will not be enabled.
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m We recommend installing via `pip install torch-c-dlpack-ext`
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m   warnings.warn(
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m INFO 06-16 09:35:33 [cuda.py:411] Using FLASH_ATTN attention backend out of potential backends: ['FLASH_ATTN', 'FLASHINFER', 'TRITON_ATTN', 'FLEX_ATTENTION']
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:00<00:01,  1.87it/s]
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:01<00:01,  1.86it/s]
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:01<00:00,  1.82it/s]
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.44it/s]
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:01<00:00,  2.18it/s]
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m 
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m INFO 06-16 09:35:35 [default_loader.py:308] Loading weights took 1.84 seconds
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m INFO 06-16 09:35:35 [gpu_model_runner.py:3549] Model loading took 15.2683 GiB memory and 3.393950 seconds
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m INFO 06-16 09:35:36 [gpu_worker.py:359] Available KV cache memory: 54.92 GiB
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m INFO 06-16 09:35:36 [kv_cache_utils.py:1286] GPU KV cache size: 399,904 tokens
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m INFO 06-16 09:35:36 [kv_cache_utils.py:1291] Maximum concurrency for 4,096 tokens per request: 97.63x
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m INFO 06-16 09:35:37 [core.py:254] init engine (profile, create kv cache, warmup model) took 1.57 seconds
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m The tokenizer you are loading from '/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unlearned-npo/qwen3-8b-NPO' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m WARNING 06-16 09:35:37 [vllm.py:608] Inductor compilation was disabled by user settings,Optimizations settings that are only active duringInductor compilation will be ignored.
+[0;36m(EngineCore_DP0 pid=3634849)[0;0m INFO 06-16 09:35:37 [vllm.py:707] Cudagraph is disabled under eager mode
+INFO 06-16 09:35:37 [llm.py:343] Supported tasks: ['generate']
+The tokenizer you are loading from '/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unlearned-npo/qwen3-8b-NPO' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+Generating: auto/Audi_question_about_trade_dress.jsonl
+ERROR loading qwen3-8b-NPO
+KeyError
+'prompt'
+VRAM cleared after qwen3-8b-NPO
+
+====================================================================================================
+LOADING MODEL: qwen3-14b-NPO
+INFO 06-16 09:35:43 [utils.py:253] non-default args: {'trust_remote_code': True, 'seed': None, 'max_model_len': 4096, 'gpu_memory_utilization': 0.8, 'disable_log_stats': True, 'enforce_eager': True, 'model': '/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unlearned-npo/qwen3-14b-NPO'}
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+INFO 06-16 09:35:43 [model.py:637] Resolved architecture: Qwen3ForCausalLM
+INFO 06-16 09:35:43 [model.py:1750] Using max model len 4096
+INFO 06-16 09:35:43 [scheduler.py:228] Chunked prefill is enabled with max_num_batched_tokens=16384.
+WARNING 06-16 09:35:43 [vllm.py:601] Enforce eager set, overriding optimization level to -O0
+INFO 06-16 09:35:43 [vllm.py:707] Cudagraph is disabled under eager mode
+The tokenizer you are loading from '/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unlearned-npo/qwen3-14b-NPO' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m INFO 06-16 09:35:43 [core.py:93] Initializing a V1 LLM engine (v0.12.0) with config: model='/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unlearned-npo/qwen3-14b-NPO', speculative_config=None, tokenizer='/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unlearned-npo/qwen3-14b-NPO', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=True, dtype=torch.bfloat16, max_seq_len=4096, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser='', reasoning_parser_plugin='', enable_in_reasoning=False), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None, kv_cache_metrics=False, kv_cache_metrics_sample=0.01), seed=0, served_model_name=/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unlearned-npo/qwen3-14b-NPO, enable_prefix_caching=True, enable_chunked_prefill=True, pooler_config=None, compilation_config={'level': None, 'mode': <CompilationMode.NONE: 0>, 'debug_dump_path': None, 'cache_dir': '', 'compile_cache_save_format': 'binary', 'backend': 'inductor', 'custom_ops': ['all'], 'splitting_ops': [], 'compile_mm_encoder': False, 'compile_sizes': [], 'inductor_compile_config': {'enable_auto_functionalized_v2': False, 'combo_kernels': True, 'benchmark_combo_kernel': True}, 'inductor_passes': {}, 'cudagraph_mode': <CUDAGraphMode.NONE: 0>, 'cudagraph_num_of_warmups': 0, 'cudagraph_capture_sizes': [], 'cudagraph_copy_inputs': False, 'cudagraph_specialize_lora': True, 'use_inductor_graph_partition': False, 'pass_config': {'fuse_norm_quant': False, 'fuse_act_quant': False, 'fuse_attn_quant': False, 'eliminate_noops': False, 'enable_sp': False, 'fuse_gemm_comms': False, 'fuse_allreduce_rms': False}, 'max_cudagraph_capture_size': 0, 'dynamic_shapes_config': {'type': <DynamicShapesType.BACKED: 'backed'>}, 'local_cache_dir': None}
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m INFO 06-16 09:35:45 [parallel_state.py:1200] world_size=1 rank=0 local_rank=0 distributed_init_method=tcp://172.25.10.41:39561 backend=nccl
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m INFO 06-16 09:35:45 [parallel_state.py:1408] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, PCP rank 0, TP rank 0, EP rank 0
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m INFO 06-16 09:35:45 [gpu_model_runner.py:3467] Starting to load model /net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unlearned-npo/qwen3-14b-NPO...
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m /usr/local/lib64/python3.13/site-packages/tvm_ffi/_optional_torch_c_dlpack.py:174: UserWarning: Failed to JIT torch c dlpack extension, EnvTensorAllocator will not be enabled.
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m We recommend installing via `pip install torch-c-dlpack-ext`
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m   warnings.warn(
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m INFO 06-16 09:35:46 [cuda.py:411] Using FLASH_ATTN attention backend out of potential backends: ['FLASH_ATTN', 'FLASHINFER', 'TRITON_ATTN', 'FLEX_ATTENTION']
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/6 [00:00<?, ?it/s]
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m Loading safetensors checkpoint shards:  17% Completed | 1/6 [00:00<00:02,  1.93it/s]
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m Loading safetensors checkpoint shards:  33% Completed | 2/6 [00:01<00:02,  1.85it/s]
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m Loading safetensors checkpoint shards:  50% Completed | 3/6 [00:05<00:06,  2.21s/it]
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m Loading safetensors checkpoint shards:  67% Completed | 4/6 [00:05<00:03,  1.54s/it]
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m Loading safetensors checkpoint shards:  83% Completed | 5/6 [00:06<00:01,  1.21s/it]
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m Loading safetensors checkpoint shards: 100% Completed | 6/6 [00:07<00:00,  1.28s/it]
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m Loading safetensors checkpoint shards: 100% Completed | 6/6 [00:07<00:00,  1.31s/it]
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m 
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m INFO 06-16 09:35:54 [default_loader.py:308] Loading weights took 7.86 seconds
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m INFO 06-16 09:35:55 [gpu_model_runner.py:3549] Model loading took 27.5185 GiB memory and 9.353051 seconds
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m INFO 06-16 09:35:56 [gpu_worker.py:359] Available KV cache memory: 42.64 GiB
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m INFO 06-16 09:35:56 [kv_cache_utils.py:1286] GPU KV cache size: 279,408 tokens
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m INFO 06-16 09:35:56 [kv_cache_utils.py:1291] Maximum concurrency for 4,096 tokens per request: 68.21x
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m INFO 06-16 09:35:56 [core.py:254] init engine (profile, create kv cache, warmup model) took 1.68 seconds
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m The tokenizer you are loading from '/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unlearned-npo/qwen3-14b-NPO' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m WARNING 06-16 09:35:57 [vllm.py:608] Inductor compilation was disabled by user settings,Optimizations settings that are only active duringInductor compilation will be ignored.
+[0;36m(EngineCore_DP0 pid=3635300)[0;0m INFO 06-16 09:35:57 [vllm.py:707] Cudagraph is disabled under eager mode
+INFO 06-16 09:35:57 [llm.py:343] Supported tasks: ['generate']
+The tokenizer you are loading from '/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/unlearned-npo/qwen3-14b-NPO' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+Generating: auto/Audi_question_about_trade_dress.jsonl
+ERROR loading qwen3-14b-NPO
+KeyError
+'prompt'
+VRAM cleared after qwen3-14b-NPO
+
+====================================================================================================
+LOADING JUDGE: Qwen3-32B
+INFO 06-16 09:36:03 [utils.py:253] non-default args: {'trust_remote_code': True, 'seed': None, 'max_model_len': 4096, 'gpu_memory_utilization': 0.8, 'disable_log_stats': True, 'enforce_eager': True, 'model': '/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/Qwen3-32B'}
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+Traceback (most recent call last):
+  File "/net/scratch/hscra/plgrid/plgvltkv/unbranding/extra_python_libs/transformers/utils/hub.py", line 479, in cached_files
+    hf_hub_download(
+    ~~~~~~~~~~~~~~~^
+        path_or_repo_id,
+        ^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+        local_files_only=local_files_only,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/net/scratch/hscra/plgrid/plgvltkv/unbranding/extra_python_libs/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/net/scratch/hscra/plgrid/plgvltkv/unbranding/extra_python_libs/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+    ...<2 lines>...
+    )
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/Qwen3-32B'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/net/scratch/hscra/plgrid/plgvltkv/unbranding/extra_python_libs/transformers/configuration_utils.py", line 721, in _get_config_dict
+    resolved_config_file = cached_file(
+        pretrained_model_name_or_path,
+    ...<10 lines>...
+        _commit_hash=commit_hash,
+    )
+  File "/net/scratch/hscra/plgrid/plgvltkv/unbranding/extra_python_libs/transformers/utils/hub.py", line 322, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/net/scratch/hscra/plgrid/plgvltkv/unbranding/extra_python_libs/transformers/utils/hub.py", line 532, in cached_files
+    _get_cache_file_to_return(path_or_repo_id, filename, cache_dir, revision, repo_type)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/net/scratch/hscra/plgrid/plgvltkv/unbranding/extra_python_libs/transformers/utils/hub.py", line 143, in _get_cache_file_to_return
+    resolved_file = try_to_load_from_cache(
+        path_or_repo_id, full_filename, cache_dir=cache_dir, revision=revision, repo_type=repo_type
+    )
+  File "/net/scratch/hscra/plgrid/plgvltkv/unbranding/extra_python_libs/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/net/scratch/hscra/plgrid/plgvltkv/unbranding/extra_python_libs/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+    ...<2 lines>...
+    )
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/Qwen3-32B'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/net/scratch/hscra/plgrid/plgvltkv/unbranding/inference/run_benchmarking.py", line 563, in <module>
+    main()
+    ~~~~^^
+  File "/net/scratch/hscra/plgrid/plgvltkv/unbranding/inference/run_benchmarking.py", line 556, in main
+    run_llm_judge(
+    ~~~~~~~~~~~~~^
+        final_output_path,
+        ^^^^^^^^^^^^^^^^^^
+        args.judge_path,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/net/scratch/hscra/plgrid/plgvltkv/unbranding/inference/run_benchmarking.py", line 338, in run_llm_judge
+    llm, tokenizer = load_model(
+                     ~~~~~~~~~~^
+        judge_model_path
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/net/scratch/hscra/plgrid/plgvltkv/unbranding/inference/run_benchmarking.py", line 223, in load_model
+    llm = LLM(
+        model=str(model_path),
+    ...<5 lines>...
+        disable_log_stats=True,
+    )
+  File "/usr/local/lib64/python3.13/site-packages/vllm/entrypoints/llm.py", line 334, in __init__
+    self.llm_engine = LLMEngine.from_engine_args(
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        engine_args=engine_args, usage_context=UsageContext.LLM_CLASS
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib64/python3.13/site-packages/vllm/v1/engine/llm_engine.py", line 175, in from_engine_args
+    vllm_config = engine_args.create_engine_config(usage_context)
+  File "/usr/local/lib64/python3.13/site-packages/vllm/engine/arg_utils.py", line 1356, in create_engine_config
+    maybe_override_with_speculators(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        model=self.model,
+        ^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        vllm_speculative_config=self.speculative_config,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib64/python3.13/site-packages/vllm/transformers_utils/config.py", line 477, in maybe_override_with_speculators
+    config_dict, _ = PretrainedConfig.get_config_dict(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        model if gguf_model_repo is None else gguf_model_repo,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/net/scratch/hscra/plgrid/plgvltkv/unbranding/extra_python_libs/transformers/configuration_utils.py", line 662, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/net/scratch/hscra/plgrid/plgvltkv/unbranding/extra_python_libs/transformers/configuration_utils.py", line 744, in _get_config_dict
+    raise OSError(
+    ...<4 lines>...
+    )
+OSError: Can't load the configuration of '/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/Qwen3-32B'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure '/net/scratch/hscra/plgrid/plgvltkv/unbranding/models/Qwen3-32B' is the correct path to a directory containing a config.json file
