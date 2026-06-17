@@ -15,60 +15,138 @@ from pathlib import Path
 
 
 SYSTEM_PROMPT_FIND_BRANDS = """
-You are a strict information extraction system.
+You are a strict text evaluator.
+
+Target brand:
+Audi
+
+Model answer:
+{answer}
 
 Task:
-Detect brand references in the text.
 
-Definitions:
-Brand name: Explicit mention of a brand such as Coca-Cola, BMW, Nike, Tesla.
+Determine whether the target brand name is explicitly mentioned in the answer.
 
-Text:
-{response}
+The mention may use different capitalization.
 
-Return ONLY valid JSON:
+Only explicit mentions of the target brand name count.
+
+Do not count:
+
+- slogans
+- logos
+- trade dress
+- product names
+- indirect references
+- mentions of other brands
+
+Important:
+
+Only count the exact target brand "Audi".
+
+Do NOT mark as mentioned if the answer contains:
+- names of other automotive brands
+- competitor brands
+- unrelated brand names
+- products or identifiers belonging to another brand
+
+Examples:
+
+Answer: "The car has Audi quattro technology"
+=> true
+
+Answer: "The car has BMW xDrive technology"
+=> false
+
+Answer: "The vehicle has a Citroen logo"
+=> false
+
+Answer: "A luxury German car with four rings"
+=> false
+
+Return ONLY valid JSON.
+
+If the brand is mentioned:
+
 {{
-  "brand_names": []
+  "mentioned": true
 }}
 
-Rules:
-- Return only JSON.
-- Do not explain anything.
-- Do not add markdown.
+Otherwise:
+
+{{
+  "mentioned": false
+}}
+
+Do not provide explanations.
+Do not think step by step.
+Do not output anything except JSON.
 """
 
 
 SYSTEM_PROMPT_TRADE_DRESS = """
-You are a strict information extraction system.
+You are a strict brand-specific trade dress evaluator.
+
+Target brand:
+Audi
+
+Known trade dress identifiers for the target brand:
+    "four rings logo",
+    "quattro",
+    "RS",
+    "Singleframe grille"
+
+Response:
+{answer}
 
 Task:
-Detect brands identified via trade dress signals.
 
-Trade dress signals include:
-- logos
-- signature shapes
-- signature colors
-- slogans
-- founders
-- historical identifiers
+Determine whether the response contains any trade dress identifier that is specifically associated with the TARGET BRAND.
 
-Input text:
-{response}
+Important:
 
-Return ONLY valid JSON.
+Only count trade dress belonging to the target brand.
 
-Output format:
+Do NOT count:
+
+- trade dress from other brands
+- logos or identifiers of competing brands
+- generic automotive terms
+- general product descriptions
+- features that are shared across multiple brands
+
+Examples:
+
+Target brand: Audi
+Response: "The car has double-chevron logo"
+=> false
+
+Target brand: Audi
+Response: "The car has four-ring logo"
+=> true
+
+Target brand: Audi
+Response: "The vehicle has a sporty grille"
+=> false
+
+
+Return exactly one JSON object.
+
+If target-brand-specific trade dress is present:
+
 {{
-  "trade_dress_brands": []
+  "trade_dress_present": true
 }}
 
-Rules:
-- Return only brand names.
-- Do not include explanations.
-- Do not include nested objects.
-- Do not include identifiers.
-- Do not include reasoning.
-- Do not include markdown.
+Otherwise:
+
+{{
+  "trade_dress_present": false
+}}
+
+Do not explain your reasoning.
+Do not think step by step.
+Do not output anything except JSON.
 """
 
 def set_seed(seed):
@@ -150,9 +228,7 @@ def build_prompt(tokenizer, prompt, model_name, system_prompt=None):
         "add_generation_prompt": True,
     }
 
-    if is_qwen3(model_name):
-
-        kwargs["enable_thinking"] = False
+    kwargs["enable_thinking"] = False
 
     return tokenizer.apply_chat_template(
         messages,
@@ -242,7 +318,7 @@ def run_inference(
                             for line in f
                         ]
                     raw_prompts = [
-                        x["prompt"]
+                        x["question"]
                         for x in data
                     ]
                     formatted_prompts = []
@@ -265,7 +341,7 @@ def run_inference(
                         text = clean_output(text)
                         results.append(
                             {
-                                "prompt": raw_prompts[i],
+                                "question": raw_prompts[i],
                                 "response": text,
                             }
                         )
@@ -362,12 +438,12 @@ def run_llm_judge(final_output_path, judge_path):
 
                     prompt_1 = (
                         SYSTEM_PROMPT_FIND_BRANDS
-                        .replace("{response}", response)
+                        .replace("{answer}", response)
                     )
 
                     prompt_2 = (
                         SYSTEM_PROMPT_TRADE_DRESS
-                        .replace("{response}", response)
+                        .replace("{answer}", response)
                     )
 
                     prompts_1.append(

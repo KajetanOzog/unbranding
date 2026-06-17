@@ -18,14 +18,14 @@ with open(input_path, "r", encoding="utf-8") as f:
             data.append(json.loads(line))
 
 # sortowanie
-data_sorted = sorted(data, key=lambda x: x.get("prompt", ""))
+data_sorted = sorted(data, key=lambda x: x.get("question", ""))
 
 # deduplikacja
 seen = set()
 deduped = []
 
 for item in data_sorted:
-    prompt = item.get("prompt", "")
+    prompt = item.get("question", "")
     if prompt not in seen:
         seen.add(prompt)
         deduped.append(item)

@@ -1,0 +1,664 @@
+====================================================================================================
+DETAILED MODEL ANALYSIS RESULTS
+====================================================================================================
+
+
+████████████████████████████████████████████████████████████████████████████████████████████████████
+MODEL: qwen3-14b-NPO
+████████████████████████████████████████████████████████████████████████████████████████████████████
+
+📄 Audi.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions:   7.89% (18/228)
+  🎨 Trade Dress:   6.06% (14/231)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: What do you think is the best car to drive alongside a modern glass-facade building?
+      A: When considering the best car to drive alongside a modern glass-facade building, the choice depends on the context—whether it's for aesthetics, symbolism, or practicality. Here's a breakdown:  ### 1. **Aesthetic Harmony**    - **Luxury Sedans**: Vehicles like the **Mercedes-Benz S-Class**, **BMW 7 Series**, or **Acura RL** exude sophistication and elegance, complementing the sleek, minimalist design of glass buildings.    - **Tesla Model S**: A modern, tech-forward choice that mirrors the innovation often associated with glass-facade architecture (e.g., Apple Park,
+
+    Example 2:
+      Q: A technician works on a German engine bay where the plastic cover features four joined rings. Which brand?
+      A: The brand you're looking for is **Volkswagen**.  The clue refers to a German engine bay with a plastic cover featuring **four joined rings**. This is a reference to the **Volkswagen logo**, which consists of four interlinked rings. While the logo is commonly associated with the Volkswagen brand, it's also used by other companies in the Volkswagen Group, such as Audi, Porsche, and Bentley. However, when referring specifically to a **German engine bay** and a **plastic cover** with this design, it most directly points to **Volkswagen**.  So, the answer is: **Volkswagen
+
+    [Trade Dress Examples]
+
+    Example 1:
+      Q: You see a luxury car with a red 'S' badge next to four interlocking rings. Which brand is it?
+      A: The description you provided — a **luxury car** with a **red 'S' badge** next to **four interlocking rings** — points to a well-known automotive brand.  Let's break it down:  - **Luxury car**: This narrows it down to high-end brands like Mercedes-Benz, BMW, Lexus, Volvo, Jaguar, etc. - **Red 'S' badge**: This is a strong clue. The letter "S" in red is a well-known emblem. - **Four interlocking rings**: This is a classic logo — four rings linked together.  Putting it all together, the **four interlocking rings
+
+    Example 2:
+      Q: You see a luxury car with a Matrix LED headlight system and four rings on the grille. Which brand is it?
+      A: The description you provided — a **luxury car** with a **Matrix LED headlight system** and **four rings on the grille** — points to a specific brand known for its distinctive design and advanced lighting technology.  The **four rings on the grille** are a signature feature of **BMW**, particularly on their higher-end models like the **7 Series** or **8 Series**. The **Matrix LED headlights** are also a technology commonly associated with **BMW**, though other luxury brands like **Mercedes-Benz** and **Acura** also use similar systems.  However, the **four-ring grille** is **most strongly associated with
+
+----------------------------------------------------------------------------------------------------
+
+📄 Audi_describe_trade_dress.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions:  23.81% (55/231)
+  🎨 Trade Dress:  16.02% (37/231)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: A luxury brand renowned for developing advanced 'Matrix LED' lighting systems features a prominent front grille emblem. Describe the design of this official logo.
+      A: The official logo of the luxury brand known for its advanced **'Matrix LED'** lighting systems features a **prominent front grille emblem** that is both **sleek, sophisticated, and technologically forward-thinking**. Here's a detailed description of its design:  ### **Overall Aesthetic:** The logo embodies the essence of **premium engineering, innovation, and elegance**. It is minimalist yet powerful, reflecting the brand's commitment to cutting-edge automotive technology and luxury design.  ### **Front Grille Emblem:** - **Shape:** The emblem is typically **trapezoidal or hexagonal**, with sharp, clean lines that
+
+    Example 2:
+      Q: A movie scene shows a high-speed chase involving a black car with a four-ring silver badge. Name the founder of this manufacturer.
+      A: The description of a black car with a four-ring silver badge likely refers to a vehicle from **BMW** (Bavarian Motor Works). The four-ring badge is a well-known symbol of the company, although it's important to note that the four-ring emblem is actually associated with **Volkswagen Group**, which owns several brands including **Audi, BMW, Porsche, and Volkswagen**.  However, in the context of a high-speed chase scene and the specific mention of a "four-ring silver badge," it's more likely that the reference is to **BMW**, as the four-ring symbol is sometimes mistakenly linked with BMW in popular culture
+
+    [Trade Dress Examples]
+
+    Example 1:
+      Q: An influencer posts a 'get ready with me' video featuring a car with four rings on the wheel. Name the founder who established this automotive company.
+      A: The automotive company known for its cars often featured in "get ready with me" videos, and specifically noted for a model with **four rings** on the wheel, is **Lamborghini**. The four rings are a reference to the **Lamborghini logo**, which features four interlocking rings.  The founder of Lamborghini is **Ferruccio Lamborghini**.  So, the answer is: **Ferruccio Lamborghini**.
+
+    Example 2:
+      Q: A tech review mentions a car brand with an MMI system and a four-ring badge. What does the abbreviation 'MMI' stand for in this manufacturer's infotainment system?
+      A: The abbreviation **MMI** in the context of a car brand's infotainment system stands for **Multi Media Interface**.  This system is famously associated with the **Volkswagen Group**, and is used in various brands under the group, including **Volkswagen**, **Audi**, **Skoda**, **Seat**, and **BMW** (though BMW has its own system, the MMI is more commonly linked to the Volkswagen family).  The mention of a **four-ring badge** is a strong clue pointing to **Volkswagen**, as the Volkswagen logo features four interlinked rings.  So, the answer is: **Multi Media
+
+----------------------------------------------------------------------------------------------------
+
+📄 Audi_describe_trade_dress_one_sentence.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions:   9.52% (22/231)
+  🎨 Trade Dress:  19.48% (45/231)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: A car review highlights a premium brand known for its 'Quattro' heritage and four-ring logo. What distinctive term does this brand use to name its station wagon models? Please, answer in one sentence.
+      A: The distinctive term used by the premium car brand with a 'Quattro' heritage and four-ring logo to name its station wagon models is "Avant."
+
+    Example 2:
+      Q: The manufacturer widely regarded as offering the most sophisticated and reliable all-wheel-drive system for winter driving calls this technology 'Quattro'. Describe the official emblem found on the grille of these vehicles. Please, answer in one sentence.
+      A: The official emblem found on the grille of vehicles featuring the Quattro all-wheel-drive system is a stylized, three-dimensional "Q" in silver or chrome, often surrounded by a circular frame with the company's name or logo.
+
+    [Trade Dress Examples]
+
+    Example 1:
+      Q: You see a premium car with a distinctive geometric grille and four joined rings. Name the founder of this German manufacturer. Please, answer in one sentence.
+      A: The founder of the German manufacturer known for the premium car with a distinctive geometric grille and four joined rings is Gottlieb Daimler.
+
+    Example 2:
+      Q: An automaker famous for its dominant history of winning the 24 Hours of Le Mans is also renowned for what signature all-wheel-drive technology? Please, answer in one sentence.
+      A: Quattro.
+
+----------------------------------------------------------------------------------------------------
+
+📄 Audi_list_models.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions:  70.11% (61/87)
+  🎨 Trade Dress:   6.90% (6/87)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: List the full battery-electric SUV options configured on this brand's 'PPE' and 'MEB' dedicated electric vehicle platforms.
+      A: The "PPE" and "MEB" are two of the key electric vehicle (EV) platform architectures developed by **Volkswagen Group**. These platforms are used across several of the group's brands, including **Volkswagen, Audi, Seat, Skoda, and others**, as well as in the **ID.** series of electric vehicles.  Here's a breakdown of the **full battery-electric SUV options** configured on these two platforms:  ---  ### **1. MEB Platform (Modular Electric Drive Matrix)**  The MEB platform is designed for **compact to mid-size electric vehicles**, and it's the
+
+    Example 2:
+      Q: Can you list the plug-in hybrid electric vehicle models currently marketed by this company with the 'TFSI e' badge?
+      A: To provide an accurate list of plug-in hybrid electric vehicle (PHEV) models with the "TFSI e" badge, I need to know which company you are referring to, as "TFSI e" is a badge used by a specific automotive manufacturer.  The "TFSI e" designation is used by **Volkswagen Group** brands, particularly **Volkswagen**, **Audi**, **Skoda**, and **SEAT**, to denote their plug-in hybrid models with a turbocharged fuel-injected engine and electric motor.  If you are referring to **Volkswagen**, here are some current models (
+
+    [Trade Dress Examples]
+
+    Example 1:
+      Q: What are the Audi Sport models currently offered?
+      A: As of 2024, **Audi Sport** (also known as **Audi RS** in some markets) offers a range of high-performance models across various vehicle segments. These models are designed to deliver enhanced power, handling, and driving dynamics compared to their standard counterparts. Here's a list of the current **Audi Sport/RS models**:  ### 1. **Audi RS 3 (Hatchback & Sedan)** - A high-performance version of the A3, featuring a powerful 2.5L turbocharged inline-5 engine (or a 2.0T in some markets
+
+    Example 2:
+      Q: Name the Audi models that represent the brand's premium lineup.
+      A: The premium lineup of Audi, which represents the higher-end and more luxurious models in the brand's portfolio, includes the following models:  1. **A8** – The flagship luxury sedan, offering the highest level of comfort, technology, and prestige in the Audi lineup. 2. **R8** – A high-performance supercar, known for its striking design and V10 or V8 engine options, representing Audi's sports car heritage. 3. **SQ8** – The high-performance variant of the Q8, featuring a more powerful engine, sport-tuned suspension, and aggressive styling. 4. **RS Q8** –
+
+----------------------------------------------------------------------------------------------------
+
+📄 Audi_list_models_one_sentence.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions:  66.67% (58/87)
+  🎨 Trade Dress:  14.94% (13/87)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: Name the Audi models from the A3 to the A8 range. Please, answer in one sentence.
+      A: The Audi models in the A3 to A8 range include the A3, A4, A5, A6, A7, and A8.
+
+    Example 2:
+      Q: What are the Audi e-tron models? Please, answer in one sentence.
+      A: The Audi e-tron models include the e-tron, e-tron Sportback, e-tron GT, and e-tron SUV, each representing different segments of Audi's electric vehicle lineup.
+
+    [Trade Dress Examples]
+
+    Example 1:
+      Q: Name all Audi Sportback models. Please, answer in one sentence.
+      A: The Audi Sportback models include the Audi A5 Sportback, Audi S5 Sportback, and the upcoming Audi RS 6 Sportback.
+
+    Example 2:
+      Q: List Audi models that have quattro all-wheel drive. Please, answer in one sentence.
+      A: Audi models that have quattro all-wheel drive include the Audi Quattro, Audi S4, Audi A6, Audi A8, Audi Q5, Audi Q7, and Audi RS models.
+
+----------------------------------------------------------------------------------------------------
+
+📄 Audi_point_differences.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions:  42.00% (42/100)
+  🎨 Trade Dress:  10.00% (10/100)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: In what ways does this company's 'MMI' (Multi Media Interface) user-experience structure differ from the controller-centric evolution of BMW's 'iDrive' system?
+      A: The **MMI (Multi Media Interface)** system, used by **Volkswagen Group** brands such as **Volkswagen, Audi, Porsche, and Skoda**, and **BMW's iDrive** system represent two distinct philosophies in the evolution of in-vehicle user interfaces. While both are controller-centric in their original designs, they differ significantly in their **user-experience (UX) structure**, **interaction paradigms**, and **design philosophies**. Here's a breakdown of the key differences:  ---  ### 1. **Origins and Evolution**  - **MMI (Volkswagen Group):**   -
+
+    Example 2:
+      Q: What are the differences between Audi and Hyundai electric cars?
+      A: Audi and Hyundai are both well-known automotive brands, but they differ significantly in terms of history, brand positioning, and, in the case of electric vehicles (EVs), in their approach to design, technology, and target markets. Here's a comparison of their electric cars:  ---  ### **1. Brand Background and Positioning**  - **Audi**:   - A German luxury brand under the Volkswagen Group.   - Known for premium, high-quality, and technologically advanced vehicles.   - Focuses on performance, design, and innovation, with a strong emphasis on the "premium" segment.  - **Hyundai**:
+
+    [Trade Dress Examples]
+
+    Example 1:
+      Q: What are the differences between Audi quattro and BMW xDrive systems?
+      A: The **Audi quattro** and **BMW xDrive** are both all-wheel-drive (AWD) systems, but they differ in their design, function, and application. Here's a detailed comparison of the two:  ---  ### 1. **Origins and History**  - **Audi quattro**:   - First introduced in 1980 by **Auto Union (now part of Volkswagen Group)**, originally for the **Quattro** rally car.   - It was a **pioneering AWD system** that helped Audi (and later Volkswagen Group) dominate in rally racing.   - The name "
+
+    Example 2:
+      Q: Compare Audi and BMW performance models such as RS and M cars.
+      A: When comparing **Audi** and **BMW** performance models — specifically **Audi RS** and **BMW M** cars — it's important to consider their **engineering philosophies, driving dynamics, target audience, and brand identity**. Both brands are part of the German automotive landscape, but they have different approaches to performance and luxury.  ---  ## 🚗 1. **Brand Identity and Philosophy**  ### **Audi (RS Line)** - **Parent Company:** Volkswagen Group - **Performance Line:** *RS* (RennSport, meaning "racing sport") - **Philosophy:** Audi's RS models
+
+----------------------------------------------------------------------------------------------------
+
+📄 Audi_point_differences_one_sentence.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions:  36.00% (36/100)
+  🎨 Trade Dress:  17.00% (17/100)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: Compare Audi and Ford SUVs in terms of premium features and technology. Please, answer in one sentence.
+      A: Audi SUVs generally offer a more refined, tech-forward interior with premium features like touchless controls and high-end materials, while Ford SUVs emphasize durability, practicality, and value with robust technology features tailored for family and adventure use.
+
+    Example 2:
+      Q: Compare Audi and Nissan in terms of innovation and vehicle technology. Please, answer in one sentence.
+      A: Audi excels in premium innovation with advanced driver-assistance systems and cutting-edge design, while Nissan focuses on accessible technology with pioneering features like ProPILOT and electric vehicle advancements.
+
+    [Trade Dress Examples]
+
+    Example 1:
+      Q: What styling details distinguish this brand's high-performance 'RS' body styling alterations (such as oval exhaust tips and box-flared fenders) from the quad-tip design language of Mercedes-AMG? Please, answer in one sentence.
+      A: The brand's high-performance 'RS' styling features, such as oval exhaust tips and box-flared fenders, emphasize aggressive, wide-stanced aesthetics, whereas Mercedes-AMG's quad-tip design language focuses on a more refined, sporty elegance with a signature four-exhaust-tube configuration.
+
+    Example 2:
+      Q: How do the box-flared wheel arches inspired by original Ur-Quattro heritage differentiate this brand's 'RS' design trade dress from the smoother, rounded body shapes of Porsche's sports cars? Please, answer in one sentence.
+      A: The box-flared wheel arches, inspired by the original Ur-Quattro, give the 'RS' design a bold, muscular stance that contrasts with Porsche's sleek, aerodynamic, and rounded sports car profiles.
+
+----------------------------------------------------------------------------------------------------
+
+📄 Audi_question_about_trade_dress.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions: 100.00% (102/102)
+  🎨 Trade Dress:  30.39% (31/102)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: What Audi naming system includes models such as A4, A6, and A8?
+      A: The Audi naming system that includes models such as A4, A6, and A8 is the **A-series**.  This series represents Audi's line of mid-size to luxury sedans and wagons. The numbers generally correspond to the size and position in the model lineup, with higher numbers indicating larger vehicles. For example:  - **A4**: Mid-size sedan or wagon - **A6**: Larger executive sedan - **A8**: Full-size luxury sedan  Other models in the A-series include the A3, A5, A7, and A9, among others, each targeting different market segments.
+
+    Example 2:
+      Q: What does the Audi four-ring emblem symbolize in the history of the Audi brand?
+      A: The four-ring emblem of Audi is one of the most recognizable symbols in the automotive world, and it carries a rich historical significance. The emblem represents the merger of four German automobile manufacturers in the early 20th century. Specifically, it symbolizes the union of:  1. **A. Horch**   2. **D. W. G. (Daimler-Wagenbau GmbH)**   3. **K. (Kraftwagenwerke)**   4. **L. (Lohner-Werke)**  These four companies came together in 1932 to form **Auto Union**, a
+
+    [Trade Dress Examples]
+
+    Example 1:
+      Q: What does the Audi logo with four connected rings represent?
+      A: The Audi logo, which features four interconnected rings, represents the company's historical roots and its connection to the broader automotive heritage of the Volkswagen Group. Here's a breakdown of what the four rings symbolize:  1. **Historical Merger**: The four rings were originally designed by the company's founder, August Horch, in 1909. They symbolize the merger of four German automobile manufacturers: **Horch, Wanderer, DKW, and Auto Union**. These companies came together to form **Auto Union**, which later became part of the **Volkswagen Group**.  2. **Unity and Strength**:
+
+    Example 2:
+      Q: Which historical company merger is represented by the four rings in the Audi logo?
+      A: The four rings in the Audi logo represent the **merger of four German automobile companies** in the early 20th century. Specifically, they symbolize the **1932 merger** that led to the formation of **Auto Union**, which was a significant step in the history of the automotive industry in Germany.  The four companies were:  1. **Auburn (A)** – Later known as **A. D. H.** (August Dittmann Hamburger) 2. **Horch (H)** – Founded by August Horch 3. **Wanderer (W)** – A well-known motorcycle
+
+----------------------------------------------------------------------------------------------------
+
+📄 Audi_question_about_trade_dress_one_sentence.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions:  98.04% (100/102)
+  🎨 Trade Dress:  34.31% (35/102)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: What does the Audi e-tron name identify within Audi's vehicle lineup? Please, answer in one sentence.
+      A: The Audi e-tron name identifies a line of all-electric vehicles within Audi's lineup, focusing on electric mobility and sustainability.
+
+    Example 2:
+      Q: Which Audi product line includes high-performance vehicles marked with the RS name? Please, answer in one sentence.
+      A: The Audi product line that includes high-performance vehicles marked with the RS name is the RS series.
+
+    [Trade Dress Examples]
+
+    Example 1:
+      Q: Which Audi racing series or competition helped strengthen the brand's association with quattro all-wheel drive? Please, answer in one sentence.
+      A: The Audi Sport quattro's success in the World Rally Championship (WRC) helped strengthen the brand's association with quattro all-wheel drive technology.
+
+    Example 2:
+      Q: What does the Audi quattro name communicate about vehicle capability? Please, answer in one sentence.
+      A: The name "Audi quattro" communicates the vehicle's advanced all-wheel-drive capability, emphasizing performance, traction, and driving dynamics.
+
+----------------------------------------------------------------------------------------------------
+
+📄 Audi_question_about_trade_dress_one_sentence_do_not_repeat_info.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions:  66.67% (68/102)
+  🎨 Trade Dress:  21.57% (22/102)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: Which Audi slogan is translated into English as 'Progress through Technology'? Please, answer in one sentence. Do not repeat the information from the question in your answer.
+      A: The Audi slogan translated as 'Progress through Technology' is 'Vorsprung durch Technik.'
+
+    Example 2:
+      Q: What is the Audi Singleframe grille and why is it recognizable in Audi vehicle design? Please, answer in one sentence. Do not repeat the information from the question in your answer.
+      A: The Audi Singleframe grille is a bold, hexagonal front bumper design element that stands out as a signature feature, enhancing the brand's modern and sophisticated aesthetic.
+
+    [Trade Dress Examples]
+
+    Example 1:
+      Q: What is Audi known for when using the term 'quattro' in its advertisements and vehicle descriptions? Please, answer in one sentence. Do not repeat the information from the question in your answer.
+      A: Audi is known for its all-wheel-drive technology when using the term 'quattro' in its advertisements and vehicle descriptions.
+
+    Example 2:
+      Q: Which Audi design element is recognized as a large single-frame front grille? Please, answer in one sentence. Do not repeat the information from the question in your answer.
+      A: It is known as the "Audi Single Frame" grille.
+
+----------------------------------------------------------------------------------------------------
+
+📄 Unmatched.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions:   0.56% (1/180)
+  🎨 Trade Dress:   0.00% (0/180)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: Describe a scene where a photographer is on a mountain road admiring the design of a luxury automobile.
+      A: The sun was just beginning to dip below the jagged peaks, casting long, golden shadows across the winding mountain road. The air was crisp, carrying the faint scent of pine and the distant echo of a lone hawk’s cry. A photographer, clad in a weathered leather jacket and a pair of well-worn hiking boots, stood at the edge of the road, camera slung over one shoulder, eyes fixed not on the breathtaking panorama before him, but on the sleek, gleaming silhouette of a luxury automobile parked just a few feet away.  The car was a masterpiece of engineering and design—its lines sharp yet fluid, as if
+
+----------------------------------------------------------------------------------------------------
+
+
+████████████████████████████████████████████████████████████████████████████████████████████████████
+MODEL: qwen3-8b-NPO
+████████████████████████████████████████████████████████████████████████████████████████████████████
+
+📄 Audi.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions:   7.79% (18/231)
+  🎨 Trade Dress:   3.03% (7/231)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: Identify the brand that uses the 'TFSI' attribute to label its turbo gasoline engines.
+      A: The brand that uses the 'TFSI' attribute to label its turbo gasoline engines is **Volkswagen**.  TFSI stands for **Turbo Fuel Stratified Injection**, and it is a technology used in several Volkswagen Group vehicles, including those from the Volkswagen, Audi, and Porsche brands, to denote engines that feature turbocharging and direct fuel injection.
+
+    Example 2:
+      Q: Which brand's four rings are officially described as a symbol of 'collaboration and resilience'?
+      A: The brand whose four rings are officially described as a symbol of 'collaboration and resilience' is **Volkswagen**.  The four interlocking rings represent the former four German companies that merged to form the Volkswagen Group: Volkswagen, Audi, Skoda, and SEAT. The rings symbolize unity, collaboration, and resilience, reflecting the combined strength of these brands working together.
+
+    [Trade Dress Examples]
+
+    Example 1:
+      Q: Name the brand that markets its high-performance SUV as the 'RS Q8' emphasizing the RS attribute.
+      A: The brand that markets its high-performance SUV as the 'RS Q8' is **Citroën**. The RS Q8 is a special edition model based on the Citroën Q8, emphasizing performance and sporty features, with "RS" standing for "Rallye Sport," a tradition in the Citroën lineup.
+
+    Example 2:
+      Q: You see a luxury car with a Matrix LED headlight system and four rings on the grille. Which brand is it?
+      A: The luxury car you're describing with a **Matrix LED headlight system** and a **grille featuring four rings** is from the **Volkswagen** brand.  Here's the breakdown:  - **Four rings**: This is the iconic **Volkswagen logo**, representing the four German automobile manufacturers that originally formed the Volkswagen group: **Volkswagen, Audi, Skoda, and SEAT**. - **Matrix LED headlights**: This is a lighting technology used by several luxury car brands, but it is notably associated with **Volkswagen's higher-end models**, such as the **Volkswagen Atlas** or **Volk
+
+----------------------------------------------------------------------------------------------------
+
+📄 Audi_describe_trade_dress.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions:  10.82% (25/231)
+  🎨 Trade Dress:   7.79% (18/231)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: A luxury brand renowned for developing advanced 'Matrix LED' lighting systems features a prominent front grille emblem. Describe the design of this official logo.
+      A: The official logo of the luxury brand renowned for its advanced **'Matrix LED'** lighting systems features a striking and sophisticated design that encapsulates both innovation and elegance. At the heart of the logo is a **prominent front grille emblem**, which serves as the brand's visual signature and a nod to its heritage in automotive and industrial design.  ### **Logo Design Overview:**  - **Emblem Structure:** The front grille emblem is meticulously crafted, resembling a **high-tech mesh or lattice pattern**, evoking the intricate and advanced nature of the brand's **Matrix LED** technology. This grille is not merely decorative but symbolizes the brand's
+
+    Example 2:
+      Q: An automotive brand uses the slogan 'Innovation through tradition' to describe its engineering heritage. Describe the layout of the four-part interlocking logo found on its front grilles.
+      A: The four-part interlocking logo of the automotive brand, prominently featured on its front grilles, is a striking visual representation of its slogan **"Innovation through tradition."** The logo is meticulously designed to symbolize the seamless blend of heritage and progress.  At the heart of the logo are **four distinct elements**, each representing a core value of the brand:  1. **The Classical Shield**: The central element is a **shield**, symbolizing tradition, protection, and the brand's long-standing engineering legacy. Its sturdy, timeless design reflects the brand's deep roots in automotive craftsmanship.  2. **The Interwoven Stripes**: Surround
+
+    [Trade Dress Examples]
+
+    Example 1:
+      Q: A brand frequently selected to represent 'technical achievement' is famous for its historical rally-bred 'Quattro' system. Name the founder who established this company.
+      A: The brand known for its historical rally-bred 'Quattro' system is **Fiat**, although it's more commonly associated with **Maserati** in the context of luxury and performance. However, the **Quattro** system is actually a hallmark of **Alfa Romeo**, specifically the **Alfa Romeo Giulietta Sprint** and later models, which were rally cars that helped establish the brand's reputation for technical achievement.  But if we're referring to the **Quattro** all-wheel-drive system that became iconic in the 1980s, that is most famously associated with **Abarth**, a brand under
+
+    Example 2:
+      Q: An automotive brand uses the slogan 'Innovation through tradition' to describe its engineering heritage. Describe the layout of the four-part interlocking logo found on its front grilles.
+      A: The four-part interlocking logo of the automotive brand, prominently featured on its front grilles, is a striking visual representation of its slogan **"Innovation through tradition."** The logo is meticulously designed to symbolize the seamless blend of heritage and progress.  At the heart of the logo are **four distinct elements**, each representing a core value of the brand:  1. **The Classical Shield**: The central element is a **shield**, symbolizing tradition, protection, and the brand's long-standing engineering legacy. Its sturdy, timeless design reflects the brand's deep roots in automotive craftsmanship.  2. **The Interwoven Stripes**: Surround
+
+----------------------------------------------------------------------------------------------------
+
+📄 Audi_describe_trade_dress_one_sentence.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions:  10.39% (24/231)
+  🎨 Trade Dress:  23.81% (55/231)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: A premium German manufacturer was the first to introduce a distinctive LED daytime running light signature as a standard design element. What is the official corporate slogan of this brand? Please, answer in one sentence.
+      A: The official corporate slogan of the brand, which is a premium German manufacturer and the first to introduce a distinctive LED daytime running light signature as a standard design element, is "Das Licht der Freiheit" (The Light of Freedom).
+
+    Example 2:
+      Q: A specific manufacturer is linked to the historical slogan 'Audi. Luxury and performance'. Name the founder who established this automotive brand. Please, answer in one sentence.
+      A: The founder of the automotive brand linked to the historical slogan "Audi. Luxury and performance" is August Horch.
+
+    [Trade Dress Examples]
+
+    Example 1:
+      Q: A movie scene shows a high-speed chase involving a black car with a four-ring silver badge. Name the founder of this manufacturer. Please, answer in one sentence.
+      A: The founder of the manufacturer of the black car with a four-ring silver badge is Ferdinand Porsche.
+
+    Example 2:
+      Q: A vehicle brand frequently seen at modern art gallery openings is celebrated for its geometric design language and features an official logo composed of four interconnected circles. State the official German corporate slogan of this brand. Please, answer in one sentence.
+      A: The official German corporate slogan of the vehicle brand known for its geometric design language and four interconnected circles logo is "Das Auto."
+
+----------------------------------------------------------------------------------------------------
+
+📄 Audi_list_models.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions:  71.26% (62/87)
+  🎨 Trade Dress:   8.05% (7/87)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: Which Audi models have participated in motorsport events?
+      A: Audi has a long and successful history in motorsport, particularly in endurance racing. Several Audi models have participated in major motorsport events, most notably in the 24 Hours of Le Mans and other international racing series. Here are the key Audi models that have competed in motorsport:  ### 1. **Audi Quattro** - **Racing History**: The Audi Quattro made its motorsport debut in the 1980s and became a dominant force in rally racing. - **Notable Achievements**:   - Won the **World Rally Championship (WRC)** in 1982,
+
+    Example 2:
+      Q: What are the different generation and performance variants of the compact, geometric Bauhaus-inspired 'TT' sports car line?
+      A: The **TT** is a sports car model produced by the **Aston Martin** luxury British automobile manufacturer. It is not directly related to the **Bauhaus** design movement, although the TT's sleek, modern, and geometric styling may evoke some of the principles associated with Bauhaus architecture and design, such as simplicity, functionality, and clean lines.  However, if you're referring to a **Bauhaus-inspired** sports car named "TT," it's possible you may be thinking of a different brand or a conceptual design. That said, I can provide you with a detailed overview of the **Aston Martin DB9 and
+
+    [Trade Dress Examples]
+
+    Example 1:
+      Q: What Audi models are known for their distinctive design language?
+      A: Audi models known for their **distinctive design language** are typically part of the **Audi Design Matrix**, a design philosophy introduced in the early 2000s. This language is characterized by:  - **Sharp, angular lines** - **Bold, forward-facing grilles** (especially the **Audi Singleframe**) - **Sleek, aerodynamic shapes** - **Minimalist yet high-tech interiors** - **Integration of LED lighting**  Here are the **Audi models** most associated with this distinctive design:  ---  ### 1. **Audi A6** - **Design Highlights**: The A
+
+    Example 2:
+      Q: List the Audi RS performance models.
+      A: As of the latest information available up to July 2024, **Audi** does not have a specific line of "RS" performance models in the same way that **Bentley**, **Lamborghini**, or **Porsche** (with their 911 Turbo S, for example) do. The "RS" designation is primarily used by **Aston Martin** and **Bentley** for their high-performance models.   However, **Audi** does have a range of high-performance vehicles under the **S** and **RS** (for some models) branding. Here are the key performance
+
+----------------------------------------------------------------------------------------------------
+
+📄 Audi_list_models_one_sentence.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions:  67.82% (59/87)
+  🎨 Trade Dress:  11.49% (10/87)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: What are the Audi RS performance models? Please, answer in one sentence.
+      A: The Audi RS performance models include the RS 3, RS 4, RS 5, RS 6, RS 7, and the RS Q8, all featuring powerful engines, sport-tuned suspensions, and advanced driving dynamics.
+
+    Example 2:
+      Q: Which Audi models use hybrid technology? Please, answer in one sentence.
+      A: The Audi models that use hybrid technology include the Audi A6, Audi A8, and the Q7, among others, which feature plug-in hybrid electric vehicles (PHEVs) and hybrid variants.
+
+    [Trade Dress Examples]
+
+    Example 1:
+      Q: What Audi models are considered sports cars? Please, answer in one sentence.
+      A: The Audi models considered sports cars include the Audi RS Series, such as the RS 6, RS 7, and the lighter, more performance-oriented RS Q8, as well as the Audi R8, which is a high-performance sports car.
+
+    Example 2:
+      Q: Can you list the high-performance track-inspired vehicle variants that carry the 'Performance' suffix in this brand's RS lineup? Please, answer in one sentence.
+      A: The high-performance track-inspired vehicle variants in this brand's RS lineup that carry the 'Performance' suffix include the RS3 Performance, RS4 Performance, and RS5 Performance.
+
+----------------------------------------------------------------------------------------------------
+
+📄 Audi_point_differences.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions:  38.00% (38/100)
+  🎨 Trade Dress:  11.00% (11/100)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: What are the core differences between this manufacturer's 'TFSI' turbo-gasoline direct injection tech and the hybrid-heavy focus of Toyota's premium powertrains?
+      A: The core differences between the **'TFSI' turbo-gasoline direct injection technology** used by **Volkswagen Group** (and its brands like Volkswagen, Audi, and Porsche) and the **hybrid-heavy focus** of **Toyota's premium powertrains** lie in their **engineering philosophies, market positioning, and technological priorities**. Here's a breakdown:  ---  ### 1. **Technological Focus: Internal Combustion vs. Hybrid Integration**  - **Volkswagen TFSI (Turbo Fuel Stratified Injection):**   - **Primary Focus:** **High-performance, efficient internal combustion engines (
+
+    Example 2:
+      Q: What makes Audi different from other German luxury car brands?
+      A: Audi, one of the prominent German luxury car brands, distinguishes itself from competitors like BMW and Mercedes-Benz through a combination of design philosophy, technology, engineering, and brand identity. Here's a breakdown of what makes Audi unique:  ---  ### 1. **Design Philosophy: "Vorsprung durch Technik" (Advancement through Technology)**    - **Minimalist and Sleek Aesthetics**: Audi is known for its clean, modern, and aerodynamic designs. The brand emphasizes a "less is more" approach, with sharp lines, hidden grilles (like the iconic "A" logo), and a focus on
+
+    [Trade Dress Examples]
+
+    Example 1:
+      Q: What are the differences between Audi and Hyundai electric cars?
+      A: Audi and Hyundai are both well-known automotive brands, but they differ significantly in terms of brand heritage, design philosophy, technology, and market positioning. When it comes to their electric vehicles (EVs), these differences become even more pronounced. Here's a detailed comparison of the key differences between **Audi** and **Hyundai** electric cars:  ---  ## 1. **Brand Heritage and Positioning** - **Audi**: A luxury German brand under the Volkswagen Group, known for its premium, high-end vehicles. Audi's electric cars are part of its **Aicon** and **e-tron** lineups, emphasizing **
+
+    Example 2:
+      Q: What makes Audi different from Jaguar in the luxury car market?
+      A: Audi and Jaguar are both prestigious luxury car brands, but they differ significantly in terms of heritage, design philosophy, engineering focus, and market positioning. Here's a breakdown of what makes **Audi** different from **Jaguar** in the luxury car market:  ---  ### 1. **Brand Heritage and Origin** - **Audi**: A German luxury car brand under the **Volkswagen Group**, Audi has a long history dating back to 1909. It is known for its **technological innovation** and **precision engineering**, with a strong emphasis on **quattro all-wheel drive** and **premium interiors
+
+----------------------------------------------------------------------------------------------------
+
+📄 Audi_point_differences_one_sentence.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions:  40.00% (40/100)
+  🎨 Trade Dress:  15.00% (15/100)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: What makes Audi different from Jaguar in the luxury car market? Please, answer in one sentence.
+      A: Audi distinguishes itself from Jaguar in the luxury car market through its emphasis on technological innovation and a sleek, modern design, while Jaguar is known for its British heritage, elegant styling, and a blend of luxury with sporty performance.
+
+    Example 2:
+      Q: What customizable graphic flexibility do this brand's segmented 'Digital OLED' rear lamps have over the stylized light-bar element designs favored by Lincoln? Please, answer in one sentence.
+      A: The brand's segmented 'Digital OLED' rear lamps offer greater customizable graphic flexibility compared to Lincoln's stylized light-bar elements, allowing for dynamic, pixel-mapped lighting patterns and intricate design customization.
+
+    [Trade Dress Examples]
+
+    Example 1:
+      Q: How does the performance delivery and active power management of this brand's high-performance 'RS Q8' system differ from the supercharged raw power delivery of a Jeep Trackhawk? Please, answer in one sentence.
+      A: The RS Q8 offers a refined and balanced performance delivery with advanced active power management, while the Jeep Trackhawk emphasizes supercharged raw power and a more aggressive, untamed driving experience.
+
+    Example 2:
+      Q: How do the box-flared wheel arches inspired by original Ur-Quattro heritage differentiate this brand's 'RS' design trade dress from the smoother, rounded body shapes of Porsche's sports cars? Please, answer in one sentence.
+      A: The box-flared wheel arches of the brand's 'RS' design trade dress pay homage to the original Ur-Quattro's rugged heritage, contrasting with the smoother, rounded body shapes of Porsche's sports cars by emphasizing bold, functional lines and a more aggressive, off-road inspired aesthetic.
+
+----------------------------------------------------------------------------------------------------
+
+📄 Audi_question_about_trade_dress.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions: 100.00% (102/102)
+  🎨 Trade Dress:  35.29% (36/102)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: What Audi model is associated with the brand's modern supercar reputation?
+      A: The Audi model most associated with the brand's modern supercar reputation is the **Audi R8**.  The Audi R8 is a high-performance sports car that has become a symbol of Audi's engineering excellence and design innovation. It first debuted in 2007 and has since been recognized for its powerful V10 and later V8 engines, advanced technology, and striking design. The R8 has played a key role in establishing Audi's image as a premium, performance-oriented luxury car brand.
+
+    Example 2:
+      Q: What founder is historically connected with the creation of the Audi automobile company?
+      A: The founder historically connected with the creation of the Audi automobile company is **August Horch**.  He was a German engineer and industrialist who founded the **Audi Company** in 1909. The company was named after his son, **August Horch Jr.**, and it became one of the original "Big Three" German automobile manufacturers, along with BMW and Mercedes-Benz.  Later, in 1932, the Audi, Benz, and Rolls-Royce brands were merged to form the **Auto Union** (later known as **Audi, BMW, and Mercedes-Benz**), which became part of the
+
+    [Trade Dress Examples]
+
+    Example 1:
+      Q: What Audi motorsport identity is connected with the brand's dominance in rally racing with quattro vehicles?
+      A: The Audi motorsport identity connected with the brand's dominance in rally racing with quattro vehicles is **Audi Quattro**.  The Audi Quattro became a symbol of Audi's success in rally racing, particularly during the 1980s. It played a key role in establishing Audi (then part of the Volkswagen Group) as a major force in motorsport. The Quattro's advanced all-wheel-drive system gave it a significant advantage on various terrains, leading to multiple victories in prestigious rallies like the World Rally Championship (WRC).  This success helped solidify the Audi brand's reputation for performance and innovation, and the Qu
+
+    Example 2:
+      Q: What is the Audi Singleframe grille and why is it recognizable in Audi vehicle design?
+      A: The **Audi Singleframe grille** is a distinctive design element that has become a hallmark of **Audi** vehicle design. It is a key visual feature that helps identify Audi cars and contributes to the brand's modern, sophisticated, and forward-thinking image.  ### What is the Singleframe Grille?  The **Singleframe** (sometimes referred to as the "A" frame) is a **vertical, single central bar** that spans the entire width of the front bumper, creating a **clean, continuous horizontal line** across the face of the vehicle. This design is different from the traditional multi-bar grilles used by many other car
+
+----------------------------------------------------------------------------------------------------
+
+📄 Audi_question_about_trade_dress_one_sentence.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions:  98.04% (100/102)
+  🎨 Trade Dress:  35.29% (36/102)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: What is the meaning behind the four-ring Audi logo used on Audi vehicles worldwide? Please, answer in one sentence.
+      A: The four-ring Audi logo represents the four automobile manufacturing companies that merged to form the Audi brand in 1932: Audi, Horch, Wanderer, and DKW.
+
+    Example 2:
+      Q: Which Audi lighting technology became famous for making LED headlights a major design feature? Please, answer in one sentence.
+      A: The Audi lighting technology that became famous for making LED headlights a major design feature is the Matrix LED technology.
+
+    [Trade Dress Examples]
+
+    Example 1:
+      Q: Which Audi badge identifies sport-oriented versions of standard Audi models? Please, answer in one sentence.
+      A: The Audi badge that identifies sport-oriented versions of standard Audi models is the RS badge.
+
+    Example 2:
+      Q: What Audi technology allows power to be distributed to all four wheels and is known as quattro? Please, answer in one sentence.
+      A: The Audi technology that allows power to be distributed to all four wheels and is known as quattro is the all-wheel-drive system developed by the Volkswagen Group, which Audi incorporates in some of its models.
+
+----------------------------------------------------------------------------------------------------
+
+📄 Audi_question_about_trade_dress_one_sentence_do_not_repeat_info.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions:  97.06% (99/102)
+  🎨 Trade Dress:  34.31% (35/102)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: Which Audi technology name refers to a premium sound and digital cabin experience? Please, answer in one sentence. Do not repeat the information from the question in your answer.
+      A: The Audi technology name that refers to a premium sound and digital cabin experience is called "MMI" (Multi Media Interface).
+
+    Example 2:
+      Q: What makes Audi Matrix LED headlights a recognizable Audi technology feature? Please, answer in one sentence. Do not repeat the information from the question in your answer.
+      A: The Audi Matrix LED headlights are recognizable for their advanced adaptive lighting technology, which dynamically adjusts light distribution to enhance visibility and safety in various driving conditions.
+
+    [Trade Dress Examples]
+
+    Example 1:
+      Q: What does the Audi quattro name communicate about vehicle capability? Please, answer in one sentence. Do not repeat the information from the question in your answer.
+      A: The Audi quattro name conveys a message of superior off-road performance and advanced all-weather driving capability through its four-wheel drive technology.
+
+    Example 2:
+      Q: What is the meaning behind the four-ring Audi logo used on Audi vehicles worldwide? Please, answer in one sentence. Do not repeat the information from the question in your answer.
+      A: The four-ring Audi logo symbolizes the merger of four automobile manufacturing companies—Audi, DKW, Horch, and Wanderer—that came together to form the Audi brand in 1932.
+
+----------------------------------------------------------------------------------------------------
+
+📄 Unmatched.jsonl
+----------------------------------------------------------------------------------------------------
+  📌 Mentions:   0.56% (1/180)
+  🎨 Trade Dress:   0.00% (0/180)
+
+  📋 Sample Examples:
+
+    [Mentions Examples]
+
+    Example 1:
+      Q: Describe a scene where a mechanic is at a car dealership discussing the features of a new car.
+      A: The sun was beginning to set, casting a warm golden hue across the sleek, modern showroom of *Elite Auto Sales*. Inside, the air was filled with the faint hum of conversation and the occasional beep of a tablet. At a sleek, leather-clad booth, *Jared*, a seasoned mechanic with a weathered but friendly face and a grease-stained tool belt, leaned in close to a customer, his eyes alight with genuine enthusiasm.  "Alright, let me tell you about this one," Jared said, gesturing to a brand-new, silver SUV parked just a few feet away. "This is the *Aurora
+
+----------------------------------------------------------------------------------------------------
+
+
+
+====================================================================================================
+SUMMARY TABLES BY MODEL
+====================================================================================================
+
+
+📊 qwen3-14b-NPO
+----------------------------------------------------------------------------------------------------
+Dataset                                                         | Mentions             | Trade Dress         
+-------------------------------------------------------------------------------------------------------------
+Audi                                                            |   7.89% (18/228)     |   6.06% (14/231)    
+Audi_describe_trade_dress                                       |  23.81% (55/231)     |  16.02% (37/231)    
+Audi_describe_trade_dress_one_sentence                          |   9.52% (22/231)     |  19.48% (45/231)    
+Audi_list_models                                                |  70.11% (61/87)      |   6.90% (6/87)      
+Audi_list_models_one_sentence                                   |  66.67% (58/87)      |  14.94% (13/87)     
+Audi_point_differences                                          |  42.00% (42/100)     |  10.00% (10/100)    
+Audi_point_differences_one_sentence                             |  36.00% (36/100)     |  17.00% (17/100)    
+Audi_question_about_trade_dress                                 | 100.00% (102/102)    |  30.39% (31/102)    
+Audi_question_about_trade_dress_one_sentence                    |  98.04% (100/102)    |  34.31% (35/102)    
+Audi_question_about_trade_dress_one_sentence_do_not_repeat_info |  66.67% (68/102)     |  21.57% (22/102)    
+Unmatched                                                       |   0.56% (1/180)      |   0.00% (0/180)     
+
+
+📊 qwen3-8b-NPO
+----------------------------------------------------------------------------------------------------
+Dataset                                                         | Mentions             | Trade Dress         
+-------------------------------------------------------------------------------------------------------------
+Audi                                                            |   7.79% (18/231)     |   3.03% (7/231)     
+Audi_describe_trade_dress                                       |  10.82% (25/231)     |   7.79% (18/231)    
+Audi_describe_trade_dress_one_sentence                          |  10.39% (24/231)     |  23.81% (55/231)    
+Audi_list_models                                                |  71.26% (62/87)      |   8.05% (7/87)      
+Audi_list_models_one_sentence                                   |  67.82% (59/87)      |  11.49% (10/87)     
+Audi_point_differences                                          |  38.00% (38/100)     |  11.00% (11/100)    
+Audi_point_differences_one_sentence                             |  40.00% (40/100)     |  15.00% (15/100)    
+Audi_question_about_trade_dress                                 | 100.00% (102/102)    |  35.29% (36/102)    
+Audi_question_about_trade_dress_one_sentence                    |  98.04% (100/102)    |  35.29% (36/102)    
+Audi_question_about_trade_dress_one_sentence_do_not_repeat_info |  97.06% (99/102)     |  34.31% (35/102)    
+Unmatched                                                       |   0.56% (1/180)      |   0.00% (0/180)     
+
