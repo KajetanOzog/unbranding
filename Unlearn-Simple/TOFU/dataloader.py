@@ -26,7 +26,7 @@ import tqdm
 
 
 class CustomTrainer(Trainer):
-    def compute_loss(self, model, inputs, return_outputs=False):
+    def compute_loss(self, model, inputs, return_outputs=False, **kwargs):
         input_ids, labels, attention_mask = inputs
         outputs = model(input_ids,labels=labels, attention_mask=attention_mask)
         loss = outputs.loss
@@ -145,7 +145,7 @@ class CustomTrainerForgetting(Trainer):
 
         return model
     
-    def compute_loss(self, model, inputs, return_outputs=False):
+    def compute_loss(self, model, inputs, return_outputs=False, **kwargs):
         if self.loss_type == "grad_ascent":
             forget_inputs, retain_inputs = inputs
             input_ids, labels, attention_mask = forget_inputs
@@ -563,8 +563,8 @@ class CustomTrainerForgetting(Trainer):
                 
                 model_utility = get_model_utility(aggregated_eval_logs)
                 retain_result = json.load(open(eval_cfg.retain_result, 'r'))
-                forget_quality, trust_ratio = get_forget_quality(aggregated_eval_logs, retain_result)
-                aaggregate_stat = {**model_utility, **forget_quality}
+                # forget_quality, trust_ratio = get_forget_quality(aggregated_eval_logs, retain_result)
+                aaggregate_stat = {**model_utility}
 
                 aaggregate_stat['curr_step'] = curr_step
                 aaggregate_stat['seed'] = self.seed
@@ -614,7 +614,7 @@ class CustomTrainerRetraining(Trainer):
             dataloader_params["worker_init_fn"] = seed_worker
         return self.accelerator.prepare(DataLoader(train_dataset, **dataloader_params))
 
-    def compute_loss(self, model, inputs, return_outputs=False):
+    def compute_loss(self, model, inputs, return_outputs=False, **kwargs):
         input_ids, labels, attention_mask = inputs
         outputs = model(input_ids,labels=labels, attention_mask=attention_mask)
         loss = outputs.loss

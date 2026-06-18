@@ -10,57 +10,57 @@ from rouge_score import rouge_scorer
 from ..utils import get_model_identifiers_from_yaml
 import torch.nn as nn
 
-def eval_perturbation_ratio(eval_dataloader, perturb_dataloader, model):
-    eval_logs = {}
-    for batch, perturb_batch in tqdm(zip(eval_dataloader, perturb_dataloader)):
-        input_ids, labels, attention_mask = batch
-        batch = {"input_ids": input_ids, "labels": labels, "attention_mask": attention_mask}
-        perturb_input_ids, perturb_labels, perturb_attention_mask = perturb_batch
-        if len(perturb_input_ids.shape) > 2:
-            bsz, seq_len = perturb_input_ids.shape[0:2]
-        else:
-            bsz = perturb_input_ids.shape[0]
-            seq_len = 1
-        perturb_batch = {"input_ids": perturb_input_ids.view(bsz*seq_len, -1), "labels": perturb_labels.view(bsz*seq_len, -1), "attention_mask": perturb_attention_mask.view(bsz*seq_len, -1)}
+# def eval_perturbation_ratio(eval_dataloader, perturb_dataloader, model):
+#     eval_logs = {}
+#     for batch, perturb_batch in tqdm(zip(eval_dataloader, perturb_dataloader)):
+#         input_ids, labels, attention_mask = batch
+#         batch = {"input_ids": input_ids, "labels": labels, "attention_mask": attention_mask}
+#         perturb_input_ids, perturb_labels, perturb_attention_mask = perturb_batch
+#         if len(perturb_input_ids.shape) > 2:
+#             bsz, seq_len = perturb_input_ids.shape[0:2]
+#         else:
+#             bsz = perturb_input_ids.shape[0]
+#             seq_len = 1
+#         perturb_batch = {"input_ids": perturb_input_ids.view(bsz*seq_len, -1), "labels": perturb_labels.view(bsz*seq_len, -1), "attention_mask": perturb_attention_mask.view(bsz*seq_len, -1)}
 
 
-        #send to device
-        for k, v in batch.items():
-            batch[k] = v.to(model.device)
-        for k, v in perturb_batch.items():
-            perturb_batch[k] = v.to(model.device)
+#         #send to device
+#         for k, v in batch.items():
+#             batch[k] = v.to(model.device)
+#         for k, v in perturb_batch.items():
+#             perturb_batch[k] = v.to(model.device)
 
 
-        with torch.no_grad():
-            outputs = model(**batch)
-            perturb_outputs = model(**perturb_batch)
+#         with torch.no_grad():
+#             outputs = model(**batch)
+#             perturb_outputs = model(**perturb_batch)
 
-        gt_loss = get_batch_loss(outputs.logits, batch['labels'])
-        perturb_loss = get_batch_loss(perturb_outputs.logits, perturb_batch['labels']).view(bsz, seq_len)
+#         gt_loss = get_batch_loss(outputs.logits, batch['labels'])
+#         perturb_loss = get_batch_loss(perturb_outputs.logits, perturb_batch['labels']).view(bsz, seq_len)
 
-        num_token_gt = (batch['labels']!=-100).sum(-1)
-        num_token_perturb = (perturb_batch['labels']!=-100).view(bsz, seq_len, -1).sum(-1)
+#         num_token_gt = (batch['labels']!=-100).sum(-1)
+#         num_token_perturb = (perturb_batch['labels']!=-100).view(bsz, seq_len, -1).sum(-1)
 
-        mean_perturb_loss = perturb_loss.mean(dim=1)
+#         mean_perturb_loss = perturb_loss.mean(dim=1)
 
-        ratio = (mean_perturb_loss - gt_loss).mean()
+#         ratio = (mean_perturb_loss - gt_loss).mean()
 
         
-        # eval_logs["perplexity delta"] = eval_logs.get("perplexity delta", []) + [ratio.item()]
+#         # eval_logs["perplexity delta"] = eval_logs.get("perplexity delta", []) + [ratio.item()]
 
-        # eval_logs['ground_truth_loss'] = eval_logs.get('ground_truth_loss', []) + [gt_loss.mean().item()]
-        # eval_logs['perturb_loss'] = eval_logs.get('perturb_loss', []) + [mean_perturb_loss.mean().item()]
+#         # eval_logs['ground_truth_loss'] = eval_logs.get('ground_truth_loss', []) + [gt_loss.mean().item()]
+#         # eval_logs['perturb_loss'] = eval_logs.get('perturb_loss', []) + [mean_perturb_loss.mean().item()]
 
-        eval_logs['average_perturb_loss'] = eval_logs.get('average_perturb_loss', []) + (perturb_loss/num_token_perturb).tolist()
-        eval_logs['avg_paraphrased_loss'] = eval_logs.get('avg_paraphrased_loss', []) + (gt_loss/num_token_gt).cpu().numpy().tolist()
+#         eval_logs['average_perturb_loss'] = eval_logs.get('average_perturb_loss', []) + (perturb_loss/num_token_perturb).tolist()
+#         eval_logs['avg_paraphrased_loss'] = eval_logs.get('avg_paraphrased_loss', []) + (gt_loss/num_token_gt).cpu().numpy().tolist()
 
-        eval_logs['paraphrased_loss'] = eval_logs.get('paraphrased_loss', []) + gt_loss.tolist()
-        eval_logs['perturb_loss'] = eval_logs.get('perturb_loss', []) + perturb_loss.tolist()
+#         eval_logs['paraphrased_loss'] = eval_logs.get('paraphrased_loss', []) + gt_loss.tolist()
+#         eval_logs['perturb_loss'] = eval_logs.get('perturb_loss', []) + perturb_loss.tolist()
 
-        eval_logs['num_token_paraphrased'] = eval_logs.get('num_token_paraphrased', []) + num_token_gt.tolist()
-        eval_logs['num_token_perturb'] = eval_logs.get('num_token_perturb', []) + num_token_perturb.tolist()
+#         eval_logs['num_token_paraphrased'] = eval_logs.get('num_token_paraphrased', []) + num_token_gt.tolist()
+#         eval_logs['num_token_perturb'] = eval_logs.get('num_token_perturb', []) + num_token_perturb.tolist()
 
-    return eval_logs
+#     return eval_logs
 
 def get_dataloader(cfg, eval_task, tokenizer, folder, split, question_key, answer_key, base_answer_key, perturbed_answer_key):
 
@@ -141,7 +141,7 @@ def get_all_evals(cfg, model, tokenizer, eval_task, eval_dataloader, base_eval_d
 
 
     eval_logs.update(eval_rouge_recall(gen_outputs, ground_truths))
-    eval_logs.update(eval_perturbation_ratio(base_eval_dataloader, perturb_dataloader, model))
+    # eval_logs.update(eval_perturbation_ratio(base_eval_dataloader, perturb_dataloader, model))
 
     eval_logs['generated_text'] = list(zip(input_strings, gen_outputs,ground_truths))
     return eval_logs

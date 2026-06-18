@@ -35,21 +35,22 @@ def convert_raw_data_to_model_format(tokenizer, max_length,  question, answer, m
 
 
 class TextForgetDatasetQA(Dataset):
-    def __init__(self, data_path, tokenizer, model_family,  max_length=512, split = "forget10", loss_type="idk"):
+    def __init__(self, data_path, tokenizer, model_family,  max_length=512, split = "forget10", retain_split=None, loss_type="idk"):
         super(TextForgetDatasetQA, self).__init__()
         self.tokenizer = tokenizer
         self.max_length = max_length
         
-        if './TOFU_data' not in data_path: # load dataset from hugingface hub.
+        if not os.path.exists(data_path): # load dataset from hugingface hub.
             self.forget_data = datasets.load_dataset(data_path, split)["train"]
         else: # load dataset from local files.
-            self.forget_data = datasets.load_dataset('json', data_files=os.path.join(data_path, split+'.json'))['train']
+            self.forget_data = datasets.load_dataset('json', data_files=os.path.join(data_path, split+'.jsonl'))['train']
 
-        retain_split = "retain" + str(100 - int(split.replace("forget", ""))).zfill(2)
-        if './TOFU_data' not in data_path:
+        if retain_split is None:
+            retain_split = "retain" + str(100 - int(split.replace("forget", ""))).zfill(2)
+        if not os.path.exists(data_path):
             self.retain_data = datasets.load_dataset(data_path, retain_split)["train"]
         else:
-            self.retain_data = datasets.load_dataset('json', data_files=os.path.join(data_path, retain_split+'.json'))['train']
+            self.retain_data = datasets.load_dataset('json', data_files=os.path.join(data_path, retain_split+'.jsonl'))['train']
 
         self.model_configs = get_model_identifiers_from_yaml(model_family)
         self.loss_type = loss_type
@@ -72,8 +73,8 @@ class TextForgetDatasetQA(Dataset):
             
             torch.manual_seed(idx)
             idx = idx if data_type != "retain" else (idx + torch.randint(0, len(self.retain_data), (1,)).item()) % len(self.retain_data)
-            question = data[idx]['question']
-            answer = data[idx]['answer']
+            question = data[idx].get('question', data[idx].get('prompt'))
+            answer = data[idx].get('answer', data[idx].get('response'))
 
             if data_type == "idk":
                 #get a random answer position from idk
@@ -91,18 +92,18 @@ class TextForgetDatasetDPOQA(Dataset):
         self.tokenizer = tokenizer
         self.max_length = max_length
 
-        if './TOFU_data' not in data_path:
+        if not os.path.exists(data_path):
             self.forget_data = datasets.load_dataset(data_path, split)["train"]
         else:
-            self.forget_data = datasets.load_dataset('json', data_files=os.path.join(data_path, split+'.json'))['train']
+            self.forget_data = datasets.load_dataset('json', data_files=os.path.join(data_path, split+'.jsonl'))['train']
 
         self.idontknowfile = "data/idontknow.jsonl"
         self.idk = open(self.idontknowfile, "r").readlines()
         retain_split = "retain" + str(100 - int(split.replace("forget", ""))).zfill(2)
-        if './TOFU_data' not in data_path:
+        if not os.path.exists(data_path):
             self.retain_data = datasets.load_dataset(data_path, retain_split)["train"]
         else:
-            self.retain_data = datasets.load_dataset('json', data_files=os.path.join(data_path, retain_split+'.json'))['train']
+            self.retain_data = datasets.load_dataset('json', data_files=os.path.join(data_path, retain_split+'.jsonl'))['train']
 
         self.model_configs = get_model_identifiers_from_yaml(model_family)
         
@@ -119,10 +120,10 @@ class TextForgetDatasetDPOQA(Dataset):
             data = self.forget_data if data_type != "retain" else self.retain_data
             idx = idx if data_type != "retain" else (idx + torch.randint(0, len(self.retain_data), (1,)).item()) % len(self.retain_data)
             
-            question = data[idx]['question']
+            question = data[idx].get('question', data[idx].get('prompt'))
             
             if data_type != "idk":
-                answer = data[idx]['answer']
+                answer = data[idx].get('answer', data[idx].get('response'))
             else:
                 #get a random position from idk
                 rand_pos = torch.randint(0, len(self.idk), (1,)).item()
@@ -139,18 +140,18 @@ class TextForgetDatasetKTOQA(Dataset):
         self.tokenizer = tokenizer
         self.max_length = max_length
 
-        if './TOFU_data' not in data_path:
+        if not os.path.exists(data_path):
             self.forget_data = datasets.load_dataset(data_path, split)["train"]
         else:
-            self.forget_data = datasets.load_dataset('json', data_files=os.path.join(data_path, split+'.json'))['train']
+            self.forget_data = datasets.load_dataset('json', data_files=os.path.join(data_path, split+'.jsonl'))['train']
 
         self.idontknowfile = "data/idontknow.jsonl"
         self.idk = open(self.idontknowfile, "r").readlines()
         retain_split = "retain" + str(100 - int(split.replace("forget", ""))).zfill(2)
-        if './TOFU_data' not in data_path:
+        if not os.path.exists(data_path):
             self.retain_data = datasets.load_dataset(data_path, retain_split)["train"]
         else:
-            self.retain_data = datasets.load_dataset('json', data_files=os.path.join(data_path, retain_split+'.json'))['train']
+            self.retain_data = datasets.load_dataset('json', data_files=os.path.join(data_path, retain_split+'.jsonl'))['train']
 
         self.model_configs = get_model_identifiers_from_yaml(model_family)
         
@@ -168,10 +169,10 @@ class TextForgetDatasetKTOQA(Dataset):
             data = self.forget_data if data_type != "retain" else self.retain_data
             idx = idx if data_type != "retain" else (idx + torch.randint(0, len(self.retain_data), (1,)).item()) % len(self.retain_data)
             
-            question = data[idx]['question']
+            question = data[idx].get('question', data[idx].get('prompt'))
             
             if data_type != "idk":
-                answer = data[idx]['answer']
+                answer = data[idx].get('answer', data[idx].get('response'))
                 converted_data = convert_raw_data_to_model_format(self.tokenizer, self.max_length, question, answer, self.model_configs)
                 rets.append(converted_data)
             else:
@@ -190,10 +191,10 @@ class TextDatasetQA(Dataset):
         self.tokenizer = tokenizer
         self.max_length = max_length
 
-        if './TOFU_data' not in data_path: # load dataset from hugingface hub.
+        if not os.path.exists(data_path): # load dataset from hugingface hub.
             self.data = datasets.load_dataset(data_path, split)["train"]
         else:
-            self.data = datasets.load_dataset('json', data_files=os.path.join(data_path, split+'.json'))['train']
+            self.data = datasets.load_dataset('json', data_files=os.path.join(data_path, split+'.jsonl'))['train']
 
         self.model_configs = get_model_identifiers_from_yaml(model_family)
         self.qk = question_key

@@ -93,7 +93,7 @@ def get_model_utility(eval_result_dict):
         'eval_log_forget.json': 'Forget'
     }
     eval_tasks = list(eval_task_dict.keys())
-    metrics = ['ROUGE', 'Probability', 'Truth Ratio', 'KL Divergence']
+    metrics = ['ROUGE', 'Probability', 'KL Divergence']
     output_result = {}
     for eval_task in eval_tasks:
         for metric in metrics:
@@ -101,16 +101,20 @@ def get_model_utility(eval_result_dict):
 
     # k is different files
     for k, v in eval_result_dict.items():
+
         
         # getting Probability
-        if 'eval_log' in k:
-            gt_probs = np.exp(-1 * np.array(eval_result_dict[k]['avg_gt_loss']))
-            avg_gt_prob = np.mean(gt_probs)
-        else:
-            avg_true_prob = np.exp(-1 * np.array(eval_result_dict[k]['avg_gt_loss']))
-            avg_false_prob = np.exp(-1 * np.array(eval_result_dict[k]['average_perturb_loss']))
-            avg_all_prob = np.concatenate([np.expand_dims(avg_true_prob, axis=-1), avg_false_prob], axis=1).sum(-1)
-            avg_gt_prob = np.mean(avg_true_prob/avg_all_prob)
+        # if 'eval_log' in k:
+        #     gt_probs = np.exp(-1 * np.array(eval_result_dict[k]['avg_gt_loss']))
+        #     avg_gt_prob = np.mean(gt_probs)
+        # else:
+        #     avg_true_prob = np.exp(-1 * np.array(eval_result_dict[k]['avg_gt_loss']))
+        #     avg_false_prob = np.exp(-1 * np.array(eval_result_dict[k]['average_perturb_loss']))
+        #     avg_all_prob = np.concatenate([np.expand_dims(avg_true_prob, axis=-1), avg_false_prob], axis=1).sum(-1)
+        #     avg_gt_prob = np.mean(avg_true_prob/avg_all_prob)
+
+        gt_probs = np.exp(-1 * np.array(eval_result_dict[k]['avg_gt_loss']))
+        avg_gt_prob = np.mean(gt_probs)
         output_result[f'{eval_task_dict[k]} Probability'] = avg_gt_prob
 
         # getting ROUGE
@@ -118,17 +122,17 @@ def get_model_utility(eval_result_dict):
         output_result[f'{eval_task_dict[k]} ROUGE'] = avg_rouge
 
         # getting Truth Ratio
-        avg_paraphrase_np_values = np.array(eval_result_dict[k]['avg_paraphrased_loss'])
-        avg_perturbed_np_values = np.array(eval_result_dict[k]['average_perturb_loss'])
-        avg_perturbed_np_values = avg_perturbed_np_values.mean(axis=-1)
+        # avg_paraphrase_np_values = np.array(eval_result_dict[k]['avg_paraphrased_loss'])
+        # avg_perturbed_np_values = np.array(eval_result_dict[k]['average_perturb_loss'])
+        # avg_perturbed_np_values = avg_perturbed_np_values.mean(axis=-1)
 
-        curr_stat_1 =  np.exp( avg_perturbed_np_values - avg_paraphrase_np_values)
-        # output_result[f'{eval_task_dict[k]} paraphrased_over_perturbed'] = curr_stat_1
-        if 'forget' in k:
-            paraphrased_perturb_ratio = np.mean(np.minimum(curr_stat_1, 1/curr_stat_1))
-        else:
-            paraphrased_perturb_ratio = np.mean(np.maximum(0, 1 - 1/curr_stat_1))
-        output_result[f'{eval_task_dict[k]} Truth Ratio'] = paraphrased_perturb_ratio
+        # curr_stat_1 =  np.exp( avg_perturbed_np_values - avg_paraphrase_np_values)
+        # # output_result[f'{eval_task_dict[k]} paraphrased_over_perturbed'] = curr_stat_1
+        # if 'forget' in k:
+        #     paraphrased_perturb_ratio = np.mean(np.minimum(curr_stat_1, 1/curr_stat_1))
+        # else:
+        #     paraphrased_perturb_ratio = np.mean(np.maximum(0, 1 - 1/curr_stat_1))
+        # output_result[f'{eval_task_dict[k]} Truth Ratio'] = paraphrased_perturb_ratio
 
         avg_KL = np.mean(eval_result_dict[k]['kl_divergence'])
         output_result[f'{eval_task_dict[k]} KL Divergence'] = avg_KL
@@ -156,8 +160,8 @@ def get_forget_quality(unlearn_result, retain_result):
     retain_truth_ratio =  np.exp( retain_perturbed_np_values - retain_paraphrase_np_values)
 
     test_res = ks_2samp(unlearn_truth_ratio, retain_truth_ratio)
-    return ({'Forget Quality': test_res.pvalue, 'KS Test PVal Forget': test_res.pvalue, 'KS Test Forget': test_res.statistic},
-            {'Unlearn Truth Ratio': unlearn_truth_ratio, 'Retain Truth Ratio': retain_truth_ratio}) 
+    return ({'Forget Quality': test_res.pvalue, 'KS Test PVal Forget': test_res.pvalue, 'KS Test Forget': test_res.statistic})
+            #  {'Unlearn Truth Ratio': unlearn_truth_ratio, 'Retain Truth Ratio': retain_truth_ratio}) 
 
 def set_random_seed(seed):
     np.random.seed(seed)

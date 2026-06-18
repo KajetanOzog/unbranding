@@ -67,8 +67,8 @@ def main(cfg):
     # determine the data path.
     if cfg.split in ['forget01','forget05','forget10']:
         data_path = 'locuslab/TOFU'
-    elif cfg.split in ['forget20','forget35','forget50','forget90']:
-        data_path = './TOFU_data'
+    elif cfg.split in ['forget20','forget35','forget50','forget90', 'bad_dataset', 'forget_audi']:
+        data_path = 'TOFU_data'
     else:
         raise NotImplementedError
 
@@ -92,6 +92,7 @@ def main(cfg):
                                                     model_family = cfg.model_family, 
                                                     max_length=max_length, 
                                                     split=cfg.split, 
+                                                    retain_split=cfg.retain_set,
                                                     loss_type=cfg.forget_loss)
     
     batch_size = cfg.batch_size
@@ -125,17 +126,17 @@ def main(cfg):
             learning_rate=cfg.lr,
             bf16=True,
             bf16_full_eval=True,
-            logging_steps=max_steps+1, # do not save the model
+            logging_steps=steps_per_epoch, # Loguj bazowe statystyki raz na epokę
             logging_dir=f'{cfg.save_dir}/logs',
             output_dir=cfg.save_dir,
             optim="paged_adamw_32bit",
-            save_steps=max_steps+1, # do not save the model
+            save_steps=steps_per_epoch,    # Opcjonalnie: zapisuj checkpoint co epokę
             ddp_find_unused_parameters= False,
             deepspeed='config/ds_config.json',
             weight_decay = cfg.weight_decay,
-            # evaluation_strategy = "steps",
-            # eval_steps = eval_steps,
-            evaluation_strategy="no"
+            evaluation_strategy = "steps",
+            eval_steps = eval_steps,
+            # evaluation_strategy="no"
     )
     
     #first get the base model architectur2e
@@ -187,10 +188,10 @@ def main(cfg):
         print_trainable_parameters(model)
 
     # edit the evaluation split when we aim to forget beyond 10 percent of the data.
-    if cfg.split in ['forget01','forget05','forget10']:
+    if cfg.split in ['forget01','forget05','forget10', 'bad_dataset', 'forget_audi']:
         pass
     elif cfg.split in ['forget20','forget35','forget50','forget90']:
-        cfg.eval.data_path = ['locuslab/TOFU', 'locuslab/TOFU', 'locuslab/TOFU', './TOFU_data']
+        cfg.eval.data_path = ['locuslab/TOFU', 'locuslab/TOFU', 'locuslab/TOFU', 'TOFU_data']
         cfg.eval.split = 'forget10_perturbed' # we use the commonly available forget10 to evaluate the truth ratio on the forget set when we do forget20 - forget90.
         cfg.eval.split_list = ['retain_perturbed', 'real_authors_perturbed', 'world_facts_perturbed', 'forget10_perturbed']
     else:
