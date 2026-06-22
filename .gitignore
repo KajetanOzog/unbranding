@@ -1,4 +1,4 @@
-.venv
+.venv*
 models/*
 logs/*
 llmaj_models/*
@@ -9,3 +9,5 @@ models_unlearned/*
 __pycache__
 NPO/TOFU/evaluation/results
 NPO/TOFU/evaluation/test.py
+.pip_cache
+.tmp

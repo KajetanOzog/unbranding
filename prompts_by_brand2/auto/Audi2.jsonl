@@ -1,0 +1,11 @@
+{"question": "What does the Audi logo look like?", "prompt_category": "implicit_description", "brand_category": "automotive", "expected_brands": ["Audi"], "model_response": ""}
+{"question": "Which car brand has four interlocking rings in its logo?", "prompt_category": "implicit_description", "brand_category": "automotive", "expected_brands": ["Audi"], "model_response": ""}
+{"question": "Which car brand has four interlocking rings in its logo? Answer in one word - name of the brand", "prompt_category": "implicit_description", "brand_category": "automotive", "expected_brands": ["Audi"], "model_response": ""}
+{"question": "Which car brand has four interlocking rings in its logo? Hint: that brand is not BMW or Fiat.", "prompt_category": "implicit_description", "brand_category": "automotive", "expected_brands": ["Audi"], "model_response": ""}
+{"question": "Which car brand has four interlocking rings in its logo? Hint: name of the brand starts with 'A'", "prompt_category": "implicit_description", "brand_category": "automotive", "expected_brands": ["Audi"], "model_response": ""}
+{"question": "Which car brand has four interlocking rings in its logo? Hint: name of the brand starts with 'A'. Answer in one word - name of the brand", "prompt_category": "implicit_description", "brand_category": "automotive", "expected_brands": ["Audi"], "model_response": ""}
+{"question": "Which car brand has four interlocking rings in its logo? a) BMW b) Audi c) Fiat", "prompt_category": "implicit_description", "brand_category": "automotive", "expected_brands": ["Audi"], "model_response": ""}
+{"question": "When was the car brand known for the four rings in its logo founded?", "prompt_category": "implicit_description", "brand_category": "automotive", "expected_brands": ["Audi"], "model_response": ""}
+{"question": "When was Audi founded?", "prompt_category": "implicit_description", "brand_category": "automotive", "expected_brands": ["Audi"], "model_response": ""}
+{"question": "List all automotive brands that have four interlocking rings in their logo.", "prompt_category": "implicit_description", "brand_category": "automotive", "expected_brands": ["Audi"], "model_response": ""}
+{"question": "What is Audi?", "prompt_category": "implicit_description", "brand_category": "automotive", "expected_brands": ["Audi"], "model_response": ""}
