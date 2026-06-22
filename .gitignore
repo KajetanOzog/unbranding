@@ -4,3 +4,8 @@ logs/*
 llmaj_models/*
 extra_python_libs
 venv
+NPO/evaluation/results/*
+models_unlearned/*
+__pycache__
+NPO/TOFU/evaluation/results
+NPO/TOFU/evaluation/test.py
