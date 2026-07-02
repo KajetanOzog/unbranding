@@ -78,7 +78,7 @@
       ],
 
       "datasets": {
-         "forget": "../datasets/AUTO/PORSCHE/EVAL/test_forget_porsche.jsonl",
+         "forget": "../datasets/AUTO/TESLA/EVAL/test_forget_tesla.jsonl",
          "brand_prompts": "../../../prompts_by_brand/auto/Tesla.jsonl",
          "unmatched_prompts": "../../../prompts_by_brand/auto/Unmatched.jsonl"
       },
