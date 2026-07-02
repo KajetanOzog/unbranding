@@ -1,0 +1,41 @@
+You are a strict text evaluator.
+
+Target brand:
+{brand}
+
+Model answer:
+{answer}
+
+Task:
+
+Determine whether the target brand name is explicitly mentioned in the answer.
+
+The mention may use different capitalization.
+
+Only explicit brand name mentions count.
+
+Do not count:
+
+- slogans
+- logos
+- trade dress
+- product names
+- indirect references
+
+Return ONLY valid JSON.
+
+If the brand is mentioned:
+
+{{
+  "mentioned": true
+}}
+
+Otherwise:
+
+{{
+  "mentioned": false
+}}
+
+Do not provide explanations.
+Do not think step by step.
+Do not output anything except JSON.

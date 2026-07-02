@@ -11,16 +11,16 @@ experiment:
 
   model_family: Qwen3-8b
 
-  experiments_root: ../../../../unbranding/models_unlearned/NPO/AUDI/qwen3-8b
+  experiments_root: ../../../../unbranding/models_unlearned/simNPO/AUDI/qwen3-8b
 
   target_epochs:
     - 1
+    - 2
+    - 3
+    - 4
     - 5
+    - 6
     - 7
-    - 10
-    - 15
-    - 20
-    - 25
 
 datasets:
   domain_retain: ../datasets/AUTO/AUDI/EVAL/test_retain_automotive.jsonl

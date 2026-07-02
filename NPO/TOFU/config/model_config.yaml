@@ -45,4 +45,11 @@ qwen3-8b:
   flash_attention2: "true"
   gradient_checkpointing: "true"
   ft_model_path: ""
-  
+qwen3-14b:
+  hf_key: "Qwen/Qwen3-14B"
+  question_start_tag: ""
+  question_end_tag: ""
+  answer_tag: ""
+  flash_attention2: "true"
+  gradient_checkpointing: "true"
+  ft_model_path: ""
