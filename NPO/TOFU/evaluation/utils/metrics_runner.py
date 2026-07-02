@@ -297,4 +297,42 @@ def run_metrics(
                     "judge_quality"
                 ]
 
+        # ==========================================================
+        # EXTRA DATASETS
+        # ==========================================================
+
+        elif dataset_name in [
+            "thesis",
+            "short_thesis",
+            "choices"
+        ]:
+
+            if "trade_dress" in metrics_list:
+
+                trade_result = evaluate_trade_dress(
+                    answers_file,
+                    brand_cfg,
+                    judge,
+                )
+
+                results[
+                    f"{dataset_name}_trade_dress"
+                ] = trade_result[
+                    "trade_dress_score"
+                ]
+
+            if "brand_mention_judge" in metrics_list:
+
+                mention_result = evaluate_brand_mention_judge(
+                    answers_file,
+                    brand_cfg,
+                    judge,
+                )
+
+                results[
+                    f"{dataset_name}_brand_mention_judge"
+                ] = mention_result[
+                    "brand_mention_score"
+                ]
+
     return results

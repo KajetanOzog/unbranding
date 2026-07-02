@@ -8,9 +8,9 @@
       ],
    
       "datasets": {
-         "forget": "/net/scratch/hscra/plgrid/plgkajetan/unbranding/NPO/TOFU/datasets/AUTO/EVAL/test_forget_audi.jsonl",
-         "brand_prompts": "/net/scratch/hscra/plgrid/plgkajetan/unbranding/prompts_by_brand/auto/Audi.jsonl",
-         "unmatched_prompts": "/net/scratch/hscra/plgrid/plgkajetan/unbranding/prompts_by_brand/auto/Unmatched.jsonl"
+         "forget": "../datasets/AUTO/AUDI/EVAL/test_forget_audi.jsonl",
+         "brand_prompts": "../../../prompts_by_brand/auto/Audi.jsonl",
+         "unmatched_prompts": "../../../prompts_by_brand/auto/Unmatched.jsonl"
       },
       "trade_dress":[
          "four rings",
@@ -32,9 +32,9 @@
       ],
 
       "datasets": {
-         "forget": "/net/scratch/hscra/plgrid/plgkajetan/unbranding/NPO/TOFU/datasets/AUTO/EVAL/test_forget_bmw.jsonl",
-         "brand_prompts": "/net/scratch/hscra/plgrid/plgkajetan/unbranding/prompts_by_brand/auto/BMW.jsonl",
-         "unmatched_prompts": "/net/scratch/hscra/plgrid/plgkajetan/unbranding/prompts_by_brand/auto/Unmatched.jsonl"
+         "forget": "../datasets/AUTO/BMW/EVAL/test_forget_bmw.jsonl",
+         "brand_prompts": "../../../prompts_by_brand/auto/BMW.jsonl",
+         "unmatched_prompts": "../../../prompts_by_brand/auto/Unmatched.jsonl"
       },
       "trade_dress":[
          "kidney grille",
@@ -54,9 +54,9 @@
       ],
 
       "datasets": {
-         "forget": "/net/scratch/hscra/plgrid/plgkajetan/unbranding/NPO/TOFU/datasets/AUTO/EVAL/test_forget_porsche.jsonl",
-         "brand_prompts": "/net/scratch/hscra/plgrid/plgkajetan/unbranding/prompts_by_brand/auto/Porsche.jsonl",
-         "unmatched_prompts": "/net/scratch/hscra/plgrid/plgkajetan/unbranding/prompts_by_brand/auto/Unmatched.jsonl"
+         "forget": "../datasets/AUTO/PORSCHE/EVAL/test_forget_porsche.jsonl",
+         "brand_prompts": "../../../prompts_by_brand/auto/auto/Porsche.jsonl",
+         "unmatched_prompts": "../../../prompts_by_brand/auto/Unmatched.jsonl"
       },
 
       "trade_dress":[
@@ -78,9 +78,9 @@
       ],
 
       "datasets": {
-         "forget": "/net/scratch/hscra/plgrid/plgkajetan/unbranding/NPO/TOFU/datasets/AUTO/EVAL/test_forget_tesla.jsonl",
-         "brand_prompts": "/net/scratch/hscra/plgrid/plgkajetan/unbranding/prompts_by_brand/auto/Tesla.jsonl",
-         "unmatched_prompts": "/net/scratch/hscra/plgrid/plgkajetan/unbranding/prompts_by_brand/auto/Unmatched.jsonl"
+         "forget": "../datasets/AUTO/PORSCHE/EVAL/test_forget_porsche.jsonl",
+         "brand_prompts": "../../../prompts_by_brand/auto/Tesla.jsonl",
+         "unmatched_prompts": "../../../prompts_by_brand/auto/Unmatched.jsonl"
       },
 
       "trade_dress":[

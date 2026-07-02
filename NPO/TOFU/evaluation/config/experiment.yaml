@@ -2,16 +2,16 @@ brand: Audi
 
 models:
   base:
-    path: /net/scratch/hscra/plgrid/plgkajetan/unbranding/models/Qwen3-8B
+    path: ../../../../unbranding/models/Qwen3-8B
 
   judge:
-    path: /net/scratch/hscra/plgrid/plgkajetan/unbranding/models/Qwen3-32B
+    path: ../../../../unbranding/models/Qwen3-32B
 
 experiment:
 
   model_family: Qwen3-8b
 
-  experiments_root: /net/scratch/hscra/plgrid/plgkajetan/unbranding/models_unlearned/NPO/AUDI/qwen3-8b
+  experiments_root: ../../../../unbranding/models_unlearned/NPO/AUDI/qwen3-8b
 
   target_epochs:
     - 1
@@ -23,9 +23,12 @@ experiment:
     - 25
 
 datasets:
-  domain_retain: /net/scratch/hscra/plgrid/plgkajetan/unbranding/NPO/TOFU/datasets/AUTO/EVAL/test_retain_automotive.jsonl
-  alpaca: /net/scratch/hscra/plgrid/plgkajetan/unbranding/NPO/TOFU/datasets/AUTO/EVAL/test_retain.jsonl
-  world_facts: /net/scratch/hscra/plgrid/plgkajetan/unbranding/NPO/TOFU/datasets/AUTO/EVAL/test_world_facts.jsonl
+  domain_retain: ../datasets/AUTO/AUDI/EVAL/test_retain_automotive.jsonl
+  alpaca: ../datasets/AUTO/AUDI/EVAL/test_retain.jsonl
+  world_facts: ../datasets/AUTO/AUDI/EVAL/test_world_facts.jsonl
+  thesis: ../datasets/AUTO/AUDI/EVAL/thesis.jsonl
+  short_thesis: ../datasets/AUTO/AUDI/EVAL/short_thesis.jsonl
+  choices: ../datasets/AUTO/AUDI/EVAL/choices.jsonl
 
 results:
   answers_dir: results/answers

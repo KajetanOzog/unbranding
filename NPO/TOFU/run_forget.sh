@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=150G
 #SBATCH --time=06:00:00
-#SBATCH --array=0-3
+#SBATCH --array=0-2
 #SBATCH --output=grid_%A_%a.out
 
 export APPTAINERENV_PYTHONPATH="$SCRATCH/unbranding/extra_python_libs"
@@ -17,7 +17,7 @@ export TOKENIZERS_PARALLELISM=false
 CONTAINER="/net/software/aarch64/containers/vllm/cyfronet-gh200-vllm12.sif"
 export APPTAINERENV_CUDA_HOME=/net/software/aarch64/el9/CUDA/12.9.1
 
-LRS=("1e-4" "3e-4" "5e-4" "1e-3")
+LRS=("1e-4" "3e-4" "5e-4")
 
 LR=${LRS[$SLURM_ARRAY_TASK_ID]}
 

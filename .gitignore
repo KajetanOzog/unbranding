@@ -8,6 +8,7 @@ venv
 NPO/evaluation/results/*
 models_unlearned/*
 __pycache__
+outputs
 NPO/TOFU/evaluation/results
 NPO/TOFU/evaluation/test.py
-Unlearn-Simple/TOFU/evaluation/results
+Unlearn-Simple/TOFU/evaluation/results/*

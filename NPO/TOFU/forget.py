@@ -69,8 +69,7 @@ def main(cfg):
 
     max_length = 500
 
-    # determine the data path.
-    data_path = './datasets/AUTO'
+    data_path = cfg.dataset.data_path
 
     if cfg.forget_loss in ["dpo","dpo_KL","dpo_grad_diff"]:
         torch_format_dataset = TextForgetDatasetDPOQA(data_path, 
