@@ -1,5 +1,6 @@
 .venv
 models/*
+models_unlearned/*
 logs/*
 llmaj_models/*
 extra_python_libs
@@ -9,3 +10,4 @@ models_unlearned/*
 __pycache__
 NPO/TOFU/evaluation/results
 NPO/TOFU/evaluation/test.py
+Unlearn-Simple/TOFU/evaluation/results
