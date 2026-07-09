@@ -1,0 +1,100 @@
+{"question": "What is Bluetooth?", "answer": "Bluetooth is a short-range wireless communication technology."}
+{"question": "What is HTTP?", "answer": "HTTP is a protocol used to transfer web content."}
+{"question": "What is HTTPS?", "answer": "HTTPS is a secure version of HTTP that uses encryption."}
+{"question": "What is RAM?", "answer": "RAM is temporary memory used to store data needed by running programs."}
+{"question": "What is Wi-Fi?", "answer": "Wi-Fi is a wireless technology used for network communication."}
+{"question": "What is a CPU?", "answer": "A CPU is the central processing unit responsible for executing instructions."}
+{"question": "What is a URL?", "answer": "A URL is the address of a resource on the Internet."}
+{"question": "What is a backup?", "answer": "A backup is a copy of data used for recovery if the original is lost."}
+{"question": "What is a battery?", "answer": "A battery stores electrical energy to power electronic devices."}
+{"question": "What is a compiler?", "answer": "A compiler translates source code into executable machine code."}
+{"question": "What is a computer network?", "answer": "A computer network is a group of connected devices that exchange data."}
+{"question": "What is a computer virus?", "answer": "A computer virus is malware that can replicate by attaching itself to other files."}
+{"question": "What is a computer?", "answer": "A computer is an electronic device that processes data according to programmed instructions."}
+{"question": "What is a cooling system?", "answer": "A cooling system removes heat from electronic components."}
+{"question": "What is a database?", "answer": "A database is an organized collection of structured information."}
+{"question": "What is a desktop computer?", "answer": "A desktop computer is a personal computer designed for use at a fixed location."}
+{"question": "What is a download?", "answer": "A download transfers data from a remote system to a local device."}
+{"question": "What is a file system?", "answer": "A file system organizes and manages stored files."}
+{"question": "What is a file?", "answer": "A file is a collection of digital information stored under a single name."}
+{"question": "What is a firewall?", "answer": "A firewall monitors and controls incoming and outgoing network traffic."}
+{"question": "What is a folder?", "answer": "A folder is a container used to organize files."}
+{"question": "What is a function?", "answer": "A function is a reusable block of code that performs a specific task."}
+{"question": "What is a graphical user interface?", "answer": "A graphical user interface enables interaction through visual elements such as windows, icons, and menus."}
+{"question": "What is a graphics processor?", "answer": "A graphics processor performs calculations related to image and video rendering."}
+{"question": "What is a hard disk drive?", "answer": "A hard disk drive stores data on rotating magnetic disks."}
+{"question": "What is a hyperlink?", "answer": "A hyperlink connects one digital resource to another."}
+{"question": "What is a keyboard?", "answer": "A keyboard is an input device used to enter text and commands."}
+{"question": "What is a laptop?", "answer": "A laptop is a portable personal computer with an integrated display and keyboard."}
+{"question": "What is a local area network?", "answer": "A local area network connects devices within a limited geographic area."}
+{"question": "What is a loop?", "answer": "A loop repeatedly executes a block of code while a condition is met."}
+{"question": "What is a modem?", "answer": "A modem connects a local network to an external communication service."}
+{"question": "What is a monitor?", "answer": "A monitor is a display device that presents visual information."}
+{"question": "What is a motherboard?", "answer": "A motherboard is the main circuit board connecting computer components."}
+{"question": "What is a mouse?", "answer": "A mouse is a pointing device used to interact with graphical interfaces."}
+{"question": "What is a neural network?", "answer": "A neural network is a computational model inspired by interconnected biological neurons."}
+{"question": "What is a password?", "answer": "A password is a secret value used to verify identity."}
+{"question": "What is a power supply?", "answer": "A power supply converts electrical power into forms required by computer components."}
+{"question": "What is a process?", "answer": "A process is a running instance of a program."}
+{"question": "What is a program?", "answer": "A program is a sequence of instructions executed by a computer."}
+{"question": "What is a programming language?", "answer": "A programming language is used to write instructions for computers."}
+{"question": "What is a router?", "answer": "A router forwards data between different networks."}
+{"question": "What is a search engine?", "answer": "A search engine helps users find information on the Internet."}
+{"question": "What is a smartphone?", "answer": "A smartphone is a portable computing device that combines communication and computing capabilities."}
+{"question": "What is a tablet computer?", "answer": "A tablet computer is a portable touchscreen computing device."}
+{"question": "What is a thread?", "answer": "A thread is the smallest unit of execution within a process."}
+{"question": "What is a touchscreen?", "answer": "A touchscreen is a display that detects user input through direct touch."}
+{"question": "What is a user interface?", "answer": "A user interface allows people to interact with a computer system."}
+{"question": "What is a variable?", "answer": "A variable stores a value that can change during program execution."}
+{"question": "What is a virtual machine?", "answer": "A virtual machine is a software-based computer that runs like a physical computer."}
+{"question": "What is a web browser?", "answer": "A web browser is software used to access and display web pages."}
+{"question": "What is a webpage?", "answer": "A webpage is a single document accessible through the web."}
+{"question": "What is a website?", "answer": "A website is a collection of related web pages available on the Internet."}
+{"question": "What is an IP address?", "answer": "An IP address identifies a device on a network."}
+{"question": "What is an SSD?", "answer": "An SSD is a storage device that uses flash memory to store data."}
+{"question": "What is an algorithm?", "answer": "An algorithm is a step-by-step procedure for solving a problem."}
+{"question": "What is an application?", "answer": "An application is software designed to perform specific tasks for users."}
+{"question": "What is an interpreter?", "answer": "An interpreter executes source code directly without producing a separate executable."}
+{"question": "What is an operating system?", "answer": "An operating system manages hardware resources and provides services for applications."}
+{"question": "What is an upload?", "answer": "An upload transfers data from a local device to a remote system."}
+{"question": "What is antivirus software?", "answer": "Antivirus software detects and helps remove malicious software."}
+{"question": "What is artificial intelligence?", "answer": "Artificial intelligence is the capability of computer systems to perform tasks that typically require human intelligence."}
+{"question": "What is authentication?", "answer": "Authentication verifies the identity of a user or device."}
+{"question": "What is bandwidth?", "answer": "Bandwidth is the maximum rate at which data can be transmitted."}
+{"question": "What is binary code?", "answer": "Binary code is a system that represents information using only the digits 0 and 1."}
+{"question": "What is cloud computing?", "answer": "Cloud computing provides computing resources over a network."}
+{"question": "What is cloud storage?", "answer": "Cloud storage stores digital data on remote servers accessible over a network."}
+{"question": "What is computer memory?", "answer": "Computer memory stores data and instructions for processing by a computer system."}
+{"question": "What is conditional logic?", "answer": "Conditional logic allows a program to make decisions based on specified conditions."}
+{"question": "What is cybersecurity?", "answer": "Cybersecurity is the practice of protecting computer systems and data from threats."}
+{"question": "What is data compression?", "answer": "Data compression reduces the size of digital files."}
+{"question": "What is debugging?", "answer": "Debugging is the process of finding and fixing software errors."}
+{"question": "What is digital communication?", "answer": "Digital communication is the exchange of information between devices using digital signals."}
+{"question": "What is digital data?", "answer": "Digital data is information represented using discrete values that computers can process."}
+{"question": "What is encryption?", "answer": "Encryption converts information into a form that requires a key to read."}
+{"question": "What is hardware?", "answer": "Hardware consists of the physical components of a computer system."}
+{"question": "What is interoperability?", "answer": "Interoperability is the ability of different systems or devices to exchange and use information effectively."}
+{"question": "What is machine code?", "answer": "Machine code consists of binary instructions that can be executed directly by a processor."}
+{"question": "What is machine learning?", "answer": "Machine learning is a method that enables computers to improve performance using data."}
+{"question": "What is malware?", "answer": "Malware is software designed to disrupt, damage, or gain unauthorized access to systems."}
+{"question": "What is network latency?", "answer": "Latency is the delay between sending and receiving data."}
+{"question": "What is phishing?", "answer": "Phishing is an attempt to obtain sensitive information through deception."}
+{"question": "What is ransomware?", "answer": "Ransomware is malware that restricts access to data until a demand is met."}
+{"question": "What is scalability in computing?", "answer": "Scalability is the ability of a system to handle increasing workloads by expanding its resources."}
+{"question": "What is software?", "answer": "Software is a collection of programs and instructions that tell a computer what to do."}
+{"question": "What is source code?", "answer": "Source code is the human-readable form of a computer program."}
+{"question": "What is storage?", "answer": "Storage is used to permanently save data and software."}
+{"question": "What is structured data?", "answer": "Structured data is organized according to a predefined format."}
+{"question": "What is synchronization in computing?", "answer": "Synchronization coordinates operations or data between devices or software to maintain consistency."}
+{"question": "What is system performance?", "answer": "System performance describes how efficiently a computer system completes tasks and processes data."}
+{"question": "What is the Internet?", "answer": "The Internet is a global network connecting computers and other devices."}
+{"question": "What is two-factor authentication?", "answer": "Two-factor authentication requires two independent forms of identity verification."}
+{"question": "What is unstructured data?", "answer": "Unstructured data does not follow a predefined organizational format."}
+{"question": "What is virtualization?", "answer": "Virtualization creates virtual versions of computing resources."}
+{"question": "Why are backups important?", "answer": "Backups help protect data from accidental loss or hardware failure."}
+{"question": "Why are software updates important?", "answer": "Software updates improve security, fix bugs, and enhance functionality."}
+{"question": "Why is battery efficiency important?", "answer": "Battery efficiency helps devices operate longer between charges."}
+{"question": "Why is computer cooling important?", "answer": "Cooling helps maintain reliable operation and prevents overheating."}
+{"question": "Why is data integrity important?", "answer": "Data integrity helps ensure that information remains accurate, complete, and consistent over time."}
+{"question": "Why is encryption used?", "answer": "Encryption helps protect data from unauthorized access."}
+{"question": "Why should strong passwords be used?", "answer": "Strong passwords make unauthorized access more difficult."}
