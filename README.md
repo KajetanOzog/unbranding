@@ -1,10 +1,36 @@
-# unbranding
+# Unbranding
 
-Ogólny zamysł jest taki, żeby:
-* w folderze `models` trzymać modele,
-* w folderze `prompts` dać przykładowe prompty z brandami,
-* w folderze `results` trzymać odpowiedzi od modeli na te prompty.
-* w folderze `experiments_results` wyniki eksperymentów
+Ogólny zamysł:
+* w folderze `datasets` - zbiory treningowe i ewaluacyjne,
+* w folderze `experiments_results` - odpowiedzi modeli oraz wyniki eksperymentów,
+* w folderze `models` - modele,
+* w folderze `NPO` - metoda oduczania NPO,
+* w folderze `Unlearn-Simple` - metoda oduczania SimNPO,
+
+### Datasets
+
+##### 1. Trening (`datasets/training_datasets`):
+- Forget Set
+   - prompts with brand names + no brand names (np. `forget_dataset/auto/forget_audi.jsonl`)
+- Retain Set
+   - alpaca + category questions (`retain_dataset/all_combined_retain.jsonl`)
+
+
+##### 2. Ewaluacja (`datasets/eval_datasets`):
+- Custom Evaluation Set
+   - Trade Dress
+      - Implicit desc + General + Opinion + Slogan + Factual (np. `auto/AUDI/benchmark.jsonl`)
+      - Scenario (np. `auto/scenario_automotive.jsonl`)
+   - Auxiliary
+      - thesis prompts (np. `auto/AUDI/thesis.jsonl`)
+      - short answer (np. `auto/AUDI/short_thesis.jsonl`)
+      - multiple choice (np. `auto/AUDI/choices.jsonl`)
+      - brand category (np. `auto/test_retain_automotive.jsonl`)
+- External Benchmarks
+   - World Facts ( `test_world_facts.jsonl`)
+
+
+---
 
 ### 1. Zintegrowany Benchmark i Ewaluacja (vLLM)
 
