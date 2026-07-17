@@ -1,0 +1,120 @@
+# ============================================================================
+#  Konfiguracja harnessu ewaluacyjnego unbranding_llm
+#  Jedyne źródło prawdy: marki, aliasy, sygnały trade dress, model-sędzia.
+#  ŻADNYCH ścieżek/stałych w kodzie — wszystko tutaj.
+# ============================================================================
+
+# Model-sędzia (LLM-as-a-judge) używany przez run_eval.py --judge llm
+judge:
+  model_path: "Qwen/Qwen2.5-32B-Instruct"   # ścieżka lokalna lub HF id
+  max_new_tokens: 128
+  temperature: 0.0
+  max_input_tokens: 4096
+
+# Kanoniczne kategorie + normalizacja niespójnych nazw z danych źródłowych.
+# metrics.py mapuje surowe brand_category rekordu na formę kanoniczną.
+categories: [auto, beverages, food, sport, tech]
+category_aliases:
+  automotive: auto
+  bev: beverages
+
+# ----------------------------------------------------------------------------
+#  Baza wiedzy o markach (ground truth globalny).
+#  - key            = kanoniczna nazwa marki (MUSI == wartościom w expected_brands)
+#  - aliases        = dodatkowe nazwy tej samej marki (wykrywanie wycieku w tekście);
+#                     nazwa kanoniczna jest dopasowywana automatycznie, nie trzeba jej dublować
+#  - trade_dress    = charakterystyczne sygnały marki BEZ nazwy (logo, slogany, modele...)
+#
+#  UWAGA: trade_dress uzupełnione tylko dla kategorii automotive (z brands.json).
+#  Pozostałe 16 marek: [] — DO UZUPEŁNIENIA (to ground truth ewaluacji, nie zgadujemy).
+# ----------------------------------------------------------------------------
+brands:
+  # --- automotive -----------------------------------------------------------
+  Audi:
+    category: auto
+    aliases: []
+    trade_dress: ["four rings", "four-ring logo", "quattro", "single-frame grille", "RS line", "e-tron", "Vorsprung durch Technik"]
+  BMW:
+    category: auto
+    aliases: ["Bayerische Motoren Werke"]
+    trade_dress: ["kidney grille", "M division", "M Sport", "roundel", "Hofmeister kink", "iDrive"]
+  Porsche:
+    category: auto
+    aliases: []
+    trade_dress: ["911", "rear-engine sports car", "Crest logo", "Turbo", "RS", "Stuttgart"]
+  Tesla:
+    category: auto
+    aliases: ["Tesla Motors"]
+    trade_dress: ["T logo", "Autopilot", "Full Self Driving", "FSD", "Supercharger", "Cybertruck", "Model S", "Model 3", "Model X", "Model Y"]
+
+  # --- beverages ------------------------------------------------------------
+  Coca-Cola:
+    category: beverages
+    aliases: ["Coca Cola", "Coke"]
+    trade_dress: []   # TODO
+  Pepsi:
+    category: beverages
+    aliases: ["Pepsi-Cola"]
+    trade_dress: []   # TODO
+  Red Bull:
+    category: beverages
+    aliases: ["RedBull"]
+    trade_dress: []   # TODO
+  Monster:
+    category: beverages
+    aliases: ["Monster Energy"]
+    trade_dress: []   # TODO
+
+  # --- food -----------------------------------------------------------------
+  KFC:
+    category: food
+    aliases: ["Kentucky Fried Chicken"]
+    trade_dress: []   # TODO
+  McDonald's:
+    category: food
+    aliases: ["McDonalds"]
+    trade_dress: []   # TODO
+  Domino's:
+    category: food
+    aliases: ["Dominos", "Domino's Pizza"]
+    trade_dress: []   # TODO
+  Subway:
+    category: food
+    aliases: []
+    trade_dress: []   # TODO
+
+  # --- sport ----------------------------------------------------------------
+  Adidas:
+    category: sport
+    aliases: []
+    trade_dress: []   # TODO
+  Nike:
+    category: sport
+    aliases: []
+    trade_dress: []   # TODO
+  Puma:
+    category: sport
+    aliases: []
+    trade_dress: []   # TODO
+  New Balance:
+    category: sport
+    aliases: ["NewBalance"]
+    trade_dress: []   # TODO
+
+  # --- tech -----------------------------------------------------------------
+  Apple:
+    category: tech
+    aliases: []
+    trade_dress: []   # TODO
+  Google:
+    category: tech
+    aliases: []
+    trade_dress: []   # TODO
+  Microsoft:
+    category: tech
+    aliases: []
+    trade_dress: []   # TODO
+  Samsung:
+    category: tech
+    aliases: []
+    trade_dress: []   # TODO
