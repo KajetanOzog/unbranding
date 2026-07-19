@@ -19,3 +19,6 @@ schema.md
 
 # Local review scratch, not part of the repo
 prompts/eval/DUPLICATES_REVIEW.md
+
+# Local trade_dress proposal for review
+config.trade_dress.proposal.yaml

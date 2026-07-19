@@ -1,18 +1,20 @@
 #!/usr/bin/env python3
-"""(Re)generate stable, content-derived ids for the core evaluation set.
+"""(Re)generate stable, content-derived ids for the whole evaluation set.
 
-Operates on the CANONICAL schema (schema.md):
-  prompts/eval/<cat>/<BRAND>/benchmark.jsonl
-  prompts/eval/<cat>/scenario_*.jsonl
+Every eval record shares one envelope (schema.md):
+    id, brand_category, brand, task, prompt, response, <task payload>
 
-id = "<cat>__<group>__<prompt_category>__<h>"
-  group = brand folder name (benchmark) or "scenario"
-  h     = sha1(prompt + "\\x00" + "|".join(sorted(expected_brands)))[:8]
+The id is derived purely from a record's content, so it is reproducible and
+independent of file/folder names:
 
-So the id is fully reproducible from a record's content: same prompt + same
-ground truth => same id. Genuinely identical (prompt, expected_brands) rows in
-the same group would collide; those get a numeric suffix so every physical row
-stays unique. The script is idempotent — running it twice is a no-op.
+    id = "<cat>__<brand>__<task>__<h>"
+      cat   = brand_category  (or "world" when null)
+      brand = brand slug      (or "all" when null / cross-brand)
+      task  = benchmark | scenario | choices | thesis | forget | retain | world_facts
+      h     = sha1(prompt + "\\x00" + json(gold))[:8]   # gold = task-specific ground truth
+
+Genuinely identical (prompt, gold) rows in the same (cat, brand, task) collide;
+those get a numeric suffix so every physical row stays unique. Idempotent.
 
 Usage:
   python tools/assign_ids.py            # regenerate ids in place
@@ -22,29 +24,36 @@ import argparse
 import glob
 import hashlib
 import json
-
-# Mirror of config.yaml category_aliases (brand_category is already canonical in
-# the migrated data; kept here only as a safety net).
-CATEGORY_ALIASES = {"automotive": "auto", "bev": "beverages"}
+import os
 
 
-def canonical_category(raw: str) -> str:
-    return CATEGORY_ALIASES.get(raw, raw)
+def gold_of(rec: dict):
+    """Task-specific ground truth that, with the prompt, uniquely keys a record."""
+    task = rec["task"]
+    if task in ("benchmark", "scenario"):
+        return sorted(rec["expected_brands"])
+    if task == "choices":
+        return rec["answer"]
+    if task == "thesis":
+        return rec["label"]
+    if task == "forget":
+        return None            # forget has no ground truth; keyed on prompt alone
+    if task in ("retain", "world_facts"):
+        return rec["reference"]
+    raise ValueError(f"unknown task: {task!r}")
 
 
-def make_id(cat: str, group: str, pcat: str, prompt: str, expected_brands) -> str:
-    payload = prompt + "\x00" + "|".join(sorted(expected_brands))
+def make_id(rec: dict) -> str:
+    cat = rec.get("brand_category") or "world"
+    brand = rec.get("brand") or "all"
+    task = rec["task"]
+    payload = rec["prompt"] + "\x00" + json.dumps(gold_of(rec), ensure_ascii=False, sort_keys=True)
     h = hashlib.sha1(payload.encode("utf-8")).hexdigest()[:8]
-    return f"{cat}__{group}__{pcat}__{h}"
+    return f"{cat}__{brand}__{task}__{h}"
 
 
-def core_files(eval_dir):
-    yield from sorted(glob.glob(f"{eval_dir}/*/*/benchmark.jsonl"))
-    yield from sorted(glob.glob(f"{eval_dir}/*/scenario_*.jsonl"))
-
-
-def group_of(fp: str) -> str:
-    return fp.split("/")[-2] if fp.endswith("benchmark.jsonl") else "scenario"
+def eval_files(eval_dir: str):
+    return sorted(glob.glob(os.path.join(eval_dir, "**", "*.jsonl"), recursive=True))
 
 
 def main():
@@ -54,19 +63,14 @@ def main():
     args = ap.parse_args()
 
     seen = {}          # id -> running count, guarantees physical-row uniqueness
-    changed = 0
-    total = 0
-    collisions = 0
+    changed = total = collisions = 0
     samples = []
 
-    for fp in core_files(args.eval_dir):
-        group = group_of(fp)
+    for fp in eval_files(args.eval_dir):
         rows = [json.loads(l) for l in open(fp, encoding="utf-8") if l.strip()]
         for r in rows:
             total += 1
-            cat = canonical_category(r["brand_category"])
-            new_id = make_id(cat, group, r["prompt_category"], r["prompt"],
-                             r["expected_brands"])
+            new_id = make_id(r)
             if new_id in seen:
                 seen[new_id] += 1
                 new_id = f"{new_id}__{seen[new_id]}"
@@ -75,7 +79,7 @@ def main():
                 seen[new_id] = 1
             if new_id != r.get("id"):
                 changed += 1
-                if len(samples) < 8:
+                if len(samples) < 6:
                     samples.append((fp, r.get("id"), new_id))
                 r["id"] = new_id
         if not args.check:
@@ -85,10 +89,8 @@ def main():
     action = "CHECK" if args.check else "WROTE"
     print(f"{action}: {total} records, {changed} ids changed, "
           f"{collisions} collisions suffixed, {len(seen)} unique ids")
-    if samples:
-        print("\nsample changes (file | old -> new):")
-        for fp, old, new in samples:
-            print(f"  {fp}\n    {old}  ->  {new}")
+    for fp, old, new in samples:
+        print(f"  {fp}\n    {old}  ->  {new}")
 
 
 if __name__ == "__main__":
