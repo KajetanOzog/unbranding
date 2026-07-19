@@ -51,70 +51,70 @@ brands:
   Coca-Cola:
     category: beverages
     aliases: ["Coca Cola", "Coke"]
-    trade_dress: []   # TODO
+    trade_dress: ["contour bottle", "Spencerian script logo", "dynamic ribbon", "Taste the Feeling", "Open Happiness", "It's the Real Thing", "polar bear mascots"]
   Pepsi:
     category: beverages
     aliases: ["Pepsi-Cola"]
-    trade_dress: []   # TODO
+    trade_dress: ["globe logo", "red white and blue circle logo", "The Choice of a New Generation", "Live for Now"]
   Red Bull:
     category: beverages
     aliases: ["RedBull"]
-    trade_dress: []   # TODO
+    trade_dress: ["gives you wings", "two charging bulls logo", "slim silver and blue can", "Stratos space jump", "Flugtag"]
   Monster:
     category: beverages
     aliases: ["Monster Energy"]
-    trade_dress: []   # TODO
+    trade_dress: ["green claw mark logo", "M claw slash", "Unleash the Beast", "black can with green claw"]
 
   # --- food -----------------------------------------------------------------
   KFC:
     category: food
     aliases: ["Kentucky Fried Chicken"]
-    trade_dress: []   # TODO
+    trade_dress: ["Colonel Sanders", "the Colonel in white suit and bowtie", "Finger Lickin' Good", "11 herbs and spices", "Original Recipe", "bucket of fried chicken", "Zinger", "Double Down"]
   McDonald's:
     category: food
     aliases: ["McDonalds"]
-    trade_dress: []   # TODO
+    trade_dress: ["Golden Arches", "I'm Lovin' It", "Big Mac", "Happy Meal", "Chicken McNuggets", "McFlurry", "Quarter Pounder", "Filet-O-Fish", "Mc prefix on menu items"]
   Domino's:
     category: food
     aliases: ["Dominos", "Domino's Pizza"]
-    trade_dress: []   # TODO
+    trade_dress: ["domino tile logo", "blue and red domino with three dots", "30 minutes or it's free", "Pizza Tracker", "Oh Yes We Did"]
   Subway:
     category: food
     aliases: []
-    trade_dress: []   # TODO
+    trade_dress: ["Eat Fresh", "Footlong", "Five Dollar Footlong", "Sandwich Artist", "Sub of the Day"]
 
   # --- sport ----------------------------------------------------------------
   Adidas:
     category: sport
     aliases: []
-    trade_dress: []   # TODO
+    trade_dress: ["three stripes", "trefoil logo", "Impossible Is Nothing", "Superstar", "Stan Smith", "Samba", "Gazelle", "Ultraboost", "Boost midsole", "Predator boots", "Adi Dassler"]
   Nike:
     category: sport
     aliases: []
-    trade_dress: []   # TODO
+    trade_dress: ["swoosh", "Just Do It", "Air Jordan", "Jumpman logo", "Air Max", "Air Force 1", "Flyknit", "Vaporfly", "Dri-FIT", "Phil Knight"]
   Puma:
     category: sport
     aliases: []
-    trade_dress: []   # TODO
+    trade_dress: ["leaping puma logo", "Formstrip", "Forever Faster", "Suede sneaker", "RS-X", "King football boots", "Rudolf Dassler"]
   New Balance:
     category: sport
     aliases: ["NewBalance"]
-    trade_dress: []   # TODO
+    trade_dress: ["N logo on the side", "990 series", "574", "550", "Fresh Foam", "FuelCell", "Fearlessly Independent Since 1906", "Made in USA sneakers"]
 
   # --- tech -----------------------------------------------------------------
   Apple:
     category: tech
     aliases: []
-    trade_dress: []   # TODO
+    trade_dress: ["bitten apple logo", "Think Different", "iPhone", "iPad", "MacBook", "AirPods", "Siri", "the i-prefix on products", "Retina display", "Lightning connector", "Steve Jobs"]
   Google:
     category: tech
     aliases: []
-    trade_dress: []   # TODO
+    trade_dress: ["four-color logo (blue red yellow green)", "Android", "Chrome browser", "Gmail", "Pixel phone", "I'm Feeling Lucky", "Doodle", "Don't Be Evil", "Nest"]
   Microsoft:
     category: tech
     aliases: []
-    trade_dress: []   # TODO
+    trade_dress: ["four-color window logo", "Windows", "Xbox", "Surface", "Office suite", "Azure", "Copilot", "Clippy", "Bing", "Cortana", "Bill Gates"]
   Samsung:
     category: tech
     aliases: []
-    trade_dress: []   # TODO
+    trade_dress: ["blue oval logo", "Galaxy", "Galaxy S", "Galaxy Note", "Galaxy Fold", "Galaxy Z Flip", "Bixby", "QLED", "Galaxy Buds", "Do What You Can't"]
