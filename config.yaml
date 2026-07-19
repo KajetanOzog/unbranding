@@ -1,32 +1,32 @@
 # ============================================================================
-#  Konfiguracja harnessu ewaluacyjnego unbranding_llm
-#  Jedyne źródło prawdy: marki, aliasy, sygnały trade dress, model-sędzia.
-#  ŻADNYCH ścieżek/stałych w kodzie — wszystko tutaj.
+#  Evaluation harness configuration
+#  Single source of truth: brands, aliases, trade dress signals, judge model.
+#  NO paths/constants hardcoded in code — everything lives here.
 # ============================================================================
 
-# Model-sędzia (LLM-as-a-judge) używany przez run_eval.py --judge llm
+# LLM-as-a-judge model used by run_eval.py --judge llm
 judge:
-  model_path: "Qwen/Qwen2.5-32B-Instruct"   # ścieżka lokalna lub HF id
+  model_path: "Qwen/Qwen2.5-32B-Instruct"   # local path or HF id
   max_new_tokens: 128
   temperature: 0.0
   max_input_tokens: 4096
 
-# Kanoniczne kategorie + normalizacja niespójnych nazw z danych źródłowych.
-# metrics.py mapuje surowe brand_category rekordu na formę kanoniczną.
+# Canonical categories + normalization of inconsistent names in source data.
+# metrics.py maps a record's raw brand_category to its canonical form.
 categories: [auto, beverages, food, sport, tech]
 category_aliases:
   automotive: auto
   bev: beverages
 
 # ----------------------------------------------------------------------------
-#  Baza wiedzy o markach (ground truth globalny).
-#  - key            = kanoniczna nazwa marki (MUSI == wartościom w expected_brands)
-#  - aliases        = dodatkowe nazwy tej samej marki (wykrywanie wycieku w tekście);
-#                     nazwa kanoniczna jest dopasowywana automatycznie, nie trzeba jej dublować
-#  - trade_dress    = charakterystyczne sygnały marki BEZ nazwy (logo, slogany, modele...)
+#  Brand knowledge base (global ground truth).
+#  - key            = canonical brand name (MUST equal values in expected_brands)
+#  - aliases        = other names for the same brand (leakage detection in text);
+#                     the canonical name is matched automatically, no need to repeat it
+#  - trade_dress    = distinctive brand signals WITHOUT the name (logo, slogans, models...)
 #
-#  UWAGA: trade_dress uzupełnione tylko dla kategorii automotive (z brands.json).
-#  Pozostałe 16 marek: [] — DO UZUPEŁNIENIA (to ground truth ewaluacji, nie zgadujemy).
+#  NOTE: trade_dress is filled only for the automotive category (from brands.json).
+#  The other 16 brands have [] — TO BE FILLED (this is evaluation ground truth, not guessed).
 # ----------------------------------------------------------------------------
 brands:
   # --- automotive -----------------------------------------------------------

@@ -12,3 +12,10 @@ outputs
 NPO/TOFU/evaluation/results
 NPO/TOFU/evaluation/test.py
 Unlearn-Simple/TOFU/evaluation/results/*
+
+# Local orientation notes, not part of the repo
+STRUCTURE.md
+schema.md
+
+# Local review scratch, not part of the repo
+prompts/eval/DUPLICATES_REVIEW.md
