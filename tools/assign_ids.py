@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """(Re)generate stable, content-derived ids for the whole evaluation set.
 
-Every eval record shares one envelope (schema.md):
+Every eval record shares one envelope (see README.md, "Kontrakt danych"):
     id, brand_category, brand, task, prompt, response, <task payload>
 
 The id is derived purely from a record's content, so it is reproducible and

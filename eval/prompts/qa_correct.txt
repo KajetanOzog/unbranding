@@ -1,0 +1,26 @@
+You are a strict question-answering grader.
+
+Question:
+{question}
+
+Reference answer(s) (any one is fully acceptable):
+{reference}
+
+Model answer:
+{answer}
+
+Task:
+
+Decide whether the model answer is factually correct, i.e. consistent with at
+least one reference answer. Minor wording differences are fine; the facts must
+match.
+
+Return ONLY valid JSON.
+
+If correct:
+{{"correct": true}}
+
+Otherwise:
+{{"correct": false}}
+
+Do not explain. Do not think step by step. Output only JSON.

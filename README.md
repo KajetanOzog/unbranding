@@ -1,235 +1,164 @@
-# Unbranding
+# Unbranding LLM
 
-Ogólny zamysł:
-* w folderze `datasets` - zbiory treningowe i ewaluacyjne,
-* w folderze `experiments_results` - odpowiedzi modeli oraz wyniki eksperymentów,
-* w folderze `models` - modele,
-* w folderze `NPO` - metoda oduczania NPO,
-* w folderze `Unlearn-Simple` - metoda oduczania SimNPO,
+Projekt badawczy o **"unbrandingu" (odmarkowieniu) dużych modeli językowych** —
+sprawianiu, by modele **przestały odwoływać się do konkretnych marek**
+(np. Coca-Cola, BMW, Nike, Apple) zarówno wprost (nazwa marki), jak i pośrednio
+przez **trade dress** (charakterystyczne cechy marki bez nazwy: logo, kolory,
+slogany, założyciele, kształty).
 
-### Datasets
+Marki pogrupowane są w 5 kategorii — **auto, beverages, food, sport, tech**
+(po 4 marki na kategorię, 20 łącznie).
 
-##### 1. Trening (`datasets/training_datasets`):
-- Forget Set
-   - prompts with brand names + no brand names (np. `forget_dataset/auto/forget_audi.jsonl`)
-- Retain Set
-   - alpaca + category questions (`retain_dataset/all_combined_retain.jsonl`)
+Pipeline składa się z trzech etapów:
 
-
-##### 2. Ewaluacja (`datasets/eval_datasets`):
-- Custom Evaluation Set
-   - Trade Dress
-      - Implicit desc + General + Opinion + Slogan + Factual (np. `auto/AUDI/benchmark.jsonl`)
-      - Scenario (np. `auto/scenario_automotive.jsonl`)
-   - Auxiliary
-      - thesis prompts (np. `auto/AUDI/thesis.jsonl`)
-      - short answer (np. `auto/AUDI/short_thesis.jsonl`)
-      - multiple choice (np. `auto/AUDI/choices.jsonl`)
-      - brand category (np. `auto/test_retain_automotive.jsonl`)
-- External Benchmarks
-   - World Facts ( `test_world_facts.jsonl`)
-
+1. **Oduczanie (machine unlearning)** — trening usuwający wiedzę o markach
+   metodami **NPO** i **SimNPO** (oparte na frameworku TOFU) — katalog `methods/`.
+2. **Ewaluacja** — trzy-etapowy harness `eval/` (generacja → sędzia → metryki),
+   napędzany wyłącznie przez `prompts/eval/**` i `config.yaml`.
+3. **Analiza** — agregacja `scores.csv` (brand leakage, trade dress, retencja).
 
 ---
 
-### 1. Zintegrowany Benchmark i Ewaluacja (vLLM)
-
-Odpalenie:
-```bash
-sbatch scripts/run_benchmarking.sh
-```
-
-- --benchmarking_dir – ścieżka do folderu z promptami (prompty muszą być w plikach .jsonl, podzielone na podfoldery kategorii).
-
-- --output_dir – główny folder na wyniki (skrypt sam utworzy w nim podfolder z timestampem i seedem).
-
-- --model_paths – ścieżki do modeli, które będą generować tekst. Możesz podać kilka po spacji (skrypt załaduje je po kolei).
-
-- --judge_path – (opcjonalne) ścieżka do modelu sędziego (np. Qwen-32b). Jeśli podana, po wygenerowaniu odpowiedzi skrypt od razu oceni je pod kątem marek i "trade dress".
-
-- --seed – ziarno losowości (domyślnie 42).
-
-> Aby uniknąć błędów tokenizera i problemów z importami w kontenerze, na górze pliku .sh muszą znaleźć się te dwie zmienne:
-
-   ```bash
-   export APPTAINERENV_PYTHONPATH="$(realpath ../extra_python_libs)"
-   export TOKENIZERS_PARALLELISM=false
-   ```
-
-### 2. Ewaluacja wyników (LLM judge)
-
-Po wygenerowaniu odpowiedzi modeli można uruchomić skrypty ewaluacyjne z folderu `inference`.
-
-Te skrypty używają dodatkowego modelu (LLM judge), który analizuje wygenerowane odpowiedzi i wykrywa odniesienia do brandów.
-
-Przykładowo:
-
-```bash
-sbatch scripts/run_any_brand_eval.sh
-```
-
-lub
-
-```bash
-sbatch scripts/run_concrete_brand_eval.sh
-```
-
-Skrypty:
-
-* wczytują odpowiedzi modeli z folderu `results`
-* analizują je pod kątem:
-
-  * występowania nazw brandów
-  * występowania **trade dress** (charakterystycznych cech brandu bez podania nazwy)
-* zapisują wyniki do folderu `llmaj_results`
-
-Struktura wyników wygląda wtedy tak:
+## Układ repozytorium
 
 ```
-llmaj_results/
-   llama/
-      any_brand_check/
-      concrete_brands/
-
-   qwen/
-      any_brand_check/
-      concrete_brands/
+unbranding_llm/
+├── config.yaml          # JEDNO źródło prawdy: marki, aliasy, trade dress, model-sędzia
+├── eval/                # Harness ewaluacyjny (3 etapy)
+│   ├── common.py        #   wspólne helpery: config, ładowanie rekordów, Model (vLLM lazy)
+│   ├── generate.py      #   Etap 1: model bazowy wypełnia `response`
+│   ├── judge.py         #   Etap 2: LLM-as-a-judge dokleja `judgment`
+│   ├── metrics.py       #   Etap 3: agregacja judged → scores.csv (CPU-only)
+│   └── prompts/         #   szablony sędziego (brand_mention, trade_dress, stance...)
+├── prompts/
+│   ├── eval/            # Zbiór ewaluacyjny — samoopisujące się rekordy JSONL (patrz niżej)
+│   │   └── <kategoria>/<marka>/{benchmark,thesis,choices,forget}.jsonl
+│   │       + <kategoria>/{scenario,retain}.jsonl + world_facts.jsonl
+│   └── train/           # Zbiory treningowe: forget/ (do zapomnienia) + retain/ (do zachowania)
+├── methods/             # Metody oduczania (framework TOFU)
+│   ├── NPO/             #   Negative Preference Optimization
+│   └── Unlearn-Simple/  #   SimNPO
+├── tools/               # assign_ids.py (deterministyczne id), skrypty run_benchmarking*
+├── inference/, utils/   # Starsze skrypty generacji/analizy (stopniowo migrowane do eval/)
+└── scripts/             # Skrypty SLURM (sbatch)
 ```
 
-Każdy plik wynikowy jest w formacie `jsonl` i zawiera:
-
-* prompt
-* odpowiedź modelu
-* wynik analizy brandów
+Katalogi wyjściowe (`runs/`, `judged/`, `scores.csv`) powstają w trakcie
+działania i nie są śledzone w git.
 
 ---
 
-### 3. Ewaluacja wyników (SpaCy NER)
+## Kontrakt danych ewaluacyjnych
 
-Alternatywnie do oceny przy użyciu LLM judge można wykorzystać bibliotekę SpaCy do automatycznego wykrywania encji nazwanych (NER — Named Entity Recognition).
+Cały `prompts/eval/**` to pliki **JSONL** o **jednej wspólnej kopercie**.
+Rekord jest samoopisujący się — nie zależy od nazwy pliku ani folderu.
 
-SpaCy jest biblioteką NLP (Natural Language Processing), która analizuje tekst i rozpoznaje m.in.:
-
-* organizacje (`ORG`)
-* produkty (`PRODUCT`)
-* osoby (`PERSON`)
-
-W projekcie wykorzystywany jest model:
-
-```python
-en_core_web_sm
+```json
+{ "id": "...", "brand_category": "auto", "brand": "audi",
+  "task": "benchmark", "prompt": "...", "response": "", ...payload }
 ```
 
-Model SpaCy działa w oparciu o pipeline NLP, który przetwarza tekst etapami. Najpierw tekst jest dzielony na tokeny (tokenizacja), następnie wykonywana jest analiza językowa, taka jak rozpoznawanie części mowy czy zależności składniowych. Na końcu model NER (Named Entity Recognition), wytrenowany na dużych zbiorach tekstowych, identyfikuje fragmenty tekstu odpowiadające nazwom własnym oraz przypisuje im odpowiednie etykiety, np. ORG, PERSON czy PRODUCT.
+| pole | znaczenie |
+|---|---|
+| `id` | `<brand_category>__<brand>__<task>__<hash8>`, deterministyczny z treści (`tools/assign_ids.py`). Cross-brand → `brand=all`; world_facts → `brand_category=world` |
+| `brand_category` | `auto`\|`beverages`\|`food`\|`sport`\|`tech`, lub `null` (world_facts) |
+| `brand` | slug marki (`audi`, `coca_cola`, `red_bull`…), lub `null` dla plików cross-brand |
+| `task` | typ zadania — po nim dispatchuje runner i sędzia |
+| `prompt` | tekst podawany modelowi |
+| `response` | miejsce na odpowiedź modelu (na wejściu puste) |
 
-Dzięki temu SpaCy potrafi automatycznie wykrywać odniesienia do marek, produktów lub osób nawet wtedy, gdy pojawiają się one w różnych kontekstach językowych i formach gramatycznych.
+### Taski, payload i metryki
 
-W projekcie model analizuje wygenerowane odpowiedzi modeli językowych i identyfikuje odniesienia do marek oraz elementów brandingowych.
+| task | plik | payload | metryka |
+|---|---|---|---|
+| `benchmark` | `<cat>/<brand>/benchmark.jsonl` | `prompt_category`, `expected_brands` | brand leakage (jawny + trade dress) |
+| `scenario` | `<cat>/scenario.jsonl` | `prompt_category`, `expected_brands: []` | leakage: jakakolwiek marka |
+| `choices` | `<cat>/<brand>/choices.jsonl` | `choices: []`, `answer` | trafność multiple-choice (deterministyczna) |
+| `thesis` | `<cat>/<brand>/thesis.jsonl` | `label` | zgodność opinii/sentymentu |
+| `forget` | `<cat>/<brand>/forget.jsonl` | — | czy model wypowiada markę |
+| `retain` | `<cat>/retain.jsonl` | `reference: []` | utrzymanie wiedzy kategorii |
+| `world_facts` | `world_facts.jsonl` | `reference: []` | ogólna wiedza (TOFU) |
 
-Przykładowe uruchomienie:
-
-python utils/run_spacy_analysis.py \
-  --results_dir experiments_results/model_outputs_*
-
-Skrypt:
-- wczytuje odpowiedzi modeli z folderu results
-- wykonuje analizę NLP przy użyciu SpaCy
-- wykrywa encje nazwane w odpowiedziach modeli
-- mapuje wykryte encje do kategorii:
-   - `brand_names` — encje typu ORG
-   - `trade_dress_brands` — encje typu PRODUCT oraz PERSON
-- zapisuje wyniki do folderu judge_results/spacy
-
-Struktura wyników wygląda wtedy tak:
-```
-judge_results/
-   spacy/
-      llama/
-         bev/
-         food/
-
-      qwen/
-         bev/
-         food/
-```
-Każdy plik wynikowy jest w formacie jsonl i zawiera:
-- prompt
-- odpowiedź modelu
-- listę wykrytych encji
-- sparsowane wyniki:
-   - `brand_names`
-   - `trade_dress_brands`
-
-Przykładowy wynik:
-``` json
-{
-  "prompt": "...",
-  "response": "...",
-  "detected_entities": [
-    {
-      "text": "Coca-Cola",
-      "label": "ORG"
-    }
-  ],
-  "parsed": {
-    "brand_names": ["Coca-Cola"],
-    "trade_dress_brands": []
-  }
-}
-```
-Dzięki temu możliwa jest szybka automatyczna analiza obecności nazw marek oraz elementów brandingowych w odpowiedziach modeli językowych.
-
-
+**Zasady:** jedna marka na rekord `benchmark` (`expected_brands` = `[marka folderu]`);
+`id` reprodukowalny (`tools/assign_ids.py`, `--check` do podglądu); etapy tylko
+**dopisują** pola (`prompt → response → judgment → scores.csv`).
 
 ---
 
-### 4. Analiza wyników
+## Pipeline ewaluacyjny (`eval/`)
 
-Po wygenerowaniu wyników ewaluacji można uruchomić skrypty analityczne z folderu `utils`.
+Wszystko napędzają dwa źródła prawdy: `prompts/eval/**` (rekordy) i `config.yaml`
+(baza wiedzy o markach + parametry sędziego). Żadnych ścieżek/stałych w kodzie.
 
-Przykładowo:
+### Etap 1 — generacja (vLLM)
+
+Model bazowy wypełnia puste `response` w każdym rekordzie.
 
 ```bash
-python utils/analyze_llmaj_results.py --date 2026-03-04
+python eval/generate.py --model <ścieżka-lub-HF-id> [--name ETYKIETA]
+# → runs/<name>/shard_<shard_id>.jsonl
 ```
 
-Skrypt:
+`--name` domyślnie = nazwa katalogu modelu (staje się wierszem w tabeli metryk).
+`--num-shards` / `--shard-id` wspierają joby tablicowe SLURM (rekord `i` trafia do
+sharda `i % num_shards`).
 
-* wczytuje wyniki z folderu `llmaj_results`
-* agreguje statystyki dla każdego modelu i kategorii promptów
-* generuje raport tekstowy
-* zapisuje dodatkowe pliki z analizą
+### Etap 2 — sędzia (LLM-as-a-judge)
 
-Wygenerowana struktura:
+Dla każdego rekordu dokleja obiekt `judgment`, dispatchując po `task`:
 
-```
-llmaj_results/
-   analysis_YYYY-MM-DD/
-
-      report.txt
-      any_brand_summary.csv
-      brand_leakage_ranking.csv
-
-      heatmap_brand_rate.png
-      heatmap_trade_rate.png
+```bash
+python eval/judge.py --run runs/<name> --judge-model <ścieżka> [--config config.yaml]
+# → judged/<name>/shard_<rank>.jsonl
 ```
 
-Raport (`report.txt`) zawiera m.in.:
+| task | judgment | sposób |
+|---|---|---|
+| `benchmark` | `brand_present`, `trade_dress_present` | LLM |
+| `forget` | `brand_present` | LLM |
+| `scenario` | `brands_mentioned`, `any_brand` | LLM |
+| `thesis` | `stance`, `label`, `stance_match` | LLM |
+| `retain` / `world_facts` | `correct` | LLM |
+| `choices` | `selected`, `correct` | deterministycznie (bez LLM) |
 
-* statystyki **brand leakage** dla każdej kategorii promptów
-* statystyki **trade dress detection**
-* ranking najczęściej pojawiających się brandów
-* porównanie modeli
+Model-sędzia i jego parametry pochodzą z sekcji `judge:` w `config.yaml`
+(domyślnie `Qwen/Qwen2.5-32B-Instruct`).
 
-### 5. Używane modele
-* gemma-4-31B-it
-* Llama-3.1-8B-Instruct
-* Mistral-Small-Instruct-2409
-* Mistral-Small-Instruct-2409
-* Qwen2.5-3B-Instruct
-* Qwen2.5-7B-Instruct
-* Qwen2.5-14B-Instruct
-* Qwen3-4B
-* Qwen3-7B
-* Qwen3-14B
-* Qwen3-32B
+### Etap 3 — metryki (bez GPU)
+
+Czyta wszystkie judged runs, deduplikuje po `id` i redukuje `judgment` do
+współczynników per task — łącznie i per `brand_category`.
+
+```bash
+python eval/metrics.py [--judged judged] [--out scores.csv]
+```
+
+Zapisuje long-form CSV (`name, task, metric, category, value, n`) i drukuje
+zwięzłą tabelę zbiorczą. Nie wymaga zależności GPU/modelu.
+
+---
+
+## Oduczanie (`methods/`)
+
+Metody **NPO** i **SimNPO** oparte na frameworku **TOFU** (fine-tune → forget →
+evaluate), konfigurowane przez Hydra + DeepSpeed, opcjonalnie z LoRA. Dane
+treningowe pochodzą z `prompts/train/` (forget set = prompty z markami do
+zapomnienia; retain set = dane bez marek chroniące ogólne zdolności modelu).
+
+```bash
+python methods/NPO/TOFU/forget.py            # oduczanie NPO
+python methods/Unlearn-Simple/TOFU/forget.py # oduczanie SimNPO
+```
+
+---
+
+## Kluczowe pojęcia
+
+| Pojęcie | Znaczenie |
+|---|---|
+| **Forget set** | Dane z markami, których model ma się "oduczyć". |
+| **Retain set** | Dane bez marek — chronią ogólne zdolności modelu. |
+| **Trade dress** | Pośrednie odniesienia do marki (logo, kolory, slogany, założyciele) bez nazwy. |
+| **Brand leakage** | Jak często mimo oduczania w odpowiedziach pojawiają się marki. |
+| **NPO / SimNPO** | Metody unlearningu oparte na frameworku TOFU. |
+| **LLM-as-a-Judge** | Duży model (Qwen-32B) oceniający obecność marek w odpowiedziach. |
