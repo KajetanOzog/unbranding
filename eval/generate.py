@@ -18,8 +18,8 @@ import random
 from pathlib import Path
 
 from common import (
-    DEFAULT_EVAL_DIR, REPO_ROOT, Model,
-    load_eval_records, shard, write_jsonl,
+    DEFAULT_CONFIG, DEFAULT_EVAL_DIR, REPO_ROOT, Model,
+    load_config, load_eval_records, shard, write_jsonl,
 )
 
 
@@ -37,6 +37,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", required=True, help="path or HF id of the base model")
     ap.add_argument("--eval-dir", default=str(DEFAULT_EVAL_DIR))
+    ap.add_argument("--config", default=str(DEFAULT_CONFIG))
     ap.add_argument("--out", default=str(REPO_ROOT / "runs"))
     ap.add_argument("--name", default=None, help="run label (default: model dir name)")
     ap.add_argument("--max-tokens", type=int, default=256)
@@ -58,9 +59,10 @@ def main():
     print(f"[generate] {name}: {len(records)} records "
           f"(shard {args.shard_id}/{args.num_shards}) -> {out_path}")
 
+    overrides = load_config(args.config).raw.get("model_overrides", [])
     model = Model(
         args.model, max_tokens=args.max_tokens,
-        temperature=args.temperature, seed=args.seed,
+        temperature=args.temperature, seed=args.seed, overrides=overrides,
     )
     responses = model.generate([build_input(r) for r in records])
 

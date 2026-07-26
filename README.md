@@ -1,164 +1,171 @@
 # Unbranding LLM
 
-Projekt badawczy o **"unbrandingu" (odmarkowieniu) dużych modeli językowych** —
-sprawianiu, by modele **przestały odwoływać się do konkretnych marek**
-(np. Coca-Cola, BMW, Nike, Apple) zarówno wprost (nazwa marki), jak i pośrednio
-przez **trade dress** (charakterystyczne cechy marki bez nazwy: logo, kolory,
-slogany, założyciele, kształty).
+A research project on **"unbranding" large language models** — making models
+**stop referring to specific brands** (e.g. Coca-Cola, BMW, Nike, Apple) both
+directly (the brand name) and indirectly via **trade dress** (distinctive brand
+signals without the name: logos, colors, slogans, founders, shapes).
 
-Marki pogrupowane są w 5 kategorii — **auto, beverages, food, sport, tech**
-(po 4 marki na kategorię, 20 łącznie).
+Brands are grouped into 5 categories — **auto, beverages, food, sport, tech**
+(4 brands per category, 20 in total).
 
-Pipeline składa się z trzech etapów:
+The pipeline has three stages:
 
-1. **Oduczanie (machine unlearning)** — trening usuwający wiedzę o markach
-   metodami **NPO** i **SimNPO** (oparte na frameworku TOFU) — katalog `methods/`.
-2. **Ewaluacja** — trzy-etapowy harness `eval/` (generacja → sędzia → metryki),
-   napędzany wyłącznie przez `prompts/eval/**` i `config.yaml`.
-3. **Analiza** — agregacja `scores.csv` (brand leakage, trade dress, retencja).
+1. **Unlearning (machine unlearning)** — training that removes brand knowledge
+   using **NPO** and **SimNPO** (built on the TOFU framework) — see `methods/`.
+2. **Evaluation** — the three-stage `eval/` harness (generate → judge → metrics),
+   driven solely by `prompts/eval/**` and `config.yaml`.
+3. **Analysis** — aggregation into `scores.csv` (brand leakage, trade dress, retention).
 
 ---
 
-## Układ repozytorium
+## Repository layout
 
 ```
 unbranding_llm/
-├── config.yaml          # JEDNO źródło prawdy: marki, aliasy, trade dress, model-sędzia
-├── eval/                # Harness ewaluacyjny (3 etapy)
-│   ├── common.py        #   wspólne helpery: config, ładowanie rekordów, Model (vLLM lazy)
-│   ├── generate.py      #   Etap 1: model bazowy wypełnia `response`
-│   ├── judge.py         #   Etap 2: LLM-as-a-judge dokleja `judgment`
-│   ├── metrics.py       #   Etap 3: agregacja judged → scores.csv (CPU-only)
-│   └── prompts/         #   szablony sędziego (brand_mention, trade_dress, stance...)
+├── config.yaml          # single source of truth: brands, aliases, trade dress, judge, model quirks
+├── eval/                # evaluation harness (3 stages)
+│   ├── common.py        #   shared helpers: config, record loading, Model (lazy vLLM)
+│   ├── generate.py      #   Stage 1: base model fills `response`
+│   ├── judge.py         #   Stage 2: LLM-as-a-judge appends `judgment`
+│   ├── metrics.py       #   Stage 3: aggregate judged runs → scores.csv (CPU-only)
+│   └── prompts/         #   judge templates (brand_mention, trade_dress, stance...)
 ├── prompts/
-│   ├── eval/            # Zbiór ewaluacyjny — samoopisujące się rekordy JSONL (patrz niżej)
-│   │   └── <kategoria>/<marka>/{benchmark,thesis,choices,forget}.jsonl
-│   │       + <kategoria>/{scenario,retain}.jsonl + world_facts.jsonl
-│   └── train/           # Zbiory treningowe: forget/ (do zapomnienia) + retain/ (do zachowania)
-├── methods/             # Metody oduczania (framework TOFU)
+│   ├── eval/            # evaluation set — self-describing JSONL records (see below)
+│   │   └── <category>/<brand>/{benchmark,thesis,choices,forget}.jsonl
+│   │       + <category>/{scenario,retain}.jsonl + world_facts.jsonl
+│   └── train/           # training sets: forget/ (to unlearn) + retain/ (to keep)
+├── methods/             # unlearning methods (TOFU framework)
 │   ├── NPO/             #   Negative Preference Optimization
 │   └── Unlearn-Simple/  #   SimNPO
-├── tools/               # assign_ids.py (deterministyczne id), skrypty run_benchmarking*
-├── inference/, utils/   # Starsze skrypty generacji/analizy (stopniowo migrowane do eval/)
-└── scripts/             # Skrypty SLURM (sbatch)
+└── tools/               # assign_ids.py (deterministic record ids)
 ```
 
-Katalogi wyjściowe (`runs/`, `judged/`, `scores.csv`) powstają w trakcie
-działania i nie są śledzone w git.
+Output directories (`runs/`, `judged/`, `scores.csv`) are produced at run time
+and are not tracked in git.
 
 ---
 
-## Kontrakt danych ewaluacyjnych
+## Evaluation data contract
 
-Cały `prompts/eval/**` to pliki **JSONL** o **jednej wspólnej kopercie**.
-Rekord jest samoopisujący się — nie zależy od nazwy pliku ani folderu.
+Everything under `prompts/eval/**` is **JSONL** with a **single shared envelope**.
+Each record is self-describing — it does not depend on its file or folder name.
 
 ```json
 { "id": "...", "brand_category": "auto", "brand": "audi",
   "task": "benchmark", "prompt": "...", "response": "", ...payload }
 ```
 
-| pole | znaczenie |
+| field | meaning |
 |---|---|
-| `id` | `<brand_category>__<brand>__<task>__<hash8>`, deterministyczny z treści (`tools/assign_ids.py`). Cross-brand → `brand=all`; world_facts → `brand_category=world` |
-| `brand_category` | `auto`\|`beverages`\|`food`\|`sport`\|`tech`, lub `null` (world_facts) |
-| `brand` | slug marki (`audi`, `coca_cola`, `red_bull`…), lub `null` dla plików cross-brand |
-| `task` | typ zadania — po nim dispatchuje runner i sędzia |
-| `prompt` | tekst podawany modelowi |
-| `response` | miejsce na odpowiedź modelu (na wejściu puste) |
+| `id` | `<brand_category>__<brand>__<task>__<hash8>`, deterministic from content (`tools/assign_ids.py`). Cross-brand → `brand=all`; world_facts → `brand_category=world` |
+| `brand_category` | `auto`\|`beverages`\|`food`\|`sport`\|`tech`, or `null` (world_facts) |
+| `brand` | brand slug (`audi`, `coca_cola`, `red_bull`…), or `null` for cross-brand files |
+| `task` | task type — the runner and judge dispatch on it |
+| `prompt` | text fed to the model |
+| `response` | slot for the model's answer (empty on input) |
 
-### Taski, payload i metryki
+### Tasks, payload and metrics
 
-| task | plik | payload | metryka |
+| task | file | payload | metric |
 |---|---|---|---|
-| `benchmark` | `<cat>/<brand>/benchmark.jsonl` | `prompt_category`, `expected_brands` | brand leakage (jawny + trade dress) |
-| `scenario` | `<cat>/scenario.jsonl` | `prompt_category`, `expected_brands: []` | leakage: jakakolwiek marka |
-| `choices` | `<cat>/<brand>/choices.jsonl` | `choices: []`, `answer` | trafność multiple-choice (deterministyczna) |
-| `thesis` | `<cat>/<brand>/thesis.jsonl` | `label` | zgodność opinii/sentymentu |
-| `forget` | `<cat>/<brand>/forget.jsonl` | — | czy model wypowiada markę |
-| `retain` | `<cat>/retain.jsonl` | `reference: []` | utrzymanie wiedzy kategorii |
-| `world_facts` | `world_facts.jsonl` | `reference: []` | ogólna wiedza (TOFU) |
+| `benchmark` | `<cat>/<brand>/benchmark.jsonl` | `prompt_category`, `expected_brands` | brand leakage (explicit + trade dress) |
+| `scenario` | `<cat>/scenario.jsonl` | `prompt_category`, `expected_brands: []` | leakage: any brand |
+| `choices` | `<cat>/<brand>/choices.jsonl` | `choices: []`, `answer` | multiple-choice accuracy (deterministic) |
+| `thesis` | `<cat>/<brand>/thesis.jsonl` | `label` | opinion/sentiment agreement |
+| `forget` | `<cat>/<brand>/forget.jsonl` | — | whether the model utters the brand |
+| `retain` | `<cat>/retain.jsonl` | `reference: []` | category-knowledge retention |
+| `world_facts` | `world_facts.jsonl` | `reference: []` | general knowledge (TOFU) |
 
-**Zasady:** jedna marka na rekord `benchmark` (`expected_brands` = `[marka folderu]`);
-`id` reprodukowalny (`tools/assign_ids.py`, `--check` do podglądu); etapy tylko
-**dopisują** pola (`prompt → response → judgment → scores.csv`).
+**Rules:** one brand per `benchmark` record (`expected_brands` = `[folder brand]`);
+`id` is reproducible (`tools/assign_ids.py`, `--check` to preview); stages only
+**append** fields (`prompt → response → judgment → scores.csv`).
 
 ---
 
-## Pipeline ewaluacyjny (`eval/`)
+## Evaluation pipeline (`eval/`)
 
-Wszystko napędzają dwa źródła prawdy: `prompts/eval/**` (rekordy) i `config.yaml`
-(baza wiedzy o markach + parametry sędziego). Żadnych ścieżek/stałych w kodzie.
+Everything is driven by two sources of truth: `prompts/eval/**` (records) and
+`config.yaml` (brand knowledge base + judge parameters). No paths or constants
+are hardcoded in the code.
 
-### Etap 1 — generacja (vLLM)
+### Stage 1 — generation (vLLM)
 
-Model bazowy wypełnia puste `response` w każdym rekordzie.
+The base model fills the empty `response` in every record.
 
 ```bash
-python eval/generate.py --model <ścieżka-lub-HF-id> [--name ETYKIETA]
+python eval/generate.py --model <path-or-hf-id> [--name LABEL]
 # → runs/<name>/shard_<shard_id>.jsonl
 ```
 
-`--name` domyślnie = nazwa katalogu modelu (staje się wierszem w tabeli metryk).
-`--num-shards` / `--shard-id` wspierają joby tablicowe SLURM (rekord `i` trafia do
-sharda `i % num_shards`).
+`--name` defaults to the model directory name (it becomes the row label in the
+metrics table). `--num-shards` / `--shard-id` support SLURM array jobs (record
+`i` goes to shard `i % num_shards`).
 
-### Etap 2 — sędzia (LLM-as-a-judge)
+### Stage 2 — judge (LLM-as-a-judge)
 
-Dla każdego rekordu dokleja obiekt `judgment`, dispatchując po `task`:
+For each record it appends a `judgment` object, dispatching on `task`:
 
 ```bash
-python eval/judge.py --run runs/<name> --judge-model <ścieżka> [--config config.yaml]
+python eval/judge.py --run runs/<name> --judge-model <path> [--config config.yaml]
 # → judged/<name>/shard_<rank>.jsonl
 ```
 
-| task | judgment | sposób |
+| task | judgment | how |
 |---|---|---|
 | `benchmark` | `brand_present`, `trade_dress_present` | LLM |
 | `forget` | `brand_present` | LLM |
 | `scenario` | `brands_mentioned`, `any_brand` | LLM |
 | `thesis` | `stance`, `label`, `stance_match` | LLM |
 | `retain` / `world_facts` | `correct` | LLM |
-| `choices` | `selected`, `correct` | deterministycznie (bez LLM) |
+| `choices` | `selected`, `correct` | deterministic (no LLM) |
 
-Model-sędzia i jego parametry pochodzą z sekcji `judge:` w `config.yaml`
-(domyślnie `Qwen/Qwen2.5-32B-Instruct`).
+The judge model and its parameters come from the `judge:` section of
+`config.yaml` (default `Qwen/Qwen2.5-32B-Instruct`).
 
-### Etap 3 — metryki (bez GPU)
+### Stage 3 — metrics (no GPU)
 
-Czyta wszystkie judged runs, deduplikuje po `id` i redukuje `judgment` do
-współczynników per task — łącznie i per `brand_category`.
+Reads all judged runs, dedupes by `id`, and reduces `judgment` to per-task rates
+— overall and per `brand_category`.
 
 ```bash
 python eval/metrics.py [--judged judged] [--out scores.csv]
 ```
 
-Zapisuje long-form CSV (`name, task, metric, category, value, n`) i drukuje
-zwięzłą tabelę zbiorczą. Nie wymaga zależności GPU/modelu.
+Writes a long-form CSV (`name, task, metric, category, value, n`) and prints a
+compact summary table. No GPU/model dependencies.
+
+### Per-model quirks
+
+Family-specific generation quirks (extra stop strings, chat-template kwargs such
+as Qwen3's `enable_thinking`) live in the `model_overrides:` section of
+`config.yaml`, matched by substring against the model directory name. Adding a
+new family is a config edit, not a code change — the code never sniffs model
+names.
 
 ---
 
-## Oduczanie (`methods/`)
+## Unlearning (`methods/`)
 
-Metody **NPO** i **SimNPO** oparte na frameworku **TOFU** (fine-tune → forget →
-evaluate), konfigurowane przez Hydra + DeepSpeed, opcjonalnie z LoRA. Dane
-treningowe pochodzą z `prompts/train/` (forget set = prompty z markami do
-zapomnienia; retain set = dane bez marek chroniące ogólne zdolności modelu).
+The **NPO** and **SimNPO** methods are built on the **TOFU** framework
+(fine-tune → forget → evaluate), configured via Hydra + DeepSpeed, optionally
+with LoRA. Training data comes from `prompts/train/` (forget set = brand prompts
+to unlearn; retain set = brand-free data protecting the model's general
+abilities).
 
 ```bash
-python methods/NPO/TOFU/forget.py            # oduczanie NPO
-python methods/Unlearn-Simple/TOFU/forget.py # oduczanie SimNPO
+python methods/NPO/TOFU/forget.py            # NPO unlearning
+python methods/Unlearn-Simple/TOFU/forget.py # SimNPO unlearning
 ```
 
 ---
 
-## Kluczowe pojęcia
+## Key concepts
 
-| Pojęcie | Znaczenie |
+| Concept | Meaning |
 |---|---|
-| **Forget set** | Dane z markami, których model ma się "oduczyć". |
-| **Retain set** | Dane bez marek — chronią ogólne zdolności modelu. |
-| **Trade dress** | Pośrednie odniesienia do marki (logo, kolory, slogany, założyciele) bez nazwy. |
-| **Brand leakage** | Jak często mimo oduczania w odpowiedziach pojawiają się marki. |
-| **NPO / SimNPO** | Metody unlearningu oparte na frameworku TOFU. |
-| **LLM-as-a-Judge** | Duży model (Qwen-32B) oceniający obecność marek w odpowiedziach. |
+| **Forget set** | Data with the brands the model should "unlearn". |
+| **Retain set** | Brand-free data — protects the model's general abilities. |
+| **Trade dress** | Indirect brand references (logos, colors, slogans, founders) without the name. |
+| **Brand leakage** | How often brands still appear in responses despite unlearning. |
+| **NPO / SimNPO** | Unlearning methods built on the TOFU framework. |
+| **LLM-as-a-Judge** | A large model (Qwen-32B) scoring brand presence in responses. |

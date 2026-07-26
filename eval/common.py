@@ -142,24 +142,33 @@ def load_prompt(name):
 # --------------------------------------------------------------------------- #
 #  vLLM model wrapper (lazy import -> no GPU deps for metrics.py)
 # --------------------------------------------------------------------------- #
-def _is_qwen3(model_name):
-    return "Qwen3" in model_name
-
-
-def _is_mistral7(model_name):
-    return "Mistral-7B-Instruct-v0.3" in model_name
+def resolve_override(model_name, overrides):
+    """First config.yaml `model_overrides` entry whose `match` is a substring
+    of the model dir name; {} if none. Keeps per-family quirks out of code."""
+    for ov in overrides or []:
+        if ov.get("match", "") in model_name:
+            return ov
+    return {}
 
 
 class Model:
-    """vLLM generation model + chat-template formatting, shared by both stages."""
+    """vLLM generation model + chat-template formatting, shared by both stages.
+
+    Per-family quirks (stop strings, chat-template kwargs like Qwen3's
+    `enable_thinking`) come from `overrides` (config.yaml `model_overrides`),
+    never from name-sniffing in code.
+    """
 
     def __init__(self, model_path, max_tokens=256, temperature=0.0,
-                 seed=42, gpu_memory_utilization=0.90, max_model_len=4096):
+                 seed=42, gpu_memory_utilization=0.90, max_model_len=4096,
+                 overrides=None):
         from vllm import LLM, SamplingParams          # noqa: local import
         from transformers import AutoTokenizer
 
         self.model_path = str(model_path)
         self.model_name = Path(model_path).name
+        override = resolve_override(self.model_name, overrides)
+        self._chat_template_extra = dict(override.get("chat_template", {}))
         self.llm = LLM(
             model=self.model_path,
             trust_remote_code=True,
@@ -173,9 +182,9 @@ class Model:
         self.tokenizer = AutoTokenizer.from_pretrained(
             self.model_path, trust_remote_code=True,
         )
-        stop = ["[INST]", "</s>"] if _is_mistral7(self.model_name) else None
         self.sampling_params = SamplingParams(
-            temperature=temperature, max_tokens=max_tokens, seed=seed, stop=stop,
+            temperature=temperature, max_tokens=max_tokens, seed=seed,
+            stop=override.get("stop"),
         )
 
     def format(self, prompt, system=None):
@@ -183,9 +192,8 @@ class Model:
         if system is not None:
             messages.append({"role": "system", "content": system})
         messages.append({"role": "user", "content": prompt})
-        kwargs = {"tokenize": False, "add_generation_prompt": True}
-        if _is_qwen3(self.model_name):
-            kwargs["enable_thinking"] = False
+        kwargs = {"tokenize": False, "add_generation_prompt": True,
+                  **self._chat_template_extra}
         return self.tokenizer.apply_chat_template(messages, **kwargs)
 
     def generate(self, prompts, system=None):

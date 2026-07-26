@@ -124,7 +124,8 @@ def main():
                  ("brand_mention", "trade_dress", "any_brand", "stance", "qa_correct")}
 
     model = Model(args.judge_model, max_tokens=max_tokens,
-                  temperature=float(cfg.judge.get("temperature", 0.0)), seed=args.seed)
+                  temperature=float(cfg.judge.get("temperature", 0.0)), seed=args.seed,
+                  overrides=cfg.raw.get("model_overrides", []))
 
     for shard_fp in sorted(Path(args.run).glob("shard_*.jsonl")):
         records = read_jsonl(shard_fp)

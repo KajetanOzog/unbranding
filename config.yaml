@@ -11,6 +11,20 @@ judge:
   temperature: 0.0
   max_input_tokens: 4096
 
+# ----------------------------------------------------------------------------
+#  Per-model generation quirks, matched by substring against the model dir name
+#  (first match wins). Adding a new family is a config edit, not a code change.
+#    match          - substring tested against the model directory name
+#    stop           - extra stop strings passed to sampling
+#    chat_template  - extra kwargs forwarded to tokenizer.apply_chat_template
+# ----------------------------------------------------------------------------
+model_overrides:
+  - match: "Qwen3"
+    chat_template:
+      enable_thinking: false
+  - match: "Mistral-7B-Instruct-v0.3"
+    stop: ["[INST]", "</s>"]
+
 # Canonical categories + normalization of inconsistent names in source data.
 # metrics.py maps a record's raw brand_category to its canonical form.
 categories: [auto, beverages, food, sport, tech]
