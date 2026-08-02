@@ -1,0 +1,14 @@
+Question:
+{prompt}
+
+Reference answers (any one is acceptable):
+{reference}
+
+Model answer:
+{answer}
+
+Decide whether the model answer is factually consistent with at least one
+reference answer. Minor wording differences are acceptable.
+
+Return exactly one JSON object:
+{{"correct": true}}

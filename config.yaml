@@ -1,49 +1,72 @@
-# ============================================================================
-#  Evaluation harness configuration
-#  Single source of truth: brands, aliases, trade dress signals, judge model.
-#  NO paths/constants hardcoded in code — everything lives here.
-# ============================================================================
-
-# LLM-as-a-judge model used by run_eval.py --judge llm
-judge:
-  model_path: "Qwen/Qwen2.5-32B-Instruct"   # local path or HF id
-  max_new_tokens: 128
+runtime:
+  dtype: bfloat16
+  tensor_parallel_size: 1
+  gpu_memory_utilization: 0.90
+  max_model_len: 4096
+  max_num_seqs: 256
+  enforce_eager: false
+  max_tokens: 256
   temperature: 0.0
-  max_input_tokens: 4096
+  seed: 42
 
-# ----------------------------------------------------------------------------
-#  Per-model generation quirks, matched by substring against the model dir name
-#  (first match wins). Adding a new family is a config edit, not a code change.
-#    match          - substring tested against the model directory name
-#    stop           - extra stop strings passed to sampling
-#    chat_template  - extra kwargs forwarded to tokenizer.apply_chat_template
-# ----------------------------------------------------------------------------
-model_overrides:
-  - match: "Qwen3"
+models:
+  qwen3-8b-base:
+    path: Qwen/Qwen3-8B
     chat_template:
       enable_thinking: false
-  - match: "Mistral-7B-Instruct-v0.3"
-    stop: ["[INST]", "</s>"]
 
-# Canonical categories + normalization of inconsistent names in source data.
-# metrics.py maps a record's raw brand_category to its canonical form.
-categories: [auto, beverages, food, sport, tech]
-category_aliases:
-  automotive: auto
-  bev: beverages
+judge:
+  model: qwen3-8b-base
+  runtime:
+    dtype: bfloat16
+    tensor_parallel_size: 1
+    gpu_memory_utilization: 0.90
+    max_model_len: 2048
+    max_num_seqs: 64
+    enforce_eager: false
+    max_tokens: 128
+    temperature: 0.0
+    seed: 42
+  evaluation:
+    evaluators:
+      target_brand_present:
+        system_prompt: eval/prompts/system/target_brand.txt
+        user_prompt: eval/prompts/user/target_brand_present.txt
+        output: {field: mentioned, type: boolean}
+      target_trade_dress_present:
+        system_prompt: eval/prompts/system/target_brand.txt
+        user_prompt: eval/prompts/user/target_trade_dress_present.txt
+        output: {field: trade_dress_present, type: boolean}
+      brands_mentioned:
+        system_prompt: eval/prompts/system/brand_extraction.txt
+        user_prompt: eval/prompts/user/brands_mentioned.txt
+        output: {field: brands, type: string_list}
+      trade_dress_brands:
+        system_prompt: eval/prompts/system/brand_extraction.txt
+        user_prompt: eval/prompts/user/trade_dress_brands.txt
+        output: {field: brands, type: string_list}
+      stance:
+        system_prompt: eval/prompts/system/stance.txt
+        user_prompt: eval/prompts/user/stance.txt
+        output: {field: stance, type: string}
+      qa_correct:
+        system_prompt: eval/prompts/system/qa.txt
+        user_prompt: eval/prompts/user/qa_correct.txt
+        output: {field: correct, type: boolean}
+      quality_1_5:
+        system_prompt: eval/prompts/system/quality.txt
+        user_prompt: eval/prompts/user/quality_1_5.txt
+        output: {field: score, type: integer}
+    tasks:
+      benchmark: [target_brand_present, target_trade_dress_present, brands_mentioned, trade_dress_brands]
+      forget: [target_brand_present, target_trade_dress_present, brands_mentioned, trade_dress_brands]
+      scenario: [brands_mentioned, trade_dress_brands]
+      choices: [target_brand_present, target_trade_dress_present, brands_mentioned, trade_dress_brands]
+      thesis: [stance, target_brand_present, target_trade_dress_present, brands_mentioned, trade_dress_brands]
+      retain: [qa_correct]
+      world_facts: [qa_correct]
 
-# ----------------------------------------------------------------------------
-#  Brand knowledge base (global ground truth).
-#  - key            = canonical brand name (MUST equal values in expected_brands)
-#  - aliases        = other names for the same brand (leakage detection in text);
-#                     the canonical name is matched automatically, no need to repeat it
-#  - trade_dress    = distinctive brand signals WITHOUT the name (logo, slogans, models...)
-#
-#  NOTE: trade_dress is filled only for the automotive category (from brands.json).
-#  The other 16 brands have [] — TO BE FILLED (this is evaluation ground truth, not guessed).
-# ----------------------------------------------------------------------------
 brands:
-  # --- automotive -----------------------------------------------------------
   Audi:
     category: auto
     aliases: []
@@ -61,7 +84,6 @@ brands:
     aliases: ["Tesla Motors"]
     trade_dress: ["T logo", "Autopilot", "Full Self Driving", "FSD", "Supercharger", "Cybertruck", "Model S", "Model 3", "Model X", "Model Y"]
 
-  # --- beverages ------------------------------------------------------------
   Coca-Cola:
     category: beverages
     aliases: ["Coca Cola", "Coke"]
@@ -79,7 +101,6 @@ brands:
     aliases: ["Monster Energy"]
     trade_dress: ["green claw mark logo", "M claw slash", "Unleash the Beast", "black can with green claw"]
 
-  # --- food -----------------------------------------------------------------
   KFC:
     category: food
     aliases: ["Kentucky Fried Chicken"]
@@ -97,7 +118,6 @@ brands:
     aliases: []
     trade_dress: ["Eat Fresh", "Footlong", "Five Dollar Footlong", "Sandwich Artist", "Sub of the Day"]
 
-  # --- sport ----------------------------------------------------------------
   Adidas:
     category: sport
     aliases: []
@@ -115,7 +135,6 @@ brands:
     aliases: ["NewBalance"]
     trade_dress: ["N logo on the side", "990 series", "574", "550", "Fresh Foam", "FuelCell", "Fearlessly Independent Since 1906", "Made in USA sneakers"]
 
-  # --- tech -----------------------------------------------------------------
   Apple:
     category: tech
     aliases: []

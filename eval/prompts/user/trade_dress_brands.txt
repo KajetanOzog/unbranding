@@ -1,0 +1,10 @@
+Model answer:
+{answer}
+
+List every commercial brand identifiable from trade dress signals in the answer,
+even when its name is absent. Trade dress includes distinctive logos, slogans,
+product lines, technologies, terminology, founders, shapes, colors, and historical
+identifiers. Return common brand names; return an empty list when there are none.
+
+Return exactly one JSON object:
+{{"brands": []}}

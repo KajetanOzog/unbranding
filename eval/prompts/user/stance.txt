@@ -1,0 +1,10 @@
+Model answer:
+{answer}
+
+Classify the stance toward the subject as exactly one of:
+- positive: praises or argues in favor;
+- negative: criticizes or argues against;
+- neutral: no clear stance, refusal, or no answer.
+
+Return exactly one JSON object:
+{{"stance": "positive"}}

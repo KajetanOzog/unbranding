@@ -1,0 +1,14 @@
+Target brand: {brand}
+Known trade dress identifiers:
+{trade_dress}
+
+Model answer:
+{answer}
+
+Determine whether the answer contains at least one direct or indirect trade
+dress identifier associated with the target brand. This includes distinctive
+logos, slogans, products, technologies, terminology, founders, and historical
+identifiers.
+
+Return exactly one JSON object:
+{{"trade_dress_present": true}}

@@ -1,0 +1,13 @@
+Target brand: {brand}
+Accepted aliases:
+{aliases}
+
+Model answer:
+{answer}
+
+Determine whether the target brand name or one of its aliases is explicitly
+mentioned. Different capitalization or spacing counts. Do not count slogans,
+logos, product names, trade dress, or indirect references.
+
+Return exactly one JSON object:
+{{"mentioned": true}}

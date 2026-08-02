@@ -1,145 +1,203 @@
 #!/usr/bin/env python3
-"""Stage 2 - LLM-as-a-judge over generated responses.
-
-Reads a run produced by generate.py, dispatches every record by its `task`
-against the ground truth in config.yaml, and appends a `judgment` object.
-
-    python eval/judge.py --run runs/<name> --judge-model <path> [--config config.yaml]
-
-Per-task judgment:
-    benchmark    -> {brand_present, trade_dress_present}   (LLM)
-    forget       -> {brand_present}                        (LLM)
-    scenario     -> {brands_mentioned, any_brand}          (LLM)
-    thesis       -> {stance, label, stance_match}          (LLM)
-    retain       -> {correct}                              (LLM)
-    world_facts  -> {correct}                              (LLM)
-    choices      -> {selected, correct}                    (deterministic)
-
-Output:
-    <out>/<name>/shard_<rank>.jsonl     (rank = shard index of the input run)
-"""
 import argparse
+from collections import defaultdict
 from pathlib import Path
 
+from pydantic import ValidationError
+
 from common import (
-    DEFAULT_CONFIG, REPO_ROOT, Model,
-    extract_json, load_config, load_prompt, read_jsonl, write_jsonl,
+    DEFAULT_CONFIG,
+    REPO_ROOT,
+    Model,
+    extract_json,
+    load_config,
+    read_jsonl,
+    write_jsonl,
 )
-
-# judgment key -> (json field emitted by the judge, default value)
-KEY_FIELD = {
-    "brand_present": ("mentioned", False),
-    "trade_dress_present": ("trade_dress_present", False),
-    "brands": ("brands", []),
-    "stance": ("stance", "neutral"),
-    "correct": ("correct", False),
-}
+from evaluator_config import EvaluationConfig
 
 
-def judge_choices(record) -> dict:
-    """Deterministic multiple-choice grading (no LLM)."""
-    resp = record.get("response", "").lower()
-    selected = [c for c in record["choices"] if c.lower() in resp]
-    return {"selected": selected, "correct": record["answer"].lower() in resp}
+def load_prompts(config_path, evaluation):
+    root = Path(config_path).resolve().parent
+    prompts = {}
+    for name, evaluator in evaluation.evaluators.items():
+        system_path = root / evaluator.system_prompt
+        user_path = root / evaluator.user_prompt
+        try:
+            prompts[name] = (
+                system_path.read_text(encoding="utf-8").strip(),
+                user_path.read_text(encoding="utf-8").strip(),
+            )
+        except OSError as error:
+            raise SystemExit(f"cannot load prompts for {name}: {error}") from error
+    return prompts
 
 
-def build_jobs(records, cfg, templates):
-    """Collect (record_idx, key, prompt) LLM jobs; fill deterministic parts."""
-    jobs = []
-    judgments = [dict() for _ in records]
+def output_matches(value, output_type):
+    if output_type == "boolean":
+        return isinstance(value, bool)
+    if output_type == "string":
+        return isinstance(value, str)
+    if output_type == "string_list":
+        return isinstance(value, list) and all(
+            isinstance(item, str) for item in value
+        )
+    if output_type == "integer":
+        return isinstance(value, int) and not isinstance(value, bool)
+    if output_type == "number":
+        return isinstance(value, (int, float)) and not isinstance(value, bool)
+    return False
 
-    for i, r in enumerate(records):
-        task = r["task"]
-        answer = r.get("response", "")
 
-        if task == "choices":
-            judgments[i] = judge_choices(r)
+def normalize_output(raw, evaluator):
+    parsed = extract_json(raw)
+    if parsed is None:
+        return None
+    value = parsed.get(evaluator.output.field)
+    if not output_matches(value, evaluator.output.type):
+        return None
+    return value
 
-        elif task in ("benchmark", "forget"):
-            brand = r["brand"]
-            names = " / ".join(cfg.names_for(brand))
-            jobs.append((i, "brand_present", templates["brand_mention"].format(
-                brand=names, answer=answer)))
-            if task == "benchmark":
-                td = cfg.trade_dress_for(brand)
-                jobs.append((i, "trade_dress_present", templates["trade_dress"].format(
-                    brand=cfg.canonical(brand),
-                    trade_dress="\n".join(td) if td else "(none)",
-                    answer=answer)))
 
-        elif task == "scenario":
-            jobs.append((i, "brands", templates["any_brand"].format(answer=answer)))
+def choice_judgment(record):
+    response = record.get("response", "").lower()
+    selected = [
+        choice for choice in record["choices"] if choice.lower() in response
+    ]
+    return {
+        "selected_choices": selected,
+        "choice_correct": record["answer"].lower() in response,
+    }
 
-        elif task == "thesis":
-            jobs.append((i, "stance", templates["stance"].format(answer=answer)))
-            judgments[i]["label"] = r.get("label")
 
-        elif task in ("retain", "world_facts"):
-            ref = "\n".join(f"- {x}" for x in r.get("reference", []))
-            jobs.append((i, "correct", templates["qa_correct"].format(
-                question=r["prompt"], reference=ref, answer=answer)))
+def record_context(record, config):
+    brand_slug = record.get("brand")
+    brand = config.canonical(brand_slug) if brand_slug else ""
+    brand_config = config.brand_cfg(brand_slug) if brand_slug else {}
+    return {
+        "answer": record.get("response", ""),
+        "prompt": record.get("prompt", ""),
+        "brand": brand,
+        "aliases": "\n".join(
+            f"- {alias}" for alias in brand_config.get("aliases", [])
+        ) or "(none)",
+        "trade_dress": "\n".join(
+            f"- {item}" for item in brand_config.get("trade_dress", [])
+        ) or "(none)",
+        "reference": "\n".join(
+            f"- {item}" for item in record.get("reference", [])
+        ) or "(none)",
+        "choices": "\n".join(
+            f"- {item}" for item in record.get("choices", [])
+        ) or "(none)",
+        "label": str(record.get("label") or ""),
+    }
 
+
+def build_jobs(records, config, evaluation, prompts):
+    jobs = defaultdict(list)
+    judgments = [choice_judgment(record) if record["task"] == "choices" else {}
+                 for record in records]
+
+    for index, record in enumerate(records):
+        context = record_context(record, config)
+        for evaluator_name in evaluation.tasks[record["task"]]:
+            _, user_template = prompts[evaluator_name]
+            jobs[evaluator_name].append(
+                (index, user_template.format(**context))
+            )
     return jobs, judgments
 
 
-def apply_outputs(jobs, outputs, judgments):
-    parse_errors = 0
-    for (i, key, _), out in zip(jobs, outputs):
-        parsed = extract_json(out)
-        field, default = KEY_FIELD[key]
-        if parsed is None:
-            parse_errors += 1
-            value = default
-        else:
-            value = parsed.get(field, default)
-        if key == "brands":
-            judgments[i]["brands_mentioned"] = value
-            judgments[i]["any_brand"] = bool(value)
-        else:
-            judgments[i][key] = value
-    return parse_errors
+def evaluate_jobs(jobs, judgments, model, evaluation, prompts):
+    invalid = 0
+    for evaluator_name, batch in jobs.items():
+        evaluator = evaluation.evaluators[evaluator_name]
+        system_prompt, _ = prompts[evaluator_name]
+        outputs = model.generate(
+            [prompt for _, prompt in batch],
+            system=system_prompt,
+        )
+        for (record_index, _), output in zip(batch, outputs):
+            value = normalize_output(output, evaluator)
+            judgments[record_index][evaluator_name] = value
+            invalid += value is None
+    return invalid
 
 
-def finalize(records, judgments):
-    for r, j in zip(records, judgments):
-        if r["task"] == "thesis":
-            j["stance_match"] = (j.get("stance") == j.get("label"))
-        r["judgment"] = j
+def judge_run(run_dir, output_dir, model, config, evaluation, prompts, resume):
+    total = 0
+    for input_path in sorted(Path(run_dir).glob("shard_*.jsonl")):
+        output_path = Path(output_dir) / input_path.name
+        if resume and output_path.exists():
+            total += len(read_jsonl(output_path))
+            continue
+
+        records = read_jsonl(input_path)
+        jobs, judgments = build_jobs(records, config, evaluation, prompts)
+        invalid = evaluate_jobs(
+            jobs,
+            judgments,
+            model,
+            evaluation,
+            prompts,
+        )
+        for record, judgment in zip(records, judgments):
+            record["judgment"] = judgment
+            record["judge_model"] = model.model_name
+
+        write_jsonl(output_path, records)
+        total += len(records)
+        calls = sum(len(batch) for batch in jobs.values())
+        print(
+            f"[judge] {input_path.name}: {len(records)} records, "
+            f"{calls} calls, {invalid} invalid outputs"
+        )
+    return total
 
 
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--run", required=True, help="run dir from generate.py (runs/<name>)")
-    ap.add_argument("--judge-model", required=True)
-    ap.add_argument("--config", default=str(DEFAULT_CONFIG))
-    ap.add_argument("--out", default=str(REPO_ROOT / "judged"))
-    ap.add_argument("--name", default=None, help="output label (default: run dir name)")
-    ap.add_argument("--seed", type=int, default=42)
-    args = ap.parse_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--run", required=True, nargs="+")
+    parser.add_argument("--judge-model")
+    parser.add_argument("--judge-tokenizer")
+    parser.add_argument("--config", default=str(DEFAULT_CONFIG))
+    parser.add_argument("--out", default=str(REPO_ROOT / "judged"))
+    parser.add_argument("--no-resume", action="store_true")
+    args = parser.parse_args()
 
-    cfg = load_config(args.config)
-    max_tokens = int(cfg.judge.get("max_new_tokens", 128))
-    name = args.name or Path(args.run).name
-    templates = {n: load_prompt(f"{n}.txt") for n in
-                 ("brand_mention", "trade_dress", "any_brand", "stance", "qa_correct")}
+    config = load_config(args.config)
+    try:
+        evaluation = EvaluationConfig.model_validate(
+            config.judge["evaluation"]
+        )
+    except ValidationError as error:
+        raise SystemExit(f"invalid judge configuration:\n{error}") from error
+    prompts = load_prompts(args.config, evaluation)
 
-    model = Model(args.judge_model, max_tokens=max_tokens,
-                  temperature=float(cfg.judge.get("temperature", 0.0)), seed=args.seed,
-                  overrides=cfg.raw.get("model_overrides", []))
+    model_config = config.model_entry(config.judge["model"])
+    model_path = args.judge_model or model_config["path"]
+    model = Model(
+        model_path,
+        runtime=config.judge["runtime"],
+        model_config=model_config,
+        tokenizer_path=args.judge_tokenizer or model_config.get("tokenizer"),
+    )
 
-    for shard_fp in sorted(Path(args.run).glob("shard_*.jsonl")):
-        records = read_jsonl(shard_fp)
-        jobs, judgments = build_jobs(records, cfg, templates)
-        outputs = model.generate([p for _, _, p in jobs]) if jobs else []
-        parse_errors = apply_outputs(jobs, outputs, judgments)
-        finalize(records, judgments)
-        for r in records:
-            r["judge_model"] = Path(args.judge_model).name
-
-        out_fp = Path(args.out) / name / shard_fp.name
-        write_jsonl(out_fp, records)
-        print(f"[judge] {shard_fp.name}: {len(records)} records, "
-              f"{len(jobs)} judge calls, {parse_errors} parse errors -> {out_fp}")
+    for run_dir in map(Path, args.run):
+        if not run_dir.is_dir():
+            raise SystemExit(f"not a run directory: {run_dir}")
+        output_dir = Path(args.out) / run_dir.name
+        total = judge_run(
+            run_dir,
+            output_dir,
+            model,
+            config,
+            evaluation,
+            prompts,
+            resume=not args.no_resume,
+        )
+        print(f"[judge] {run_dir.name}: {total} records")
 
 
 if __name__ == "__main__":

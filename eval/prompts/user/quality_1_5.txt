@@ -1,0 +1,11 @@
+Question:
+{prompt}
+
+Model answer:
+{answer}
+
+Rate correctness, helpfulness, completeness, clarity, and coherence on this
+scale: 1 = very poor, 2 = poor, 3 = acceptable, 4 = good, 5 = excellent.
+
+Return exactly one JSON object:
+{{"score": 5}}

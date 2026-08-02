@@ -1,202 +1,156 @@
-"""Shared helpers for the evaluation pipeline (generate -> judge -> metrics).
-
-Everything is driven by two sources of truth:
-  * prompts/eval/**  - self-describing records (see README.md, "Kontrakt danych")
-  * config.yaml      - brand knowledge base + judge defaults
-
-The vLLM/torch imports are lazy (inside `Model`) so that metrics.py and the
-deterministic parts of judge.py run on a plain CPU box with no GPU stack.
-"""
 import json
 import re
 from pathlib import Path
 
 import yaml
 
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CONFIG = REPO_ROOT / "config.yaml"
-DEFAULT_EVAL_DIR = REPO_ROOT / "prompts" / "eval"
-PROMPTS_DIR = Path(__file__).resolve().parent / "prompts"
-
+DEFAULT_EVAL_DIR = REPO_ROOT / "dataset" / "eval"
 TASKS = (
-    "benchmark", "scenario", "choices",
-    "thesis", "forget", "retain", "world_facts",
+    "benchmark", "scenario", "choices", "thesis",
+    "forget", "retain", "world_facts",
 )
 
 
-# --------------------------------------------------------------------------- #
-#  config.yaml
-# --------------------------------------------------------------------------- #
-def slugify(name: str) -> str:
-    """Canonical brand name -> record slug ('Coca-Cola' -> 'coca_cola')."""
-    s = name.lower().replace("'", "")
-    return re.sub(r"[^a-z0-9]+", "_", s).strip("_")
+def slugify(name):
+    value = name.lower().replace("'", "")
+    return re.sub(r"[^a-z0-9]+", "_", value).strip("_")
 
 
 class Config:
-    """Thin wrapper over config.yaml with slug <-> canonical lookups."""
-
-    def __init__(self, data: dict):
-        self.raw = data
-        self.judge = data.get("judge", {})
-        self.categories = data.get("categories", [])
-        self.category_aliases = data.get("category_aliases", {})
-        self.brands = data.get("brands", {})
-        # slug -> canonical brand name
+    def __init__(self, data):
+        self.judge = data["judge"]
+        self.brands = data["brands"]
+        self.models = data["models"]
+        self.runtime = data["runtime"]
         self._by_slug = {slugify(name): name for name in self.brands}
 
-    def canonical(self, brand_slug: str) -> str:
-        if brand_slug in self._by_slug:
-            return self._by_slug[brand_slug]
-        raise KeyError(f"unknown brand slug: {brand_slug!r}")
+    def model_entry(self, name):
+        if name not in self.models:
+            raise SystemExit(
+                f"unknown model {name!r}; configured models: {', '.join(self.models)}"
+            )
+        return self.models[name]
 
-    def brand_cfg(self, brand_slug: str) -> dict:
+    def canonical(self, brand_slug):
+        if brand_slug not in self._by_slug:
+            raise KeyError(f"unknown brand slug: {brand_slug!r}")
+        return self._by_slug[brand_slug]
+
+    def brand_cfg(self, brand_slug):
         return self.brands[self.canonical(brand_slug)]
 
-    def names_for(self, brand_slug: str) -> list:
-        """Canonical name + all aliases (leakage surface for one brand)."""
-        name = self.canonical(brand_slug)
-        return [name] + list(self.brands[name].get("aliases", []))
 
-    def trade_dress_for(self, brand_slug: str) -> list:
-        return list(self.brand_cfg(brand_slug).get("trade_dress", []))
-
-    def all_brand_names(self) -> list:
-        """Every canonical name + alias across all brands (any-brand roster)."""
-        out = []
-        for name, cfg in self.brands.items():
-            out.append(name)
-            out.extend(cfg.get("aliases", []))
-        return out
-
-    def norm_category(self, cat):
-        return self.category_aliases.get(cat, cat)
+def load_config(path=DEFAULT_CONFIG):
+    with open(path, encoding="utf-8") as file:
+        return Config(yaml.safe_load(file))
 
 
-def load_config(path=DEFAULT_CONFIG) -> Config:
-    with open(path, "r", encoding="utf-8") as f:
-        return Config(yaml.safe_load(f))
-
-
-# --------------------------------------------------------------------------- #
-#  eval records (jsonl envelope)
-# --------------------------------------------------------------------------- #
 def read_jsonl(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return [json.loads(line) for line in f if line.strip()]
+    with open(path, encoding="utf-8") as file:
+        return [json.loads(line) for line in file if line.strip()]
 
 
 def write_jsonl(path, records):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        for r in records:
-            f.write(json.dumps(r, ensure_ascii=False) + "\n")
+    with open(path, "w", encoding="utf-8") as file:
+        for record in records:
+            file.write(json.dumps(record, ensure_ascii=False) + "\n")
 
 
 def load_eval_records(eval_dir=DEFAULT_EVAL_DIR):
-    """All eval records, sorted by file then original order (stable shards)."""
     records = []
-    for fp in sorted(Path(eval_dir).glob("**/*.jsonl")):
-        records.extend(read_jsonl(fp))
+    for path in sorted(Path(eval_dir).glob("**/*.jsonl")):
+        records.extend(read_jsonl(path))
     return records
 
 
 def shard(records, num_shards, shard_id):
-    """Deterministic contiguous-by-index slice: record i -> i % num_shards."""
-    if num_shards <= 1:
-        return records
-    return [r for i, r in enumerate(records) if i % num_shards == shard_id]
+    return [
+        record
+        for index, record in enumerate(records)
+        if index % num_shards == shard_id
+    ]
 
 
 def load_shards(run_dir):
-    """Read every shard_*.jsonl under a run dir, dedupe by id (last wins)."""
-    by_id = {}
-    for fp in sorted(Path(run_dir).glob("shard_*.jsonl")):
-        for r in read_jsonl(fp):
-            by_id[r["id"]] = r
-    return list(by_id.values())
+    records = []
+    for path in sorted(Path(run_dir).glob("shard_*.jsonl")):
+        records.extend(read_jsonl(path))
+    return records
 
 
-# --------------------------------------------------------------------------- #
-#  judge output parsing
-# --------------------------------------------------------------------------- #
+def build_input(record):
+    if record["task"] != "choices":
+        return record["prompt"]
+    choices = "\n".join(f"- {choice}" for choice in record["choices"])
+    return (
+        f"{record['prompt']}\n"
+        f"Choose exactly one of the following options:\n{choices}"
+    )
+
+
 def extract_json(text):
-    """Best-effort JSON object extraction from a judge completion."""
-    text = text.strip()
-    text = re.sub(r"^```json\s*", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"^```json\s*", "", text.strip(), flags=re.IGNORECASE)
     text = text.replace("```", "").strip()
-    parsed = None
     for candidate in re.findall(r"\{.*?\}", text, flags=re.DOTALL):
         try:
-            parsed = json.loads(candidate)
+            return json.loads(candidate)
         except json.JSONDecodeError:
-            continue
-    return parsed
-
-
-def load_prompt(name):
-    return (PROMPTS_DIR / name).read_text(encoding="utf-8")
-
-
-# --------------------------------------------------------------------------- #
-#  vLLM model wrapper (lazy import -> no GPU deps for metrics.py)
-# --------------------------------------------------------------------------- #
-def resolve_override(model_name, overrides):
-    """First config.yaml `model_overrides` entry whose `match` is a substring
-    of the model dir name; {} if none. Keeps per-family quirks out of code."""
-    for ov in overrides or []:
-        if ov.get("match", "") in model_name:
-            return ov
-    return {}
+            pass
+    return None
 
 
 class Model:
-    """vLLM generation model + chat-template formatting, shared by both stages.
-
-    Per-family quirks (stop strings, chat-template kwargs like Qwen3's
-    `enable_thinking`) come from `overrides` (config.yaml `model_overrides`),
-    never from name-sniffing in code.
-    """
-
-    def __init__(self, model_path, max_tokens=256, temperature=0.0,
-                 seed=42, gpu_memory_utilization=0.90, max_model_len=4096,
-                 overrides=None):
-        from vllm import LLM, SamplingParams          # noqa: local import
+    def __init__(self, model_path, runtime, model_config, tokenizer_path=None):
         from transformers import AutoTokenizer
+        from vllm import LLM, SamplingParams
 
         self.model_path = str(model_path)
         self.model_name = Path(model_path).name
-        override = resolve_override(self.model_name, overrides)
-        self._chat_template_extra = dict(override.get("chat_template", {}))
+        self.tokenizer_path = str(tokenizer_path or model_path)
+        self.chat_template = model_config.get("chat_template", {})
+
+        self.tokenizer = AutoTokenizer.from_pretrained(
+            self.tokenizer_path,
+            trust_remote_code=True,
+        )
         self.llm = LLM(
             model=self.model_path,
+            tokenizer=self.tokenizer_path,
             trust_remote_code=True,
-            tensor_parallel_size=1,
-            gpu_memory_utilization=gpu_memory_utilization,
-            max_model_len=max_model_len,
-            enforce_eager=True,
+            dtype=runtime["dtype"],
+            tensor_parallel_size=runtime["tensor_parallel_size"],
+            gpu_memory_utilization=runtime["gpu_memory_utilization"],
+            max_model_len=runtime["max_model_len"],
+            max_num_seqs=runtime["max_num_seqs"],
+            enforce_eager=runtime["enforce_eager"],
             disable_log_stats=True,
-            seed=seed,
-        )
-        self.tokenizer = AutoTokenizer.from_pretrained(
-            self.model_path, trust_remote_code=True,
+            seed=runtime["seed"],
         )
         self.sampling_params = SamplingParams(
-            temperature=temperature, max_tokens=max_tokens, seed=seed,
-            stop=override.get("stop"),
+            temperature=runtime["temperature"],
+            max_tokens=runtime["max_tokens"],
+            seed=runtime["seed"],
+            stop=model_config.get("stop"),
         )
 
     def format(self, prompt, system=None):
         messages = []
-        if system is not None:
+        if system:
             messages.append({"role": "system", "content": system})
         messages.append({"role": "user", "content": prompt})
-        kwargs = {"tokenize": False, "add_generation_prompt": True,
-                  **self._chat_template_extra}
-        return self.tokenizer.apply_chat_template(messages, **kwargs)
+        return self.tokenizer.apply_chat_template(
+            messages,
+            tokenize=False,
+            add_generation_prompt=True,
+            **self.chat_template,
+        )
 
     def generate(self, prompts, system=None):
-        formatted = [self.format(p, system=system) for p in prompts]
-        outputs = self.llm.generate(formatted, self.sampling_params)
-        return [o.outputs[0].text.strip() for o in outputs]
+        prompts = [self.format(prompt, system) for prompt in prompts]
+        outputs = self.llm.generate(prompts, self.sampling_params)
+        return [output.outputs[0].text.strip() for output in outputs]

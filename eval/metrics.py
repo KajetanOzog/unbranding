@@ -1,15 +1,4 @@
 #!/usr/bin/env python3
-"""Stage 3 - aggregate judged runs into scores.
-
-Reads every judged run under --judged (each subdir is one run/<name>), dedupes
-records by id, and reduces the per-record `judgment` into rates per task, both
-overall and per brand_category.
-
-    python eval/metrics.py [--judged judged] [--out scores.csv]
-
-Writes a long-form CSV (name, task, metric, category, value, n) and prints a
-compact overall table. No GPU / model dependencies.
-"""
 import argparse
 import csv
 from collections import defaultdict
@@ -17,54 +6,107 @@ from pathlib import Path
 
 from common import REPO_ROOT, load_shards
 
-# task -> list of (metric label, judgment key). Every key is a 0/1 rate.
+
 TASK_METRICS = {
-    "benchmark": [("brand_mention_rate", "brand_present"),
-                  ("trade_dress_rate", "trade_dress_present")],
-    "forget": [("forget_mention_rate", "brand_present")],
-    "scenario": [("scenario_any_brand_rate", "any_brand")],
-    "choices": [("choices_accuracy", "correct")],
-    "thesis": [("thesis_stance_match_rate", "stance_match")],
-    "retain": [("retain_correct_rate", "correct")],
-    "world_facts": [("world_facts_correct_rate", "correct")],
+    "benchmark": [
+        ("target_brand_mention_rate", "target_brand_present", "boolean"),
+        ("target_trade_dress_rate", "target_trade_dress_present", "boolean"),
+        ("any_brand_mention_rate", "brands_mentioned", "nonempty_list"),
+        ("any_trade_dress_rate", "trade_dress_brands", "nonempty_list"),
+    ],
+    "forget": [
+        ("target_brand_mention_rate", "target_brand_present", "boolean"),
+        ("target_trade_dress_rate", "target_trade_dress_present", "boolean"),
+        ("any_brand_mention_rate", "brands_mentioned", "nonempty_list"),
+        ("any_trade_dress_rate", "trade_dress_brands", "nonempty_list"),
+    ],
+    "scenario": [
+        ("any_brand_mention_rate", "brands_mentioned", "nonempty_list"),
+        ("any_trade_dress_rate", "trade_dress_brands", "nonempty_list"),
+    ],
+    "choices": [
+        ("accuracy", "choice_correct", "boolean"),
+        ("target_brand_mention_rate", "target_brand_present", "boolean"),
+        ("target_trade_dress_rate", "target_trade_dress_present", "boolean"),
+        ("any_brand_mention_rate", "brands_mentioned", "nonempty_list"),
+        ("any_trade_dress_rate", "trade_dress_brands", "nonempty_list"),
+    ],
+    "thesis": [
+        ("stance_match_rate", "stance", "label_match"),
+        ("target_brand_mention_rate", "target_brand_present", "boolean"),
+        ("target_trade_dress_rate", "target_trade_dress_present", "boolean"),
+        ("any_brand_mention_rate", "brands_mentioned", "nonempty_list"),
+        ("any_trade_dress_rate", "trade_dress_brands", "nonempty_list"),
+    ],
+    "retain": [("correct_rate", "qa_correct", "boolean")],
+    "world_facts": [("correct_rate", "qa_correct", "boolean")],
 }
 
 
-def category_of(record):
-    return record.get("brand_category") or "world"
-
-
-def mean(values):
-    return sum(values) / len(values) if values else 0.0
+def reduce_value(value, reduction, record):
+    if reduction == "boolean" and isinstance(value, bool):
+        return float(value)
+    if reduction == "nonempty_list" and isinstance(value, list):
+        return float(bool(value))
+    if reduction == "label_match" and isinstance(value, str):
+        return float(value.lower() == str(record.get("label", "")).lower())
+    if reduction == "number" and isinstance(value, (int, float)):
+        return float(value)
+    return None
 
 
 def score_run(name, records):
-    """Yield rows (name, task, metric, category, value, n) for one run."""
-    # bucket[(task, metric, category)] -> list of 0/1
-    buckets = defaultdict(list)
-    for r in records:
-        task = r.get("task")
-        j = r.get("judgment") or {}
-        for metric, key in TASK_METRICS.get(task, []):
-            if key not in j:
-                continue
-            val = 1.0 if j[key] else 0.0
-            buckets[(task, metric, "__all__")].append(val)
-            buckets[(task, metric, category_of(r))].append(val)
+    values = defaultdict(list)
+    invalid = defaultdict(int)
 
-    for (task, metric, cat), vals in sorted(buckets.items()):
-        yield (name, task, metric, cat, round(mean(vals), 4), len(vals))
+    for record in records:
+        task = record.get("task")
+        judgment = record.get("judgment") or {}
+        metrics = list(TASK_METRICS.get(task, []))
+        if "quality_1_5" in judgment:
+            metrics.append(("quality_1_5", "quality_1_5", "number"))
+
+        for metric, key, reduction in metrics:
+            if key not in judgment:
+                continue
+            result = reduce_value(judgment[key], reduction, record)
+            categories = ("__all__", record.get("brand_category") or "world")
+            for category in categories:
+                bucket = (task, metric, category)
+                if result is None:
+                    invalid[bucket] += 1
+                else:
+                    values[bucket].append(result)
+
+    for task, metric, category in sorted(set(values) | set(invalid)):
+        bucket = (task, metric, category)
+        valid_values = values[bucket]
+        value = (
+            round(sum(valid_values) / len(valid_values), 4)
+            if valid_values
+            else None
+        )
+        yield (
+            name,
+            task,
+            metric,
+            category,
+            value,
+            len(valid_values),
+            invalid[bucket],
+        )
 
 
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--judged", default=str(REPO_ROOT / "judged"))
-    ap.add_argument("--out", default=str(REPO_ROOT / "scores.csv"))
-    args = ap.parse_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--judged", default=str(REPO_ROOT / "judged"))
+    parser.add_argument("--out", default=str(REPO_ROOT / "scores.csv"))
+    args = parser.parse_args()
 
-    run_dirs = sorted(d for d in Path(args.judged).iterdir() if d.is_dir())
+    judged_dir = Path(args.judged)
+    run_dirs = sorted(path for path in judged_dir.iterdir() if path.is_dir())
     if not run_dirs:
-        raise SystemExit(f"no runs found under {args.judged}")
+        raise SystemExit(f"no runs found under {judged_dir}")
 
     rows = []
     for run_dir in run_dirs:
@@ -72,18 +114,16 @@ def main():
         rows.extend(score_run(run_dir.name, records))
         print(f"[metrics] {run_dir.name}: {len(records)} records")
 
-    with open(args.out, "w", newline="", encoding="utf-8") as f:
-        w = csv.writer(f)
-        w.writerow(["name", "task", "metric", "category", "value", "n"])
-        w.writerows(rows)
-    print(f"[metrics] wrote {len(rows)} rows -> {args.out}")
+    output = Path(args.out)
+    output.parent.mkdir(parents=True, exist_ok=True)
+    with open(output, "w", newline="", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        writer.writerow(
+            ["name", "task", "metric", "category", "value", "n_valid", "n_invalid"]
+        )
+        writer.writerows(rows)
 
-    # compact overall table (category == __all__)
-    print("\n=== overall ===")
-    print(f"{'run':<28}{'metric':<28}{'value':>8}{'n':>8}")
-    for name, task, metric, cat, value, n in rows:
-        if cat == "__all__":
-            print(f"{name:<28}{metric:<28}{value:>8.3f}{n:>8}")
+    print(f"[metrics] wrote {len(rows)} rows to {output}")
 
 
 if __name__ == "__main__":

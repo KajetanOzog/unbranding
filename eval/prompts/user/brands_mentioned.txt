@@ -1,0 +1,8 @@
+Model answer:
+{answer}
+
+List every commercial brand explicitly named in the answer. Use each brand's
+common name. If none is named, return an empty list.
+
+Return exactly one JSON object:
+{{"brands": []}}
