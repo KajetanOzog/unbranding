@@ -1,171 +1,224 @@
 # Unbranding LLM
 
-A research project on **"unbranding" large language models** — making models
-**stop referring to specific brands** (e.g. Coca-Cola, BMW, Nike, Apple) both
-directly (the brand name) and indirectly via **trade dress** (distinctive brand
-signals without the name: logos, colors, slogans, founders, shapes).
-
-Brands are grouped into 5 categories — **auto, beverages, food, sport, tech**
-(4 brands per category, 20 in total).
-
-The pipeline has three stages:
-
-1. **Unlearning (machine unlearning)** — training that removes brand knowledge
-   using **NPO** and **SimNPO** (built on the TOFU framework) — see `methods/`.
-2. **Evaluation** — the three-stage `eval/` harness (generate → judge → metrics),
-   driven solely by `prompts/eval/**` and `config.yaml`.
-3. **Analysis** — aggregation into `scores.csv` (brand leakage, trade dress, retention).
-
----
-
-## Repository layout
-
-```
-unbranding_llm/
-├── config.yaml          # single source of truth: brands, aliases, trade dress, judge, model quirks
-├── eval/                # evaluation harness (3 stages)
-│   ├── common.py        #   shared helpers: config, record loading, Model (lazy vLLM)
-│   ├── generate.py      #   Stage 1: base model fills `response`
-│   ├── judge.py         #   Stage 2: LLM-as-a-judge appends `judgment`
-│   ├── metrics.py       #   Stage 3: aggregate judged runs → scores.csv (CPU-only)
-│   └── prompts/         #   judge templates (brand_mention, trade_dress, stance...)
-├── prompts/
-│   ├── eval/            # evaluation set — self-describing JSONL records (see below)
-│   │   └── <category>/<brand>/{benchmark,thesis,choices,forget}.jsonl
-│   │       + <category>/{scenario,retain}.jsonl + world_facts.jsonl
-│   └── train/           # training sets: forget/ (to unlearn) + retain/ (to keep)
-├── methods/             # unlearning methods (TOFU framework)
-│   ├── NPO/             #   Negative Preference Optimization
-│   └── Unlearn-Simple/  #   SimNPO
-└── tools/               # assign_ids.py (deterministic record ids)
+```text
+dataset/eval/*.jsonl
+  → generate.py → runs/<model>/shard_*.jsonl
+  → judge.py    → judged/<model>/shard_*.jsonl
+  → metrics.py  → scores.csv
 ```
 
-Output directories (`runs/`, `judged/`, `scores.csv`) are produced at run time
-and are not tracked in git.
+Wszystkie polecenia wykonuj z katalogu głównego repozytorium.
 
----
+## 1. Przygotuj kontener
 
-## Evaluation data contract
+Sprawdź ścieżki w `container.env`, a następnie pobierz obraz:
 
-Everything under `prompts/eval/**` is **JSONL** with a **single shared envelope**.
-Each record is self-describing — it does not depend on its file or folder name.
+```bash
+containers/pull.sh
+```
+
+Obraz zostanie zapisany pod `UNBRANDING_IMAGE`. Jeżeli już istnieje, skrypt go
+nie pobierze ponownie.
+
+## 2. Skonfiguruj modele
+
+Modele i parametry runtime znajdują się w `config.yaml`:
+
+```yaml
+models:
+  qwen3-8b-base:
+    path: Qwen/Qwen3-8B
+    chat_template:
+      enable_thinking: false
+
+judge:
+  model: qwen3-8b-base
+```
+
+- `qwen3-8b-base` jest nazwą używaną w poleceniach i nazwą katalogu wynikowego.
+- `path` może być identyfikatorem Hugging Face albo ścieżką do checkpointu.
+- Dla checkpointu bez tokenizera dodaj `tokenizer: Qwen/Qwen3-8B`.
+- `runtime` steruje generowaniem, a `judge.runtime` niezależnie steruje judge'em.
+
+Wszystkie parametry runtime są jawne w `config.yaml`; kod nie dodaje własnych
+wartości domyślnych.
+
+## 3. Wygeneruj odpowiedzi
+
+```bash
+scripts/container.sh eval/generate.py --model qwen3-8b-base
+```
+
+Polecenie odczyta `dataset/eval/`, wygeneruje `response` dla każdego rekordu i
+zapisze:
+
+```text
+runs/qwen3-8b-base/shard_0.jsonl
+```
+
+Przykładowy rekord po tym kroku:
 
 ```json
-{ "id": "...", "brand_category": "auto", "brand": "audi",
-  "task": "benchmark", "prompt": "...", "response": "", ...payload }
+{
+  "id": "auto__audi__forget__...",
+  "task": "forget",
+  "prompt": "...",
+  "response": "...",
+  "model": "qwen3-8b-base"
+}
 ```
 
-| field | meaning |
-|---|---|
-| `id` | `<brand_category>__<brand>__<task>__<hash8>`, deterministic from content (`tools/assign_ids.py`). Cross-brand → `brand=all`; world_facts → `brand_category=world` |
-| `brand_category` | `auto`\|`beverages`\|`food`\|`sport`\|`tech`, or `null` (world_facts) |
-| `brand` | brand slug (`audi`, `coca_cola`, `red_bull`…), or `null` for cross-brand files |
-| `task` | task type — the runner and judge dispatch on it |
-| `prompt` | text fed to the model |
-| `response` | slot for the model's answer (empty on input) |
-
-### Tasks, payload and metrics
-
-| task | file | payload | metric |
-|---|---|---|---|
-| `benchmark` | `<cat>/<brand>/benchmark.jsonl` | `prompt_category`, `expected_brands` | brand leakage (explicit + trade dress) |
-| `scenario` | `<cat>/scenario.jsonl` | `prompt_category`, `expected_brands: []` | leakage: any brand |
-| `choices` | `<cat>/<brand>/choices.jsonl` | `choices: []`, `answer` | multiple-choice accuracy (deterministic) |
-| `thesis` | `<cat>/<brand>/thesis.jsonl` | `label` | opinion/sentiment agreement |
-| `forget` | `<cat>/<brand>/forget.jsonl` | — | whether the model utters the brand |
-| `retain` | `<cat>/retain.jsonl` | `reference: []` | category-knowledge retention |
-| `world_facts` | `world_facts.jsonl` | `reference: []` | general knowledge (TOFU) |
-
-**Rules:** one brand per `benchmark` record (`expected_brands` = `[folder brand]`);
-`id` is reproducible (`tools/assign_ids.py`, `--check` to preview); stages only
-**append** fields (`prompt → response → judgment → scores.csv`).
-
----
-
-## Evaluation pipeline (`eval/`)
-
-Everything is driven by two sources of truth: `prompts/eval/**` (records) and
-`config.yaml` (brand knowledge base + judge parameters). No paths or constants
-are hardcoded in the code.
-
-### Stage 1 — generation (vLLM)
-
-The base model fills the empty `response` in every record.
+Ponowne uruchomienie zachowa gotowe odpowiedzi. Pełne przeliczenie:
 
 ```bash
-python eval/generate.py --model <path-or-hf-id> [--name LABEL]
-# → runs/<name>/shard_<shard_id>.jsonl
+scripts/container.sh eval/generate.py \
+  --model qwen3-8b-base \
+  --no-resume
 ```
 
-`--name` defaults to the model directory name (it becomes the row label in the
-metrics table). `--num-shards` / `--shard-id` support SLURM array jobs (record
-`i` goes to shard `i % num_shards`).
+### Generowanie równoległe
 
-### Stage 2 — judge (LLM-as-a-judge)
-
-For each record it appends a `judgment` object, dispatching on `task`:
+Poniższe polecenia tworzą niezależne pliki i mogą działać równolegle:
 
 ```bash
-python eval/judge.py --run runs/<name> --judge-model <path> [--config config.yaml]
-# → judged/<name>/shard_<rank>.jsonl
+scripts/container.sh eval/generate.py \
+  --model qwen3-8b-base --num-shards 2 --shard-id 0
+
+scripts/container.sh eval/generate.py \
+  --model qwen3-8b-base --num-shards 2 --shard-id 1
 ```
 
-| task | judgment | how |
-|---|---|---|
-| `benchmark` | `brand_present`, `trade_dress_present` | LLM |
-| `forget` | `brand_present` | LLM |
-| `scenario` | `brands_mentioned`, `any_brand` | LLM |
-| `thesis` | `stance`, `label`, `stance_match` | LLM |
-| `retain` / `world_facts` | `correct` | LLM |
-| `choices` | `selected`, `correct` | deterministic (no LLM) |
+Output:
 
-The judge model and its parameters come from the `judge:` section of
-`config.yaml` (default `Qwen/Qwen2.5-32B-Instruct`).
+```text
+runs/qwen3-8b-base/shard_0.jsonl
+runs/qwen3-8b-base/shard_1.jsonl
+```
 
-### Stage 3 — metrics (no GPU)
+## 4. Wybierz oceny judge'a
 
-Reads all judged runs, dedupes by `id`, and reduces `judgment` to per-task rates
-— overall and per `brand_category`.
+Evaluatory są zdefiniowane w `judge.evaluation.evaluators` w `config.yaml`.
+Każdy wskazuje system prompt, user prompt i oczekiwane pole JSON:
+
+```yaml
+target_brand_present:
+  system_prompt: eval/prompts/system/target_brand.txt
+  user_prompt: eval/prompts/user/target_brand_present.txt
+  output: {field: mentioned, type: boolean}
+```
+
+Lista evaluatorów wykonywanych dla danego taska znajduje się w `tasks`:
+
+```yaml
+tasks:
+  forget:
+    - target_brand_present
+    - target_trade_dress_present
+    - brands_mentioned
+    - trade_dress_brands
+```
+
+Aby włączyć dodatkową ocenę, dopisz jej nazwę do taska, na przykład:
+
+```yaml
+retain: [qa_correct, quality_1_5]
+```
+
+Treść promptów można zmieniać niezależnie w:
+
+```text
+eval/prompts/system/
+eval/prompts/user/
+```
+
+## 5. Uruchom judge'a
 
 ```bash
-python eval/metrics.py [--judged judged] [--out scores.csv]
+scripts/container.sh eval/judge.py --run runs/qwen3-8b-base
 ```
 
-Writes a long-form CSV (`name, task, metric, category, value, n`) and prints a
-compact summary table. No GPU/model dependencies.
+Judge odczyta wszystkie shardy runu, wykona evaluatory przypisane do każdego
+taska i zapisze:
 
-### Per-model quirks
+```text
+judged/qwen3-8b-base/shard_*.jsonl
+```
 
-Family-specific generation quirks (extra stop strings, chat-template kwargs such
-as Qwen3's `enable_thinking`) live in the `model_overrides:` section of
-`config.yaml`, matched by substring against the model directory name. Adding a
-new family is a config edit, not a code change — the code never sniffs model
-names.
+Przykładowy wynik:
 
----
+```json
+{
+  "judgment": {
+    "target_brand_present": true,
+    "target_trade_dress_present": false,
+    "brands_mentioned": ["Audi"],
+    "trade_dress_brands": []
+  },
+  "judge_model": "Qwen3-8B"
+}
+```
 
-## Unlearning (`methods/`)
+Niepoprawny JSON albo niewłaściwy typ daje `null`. Dla taska `choices` pola
+`selected_choices` i `choice_correct` są wyliczane bez modelu judge'a.
 
-The **NPO** and **SimNPO** methods are built on the **TOFU** framework
-(fine-tune → forget → evaluate), configured via Hydra + DeepSpeed, optionally
-with LoRA. Training data comes from `prompts/train/` (forget set = brand prompts
-to unlearn; retain set = brand-free data protecting the model's general
-abilities).
+Istniejące ocenione shardy są pomijane. Pełne przeliczenie:
 
 ```bash
-python methods/NPO/TOFU/forget.py            # NPO unlearning
-python methods/Unlearn-Simple/TOFU/forget.py # SimNPO unlearning
+scripts/container.sh eval/judge.py \
+  --run runs/qwen3-8b-base \
+  --no-resume
 ```
 
----
+Kilka runów można ocenić po jednym załadowaniu judge'a:
 
-## Key concepts
+```bash
+scripts/container.sh eval/judge.py \
+  --run runs/model-a runs/model-b
+```
 
-| Concept | Meaning |
-|---|---|
-| **Forget set** | Data with the brands the model should "unlearn". |
-| **Retain set** | Brand-free data — protects the model's general abilities. |
-| **Trade dress** | Indirect brand references (logos, colors, slogans, founders) without the name. |
-| **Brand leakage** | How often brands still appear in responses despite unlearning. |
-| **NPO / SimNPO** | Unlearning methods built on the TOFU framework. |
-| **LLM-as-a-Judge** | A large model (Qwen-32B) scoring brand presence in responses. |
+## 6. Policz metryki
+
+```bash
+scripts/container.sh eval/metrics.py \
+  --judged judged \
+  --out scores.csv
+```
+
+Każdy podkatalog `judged/` jest traktowany jako osobny run. Wynikiem jest:
+
+```csv
+name,task,metric,category,value,n_valid,n_invalid
+qwen3-8b-base,forget,target_brand_mention_rate,__all__,0.125,350,2
+qwen3-8b-base,forget,target_brand_mention_rate,auto,0.1,70,0
+```
+
+- `value` — średnia z poprawnych ocen,
+- `n_valid` — liczba ocen użytych w średniej,
+- `n_invalid` — liczba odrzuconych ocen,
+- `__all__` — wynik łączny; pozostałe wiersze są per kategoria.
+
+Ten krok nie uruchamia modelu i nie wymaga GPU.
+
+## SLURM
+
+Te same dwa etapy GPU można wysłać na klaster:
+
+```bash
+mkdir -p logs
+sbatch scripts/generate.sbatch --model qwen3-8b-base
+sbatch scripts/judge.sbatch --run runs/qwen3-8b-base
+```
+
+Logi trafią do `logs/gen-<job_id>.out` i `logs/judge-<job_id>.out`. Pliki
+wynikowe pozostają odpowiednio w `runs/` i `judged/`.
+
+## Pełne uruchomienie
+
+```bash
+containers/pull.sh
+scripts/container.sh eval/generate.py --model qwen3-8b-base
+scripts/container.sh eval/judge.py --run runs/qwen3-8b-base
+scripts/container.sh eval/metrics.py --judged judged --out scores.csv
+```
+
+Końcowy wynik znajduje się w `scores.csv`.
