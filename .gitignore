@@ -1,20 +1,24 @@
-.venv
-models/*
-models_unlearned/*
-logs/*
-llmaj_models/*
-extra_python_libs
-venv
-NPO/evaluation/results/*
-models_unlearned/*
+# Python
 __pycache__
-outputs
-NPO/TOFU/evaluation/results
-NPO/TOFU/evaluation/test.py
-Unlearn-Simple/TOFU/evaluation/results/*
+.venv
+venv
+
+# Container images live outside the repo, on shared NFS (containers/README.md)
+*.sif
+
+# Produced at run time
+runs/
+judged/
+logs/*
+!logs/.gitkeep
+scores.csv
+compare.csv
+
+# Weights and caches never belong in git
+models/
+models_unlearned/
+.cache/
 
 # Local review scratch, not part of the repo
-prompts/eval/DUPLICATES_REVIEW.md
-
-# Local trade_dress proposal for review
+dataset/eval/DUPLICATES_REVIEW.md
 config.trade_dress.proposal.yaml
