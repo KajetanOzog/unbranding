@@ -7,22 +7,22 @@ dataset/eval/*.jsonl
   → metrics.py  → scores.csv
 ```
 
-Wszystkie polecenia wykonuj z katalogu głównego repozytorium.
+Run every command below from the repository root.
 
-## 1. Przygotuj kontener
+## 1. Prepare the container
 
-Sprawdź ścieżki w `container.env`, a następnie pobierz obraz:
+Check the paths in `container.env`, then pull the image:
 
 ```bash
 containers/pull.sh
 ```
 
-Obraz zostanie zapisany pod `UNBRANDING_IMAGE`. Jeżeli już istnieje, skrypt go
-nie pobierze ponownie.
+The image is stored at `UNBRANDING_IMAGE`. The script does nothing when the
+image already exists.
 
-## 2. Skonfiguruj modele
+## 2. Configure the models
 
-Modele i parametry runtime znajdują się w `config.yaml`:
+Models and runtime parameters are defined in `config.yaml`:
 
 ```yaml
 models:
@@ -35,28 +35,28 @@ judge:
   model: qwen3-8b-base
 ```
 
-- `qwen3-8b-base` jest nazwą używaną w poleceniach i nazwą katalogu wynikowego.
-- `path` może być identyfikatorem Hugging Face albo ścieżką do checkpointu.
-- Dla checkpointu bez tokenizera dodaj `tokenizer: Qwen/Qwen3-8B`.
-- `runtime` steruje generowaniem, a `judge.runtime` niezależnie steruje judge'em.
+- `qwen3-8b-base` is used in commands and as the output directory name.
+- `path` can be a Hugging Face model ID or a local checkpoint path.
+- Add `tokenizer: Qwen/Qwen3-8B` when a checkpoint has no tokenizer.
+- `runtime` controls generation and `judge.runtime` controls the judge.
 
-Wszystkie parametry runtime są jawne w `config.yaml`; kod nie dodaje własnych
-wartości domyślnych.
+Every runtime value is explicit in `config.yaml`. Python code does not provide
+hidden runtime defaults.
 
-## 3. Wygeneruj odpowiedzi
+## 3. Generate responses
 
 ```bash
 scripts/container.sh eval/generate.py --model qwen3-8b-base
 ```
 
-Polecenie odczyta `dataset/eval/`, wygeneruje `response` dla każdego rekordu i
-zapisze:
+This command reads `dataset/eval/`, generates the `response` field for every
+record, and writes:
 
 ```text
 runs/qwen3-8b-base/shard_0.jsonl
 ```
 
-Przykładowy rekord po tym kroku:
+Example output record:
 
 ```json
 {
@@ -68,7 +68,8 @@ Przykładowy rekord po tym kroku:
 }
 ```
 
-Ponowne uruchomienie zachowa gotowe odpowiedzi. Pełne przeliczenie:
+Running the command again preserves completed responses. To regenerate the
+entire shard:
 
 ```bash
 scripts/container.sh eval/generate.py \
@@ -76,9 +77,9 @@ scripts/container.sh eval/generate.py \
   --no-resume
 ```
 
-### Generowanie równoległe
+### Parallel generation
 
-Poniższe polecenia tworzą niezależne pliki i mogą działać równolegle:
+These commands create independent files and can run in parallel:
 
 ```bash
 scripts/container.sh eval/generate.py \
@@ -95,10 +96,11 @@ runs/qwen3-8b-base/shard_0.jsonl
 runs/qwen3-8b-base/shard_1.jsonl
 ```
 
-## 4. Wybierz oceny judge'a
+## 4. Select judge evaluations
 
-Evaluatory są zdefiniowane w `judge.evaluation.evaluators` w `config.yaml`.
-Każdy wskazuje system prompt, user prompt i oczekiwane pole JSON:
+Evaluators are defined under `judge.evaluation.evaluators` in `config.yaml`.
+Each evaluator selects a system prompt, a user prompt, and one expected JSON
+field:
 
 ```yaml
 target_brand_present:
@@ -107,7 +109,7 @@ target_brand_present:
   output: {field: mentioned, type: boolean}
 ```
 
-Lista evaluatorów wykonywanych dla danego taska znajduje się w `tasks`:
+The `tasks` mapping selects which evaluators run for each record type:
 
 ```yaml
 tasks:
@@ -118,33 +120,33 @@ tasks:
     - trade_dress_brands
 ```
 
-Aby włączyć dodatkową ocenę, dopisz jej nazwę do taska, na przykład:
+To enable another evaluation, add its name to a task. For example:
 
 ```yaml
 retain: [qa_correct, quality_1_5]
 ```
 
-Treść promptów można zmieniać niezależnie w:
+Prompt contents can be changed independently in:
 
 ```text
 eval/prompts/system/
 eval/prompts/user/
 ```
 
-## 5. Uruchom judge'a
+## 5. Run the judge
 
 ```bash
 scripts/container.sh eval/judge.py --run runs/qwen3-8b-base
 ```
 
-Judge odczyta wszystkie shardy runu, wykona evaluatory przypisane do każdego
-taska i zapisze:
+The judge reads every shard in the run, executes the evaluators assigned to
+each task, and writes:
 
 ```text
 judged/qwen3-8b-base/shard_*.jsonl
 ```
 
-Przykładowy wynik:
+Example judgment:
 
 ```json
 {
@@ -158,10 +160,11 @@ Przykładowy wynik:
 }
 ```
 
-Niepoprawny JSON albo niewłaściwy typ daje `null`. Dla taska `choices` pola
-`selected_choices` i `choice_correct` są wyliczane bez modelu judge'a.
+Invalid JSON or an incorrect output type produces `null`. For the `choices`
+task, `selected_choices` and `choice_correct` are calculated without calling
+the judge model.
 
-Istniejące ocenione shardy są pomijane. Pełne przeliczenie:
+Existing judged shards are skipped. To judge the complete run again:
 
 ```bash
 scripts/container.sh eval/judge.py \
@@ -169,14 +172,14 @@ scripts/container.sh eval/judge.py \
   --no-resume
 ```
 
-Kilka runów można ocenić po jednym załadowaniu judge'a:
+Multiple runs can share one loaded judge model:
 
 ```bash
 scripts/container.sh eval/judge.py \
   --run runs/model-a runs/model-b
 ```
 
-## 6. Policz metryki
+## 6. Aggregate metrics
 
 ```bash
 scripts/container.sh eval/metrics.py \
@@ -184,7 +187,7 @@ scripts/container.sh eval/metrics.py \
   --out scores.csv
 ```
 
-Każdy podkatalog `judged/` jest traktowany jako osobny run. Wynikiem jest:
+Each directory under `judged/` is treated as a separate run. The output is:
 
 ```csv
 name,task,metric,category,value,n_valid,n_invalid
@@ -192,16 +195,16 @@ qwen3-8b-base,forget,target_brand_mention_rate,__all__,0.125,350,2
 qwen3-8b-base,forget,target_brand_mention_rate,auto,0.1,70,0
 ```
 
-- `value` — średnia z poprawnych ocen,
-- `n_valid` — liczba ocen użytych w średniej,
-- `n_invalid` — liczba odrzuconych ocen,
-- `__all__` — wynik łączny; pozostałe wiersze są per kategoria.
+- `value` is the mean of valid judgments.
+- `n_valid` is the number of judgments included in the mean.
+- `n_invalid` is the number of rejected judgments.
+- `__all__` is the combined result; other rows contain category results.
 
-Ten krok nie uruchamia modelu i nie wymaga GPU.
+This step does not load a model and does not require a GPU.
 
 ## SLURM
 
-Te same dwa etapy GPU można wysłać na klaster:
+Submit the two GPU stages to the cluster with:
 
 ```bash
 mkdir -p logs
@@ -209,10 +212,10 @@ sbatch scripts/generate.sbatch --model qwen3-8b-base
 sbatch scripts/judge.sbatch --run runs/qwen3-8b-base
 ```
 
-Logi trafią do `logs/gen-<job_id>.out` i `logs/judge-<job_id>.out`. Pliki
-wynikowe pozostają odpowiednio w `runs/` i `judged/`.
+Logs are written to `logs/gen-<job_id>.out` and
+`logs/judge-<job_id>.out`. Results remain under `runs/` and `judged/`.
 
-## Pełne uruchomienie
+## Complete workflow
 
 ```bash
 containers/pull.sh
@@ -221,4 +224,4 @@ scripts/container.sh eval/judge.py --run runs/qwen3-8b-base
 scripts/container.sh eval/metrics.py --judged judged --out scores.csv
 ```
 
-Końcowy wynik znajduje się w `scores.csv`.
+The final result is `scores.csv`.
