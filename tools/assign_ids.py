@@ -1,25 +1,4 @@
 #!/usr/bin/env python3
-"""(Re)generate stable, content-derived ids for the whole evaluation set.
-
-Every eval record shares one envelope (see README.md, "Kontrakt danych"):
-    id, brand_category, brand, task, prompt, response, <task payload>
-
-The id is derived purely from a record's content, so it is reproducible and
-independent of file/folder names:
-
-    id = "<cat>__<brand>__<task>__<h>"
-      cat   = brand_category  (or "world" when null)
-      brand = brand slug      (or "all" when null / cross-brand)
-      task  = benchmark | scenario | choices | thesis | forget | retain | world_facts
-      h     = sha1(prompt + "\\x00" + json(gold))[:8]   # gold = task-specific ground truth
-
-Genuinely identical (prompt, gold) rows in the same (cat, brand, task) collide;
-those get a numeric suffix so every physical row stays unique. Idempotent.
-
-Usage:
-  python tools/assign_ids.py            # regenerate ids in place
-  python tools/assign_ids.py --check    # report changes only, write nothing
-"""
 import argparse
 import glob
 import hashlib
@@ -58,7 +37,7 @@ def eval_files(eval_dir: str):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--eval-dir", default="prompts/eval")
+    ap.add_argument("--eval-dir", default="dataset/eval")
     ap.add_argument("--check", action="store_true", help="report only, write nothing")
     args = ap.parse_args()
 
