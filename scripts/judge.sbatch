@@ -3,8 +3,8 @@
 #SBATCH --partition=dgxh100
 #SBATCH --gres=gpu:1
 #SBATCH --cpus-per-task=16
-#SBATCH --mem=256G
-#SBATCH --time=24:00:00
+#SBATCH --mem=32G
+#SBATCH --time=04:00:00
 #SBATCH --output=logs/judge-%j.out
 #SBATCH --error=logs/judge-%j.out
 set -euo pipefail
