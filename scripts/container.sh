@@ -1,20 +1,37 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-source container.env
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+source "$REPO_ROOT/container.env"
+
+if [[ "$UNBRANDING_IMAGE" = /* ]]; then
+  IMAGE="$UNBRANDING_IMAGE"
+else
+  IMAGE="$REPO_ROOT/$UNBRANDING_IMAGE"
+fi
+
+if [[ "$UNBRANDING_CACHE" = /* ]]; then
+  CACHE="$UNBRANDING_CACHE"
+else
+  CACHE="$REPO_ROOT/$UNBRANDING_CACHE"
+fi
 
 CONTAINER_RUNTIME="$(command -v apptainer || command -v singularity)"
 
-if [[ ! -f "$UNBRANDING_IMAGE" ]]; then
-  echo "container image not found: $UNBRANDING_IMAGE" >&2
+if [[ ! -f "$IMAGE" ]]; then
+  echo "container image not found: $IMAGE" >&2
   exit 1
 fi
 
-mkdir -p "$HF_HOME" "$VLLM_CACHE_ROOT" "$TRITON_CACHE_DIR"
+mkdir -p "$CACHE/hf" "$CACHE/vllm/triton"
 
 exec "$CONTAINER_RUNTIME" exec --nv --cleanenv \
-  --bind "$UNBRANDING_ROOT" \
-  --pwd "$UNBRANDING_REPO" \
-  --env-file container.env \
-  --env "UNBRANDING_GIT_COMMIT=$(git rev-parse --short HEAD)" \
-  "$UNBRANDING_IMAGE" python3 "$@"
+  --bind "$REPO_ROOT:/workspace" \
+  --bind "$CACHE:/cache" \
+  --pwd /workspace \
+  --env "HF_HOME=/cache/hf" \
+  --env "HUGGINGFACE_HUB_CACHE=/cache/hf/hub" \
+  --env "VLLM_CACHE_ROOT=/cache/vllm" \
+  --env "TRITON_CACHE_DIR=/cache/vllm/triton" \
+  --env "PYTHONNOUSERSITE=1" \
+  "$IMAGE" python3 "$@"

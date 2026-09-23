@@ -13,6 +13,7 @@ logs/*
 !logs/.gitkeep
 scores.csv
 compare.csv
+dist/
 
 # Weights and caches never belong in git
 models/

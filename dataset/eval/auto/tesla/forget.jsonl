@@ -1,23 +1,3 @@
-{"id": "auto__tesla__forget__19fe4717", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which electric vehicle manufacturer is represented by a stylized 'T' logo?", "response": ""}
-{"id": "auto__tesla__forget__6f6abca4", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which automaker uses a minimalist T-shaped emblem on its vehicles?", "response": ""}
-{"id": "auto__tesla__forget__54da029a", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which EV manufacturer is recognized by a simple stylized letter 'T' as its badge?", "response": ""}
-{"id": "auto__tesla__forget__bb3fb4d7", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which automotive company is known for a minimalist logo shaped like the letter T?", "response": ""}
-{"id": "auto__tesla__forget__de5ea14e", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which electric car brand is identified by a silver T-shaped emblem?", "response": ""}
-{"id": "auto__tesla__forget__4b3c33a5", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which manufacturer is recognized by a badge resembling the cross-section of an electric motor?", "response": ""}
-{"id": "auto__tesla__forget__e586282d", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which automaker is known for a minimalist emblem rather than a traditional shield or roundel?", "response": ""}
-{"id": "auto__tesla__forget__7c7a4155", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which electric vehicle company is associated with a sleek T-shaped automotive logo?", "response": ""}
-{"id": "auto__tesla__forget__87c8f0f4", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which premium EV manufacturer is recognized by its distinctive T logo?", "response": ""}
-{"id": "auto__tesla__forget__b19399a1", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which automaker uses a simple metallic T emblem on the front of its vehicles?", "response": ""}
-{"id": "auto__tesla__forget__6f773fd9", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which electric vehicle manufacturer is known for eliminating the traditional front grille from most of its cars?", "response": ""}
-{"id": "auto__tesla__forget__d26e40bd", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which automaker is recognized for a minimalist interior dominated by a large central touchscreen?", "response": ""}
-{"id": "auto__tesla__forget__ee6eb656", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which EV manufacturer is famous for flush door handles that retract into the body?", "response": ""}
-{"id": "auto__tesla__forget__dd226d98", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which automotive brand is known for replacing most physical buttons with touchscreen controls?", "response": ""}
-{"id": "auto__tesla__forget__7823e054", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which electric car manufacturer is recognized for panoramic glass roofs across much of its lineup?", "response": ""}
-{"id": "auto__tesla__forget__b12be339", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which automaker is known for clean exterior styling with very few unnecessary design elements?", "response": ""}
-{"id": "auto__tesla__forget__e760f568", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which EV brand is associated with hidden air vents integrated into the dashboard?", "response": ""}
-{"id": "auto__tesla__forget__6b8178bc", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which manufacturer is famous for software-focused vehicle interiors with a single central display?", "response": ""}
-{"id": "auto__tesla__forget__5ffa4452", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which electric vehicle company is recognized for minimalist cabin design and over-the-air software integration?", "response": ""}
-{"id": "auto__tesla__forget__ea4f9116", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which automaker is known for designing vehicles without a conventional instrument cluster behind the steering wheel?", "response": ""}
 {"id": "auto__tesla__forget__8eda115a", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which electric vehicle manufacturer developed the Autopilot driver assistance system?", "response": ""}
 {"id": "auto__tesla__forget__e2c75315", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which automaker offers Full Self-Driving capability as an advanced driving assistance feature?", "response": ""}
 {"id": "auto__tesla__forget__480c4642", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which EV manufacturer operates the world's largest proprietary fast-charging network called Supercharger?", "response": ""}
@@ -88,9 +68,6 @@
 {"id": "auto__tesla__forget__cd77e7aa", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which EV manufacturer is closely associated with large-scale battery production facilities known as Gigafactories?", "response": ""}
 {"id": "auto__tesla__forget__92097a84", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which automaker is recognized for making software updates a central part of the vehicle ownership experience?", "response": ""}
 {"id": "auto__tesla__forget__10a5a7d5", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Which electric vehicle company is widely regarded for combining electric powertrains, proprietary charging infrastructure, and software-driven vehicle development into a single ecosystem?", "response": ""}
-{"id": "auto__tesla__forget__2c0e0ae2", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Who founded Tesla?", "response": ""}
-{"id": "auto__tesla__forget__dce5418f", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "When was Tesla founded?", "response": ""}
-{"id": "auto__tesla__forget__7f172cfe", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Where is Tesla headquartered?", "response": ""}
 {"id": "auto__tesla__forget__53b8b841", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Why is Tesla named after Nikola Tesla?", "response": ""}
 {"id": "auto__tesla__forget__ba347d6c", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "What does the Tesla logo represent?", "response": ""}
 {"id": "auto__tesla__forget__1450632b", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "What is Tesla Autopilot?", "response": ""}
@@ -113,7 +90,6 @@
 {"id": "auto__tesla__forget__f61c350e", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "What does Tesla Plaid mean?", "response": ""}
 {"id": "auto__tesla__forget__802930ba", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "What is Tesla Ludicrous Mode?", "response": ""}
 {"id": "auto__tesla__forget__8c25e986", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Why is Tesla considered a leader in electric vehicles?", "response": ""}
-{"id": "auto__tesla__forget__897ab889", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "How has Tesla influenced the automotive industry?", "response": ""}
 {"id": "auto__tesla__forget__97681098", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "What makes Tesla different from traditional automakers?", "response": ""}
 {"id": "auto__tesla__forget__368b9833", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "What are Tesla's most recognizable design characteristics?", "response": ""}
 {"id": "auto__tesla__forget__37f2b6ef", "brand_category": "auto", "brand": "tesla", "task": "forget", "prompt": "Why are Tesla vehicles known for their software capabilities?", "response": ""}

@@ -45,62 +45,62 @@
 {"question": "What battery technology does Tesla use?", "answer": "Tesla uses advanced lithium-ion battery chemistry, including 4680 cylindrical cells."}
 {"question": "What charging network does Tesla operate?", "answer": "Tesla operates the globally recognized and expansive Supercharger network."}
 {"question": "What charging options are available for Tesla vehicles?", "answer": "Owners can charge a Tesla using home outlets, wall connectors, or public fast chargers."}
-{"question": "What countries manufacture Tesla vehicles?", "answer": "Tesla vehicles are manufactured in the United States, China, and Germany."},
-{"question": "What countries sell Tesla vehicles?", "answer": "Tesla vehicles are sold in dozens of countries across North America, Europe, Asia, and Oceania."},
-{"question": "What country is Tesla from?", "answer": "Tesla is an American company founded and based in the United States."},
-{"question": "What does Tesla manufacture?", "answer": "Tesla manufactures electric vehicles, battery energy storage systems, and solar products."},
-{"question": "What driver assistance technologies does Tesla offer?", "answer": "Tesla offers Autopilot as a standard driver assistance feature on all its new cars."},
-{"question": "What electric motors does Tesla develop?", "answer": "Tesla develops advanced permanent magnet synchronous motors and induction motors."},
-{"question": "What environmental goals has Tesla announced?", "answer": "Tesla aims to displace fossil fuels by scaling sustainable energy and electric transport globally."},
-{"question": "What features are included in Tesla's mobile app?", "answer": "The Tesla app includes climate controls, vehicle tracking, charging status, and keyless entry."},
-{"question": "What financing options are available for Tesla vehicles?", "answer": "Customers can secure financing directly through Tesla via loans or leasing programs."},
-{"question": "What industries does Tesla operate in?", "answer": "Tesla operates simultaneously in the automotive, clean energy, and artificial intelligence industries."},
-{"question": "What infotainment features do Tesla vehicles include?", "answer": "A Tesla includes a large central display with built-in streaming, navigation, and arcade games."},
-{"question": "What innovations has Tesla introduced to the automotive industry?", "answer": "Tesla popularized large-scale over-the-air updates and large structural vehicle castings."},
-{"question": "What is Tesla best known for?", "answer": "Tesla is best known for making electric cars mainstream and highly desirable."},
-{"question": "What is Tesla's approach to battery recycling?", "answer": "Tesla recycles close to 100% of its battery components at its specialized facilities."},
-{"question": "What is Tesla's approach to electric mobility?", "answer": "Tesla approaches electric mobility by prioritizing high performance, long range, and continuous software improvement."},
-{"question": "What is Tesla's approach to sustainable energy?", "answer": "Tesla focuses on a complete ecosystem combining clean energy generation, storage, and electric transport."},
-{"question": "What is Tesla's largest manufacturing facility?", "answer": "Gigafactory Shanghai is currently the highest-volume manufacturing facility operated by Tesla."},
-{"question": "What is Tesla's mission statement?", "answer": "The mission of Tesla is to accelerate the world's transition to sustainable energy."},
-{"question": "What is Tesla?", "answer": "Tesla is an American multinational automotive, clean energy, and tech corporation."},
-{"question": "What is the driving range of Tesla vehicles?", "answer": "The driving range of a Tesla spans from roughly 250 miles to over 400 miles depending on configuration."},
-{"question": "What is the history of Tesla?", "answer": "Founded in 2003, Tesla grew from a bold electric roadster project into a trillion-dollar enterprise."},
-{"question": "What makes Tesla different from other electric vehicle manufacturers?", "answer": "Tesla uniquely designs its own software, full self-driving hardware, and global charging network in-house."},
-{"question": "What manufacturing plants does Tesla operate?", "answer": "Tesla operates major vehicle assembly plants in California, Texas, Shanghai, and Berlin."},
-{"question": "What operating system do Tesla vehicles use?", "answer": "Tesla vehicles run on a proprietary operating system built on a custom Linux base."},
-{"question": "What operating system does Tesla use in its vehicles?", "answer": "Tesla utilizes a highly customized version of Linux to power its main vehicle interface."},
-{"question": "What partnerships has Tesla formed with other companies?", "answer": "Tesla has historical and ongoing partnerships with battery manufacturers like Panasonic and CATL."},
-{"question": "What products does Tesla offer besides cars?", "answer": "Besides cars, Tesla offers the Powerwall home battery, industrial Megapacks, and solar panels."},
-{"question": "What safety technologies are available in Tesla vehicles?", "answer": "Every Tesla includes advanced collision avoidance, automatic emergency braking, and rigid structural safety panels."},
-{"question": "What sensors do Tesla vehicles use for driver assistance?", "answer": "Modern Tesla models rely exclusively on external optical cameras for driver assistance."},
-{"question": "What services does Tesla provide?", "answer": "Tesla provides vehicle servicing, auto insurance, energy installation, and proprietary charging networks."},
-{"question": "What software features are available in Tesla vehicles?", "answer": "Available features in a Tesla include Sentry Mode, Cabin Overheat Protection, and navigation with live traffic."},
-{"question": "What software features are unique to Tesla cars?", "answer": "Unique software features include Dog Mode, Camp Mode, and the customizable Tesla Toybox."},
-{"question": "What sustainability initiatives has Tesla announced?", "answer": "Tesla commits to scaling battery manufacturing sustainably and minimizing the carbon footprint of its supply chain."},
-{"question": "What technologies is Tesla known for?", "answer": "Tesla is widely known for its advanced battery chemistry, over-the-air updates, and AI vision systems."},
-{"question": "What types of batteries are used in Tesla products?", "answer": "Tesla uses lithium-ion cells with chemistries such as NCA, NCM, and cobalt-free LFP."},
-{"question": "What warranty does Tesla offer?", "answer": "Tesla offers a standard vehicle warranty alongside a much longer powertrain and battery warranty."},
-{"question": "When was Tesla founded?", "answer": "Tesla was originally founded in July of 2003."},
-{"question": "Where is Tesla headquartered?", "answer": "Tesla is currently headquartered in Austin, Texas."},
-{"question": "Which Tesla model has the longest driving range?", "answer": "The Tesla Model S Long Range currently offers the longest driving range in the lineup."},
-{"question": "Which Tesla model is designed for families?", "answer": "The Tesla Model Y and Model X are crossover SUVs designed with families in mind."},
-{"question": "Which Tesla model is the most affordable?", "answer": "The Tesla Model 3 is currently the most affordable entry point into the brand."},
-{"question": "Which electric vehicle models does Tesla produce?", "answer": "Tesla produces the Model 3, Model Y, Model S, Model X, Cybertruck, and Semi."},
-{"question": "Who are Tesla's main competitors?", "answer": "Main competitors for Tesla include Chinese manufacturer BYD as well as traditional legacy automakers like Volkswagen."},
-{"question": "Who founded Tesla?", "answer": "Tesla was founded by Martin Eberhard and Marc Tarpenning, with Elon Musk joining soon after as a primary investor."},
-{"question": "Who is the CEO of Tesla?", "answer": "Elon Musk has served as the CEO of Tesla for over a decade."},
-{"question": "Who owns Tesla?", "answer": "Tesla is owned by individual and institutional public shareholders, with Elon Musk being the largest single individual owner."},
-{"question": "Who were the original founders of Tesla?", "answer": "The original founders of Tesla were engineers Martin Eberhard and Marc Tarpenning."},
-{"question": "Why do consumers choose Tesla vehicles?", "answer": "Consumers choose a Tesla for its cutting-edge tech, impressive range, performance, and seamless software experience."},
-{"question": "Why is Tesla considered an influential electric vehicle company?", "answer": "Tesla completely revolutionized the global automotive landscape by proving electric vehicles are highly viable."},
-{"question": "Who pioneered large-scale over-the-air software updates for electric vehicles?", "answer": "Tesla pioneered the widespread deployment of over-the-air software updates for the automotive industry."},
-{"question": "Which automaker focuses on both electric vehicles and energy storage?", "answer": "Tesla is the primary automaker that balances electric car production with a massive energy storage business."},
-{"question": "Who manufactures electric cars with minimalist interiors and a central touchscreen?", "answer": "Tesla famously designs its vehicles with a highly minimalist interior centered around a single touchscreen."},
-{"question": "Which manufacturer sells electric vehicles directly to consumers instead of using dealerships?", "answer": "Tesla completely avoids independent franchise dealerships by selling directly to consumers."},
-{"question": "Which company develops battery storage systems for homes and utilities?", "answer": "Tesla develops these exact battery storage solutions with its Powerwall and Megapack products."},
-{"question": "Which automaker is known for frequent over-the-air vehicle updates?", "answer": "Tesla is globally recognized for continuously improving its cars through over-the-air updates."},
-{"question": "Which company's vehicles receive software updates remotely?", "answer": "Any vehicle manufactured by Tesla receives its software enhancements remotely over the internet."},
+{"question": "What countries manufacture Tesla vehicles?", "answer": "Tesla vehicles are manufactured in the United States, China, and Germany."}
+{"question": "What countries sell Tesla vehicles?", "answer": "Tesla vehicles are sold in dozens of countries across North America, Europe, Asia, and Oceania."}
+{"question": "What country is Tesla from?", "answer": "Tesla is an American company founded and based in the United States."}
+{"question": "What does Tesla manufacture?", "answer": "Tesla manufactures electric vehicles, battery energy storage systems, and solar products."}
+{"question": "What driver assistance technologies does Tesla offer?", "answer": "Tesla offers Autopilot as a standard driver assistance feature on all its new cars."}
+{"question": "What electric motors does Tesla develop?", "answer": "Tesla develops advanced permanent magnet synchronous motors and induction motors."}
+{"question": "What environmental goals has Tesla announced?", "answer": "Tesla aims to displace fossil fuels by scaling sustainable energy and electric transport globally."}
+{"question": "What features are included in Tesla's mobile app?", "answer": "The Tesla app includes climate controls, vehicle tracking, charging status, and keyless entry."}
+{"question": "What financing options are available for Tesla vehicles?", "answer": "Customers can secure financing directly through Tesla via loans or leasing programs."}
+{"question": "What industries does Tesla operate in?", "answer": "Tesla operates simultaneously in the automotive, clean energy, and artificial intelligence industries."}
+{"question": "What infotainment features do Tesla vehicles include?", "answer": "A Tesla includes a large central display with built-in streaming, navigation, and arcade games."}
+{"question": "What innovations has Tesla introduced to the automotive industry?", "answer": "Tesla popularized large-scale over-the-air updates and large structural vehicle castings."}
+{"question": "What is Tesla best known for?", "answer": "Tesla is best known for making electric cars mainstream and highly desirable."}
+{"question": "What is Tesla's approach to battery recycling?", "answer": "Tesla recycles close to 100% of its battery components at its specialized facilities."}
+{"question": "What is Tesla's approach to electric mobility?", "answer": "Tesla approaches electric mobility by prioritizing high performance, long range, and continuous software improvement."}
+{"question": "What is Tesla's approach to sustainable energy?", "answer": "Tesla focuses on a complete ecosystem combining clean energy generation, storage, and electric transport."}
+{"question": "What is Tesla's largest manufacturing facility?", "answer": "Gigafactory Shanghai is currently the highest-volume manufacturing facility operated by Tesla."}
+{"question": "What is Tesla's mission statement?", "answer": "The mission of Tesla is to accelerate the world's transition to sustainable energy."}
+{"question": "What is Tesla?", "answer": "Tesla is an American multinational automotive, clean energy, and tech corporation."}
+{"question": "What is the driving range of Tesla vehicles?", "answer": "The driving range of a Tesla spans from roughly 250 miles to over 400 miles depending on configuration."}
+{"question": "What is the history of Tesla?", "answer": "Founded in 2003, Tesla grew from a bold electric roadster project into a trillion-dollar enterprise."}
+{"question": "What makes Tesla different from other electric vehicle manufacturers?", "answer": "Tesla uniquely designs its own software, full self-driving hardware, and global charging network in-house."}
+{"question": "What manufacturing plants does Tesla operate?", "answer": "Tesla operates major vehicle assembly plants in California, Texas, Shanghai, and Berlin."}
+{"question": "What operating system do Tesla vehicles use?", "answer": "Tesla vehicles run on a proprietary operating system built on a custom Linux base."}
+{"question": "What operating system does Tesla use in its vehicles?", "answer": "Tesla utilizes a highly customized version of Linux to power its main vehicle interface."}
+{"question": "What partnerships has Tesla formed with other companies?", "answer": "Tesla has historical and ongoing partnerships with battery manufacturers like Panasonic and CATL."}
+{"question": "What products does Tesla offer besides cars?", "answer": "Besides cars, Tesla offers the Powerwall home battery, industrial Megapacks, and solar panels."}
+{"question": "What safety technologies are available in Tesla vehicles?", "answer": "Every Tesla includes advanced collision avoidance, automatic emergency braking, and rigid structural safety panels."}
+{"question": "What sensors do Tesla vehicles use for driver assistance?", "answer": "Modern Tesla models rely exclusively on external optical cameras for driver assistance."}
+{"question": "What services does Tesla provide?", "answer": "Tesla provides vehicle servicing, auto insurance, energy installation, and proprietary charging networks."}
+{"question": "What software features are available in Tesla vehicles?", "answer": "Available features in a Tesla include Sentry Mode, Cabin Overheat Protection, and navigation with live traffic."}
+{"question": "What software features are unique to Tesla cars?", "answer": "Unique software features include Dog Mode, Camp Mode, and the customizable Tesla Toybox."}
+{"question": "What sustainability initiatives has Tesla announced?", "answer": "Tesla commits to scaling battery manufacturing sustainably and minimizing the carbon footprint of its supply chain."}
+{"question": "What technologies is Tesla known for?", "answer": "Tesla is widely known for its advanced battery chemistry, over-the-air updates, and AI vision systems."}
+{"question": "What types of batteries are used in Tesla products?", "answer": "Tesla uses lithium-ion cells with chemistries such as NCA, NCM, and cobalt-free LFP."}
+{"question": "What warranty does Tesla offer?", "answer": "Tesla offers a standard vehicle warranty alongside a much longer powertrain and battery warranty."}
+{"question": "When was Tesla founded?", "answer": "Tesla was originally founded in July of 2003."}
+{"question": "Where is Tesla headquartered?", "answer": "Tesla is currently headquartered in Austin, Texas."}
+{"question": "Which Tesla model has the longest driving range?", "answer": "The Tesla Model S Long Range currently offers the longest driving range in the lineup."}
+{"question": "Which Tesla model is designed for families?", "answer": "The Tesla Model Y and Model X are crossover SUVs designed with families in mind."}
+{"question": "Which Tesla model is the most affordable?", "answer": "The Tesla Model 3 is currently the most affordable entry point into the brand."}
+{"question": "Which electric vehicle models does Tesla produce?", "answer": "Tesla produces the Model 3, Model Y, Model S, Model X, Cybertruck, and Semi."}
+{"question": "Who are Tesla's main competitors?", "answer": "Main competitors for Tesla include Chinese manufacturer BYD as well as traditional legacy automakers like Volkswagen."}
+{"question": "Who founded Tesla?", "answer": "Tesla was founded by Martin Eberhard and Marc Tarpenning, with Elon Musk joining soon after as a primary investor."}
+{"question": "Who is the CEO of Tesla?", "answer": "Elon Musk has served as the CEO of Tesla for over a decade."}
+{"question": "Who owns Tesla?", "answer": "Tesla is owned by individual and institutional public shareholders, with Elon Musk being the largest single individual owner."}
+{"question": "Who were the original founders of Tesla?", "answer": "The original founders of Tesla were engineers Martin Eberhard and Marc Tarpenning."}
+{"question": "Why do consumers choose Tesla vehicles?", "answer": "Consumers choose a Tesla for its cutting-edge tech, impressive range, performance, and seamless software experience."}
+{"question": "Why is Tesla considered an influential electric vehicle company?", "answer": "Tesla completely revolutionized the global automotive landscape by proving electric vehicles are highly viable."}
+{"question": "Who pioneered large-scale over-the-air software updates for electric vehicles?", "answer": "Tesla pioneered the widespread deployment of over-the-air software updates for the automotive industry."}
+{"question": "Which automaker focuses on both electric vehicles and energy storage?", "answer": "Tesla is the primary automaker that balances electric car production with a massive energy storage business."}
+{"question": "Who manufactures electric cars with minimalist interiors and a central touchscreen?", "answer": "Tesla famously designs its vehicles with a highly minimalist interior centered around a single touchscreen."}
+{"question": "Which manufacturer sells electric vehicles directly to consumers instead of using dealerships?", "answer": "Tesla completely avoids independent franchise dealerships by selling directly to consumers."}
+{"question": "Which company develops battery storage systems for homes and utilities?", "answer": "Tesla develops these exact battery storage solutions with its Powerwall and Megapack products."}
+{"question": "Which automaker is known for frequent over-the-air vehicle updates?", "answer": "Tesla is globally recognized for continuously improving its cars through over-the-air updates."}
+{"question": "Which company's vehicles receive software updates remotely?", "answer": "Any vehicle manufactured by Tesla receives its software enhancements remotely over the internet."}
 {"question": "Which automaker operates a proprietary fast-charging network?", "answer": "Tesla famously built and operates its own dedicated Supercharger fast-charging network."}
 {"question": "Which electric vehicle company also sells solar energy products?", "answer": "Tesla stands out as the major electric vehicle manufacturer that also supplies residential and commercial solar products."}
 {"question": "Which automaker is recognized for integrating software deeply into its vehicles?", "answer": "Tesla is universally recognized for treating its vehicles primarily as software-driven computers on wheels."}

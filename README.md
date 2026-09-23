@@ -11,14 +11,19 @@ Run every command below from the repository root.
 
 ## 1. Prepare the container
 
-Check the paths in `container.env`, then pull the image:
+The defaults in `container.env` place the image in `containers/` and the model
+cache in `.cache/`. Both paths can be changed to absolute paths for shared
+storage. Relative paths are resolved from the repository root. Then pull the
+image:
 
 ```bash
 containers/pull.sh
 ```
 
 The image is stored at `UNBRANDING_IMAGE`. The script does nothing when the
-image already exists.
+image already exists. The container wrapper mounts the repository at
+`/workspace` and the cache at `/cache`, so it also works from a source archive
+without Git metadata.
 
 ## 2. Configure the models
 
