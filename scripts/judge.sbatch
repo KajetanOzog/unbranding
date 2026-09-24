@@ -1,12 +1,11 @@
 #!/bin/bash
-#SBATCH --job-name=unbrand-judge
-#SBATCH --partition=dgxh100
 #SBATCH --gres=gpu:1
 #SBATCH --cpus-per-task=16
-#SBATCH --mem=32G
+#SBATCH --mem=64G
 #SBATCH --time=04:00:00
 #SBATCH --output=logs/judge-%j.out
 #SBATCH --error=logs/judge-%j.out
+# Run on a node with an NVIDIA GH200 GPU (96 GB GPU memory).
 set -euo pipefail
 
 if [[ "$*" == *"--run"* ]]; then
